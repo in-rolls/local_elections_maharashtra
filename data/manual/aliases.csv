@@ -1,0 +1,9 @@
+level,printed,joined_as,reason
+district,ahilyanagar,ahmednagar,district renamed; both names appear across report vintages
+district,osmanabad,dharashiv,district renamed; both names appear across report vintages
+district,aurangabad,chhatrapatisambhajinagar,district renamed; both names appear across report vintages
+district,bhir,beed,district renamed; both names appear across report vintages
+taluka,ahilyanagar,ahmednagar,taluka renamed with its district
+taluka,osmanabad,dharashiv,taluka renamed with its district
+taluka,aurangabad,chhatrapatisambhajinagar,taluka renamed with its district
+gram_panchayat,"^(grampanchayat|grampan|gp) / (gramapanchayat|grampanchayat|grampanchayt|grampanchyat|grampanchaya|grampancha|gp)$ / khurd$->kh, budruk$->bk",removed in the join key,the same GP printed with and without these words in different files

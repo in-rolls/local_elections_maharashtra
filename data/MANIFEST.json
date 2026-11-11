@@ -1,0 +1,686 @@
+{
+ "data/README.md": {
+  "sha256": "0790fc46bcfeab9f5eca645c4abfa7452b9ff0c91eb5e97edfa42f1677e1bc4a",
+  "bytes": 21864
+ },
+ "data/checks/alias_review.csv": {
+  "sha256": "81af57c9c94639ab4a177d63bce31ca14857507a5205087e3e751f77c0329004",
+  "bytes": 1290,
+  "rows": 9
+ },
+ "data/checks/candidate_caste_vocabulary.csv": {
+  "sha256": "38f91892203fe46bc4c76704a1980b1c3f99400179d8e23c65b43074f8d7751a",
+  "bytes": 100,
+  "rows": 5
+ },
+ "data/checks/candidate_woman_vocabulary.csv": {
+  "sha256": "016ede286a6788f33da208d1c0785c82505dcc056e13564a8d9e5b8cf9793ef6",
+  "bytes": 91,
+  "rows": 4
+ },
+ "data/checks/changes.csv": {
+  "sha256": "396b1b18ac81c73adb78cd2fc1b08e582cdd03a400fe3572299401c9e481ceed",
+  "bytes": 16338,
+  "rows": 64
+ },
+ "data/checks/checks.json": {
+  "sha256": "7bdf0c54de50490fb20d458b118932470fdd4507eb1633c350d63cecc6431194",
+  "bytes": 1671
+ },
+ "data/checks/download_conflicts.csv": {
+  "sha256": "5da2cd804bc6d51546db21b4677c18a43e8d949ac4cb4dc1d2f2af5876408dc1",
+  "bytes": 64,
+  "rows": 0
+ },
+ "data/checks/dropped_rows.csv": {
+  "sha256": "798214410966e033737fb746783356a21dbe1d646c81acfa09438a396f3c08c7",
+  "bytes": 9593081,
+  "rows": 42908
+ },
+ "data/checks/hand_check.csv": {
+  "sha256": "8342557009b9f94aafec8c43c7df794d21b16f22b7eb879b4825db524414a4b4",
+  "bytes": 4802,
+  "rows": 30
+ },
+ "data/checks/reserved_vocabulary.csv": {
+  "sha256": "6cf6a8c427698fc2c98ea4cdde52f447844f5704882c91ac0b486275dac0dd82",
+  "bytes": 628,
+  "rows": 16
+ },
+ "data/checks/row_accounting.csv": {
+  "sha256": "1d69bf31fb39b96e3173f4f6c12548f6c2cd456a5fb6e1e58e57b4986e99dd57",
+  "bytes": 9650,
+  "rows": 106
+ },
+ "data/checks/summary.json": {
+  "sha256": "f7175f95ab4984ad437aa420b40cea30ee991770d7a7f485b91da4af3f341cc1",
+  "bytes": 3790
+ },
+ "data/checks/withheld_by_programme.csv": {
+  "sha256": "78389258464365f9e8ac250c68a17804d3dc3abe8ad3ee4cfd7becea0eceb68a",
+  "bytes": 12686,
+  "rows": 124
+ },
+ "data/extracted/sarpanch_extracts.csv": {
+  "sha256": "6599030409796ad9007109a6e68665826af74230675a8ed24ad7f936e214556d",
+  "bytes": 17433,
+  "rows": 46
+ },
+ "data/extracted/sec_sarpanch_rows/counting/2022-09-18_sarpanch_counting.xlsx.csv": {
+  "sha256": "a38dc92f2c71e51bc0dff934016a9c8432488fbce95a21937e84b6454b608aa5",
+  "bytes": 385440,
+  "rows": 2520
+ },
+ "data/extracted/sec_sarpanch_rows/counting/2022-10-13_sarpanch_counting.xlsx.csv": {
+  "sha256": "54d4cd272c42326707015fb8f53ff61242b2e2dbb9d4a558e35334bf80e346a6",
+  "bytes": 742457,
+  "rows": 4854
+ },
+ "data/extracted/sec_sarpanch_rows/counting/Counting Data-1165 Sarpanch.xls.csv": {
+  "sha256": "54d4cd272c42326707015fb8f53ff61242b2e2dbb9d4a558e35334bf80e346a6",
+  "bytes": 742457,
+  "rows": 4854
+ },
+ "data/extracted/sec_sarpanch_rows/counting/Counting Data-608 GP(Sarpanch).xls.csv": {
+  "sha256": "a38dc92f2c71e51bc0dff934016a9c8432488fbce95a21937e84b6454b608aa5",
+  "bytes": 385440,
+  "rows": 2520
+ },
+ "data/extracted/sec_sarpanch_rows/counting/Counting_Report_02_06_2023.xls.csv": {
+  "sha256": "4ed4ff63cf1684b7834558be84ff252a068833f4b0dfab1fdcef760fa4565d1d",
+  "bytes": 5128,
+  "rows": 42
+ },
+ "data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (1).xls.csv": {
+  "sha256": "b52d53f705ff48b28d109d2e47a958ca747c6bd7c399489920617c48eac7aa27",
+  "bytes": 1541027,
+  "rows": 13297
+ },
+ "data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (13).xls.csv": {
+  "sha256": "82783211f919a0ade590f29626ca0af83298c91d8f0605584aa0f09a96a7ff2c",
+  "bytes": 254460,
+  "rows": 1949
+ },
+ "data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (17).xls.csv": {
+  "sha256": "5c3598d7a6b3c692442b3308267b891d0e916792c67424da5e820a0b09a2f38f",
+  "bytes": 70662,
+  "rows": 474
+ },
+ "data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (22).xls.csv": {
+  "sha256": "4ee5977b8f1a7f0f2cf3608e7a0f862767ff8a2d0500385c6067224cc11ed403",
+  "bytes": 175277,
+  "rows": 1287
+ },
+ "data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (33).xls.csv": {
+  "sha256": "dc88ba5cf5ee1985665af9bbae0cb390c95a8f683df69adc79d82e48017a9b76",
+  "bytes": 343319,
+  "rows": 2750
+ },
+ "data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (43).xls.csv": {
+  "sha256": "8b18628262faed6c5dcbf2d1235a1ed660f9e1461cef15a93233b7ab8f3eb210",
+  "bytes": 59131,
+  "rows": 411
+ },
+ "data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (52).xls.csv": {
+  "sha256": "90b75632467b4374a8d7f846ad750a291b89e535d91e53f4a4b04b2c15975f26",
+  "bytes": 247203,
+  "rows": 1629
+ },
+ "data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (55).xls.csv": {
+  "sha256": "559d5c94319a8fb6a3d6bb3a96ed0c0dc1a165c4caf79c887464b7ff4ffbd818",
+  "bytes": 2118,
+  "rows": 15
+ },
+ "data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (64).xls.csv": {
+  "sha256": "f68232bcfc854aa256ee2ae52cd32d9c7ac45463d932e83dfac55f11a3cd69fb",
+  "bytes": 4933,
+  "rows": 33
+ },
+ "data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (66).xls.csv": {
+  "sha256": "18846df4fe98db811ffa3d3c7cd20c2473863d67a1a0cb8fb6479d514c8b00b7",
+  "bytes": 28190,
+  "rows": 189
+ },
+ "data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (88).xls.csv": {
+  "sha256": "e4da11d08fc57f938f09f42d1d1f45691778e1553ed67ca73c3effd0a0850a2a",
+  "bytes": 385440,
+  "rows": 2520
+ },
+ "data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (90).xls.csv": {
+  "sha256": "7bd97e4ae1b7ddafb3d6b4812638bbd531e4ed6050bf498b5ca4452754864e60",
+  "bytes": 742457,
+  "rows": 4854
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (16).xls.csv": {
+  "sha256": "31413b0bf4931e8bfcfea2e5322b5bc57538a7e0bea52ae627e5cdfea5821bd3",
+  "bytes": 97310,
+  "rows": 716
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (2).xls.csv": {
+  "sha256": "35b2ec2e28f1f83fd1362ad47da3b7394ecf2490b19ec3249aa4f6af7860c3f0",
+  "bytes": 480974,
+  "rows": 3947
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (20).xls.csv": {
+  "sha256": "64305e0c3c126e11cbe20c1cd5df83da896336ec558ed2965ca4167a517f2f71",
+  "bytes": 39108,
+  "rows": 303
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (22).xls.csv": {
+  "sha256": "c564de629e5db62aaced88fff7cebe78095d702dae75f79390510366a1311e1c",
+  "bytes": 4999,
+  "rows": 55
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (24).xls.csv": {
+  "sha256": "77ed74a49620b7c700caabd7fd20b70584e98c26365a430a8bb86d8f03321399",
+  "bytes": 3506,
+  "rows": 26
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (26).xls.csv": {
+  "sha256": "f5cac2ceca3438f1845a13bf6e0b66fe540f35342b033397adff2fa6bd1a6790",
+  "bytes": 73828,
+  "rows": 616
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (34).xls.csv": {
+  "sha256": "a863c4d09944984140bee25e0abd8e77c7ad5e7159fe00fc182912b44f3f2cc9",
+  "bytes": 6051,
+  "rows": 49
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (36).xls.csv": {
+  "sha256": "5f7139fd158429fe2e10c7306729536c75ca17715a5a2b106080fb2d118546d2",
+  "bytes": 333,
+  "rows": 1
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (39).xls.csv": {
+  "sha256": "b5c8ad7f7aa52a5d5052dd41df7642ef74c373bce0850dda1bc5085b5c345784",
+  "bytes": 2361,
+  "rows": 16
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (44).xls.csv": {
+  "sha256": "e00eb3a7e3cb86b8ce4736feba09efc464567e2a1b6ea55a1853671282b1181b",
+  "bytes": 101644,
+  "rows": 1016
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (45).xls.csv": {
+  "sha256": "9ea0e308db857d85bce6c02b84a784e3cbb01ea0824ae2755bdabc40161578df",
+  "bytes": 3547,
+  "rows": 32
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (60).xls.csv": {
+  "sha256": "13c58b54c2e5c700d3d93b7ada6f47f8bfc2b8da585efbfff52ddccc927bf69d",
+  "bytes": 31318,
+  "rows": 253
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (66).xls.csv": {
+  "sha256": "0be7b3b06410c3f95e3e7801a5785026d4827a8942470aa103dd47ee5e971925",
+  "bytes": 417,
+  "rows": 2
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (68).xls.csv": {
+  "sha256": "384b271615bf8e8707b2631c4fa33977929f5650e0be29b2f132f523425055ba",
+  "bytes": 7926,
+  "rows": 70
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (70).xls.csv": {
+  "sha256": "fc206513cd9ffb7172507db4063b7473ee46ad0adca99ff0c3d3e0b9e95cdfde",
+  "bytes": 70612,
+  "rows": 549
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (75).xls.csv": {
+  "sha256": "6595e72ddd38e6f41a88516e476176c2ea461e36ec58925935c0ddc43ec3f718",
+  "bytes": 4536,
+  "rows": 43
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (77).xls.csv": {
+  "sha256": "1dcb6f678909eb7daebfb104c8060287e02e593568a1452f2258d33cc4025b85",
+  "bytes": 17867,
+  "rows": 144
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (87).xls.csv": {
+  "sha256": "35820f0a467c47f3771d12ea4a4efe37be3bfb4d709ee9ea37925c6a4a415f29",
+  "bytes": 6964,
+  "rows": 59
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (91).xls.csv": {
+  "sha256": "5e482af1f9ee3374ddd15e879e9d68b002999b0290cfe5996dd6678dfa185766",
+  "bytes": 13277,
+  "rows": 106
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (94).xls.csv": {
+  "sha256": "6fe6e059018e3fdcb6b942e0ce8ddf6965816b7942ac722629e7a148c8b436b7",
+  "bytes": 10697,
+  "rows": 104
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (97).xls.csv": {
+  "sha256": "7437e181bfdb30979526abfbbc7c6c3f84cd10057ee52ee39e45f48ad6446d28",
+  "bytes": 4464,
+  "rows": 34
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 - 2024-02-02T213811.504.xls.csv": {
+  "sha256": "d3018482183a174ea2c357358e3cd58b04c89f78d232e9445bd2fa66a8c506d3",
+  "bytes": 6051,
+  "rows": 49
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 - 2024-02-02T213834.320.xls.csv": {
+  "sha256": "5f7139fd158429fe2e10c7306729536c75ca17715a5a2b106080fb2d118546d2",
+  "bytes": 333,
+  "rows": 1
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 - 2024-02-02T214116.996.xls.csv": {
+  "sha256": "e840cdea52b32f26e9cca209da38be068121077b5aac14a5807ba06e8bd78329",
+  "bytes": 75315,
+  "rows": 594
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 - 2024-02-02T214145.549.xls.csv": {
+  "sha256": "5dbf9423121f4ba16a0588cca0e996d4a1e9a476f4b22885277755847eabecce",
+  "bytes": 144503,
+  "rows": 1155
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024_1.xls.csv": {
+  "sha256": "0634c1080fcd497b30099651dd390cb329558be6e2c72508192dccfd41849e17",
+  "bytes": 52164,
+  "rows": 439
+ },
+ "data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024_4.xls.csv": {
+  "sha256": "f0548ece59301f6927d23be3745f3677b778664ce9b2e03e41637cc0c71233c3",
+  "bytes": 1965,
+  "rows": 14
+ },
+ "data/extracted/sec_sarpanch_rows/winner_reports/Winning Counting Data-1165 Sarpanch.xls.csv": {
+  "sha256": "91ba4f4c97c761cd8e4d2ecd76065c6cd1420b721dd6b31d3bba431ea3b36a6a",
+  "bytes": 205304,
+  "rows": 1114
+ },
+ "data/extracted/sec_sarpanch_rows/winner_reports/Winning Counting-608 Sarpanch.xls.csv": {
+  "sha256": "35eca6a67c20dc6d4b9f81919989959b4e8bae7e7cba6ce70fa6cd0b67f05744",
+  "bytes": 107470,
+  "rows": 585
+ },
+ "data/manual/aliases.csv": {
+  "sha256": "d940c1feb3d7853f58ba8eecc401a66abf5d4b0593934bf42faf8f39e8f16d30",
+  "bytes": 841,
+  "rows": 8
+ },
+ "data/manual/corrections.csv": {
+  "sha256": "4c25c421be42b7dd28bc3b8534b893e5298c6261ec357f66d676b5569a9db1f4",
+  "bytes": 108,
+  "rows": 0
+ },
+ "data/manual/not_used.csv": {
+  "sha256": "0d6ce2b1026c530fc82738072e22dd14f08cce44317a964f7aa5f8c1905e69e3",
+  "bytes": 294,
+  "rows": 1
+ },
+ "data/raw/fetch_log.csv": {
+  "sha256": "8c596d1ae4419332d69f8ab0f377392ea2ee4a8f18f84b0df8d95fabea9a5c91",
+  "bytes": 10847,
+  "rows": 62
+ },
+ "data/raw/sec/counting/2022-12-18_sarpanch_counting.xls": {
+  "sha256": "8789168a9fe7f78bf57329b6bf323ad2e6fd674c5b4def69ce163d50d8c700bd",
+  "bytes": 29998864
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (10).xls": {
+  "sha256": "fcf2312a63bf45e78850af244fdd0a8b314964fb0dc2337878a57f8cac4eac57",
+  "bytes": 27648
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (11).xls": {
+  "sha256": "70beddb5b941d5a04fc1575b855cd3597cbbc3dbb0fac35a7d573bcf0cfc3bfa",
+  "bytes": 30208
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (15).xls": {
+  "sha256": "83517cc73fbbc5bb4594ddc572e4edf087c347195e0d211aa3786de3815d56f9",
+  "bytes": 30208
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (2).xls": {
+  "sha256": "cc7f4137179b3ed63d9d334f64d5d21a8a20b29efdd61e4aa9344e2f581a010e",
+  "bytes": 41984
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (21).xls": {
+  "sha256": "50ae87d4b65b00097597c8334faff36ae1a0163194d1975a0710b0bcec5349e0",
+  "bytes": 29184
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (28).xls": {
+  "sha256": "6e936cd3200f3ab71ea00a89fcede9271b75adec0c0fcd96e7e5b499526989d2",
+  "bytes": 30208
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (3).xls": {
+  "sha256": "5bc9e179278b2d1eef4a3c0767c58e7fe1193ae7d7a7d81ee6842d1222e42ce8",
+  "bytes": 27648
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (30).xls": {
+  "sha256": "8db9965f34051a3c255bfa3758e2f37a0d0108a3ac7e19021ae4e10232bf9e62",
+  "bytes": 29696
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (34).xls": {
+  "sha256": "0317dc36bc21dbff63214f497ef6a5ff020e2da3e5929cd4320a03065d8a40de",
+  "bytes": 32768
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (36).xls": {
+  "sha256": "8cea4a61b13b6095d98a84db92fc7b7d26dcbcd65f42ca962751e16558f21e6c",
+  "bytes": 37376
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (38).xls": {
+  "sha256": "5ded3de0baa7914012761d93aff1406ee8e1d7c3035daa7f75d3f12b1b613447",
+  "bytes": 27648
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (4).xls": {
+  "sha256": "a0d8177a4e3af86849674112cda45ed172d52576ef0590493be969e43435e36b",
+  "bytes": 41984
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (40).xls": {
+  "sha256": "e0b363c62181ea29fba0b13b2f266f5daf65523c59e6a9335609bc2c485f2cd9",
+  "bytes": 27648
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (41).xls": {
+  "sha256": "3a7c823a9fc7891e1c0a481019abc423c87bcfd7aca0cf5cf5313c357e80cb2b",
+  "bytes": 27648
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (45).xls": {
+  "sha256": "f48b38f5122bfa03a24eeef47cceed23a257e8bdb4e2a95d0e7a75bed8403179",
+  "bytes": 27648
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (47).xls": {
+  "sha256": "62b0806002ff7f8a9099cdbb948bc21cc3dd69de03719ba88fa2edb3761fea7c",
+  "bytes": 27648
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (50).xls": {
+  "sha256": "1b56044ef2ecfff0c54154cbe15fa52885359d0087d6311bfc20dd3b18bc3be6",
+  "bytes": 45056
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (54).xls": {
+  "sha256": "2bd78e57516e93f1895ae060e41f7208a7933fa69ebd76ea8ac103b83a9f8bd6",
+  "bytes": 27648
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (57).xls": {
+  "sha256": "ed2c854168d6eee20d5fbb2b7c3f688c3db63760c28bdb4f7d9b4ff110034e9c",
+  "bytes": 49152
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (58).xls": {
+  "sha256": "31608a136811da9986cf3216df5634cadca2f835f350a9aea41f7adee9b3033b",
+  "bytes": 28160
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (68).xls": {
+  "sha256": "14cb33070b3634f9e274a39dc2d4afdefc1a2719c837c76266e7b96a297b0d78",
+  "bytes": 52224
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (7).xls": {
+  "sha256": "bce519fae5bc95e36b341b3397b785ea2522b5bf6e2fb671b780240eafc970cc",
+  "bytes": 29184
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (71).xls": {
+  "sha256": "5ad774d6ec9e0d02fb3581688b6a57691d68621fca6d7f6530cba8d2f3ef889d",
+  "bytes": 55296
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (72).xls": {
+  "sha256": "5c6eb06de1c534de20271dc522000e2543637a7101c48f27f41fe401750dd1c6",
+  "bytes": 30208
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (75).xls": {
+  "sha256": "2911a3b7de5f24c314d91a9a7ce66911e7dc3f5d15c6499f5cd41f7faf7c8279",
+  "bytes": 28160
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (8).xls": {
+  "sha256": "553adcfb555c6f61e62c5cab007e5f831df6b4041d34142e9d2808eafcd995e8",
+  "bytes": 51712
+ },
+ "data/raw/sec/counting/Counting_Report_03_06_2023 (92).xls": {
+  "sha256": "d7928452cf191e506397d2089d33668b13cd13a529a0593790005c1211098dd4",
+  "bytes": 6290944
+ },
+ "data/raw/sec/counting/Counting_Report_15_11_2023 (1).xls": {
+  "sha256": "cb1cdfba39c06924831f4797732569ae322f0627f8b222cabb786bf096e01acf",
+  "bytes": 1743872
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (10).xls": {
+  "sha256": "e29b482944a9fee84e9fa26732612ca9b407216d425658674309f591b884d624",
+  "bytes": 41122
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (12).xls": {
+  "sha256": "7a9c2a159f3360051079c2a52422f97e7d2e98cf4de3e71765fdde425034102b",
+  "bytes": 5444
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (14).xls": {
+  "sha256": "bd66e7e82cdc599c39d2a9c3a8f13c580b2e1c304b9028b4a1650877500706d7",
+  "bytes": 2098
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (18).xls": {
+  "sha256": "5462c3ddb60dd3137f8c8f506bec7ae5e2cd752256b1b29849cecf1a31c426e8",
+  "bytes": 6220
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (25).xls": {
+  "sha256": "f0d171ede8375e99ff5c79c15f751afc197b424f504ef77b4e58a1af899f7e83",
+  "bytes": 2010
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (38).xls": {
+  "sha256": "d3641021cb9b6cd74be448d2cde763f355b49ff14176759d238d9226f8061185",
+  "bytes": 8808
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (4).xls": {
+  "sha256": "518c14595ccbf0d79ff54258d0b38885090e328d6a9ff96891da7ded4508de4e",
+  "bytes": 20538
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (41).xls": {
+  "sha256": "b6e196dfb816b5e054a446eacfc88c812848c39f076e7a7f3a17c1e0f2ef97d5",
+  "bytes": 2084
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (42).xls": {
+  "sha256": "0071fddd3d5767584ecfd321b33ea0eb8a216555c0ea811afdee0218c84542eb",
+  "bytes": 2916
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (47).xls": {
+  "sha256": "8a9ad7d28bf688701963488f0f671172dc8242b691c1bbd46124ed1c53d81da3",
+  "bytes": 14936
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (48).xls": {
+  "sha256": "6bfae349a83377a5d2591e455dd3571f1dc6d0928aee8e15f361b3e4a79b13d2",
+  "bytes": 2018
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (50).xls": {
+  "sha256": "51366a0a875d949db63c396e1a6e96637ed51a9a015f88ca7fd26dc23bd56986",
+  "bytes": 2032
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (52).xls": {
+  "sha256": "d43bfc97e849c3757aa6c39723a45af597c52b876bb04044ececb8a5d16682f3",
+  "bytes": 2948
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (54).xls": {
+  "sha256": "d6cbb8c299a16feb0f08a30cd8c2cee438cb06590b946125bda6aac2ba4573f6",
+  "bytes": 2036
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (56).xls": {
+  "sha256": "0de0f03527273a5d8ee982f58800cb28e6842b145686806e951aabb002946462",
+  "bytes": 2894
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (58).xls": {
+  "sha256": "3034addeeaaa5382bfe452f7f1fb66134694c5b868dfc790c92c57730850641b",
+  "bytes": 3660
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (6).xls": {
+  "sha256": "1c3f341d999c1849253b1af033c382f506403ab791530dd613f55f63c31e7df1",
+  "bytes": 5470
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (63).xls": {
+  "sha256": "3297fd4e824d954cd373aef9b80335035b5f5fa260408c8f0ae6dd24ddfdba25",
+  "bytes": 2086
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (65).xls": {
+  "sha256": "957a076c98aab33c0ea6661bb55c57089b073aabad4b8da8e88ac8f9a4ccb88f",
+  "bytes": 2104
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (72).xls": {
+  "sha256": "2e4f21eb56303184d60c4a51e4418051e14864803fbc38f152c146f539661838",
+  "bytes": 2056
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (78).xls": {
+  "sha256": "36443af14124eb391a88a992074f6924ac0386b587bd2f93dec182c7d82ba7a7",
+  "bytes": 4432
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (79).xls": {
+  "sha256": "2edec0bf9077cf04e652ea08d5658ee29785cce995414f0612590f8693fcbbeb",
+  "bytes": 2078
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (84).xls": {
+  "sha256": "ee648492068ec9070fc65d228e77944a63cb791a39f71e37d3bf0500a4fe3e2b",
+  "bytes": 2030
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (89).xls": {
+  "sha256": "626c6e0f093c8211f67a771f8064c82b50a2b3a9d67fc7859f3de30d1f59fe5b",
+  "bytes": 2044
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (9).xls": {
+  "sha256": "cad09ba956b4b28bf7b9b2a999662e619af901d47f818f150b1613822a9073d4",
+  "bytes": 19196
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (98).xls": {
+  "sha256": "0741efe9d26f0f9076871fc67d3a7031e6e18a77e1d7a882743dbc18cb0cd569",
+  "bytes": 8872
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 - 2024-02-02T213115.666.xls": {
+  "sha256": "cc563e683a0087ac86bc2f1ab5fe85f0a6a9c410761a255d12763d475ffd8ef7",
+  "bytes": 5464
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 - 2024-02-02T214421.337.xls": {
+  "sha256": "eb7b704af347b3fb320f128485b0707eb68cc142d77c3d4ebc6a745c51847c3f",
+  "bytes": 6560160
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 - 2024-02-02T214739.458.xls": {
+  "sha256": "4755c3d3702c8299582ad7e92a9062417d68e3ffbe3380d6be8fac5bf71ebcf0",
+  "bytes": 1988730
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 - 2024-02-02T214842.241.xls": {
+  "sha256": "c34a4f270e01dfca630f2b354e1f3f51a05f652a8566d1b6b0cf0d115a47dabd",
+  "bytes": 2072
+ },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024_6.xls": {
+  "sha256": "5f040be4326af7cb4c36ad07915cf632d4050c6177ed3f2a034d4ad9338b18dd",
+  "bytes": 1994
+ },
+ "data/release/sarpanch_candidates.parquet": {
+  "sha256": "9debfd28639bfbf4681b7018b856b8da55664f9b99c10862abbead3b4bc3c704",
+  "bytes": 2971005,
+  "rows": 65950,
+  "schema": {
+   "state": "large_string",
+   "year": "int64",
+   "programme_date": "date32[day]",
+   "election_programme": "large_string",
+   "election_programme_raw": "large_string",
+   "election_type": "large_string",
+   "election_duration": "large_string",
+   "division": "large_string",
+   "division_raw": "large_string",
+   "district": "large_string",
+   "district_raw": "large_string",
+   "block": "large_string",
+   "block_raw": "large_string",
+   "gram_panchayat": "large_string",
+   "gram_panchayat_raw": "large_string",
+   "tier": "large_string",
+   "tier_local": "large_string",
+   "ward_no_raw": "large_string",
+   "contest_id": "large_string",
+   "reserved_raw": "large_string",
+   "reserved_caste_local": "large_string",
+   "reserved_caste": "large_string",
+   "reserved_woman": "int8",
+   "reserved_label": "large_string",
+   "candidate_name": "large_string",
+   "candidate_name_raw": "large_string",
+   "candidate_name_placeholder": "bool",
+   "nota_tally": "bool",
+   "candidate_row_repeated": "bool",
+   "candidate_woman_raw": "large_string",
+   "candidate_woman": "int8",
+   "candidate_caste_raw": "large_string",
+   "candidate_caste": "large_string",
+   "votes": "int64",
+   "candidate_rank": "int64",
+   "elected": "bool",
+   "no_votes_recorded": "bool",
+   "symbol_raw": "large_string",
+   "script": "large_string",
+   "source_path": "large_string",
+   "source_row_number": "int64",
+   "source_sha256": "large_string",
+   "original_filename": "large_string",
+   "original_sha256": "large_string",
+   "original_row_number": "int64"
+  }
+ },
+ "data/release/sarpanch_results.parquet": {
+  "sha256": "8fbcbfe3169f906e216d3bc769478481843844d1a8300dfe79decfe5bc7eae5f",
+  "bytes": 1829404,
+  "rows": 20622,
+  "schema": {
+   "state": "large_string",
+   "year": "int64",
+   "programme_date": "date32[day]",
+   "election_programme": "large_string",
+   "election_programme_raw": "large_string",
+   "election_type": "large_string",
+   "election_duration": "large_string",
+   "district": "large_string",
+   "district_raw": "large_string",
+   "block": "large_string",
+   "block_raw": "large_string",
+   "gram_panchayat": "large_string",
+   "gram_panchayat_raw": "large_string",
+   "tier": "large_string",
+   "tier_local": "large_string",
+   "ward_no_raw": "large_string",
+   "seat_event_id": "large_string",
+   "contest_id": "large_string",
+   "reserved_raw": "large_string",
+   "reserved_caste_local": "large_string",
+   "reserved_caste": "large_string",
+   "reserved_woman": "int8",
+   "reserved_label": "large_string",
+   "reserved_caste_scheme": "large_string",
+   "reserved_raw_counting": "large_string",
+   "reserved_source_conflict": "bool",
+   "electors_man": "int64",
+   "electors_woman": "int64",
+   "electors_other": "int64",
+   "in_ward_seat_report": "bool",
+   "result_in_source": "bool",
+   "shared_place_name": "bool",
+   "seat_candidates": "int64",
+   "source_rows_in_contest": "int64",
+   "winner": "large_string",
+   "winner_basis": "large_string",
+   "winner_woman_from_candidates": "int8",
+   "votes": "int64",
+   "runner_up": "large_string",
+   "runner_up_votes": "int64",
+   "runner_up_tie": "bool",
+   "margin": "int64",
+   "nota_votes": "int64",
+   "unopposed_from_candidates": "bool",
+   "no_votes_recorded": "bool",
+   "nota_ranked_first": "bool",
+   "winner_tie": "bool",
+   "candidate_row_repeated": "bool",
+   "winner_report_agrees": "bool",
+   "script": "large_string",
+   "source_path": "large_string",
+   "source_row_number": "int64",
+   "source_sha256": "large_string",
+   "original_filename": "large_string",
+   "original_sha256": "large_string",
+   "original_row_number": "int64",
+   "result_source_path": "large_string",
+   "result_source_row_number": "int64"
+  }
+ },
+ "data/search_log/files_examined.csv": {
+  "sha256": "7d26e783afc3ec7e07a9a0b6c73ca922635a8f61ef32d6e140efe3c6eb5d063e",
+  "bytes": 48313,
+  "rows": 262
+ },
+ "data/search_log/sources_not_used.csv": {
+  "sha256": "d6943df2540a31e246d56a8efdb172d52f7db7967ac8c4d9a5e81be379cbf40d",
+  "bytes": 442,
+  "rows": 1
+ }
+}

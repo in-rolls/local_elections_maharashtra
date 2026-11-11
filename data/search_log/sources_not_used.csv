@@ -1,0 +1,2 @@
+original_filename,original_sha256,original_bytes,kind,rows,sarpanch_rows,reason,decided_by,decided_on
+CountingDataGP-Part1(2018-2020).xlsx,0e3476569d2ff4babbbde617df8c67e76c9f8371d851c557f5770f40d80f1d2b,8103543,counting,30325,5360,"consolidated workbook, not an SEC portal export; where a portal download prints the same contest, this workbook prints fewer rows; it has a Candidate Sub Category column that prints jati",depositor,2026-11-11

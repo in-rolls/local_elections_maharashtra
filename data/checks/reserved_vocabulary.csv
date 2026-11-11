@@ -1,0 +1,17 @@
+table,reserved_raw,reserved_caste,reserved_woman,rows
+sarpanch_candidates,B.C.C.,BC,0,7299
+sarpanch_candidates,B.C.C.(W),BC,1,6615
+sarpanch_candidates,GEN,NONE,0,16332
+sarpanch_candidates,GEN(W),NONE,1,14309
+sarpanch_candidates,S.C.,SC,0,4004
+sarpanch_candidates,S.C.(W),SC,1,3849
+sarpanch_candidates,S.T.,ST,0,7174
+sarpanch_candidates,S.T.(W),ST,1,6368
+sarpanch_results,B.C.C.,BC,0,2391
+sarpanch_results,B.C.C.(W),BC,1,2413
+sarpanch_results,GEN,NONE,0,4754
+sarpanch_results,GEN(W),NONE,1,4662
+sarpanch_results,S.C.,SC,0,1105
+sarpanch_results,S.C.(W),SC,1,1139
+sarpanch_results,S.T.,ST,0,2000
+sarpanch_results,S.T.(W),ST,1,2144

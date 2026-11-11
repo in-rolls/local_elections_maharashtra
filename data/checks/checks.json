@@ -1,0 +1,50 @@
+[
+ {
+  "check": "row_accounting",
+  "appeals_to": "internal",
+  "status": "pass",
+  "result": "106 of 106 committed source files balance: sarpanch rows recounted from each file = released + evidence-only (winner reports) + dropped."
+ },
+ {
+  "check": "provenance",
+  "appeals_to": "internal",
+  "status": "pass",
+  "result": "86,558 rows and 12,956 winner rows reopened at source_path and row: 0 hash, 0 value, 0 original-row and 0 winner mismatches."
+ },
+ {
+  "check": "keys",
+  "appeals_to": "internal",
+  "status": "pass",
+  "result": "candidate rows unique on source_path + source_row_number; seat_event_id unique; every seat has a source_path; every contest_id on a seat exists among the candidates."
+ },
+ {
+  "check": "column_names",
+  "appeals_to": "internal",
+  "status": "pass",
+  "result": "central docs/naming.md rules: 0 violations in both tables."
+ },
+ {
+  "check": "allowed_values",
+  "appeals_to": "internal",
+  "status": "pass",
+  "result": "values outside the master's enums: none."
+ },
+ {
+  "check": "reservation_ward_seat_vs_counting",
+  "appeals_to": "internal",
+  "status": "info",
+  "result": "Seats where both the Ward-Seat report and the counting file print a reservation code: 16,892; they differ on 0."
+ },
+ {
+  "check": "winner_vs_sec_winner_report",
+  "appeals_to": "external",
+  "status": "info",
+  "result": "SEC winner reports (608 and 1165 programmes) name the same winner as rules W1 and W3 for 1,692 of 1,692 seats they cover."
+ },
+ {
+  "check": "women_share_by_category",
+  "appeals_to": "external",
+  "status": "info",
+  "result": "Share of seats reserved for women within each category: BC 50.2%, NONE 49.5%, SC 50.7%, ST 51.7%."
+ }
+]

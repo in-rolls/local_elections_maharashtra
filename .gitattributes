@@ -1,0 +1,6 @@
+# Raw sources and extracts are stored byte-for-byte; their sha256 is in data/raw/fetch_log.csv
+# and data/extracted/sarpanch_extracts.csv.
+data/** -text
+*.parquet binary
+*.xls binary
+*.xlsx binary

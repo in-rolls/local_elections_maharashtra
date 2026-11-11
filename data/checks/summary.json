@@ -1,0 +1,186 @@
+{
+ "files_examined": {
+  "none": 146,
+  "raw_unchanged": 60,
+  "sarpanch_extract": 46,
+  "duplicate_bytes": 9,
+  "examined_not_used": 1
+ },
+ "raw_unchanged": {
+  "counting": {
+   "files": 29,
+   "mb": 38.9
+  },
+  "ward_seat": {
+   "files": 31,
+   "mb": 8.7
+  }
+ },
+ "extracts": {
+  "counting": {
+   "files": 17,
+   "rows_kept": 44198,
+   "rows_withheld": 6320
+  },
+  "ward_seat": {
+   "files": 27,
+   "rows_kept": 10393,
+   "rows_withheld": 489
+  },
+  "winner_report": {
+   "files": 2,
+   "rows_kept": 1699,
+   "rows_withheld": 14
+  }
+ },
+ "not_used": [
+  {
+   "original_filename": "CountingDataGP-Part1(2018-2020).xlsx",
+   "original_sha256": "0e3476569d2ff4babbbde617df8c67e76c9f8371d851c557f5770f40d80f1d2b",
+   "original_bytes": 8103543,
+   "kind": "counting",
+   "rows": 30325,
+   "sarpanch_rows": 5360,
+   "reason": "consolidated workbook, not an SEC portal export; where a portal download prints the same contest, this workbook prints fewer rows; it has a Candidate Sub Category column that prints jati",
+   "decided_by": "depositor",
+   "decided_on": "2026-11-11"
+  }
+ ],
+ "withheld_in_sarpanch_programmes": {
+  "rows": 6825,
+  "programmes": 25,
+  "first_phase_2017_rows": 5719
+ },
+ "candidates": {
+  "rows": 65950,
+  "contests": 16907,
+  "rows_2017": 15530,
+  "nota_rows": 12028,
+  "people_2018_on": 38392,
+  "people_2018_on_blank_gender": 0,
+  "gender_raw": {
+   "nan": 27558,
+   "Female": 19975,
+   "Male": 18398,
+   "Other": 19
+  }
+ },
+ "results": {
+  "rows": 20622,
+  "in_ward_seat": 20608,
+  "counting_only": 14,
+  "result_in_source": {
+   "True": 16906,
+   "False": 3710,
+   "<NA>": 6
+  },
+  "winner_named": 12956,
+  "winner_basis": {
+   "published": 11876,
+   "nan": 7666,
+   "sole_candidate": 1080
+  },
+  "programmes": 54,
+  "by_election_seats": 396,
+  "districts": 34,
+  "no_date": 823,
+  "no_year": 9,
+  "undated_key_collisions": 34,
+  "flags": {
+   "shared_place_name": 6,
+   "runner_up_tie": 20,
+   "unopposed_from_candidates": 1080,
+   "no_votes_recorded": 1277,
+   "nota_ranked_first": 1,
+   "winner_tie": 19,
+   "candidate_row_repeated": 29
+  },
+  "by_year": {
+   "2017": {
+    "seats": 5235,
+    "with_counting": 3898,
+    "no_counting": 1335,
+    "unattachable": 2,
+    "winner_named": 0
+   },
+   "2018": {
+    "seats": 2145,
+    "with_counting": 1163,
+    "no_counting": 982,
+    "unattachable": 0,
+    "winner_named": 1154
+   },
+   "2019": {
+    "seats": 1342,
+    "with_counting": 628,
+    "no_counting": 710,
+    "unattachable": 4,
+    "winner_named": 622
+   },
+   "2020": {
+    "seats": 48,
+    "with_counting": 32,
+    "no_counting": 16,
+    "unattachable": 0,
+    "winner_named": 32
+   },
+   "2022": {
+    "seats": 9491,
+    "with_counting": 9171,
+    "no_counting": 320,
+    "unattachable": 0,
+    "winner_named": 9141
+   },
+   "2023": {
+    "seats": 2352,
+    "with_counting": 2014,
+    "no_counting": 338,
+    "unattachable": 0,
+    "winner_named": 2007
+   },
+   "none": {
+    "seats": 9,
+    "with_counting": 0,
+    "no_counting": 9,
+    "unattachable": 0,
+    "winner_named": 0
+   }
+  }
+ },
+ "winner_rules": {
+  "W1": 11872,
+  "W2": 1,
+  "W3": 1080,
+  "W4": 36,
+  "W5": 3899,
+  "W6": 19
+ },
+ "dropped_by_reason": {
+  "same contest in another download (identical rows)": 42904,
+  "no district, taluka or GP name in the source row": 4
+ },
+ "alias_review_pairs": 9,
+ "changes_rules": 64,
+ "accounting": {
+  "files": 106,
+  "balanced": 106
+ },
+ "checks": {
+  "row_accounting": "pass",
+  "provenance": "pass",
+  "keys": "pass",
+  "column_names": "pass",
+  "allowed_values": "pass",
+  "reservation_ward_seat_vs_counting": "info",
+  "winner_vs_sec_winner_report": "info",
+  "women_share_by_category": "info"
+ },
+ "release_mb": {
+  "sarpanch_candidates.parquet": 3.0,
+  "sarpanch_results.parquet": 1.8
+ },
+ "columns": {
+  "results": 58,
+  "candidates": 45
+ }
+}

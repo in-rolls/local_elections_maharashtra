@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the repository and record the commit used."
+type: dataset
+title: "Maharashtra Gram Panchayat Sarpanch Elections, 2017-2023"
+authors:
+  - family-names: Amar
+    given-names: Priyadarshi
+repository-code: "https://github.com/in-rolls/local_elections_maharashtra"
+url: "https://github.com/in-rolls/local_elections_maharashtra"
+keywords:
+  - Maharashtra
+  - local elections
+  - sarpanch
+  - reservation
