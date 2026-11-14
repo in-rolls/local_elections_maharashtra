@@ -1,0 +1,40 @@
+district,taluka,document,kind,sha256,bytes,pages,committed
+Satara,Jawali,Jawali tauka.pdf,roster,10b52696dd19822eab10238245482568f2057746e8c64fde488a89cb0d63ffe2,1533569,5,False
+Satara,Jawali,New Doc Satara 11-17-2022.pdf,roster,121fdc053e795122252d544a20ba245b7e5a2c40e956fe3700a8c8b4f1741033,24227164,42,False
+Satara,Karad,karad.pdf,roster,4e9bc482ed81dc6e31c56f3255ca824610c499fdad0d9a18bf46331aabe48447,3279291,4,False
+Satara,Khandala,Khandala.pdf,roster,4365f83f479739764f79b4ceae048d4bfe2fb9eaa980a4928278c76967597c41,1763534,2,False
+Satara,Khatav,Khatav-1.jpg,roster,63975c6545f9390a481c386e73a955cb954786e7f3e684c0db35166191efdf26,304403,1,False
+Satara,Khatav,Khatav-2.jpg,roster,e9f234747f658733710d247c2db3928594cbc4d19d994334c9b5b12406d75442,300043,1,False
+Satara,Khatav,Khatav-3.jpg,roster,dc302a704e4b1a35522eac6c2968657914c964dc2ceb761c66d4235e223fc5ee,305183,1,False
+Satara,Khatav,Khatav-4.jpg,roster,08583304fe64f806886babf0548f3cb237b14c042d245fc1629b6e1693bab155,297229,1,False
+Satara,Khatav,Khatav-5.jpg,roster,95e64b7bbe9d83ec1b780b4ab08ffd932140ce7f2fb09aa782ba81aadf950b99,259059,1,False
+Satara,Koregaon,"Koregaon Jan 30, 2023 10-06.pdf",roster,704e6dc41a040ba0502bf76af4cd9d9d6238c6bf49c5201a06e3e95100201a20,2822694,10,False
+Satara,Mahabaleshwar,Mahabalwshwar.pdf,roster,dffc085b8dfca5565afc368857cc8e988aa4743dec31b1fa7612b3dc229f23ea,51531,6,False
+Satara,Man,MAN.pdf,roster,97980a479e552176de05d47e47c832d71cfd97d6312911c3a02b21f772fc19ad,69286,4,False
+Satara,Patan,Patan.pdf,roster,79361c51c2d4ebc5d1f774d2daf21fffe0707d68f7d70b0bd83335e2775d1236,239177,6,False
+Satara,Phaltan,Faltan.pdf,roster,e86f5b0afa59edef5276560dfa578209c3b7bda55be794379fc08b72f5c5c294,1183419,3,False
+Satara,Satara,"Satara 1 Dec 4, 2022 19-32.pdf",roster,1a454729e67f56382f6fc0f2058199eae4b1560def98ded92ecb5f550ef21132,1698502,4,False
+Satara,Satara,"Satara 2 Dec 4, 2022 19-33.pdf",roster,7bdc9f1b00cb5603b611d4fac853ce2bfc1ea76e425a919715a68ab6fb1158cf,671860,2,False
+Satara,Satara,Satara 2022 19-29.pdf,roster,190ed4539321aabfc66ce1ed6354954f5ab83e5c0135e2c85c18830ffc9c725a,2631641,6,False
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",roster,23265658c0cef10a583370db5a13dac597ba7c6f463b8aacd485bd60ddf9f05d,1790143,4,False
+Palghar,*,reservation details .pdf,draw minutes,8ab067a937a768a901c8b14612826ed3d7d45780577dadd2e7e268c61c3ed573,15812939,64,False
+Palghar,*,reservation details 2015-2020.pdf,draw minutes,99140b27344ea2bb3d142f62f7ad94a1f84e12ea7b7adbdb0669ee8b88d384bf,13960429,45,False
+Raigad,Khalapur,"Khalapur taluka, Raigad district 2010-25.pdf",roster,55715cc905c37b2dcdeedaf4473661c3ec26ca3199fbb5268aac71fbeddab760,2333064,4,False
+Raigad,Mahad,"Mahad taluka, Raigad district 2015-22.pdf",roster,25cbc8a2dbe0714623a4620fdf8894c075fe0358ea5bcabd1e38f05a6f47e56d,723543,4,False
+Raigad,Panvel,"Panvel taluka, Raigad District 2010-25.pdf",roster,33e2b548d79602ecf14cc148e0e36806a8d8728531a34591a208104068721bb8,1833891,5,False
+Raigad,Shrivardhan,"Shrivardhan Taluka, Raigad District .pdf",roster,6eeb20f3f45f647c5e929502a4ff425e81f41e8b0b5620707fd16c98c0b8aba1,22518326,44,False
+Raigad,Tala,"Tala tehsil, Raigad 2010-25.pdf",roster,1dab82a5dbfbb12648bab4e282ee117b55d310a5f627ca2f621a3ac70825bc37,10818935,28,False
+Chandrapur,Chandrapur,"Chandrapur Taluka, Chandrapur district 2010-25.pdf",roster,9542e569250b8d02efdf65592a8066f9f629d98e468f7c2526ef3109d46c1479,1100651,3,False
+Chandrapur,Rajura,"Rajura Taluka, Chandrapur district 2005-25.pdf",roster,2f74b37f9acb5a67d34ee7fc335f9f1dc5cef401f461a45fc4a3ebd6c66469c3,1380405,4,False
+Dhule,Dhule,"Dhule taluka, Dhule District 1995-2025.pdf",roster,98beea791cbdd7620c2c33dca4b9f6ba8dd7d8c8b3239e7bd86cdcb2c1f43d56,4187374,4,False
+Gondia,Amgaon,"Amgaon taluka, Gondia district 2005-25.pdf",roster,ca15e2a6b283c03ba9fb2c5a09b5cda4edf5d4ad73d0590a3910fe9f5a624f26,2163049,5,False
+Gondia,Goregaon,"Goregaon, Gondia 2010-25.pdf",roster,25e2ab04f23f7b157b2544bd5a9be48cc2d6033c074a0511950cb83b9ed5a0e0,4064682,5,False
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",roster,b8c671d2de003dc1fbe5fa6f44fd60d0bc5b066e6310ae5768c5d108e4436291,7612324,14,False
+Kolhapur,Gaganbavada,"Gaganbawada taluka, Kolhapur district 1995-2015.pdf",roster,9ee7cde165773a13d0d14f6448a94b06f04406dca958ad160a9a96def6a71e30,1499621,12,False
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",roster,c9857289eab493a06606ae159036f3e842daada03700815826ecd10b7d5b3e0c,6492223,12,False
+Nanded,Dharmabad,"Dharmabad taluka, Nanded district 2010-25.pdf",roster,4a4dfb0988ea01d1ac5bf549b404fb3a272328b09c9f6c862b432d6e539c2cfc,111538815,190,False
+Parbhani,Parbhani,"2Parbhani Taluka, Parbhani district 2010-20.pdf",roster,0019a991db1328b28c4130c0f3ac6d3fde1609e74153f2b3a39d28c58cb5a681,17867941,20,False
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",roster,9914413d53195ce6a67e2453f03ab85df051425a7e439730748460ad24901758,3752626,4,False
+Sangli,Palus,"Palus taluka, Sangli district 2022.pdf",result notification,d507fc782ac29e0d5aa7a5772993ddd49a843fd5249a4ca209d0962c6f493095,15971582,31,False
+Yavatmal,*,1Yavatmal District 2022.pdf,result notification,6ab6bd764ddfaab4ed959bfc10ed7a051e22914c6983f1e60bf494fc503d21e5,27573444,104,False
+Yavatmal,*,2Yavatmal District 2022.pdf,result notification,2ad5feafe440d47dd2f414082b51bb7f07270c5d55f912dd0a586438731232ab,6680348,94,False

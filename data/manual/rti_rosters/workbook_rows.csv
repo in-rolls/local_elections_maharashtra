@@ -1,0 +1,3015 @@
+Districtname,SubDistrictname,LBName_LL,LBName,2005-10,2010-15,2015-20,2021-25,Remarks,Reference,original_row_number
+Chandrapur,Chandrapur,आंबोरा,Aambora,,GEN (W) ,BCC ,GEN (W) ,,,6132
+Chandrapur,Chandrapur,आरवट,Aarwat,,BCC ,SC (W) ,GEN (W) ,,,6133
+Chandrapur,Chandrapur,अजयपूर,Ajaypur,,BCC ,BCC (W) ,ST ,,,6134
+Chandrapur,Chandrapur,बेलसनी,Belsani,,GEN ,BCC (W) ,GEN (W) ,,,6135
+Chandrapur,Chandrapur,बोर्डा (इंदा),Borda (Inda),,ST (W) ,GEN ,ST (W) ,,,6136
+Chandrapur,Chandrapur,चक निंबाळा,Chak Nimbala,,BCC (W) ,GEN (W) ,GEN ,,,6137
+Chandrapur,Chandrapur,चिचपल्ली,Chichpalli,,BCC (W) ,GEN ,ST (W) ,,,6138
+Chandrapur,Chandrapur,चेारगाव,Chorgaon,,GEN ,BCC (W) ,SC ,,,6139
+Chandrapur,Chandrapur,दाताळा,Datala,,GEN (W) ,BCC ,SC (W) ,,,6140
+Chandrapur,Chandrapur,देवाडा,Dewada,,SC (W) ,ST ,BCC (W) ,,,6141
+Chandrapur,Chandrapur,धानोरा,Dhanora,,BCC (W) ,GEN (W) ,GEN ,,,6142
+Chandrapur,Chandrapur,दुर्गापूर,Durgapur,,SC (W) ,GEN ,BCC (W) ,,,6143
+Chandrapur,Chandrapur,गोंडसावरी,Gondsavri,,ST (W) ,BCC ,GEN (W) ,,,6145
+Chandrapur,Chandrapur,जुनोना,Junona,,GEN ,GEN (W) ,SC ,,,6146
+Chandrapur,Chandrapur,कोळसा,Kolsa,,BCC ,ST ,ST (W) ,,,6147
+Chandrapur,Chandrapur,कोसारा,KOSARA,,SC (W) ,GEN ,BCC (W) ,,,6148
+Chandrapur,Chandrapur,लोहारा,Lohara,,ST (W) ,GEN ,SC (W) ,,,6149
+Chandrapur,Chandrapur,मारडा,Marda,,GEN ,GEN (W) ,BCC ,,,6150
+Chandrapur,Chandrapur,म्हातारदेवी,Mhatardevi,,GEN ,SC (W) ,BCC ,,,6151
+Chandrapur,Chandrapur,मोहर्ली,Moharli,,BCC ,GEN ,SC (W) ,,,6152
+Chandrapur,Chandrapur,मोरवा,Morwa,,ST ,BCC ,SC (W) ,,,6153
+Chandrapur,Chandrapur,नागाळा (म),Nagala (M),,ST ,BCC (W) ,GEN (W) ,,,6154
+Chandrapur,Chandrapur,नागाळा(सी),Nagala (Si),,BCC (W) ,GEN ,SC (W) ,,,6155
+Chandrapur,Chandrapur,नागपूर छोटा,Nagpur Chota,,GEN ,SC (W) ,BCC ,,,6156
+Chandrapur,Chandrapur,नकोडा,Nakoda,,ST ,BCC (W) ,GEN ,,,6157
+Chandrapur,Chandrapur,निंबाळा,NIMBALA,,GEN ,ST (W) ,SC ,,,6158
+Chandrapur,Chandrapur,पदमापूर,PADMAPUR,,BCC ,GEN ,GEN (W) ,,,6159
+Chandrapur,Chandrapur,पडोली,Padoli,,GEN ,SC (W) ,BCC ,,,6160
+Chandrapur,Chandrapur,पांढरकवडा,Pandharkawda,,GEN (W) ,SC ,BCC (W) ,,,6161
+Chandrapur,Chandrapur,पायली भटाळी,Payali Bhatali,,SC ,GEN (W) ,BCC ,,,6162
+Chandrapur,Chandrapur,पिंपळखुट,PIMPALKHUT,,BCC (W) ,ST ,ST ,,,6163
+Chandrapur,Chandrapur,पिपरी,Pipri,,GEN ,BCC ,GEN (W) ,,,6164
+Chandrapur,Chandrapur,साखरवाही,Sakharwahi,,BCC ,GEN (W) ,GEN ,,,6165
+Chandrapur,Chandrapur,शेनगांव,Shengaon,,GEN (W) ,GEN (W) ,GEN ,,,6166
+Chandrapur,Chandrapur,शिवनीचोर,Shivanichor,,BCC ,ST (W) ,GEN ,,,6167
+Chandrapur,Chandrapur,सिदूर,Sidur,,GEN (W) ,SC ,BCC (W) ,,,6168
+Chandrapur,Chandrapur,सिनाळा,Sinala,,SC ,GEN (W) ,GEN ,,,6169
+Chandrapur,Chandrapur,सोनेगांव,Sonegaon,,GEN (W) ,SC ,BCC ,,,6170
+Chandrapur,Chandrapur,ताडाली,Tadali,,GEN (W) ,SC ,BCC (W) ,,,6171
+Chandrapur,Chandrapur,उर्जानगर,URJANAGAR,,GEN ,SC (W) ,BCC ,,,6172
+Chandrapur,Chandrapur,उसगाव,Usgaon,,BCC (W) ,GEN ,GEN (W) ,,,6173
+Chandrapur,Chandrapur,वरवट,Varvat,,SC ,BCC (W) ,GEN (W) ,,,6174
+Chandrapur,Chandrapur,वेंडली,Vendali,,GEN (W) ,GEN ,SC ,,,6175
+Chandrapur,Chandrapur,विचोडा रै,Vichoda Rai.,,SC ,BCC (W) ,GEN ,,,6176
+Chandrapur,Chandrapur,वढा,Wadha,,GEN ,GEN (W) ,GEN ,,,6177
+Chandrapur,Chandrapur,वायगांव,Waigaon,,GEN (W) ,BCC ,ST ,,,6178
+Chandrapur,Chandrapur,येरुर,Yerur,,GEN (W) ,SC ,ST (W) ,,,6179
+Chandrapur,Rajura,विरुर स्टेशन,Virur Station,ST (W),ST,ST (W),ST,,,6549
+Chandrapur,Rajura,पाचगाव,Pachgaon,ST (W),ST,ST (W),ST,,,6550
+Chandrapur,Rajura,अहेरी,AHERI,ST,ST,ST (W),ST,,,6551
+Chandrapur,Rajura,सास्ती,Sasti,GEN (W),BCC (W),GEN,SC (W),,,6552
+Chandrapur,Rajura,हरदोना (खुर्द),Hardona Kh.,ST (W),ST (W),ST,ST (W),,,6553
+Chandrapur,Rajura,डोंगरगाव,Dongargaon,ST,ST (W),ST,ST (W),,,6554
+Chandrapur,Rajura,देवाडा,Dewada,ST (W),ST,ST (W),ST,,,6555
+Chandrapur,Rajura,आर्वी,Arvi,BCC,BCC,GEN (W),SC,,,6556
+Chandrapur,Rajura,धोपटाळा,DHOPTALA,SC (W),GEN (W),BCC,ST (W),,,6557
+Chandrapur,Rajura,कावडगोंदी,KAWADGONDI,ST,ST (W),ST,ST (W),,,6558
+Chandrapur,Rajura,कोष्टाळा,KOSHTALA,ST,ST (W),ST,ST (W),,,6559
+Chandrapur,Rajura,टेभुरवाही,TEMBHURWAHI,ST,ST,ST (W),ST,,,6560
+Chandrapur,Rajura,भेंडवी,Bhendvi,ST (W),ST,ST (W),ST,,,6561
+Chandrapur,Rajura,मंगी बुज,Mangi Buj,ST,ST,ST (W),ST,,,6562
+Chandrapur,Rajura,गोयेगाव,Goyegaon,ST (W),ST,ST (W),ST,,,6563
+Chandrapur,Rajura,सोनापूर,Sonapur,ST,ST,ST (W),ST,,,6564
+Chandrapur,Rajura,लक्कडकोट,Lakkadkot,ST,ST (W),ST,ST (W),,,6565
+Chandrapur,Rajura,जामणी,Jamni,ST,ST,ST (W),ST,,,6566
+Chandrapur,Rajura,रामपूर,Rampur,,GEN,BCC (W),SC,,,6567
+Chandrapur,Rajura,भुरकुंडा खुर्द,Bhurkunda Kh.,ST,ST (W),ST,ST (W),,,6568
+Chandrapur,Rajura,भुरकुंडा बुज,Bhurkunda Buj,ST (W),ST,ST (W),ST,,,6569
+Chandrapur,Rajura,पांढरपौणी,Pandharpauni,ST,ST (W),ST,ST (W),,,6570
+Chandrapur,Rajura,मानोली बुज,Manoli Buj,ST,ST (W),ST,ST (W),,,6571
+Chandrapur,Rajura,मानोली खुर्द,Manoli Khu.,ST,ST (W),ST,ST (W),,,6572
+Chandrapur,Rajura,इसापुर,Isapur,ST,ST (W),ST,ST (W),,,6573
+Chandrapur,Rajura,सुबई,Subai,ST,ST (W),ST,ST (W),,,6574
+Chandrapur,Rajura,सोंन्डो,Sondo,ST (W),ST,ST (W),ST,,,6575
+Chandrapur,Rajura,सोनुर्ली,Sonurli,ST,ST,ST (W),ST,,,6576
+Chandrapur,Rajura,येरगव्हान,Yergavan,ST (W),ST (W),ST,ST (W),,,6577
+Chandrapur,Rajura,नोकारी खुर्द,Nokari Kh.,ST,ST (W),ST,ST (W),,,6578
+Chandrapur,Rajura,भेंडाळा,Bhendala,ST,ST,ST (W),ST,,,6579
+Chandrapur,Rajura,साखरी,Sakhari,ST,ST (W),ST,ST (W),,,6580
+Chandrapur,Rajura,वरुर रोड,Varur Road,ST (W),ST,ST (W),ST,,,6581
+Chandrapur,Rajura,अंतरगाव अन्नुर,Antargaon Annur,ST (W),ST,ST (W),ST,,,6582
+Chandrapur,Rajura,साखरवाही,Sakharwahi,SC,GEN (W),SC,BCC (W),,,6583
+Chandrapur,Rajura,सिर्सी,Sirsi,ST,ST (W),ST,ST (W),,,6584
+Chandrapur,Rajura,भेदोडा,Bhedoda,ST,ST (W),ST,ST (W),,,6585
+Chandrapur,Rajura,वरोडा,WARODA,GEN (W),BCC (W),BCC,SC (W),,,6586
+Chandrapur,Rajura,गोवरी,GOWARI,BCC,GEN,GEN,GEN (W),,,6587
+Chandrapur,Rajura,चुनाळा,CHUNALA,BCC,SC (W),ST,GEN (W),,,6588
+Chandrapur,Rajura,धिडसी,Dhidsi,GEN,GEN (W),GEN,BCC (W),,,6589
+Chandrapur,Rajura,मुर्ती,Murti,ST,GEN,BCC (W),SC,,,6590
+Chandrapur,Rajura,सुमठाना,Sumthana,GEN (W),SC,BCC (W),GEN,,,6591
+Chandrapur,Rajura,मारडा,Marda,GEN,SC,GEN (W),BCC,,,6592
+Chandrapur,Rajura,कोहपरा,Kohapara,BCC (W),GEN (W),GEN (W),GEN,,,6593
+Chandrapur,Rajura,मुठरा,Muthara,SC,ST (W),GEN,BCC (W),,,6594
+Chandrapur,Rajura,सिंधी,Sindhi,SC (W),GEN,ST,BCC (W),,,6595
+Chandrapur,Rajura,चिंचोली बुज,Chincholi bu,GEN,SC,GEN (W),BCC,,,6596
+Chandrapur,Rajura,चनाखा,Chanakha,ST (W),SC,BCC,GEN (W),,,6597
+Chandrapur,Rajura,बामनवाडा,Bamanwada,SC,GEN,BCC,GEN (W),,,6598
+Chandrapur,Rajura,धानोरा,Dhanora,BCC (W),SC (W),ST (W),GEN,,,6599
+Chandrapur,Rajura,कळमना,Kalamana,GEN (W),GEN (W),ST (W),GEN,,,6600
+Chandrapur,Rajura,कोलगाव,Kolgaon,GEN,BCC (W),GEN,GEN (W),,,6601
+Chandrapur,Rajura,पवनी,Pawani,GEN,BCC (W),SC (W),GEN,,,6602
+Chandrapur,Rajura,खामोना,Khamona,GEN,ST,GEN,BCC,,,6603
+Chandrapur,Rajura,नलफडी,Nalphadi,GEN (W),GEN (W),BCC (W),ST,,,6604
+Chandrapur,Rajura,पंचाळा,Panchala,GEN,GEN,GEN,ST,,,6605
+Chandrapur,Rajura,चंदनवाही,Chandanwahi,BCC,BCC,GEN (W),SC,,,6606
+Chandrapur,Rajura,कविठपेठ,Kawithpeth,BCC (W),ST,SC,GEN (W),,,6607
+Chandrapur,Rajura,चिंचोली खुर्द,Chincholi Kh.,GEN,BCC,BCC,ST (W),,,6608
+Chandrapur,Rajura,विहीरगाव,Vihirgaon,ST,BCC,SC (W),GEN,,,6609
+Chandrapur,Rajura,चार्ली,Charli,GEN,GEN,SC (W),BCC,,,6610
+Chandrapur,Rajura,सातरी,Satari,GEN,GEN,GEN (W),SC (W),,,6611
+Chandrapur,Rajura,पेल्लोरा,Pellora,BCC,BCC,SC,GEN (W),,,6612
+Chandrapur,Rajura,कढोली बु,Kadholi Buj,GEN,GEN (W),SC (W),BCC,,,6613
+Dhule,Dhule,आंबोडे,Aambode,SC Women ,general ,BCC ,general women ,,,6800
+Dhule,Dhule,आमदड / वजीरखेड,Aamdad / Vajirkhede,BCC women ,general ,ST women ,BCC ,,,6801
+Dhule,Dhule,आर्णी,Aarni,SC,ST ,BCC women ,general ,,,6802
+Dhule,Dhule,आर्वी,Aarvi,BCC ,general women ,general ,general Women ,,,6803
+Dhule,Dhule,अजनाळे,Ajanale,BCC women ,General ,ST women ,BCC ,,,6804
+Dhule,Dhule,अजंग / कासविहीर,Ajang / Kasvihir,General women ,BCC,General women ,ST Women,,,6805
+Dhule,Dhule,अकलाड,Aklad,SC ,general ,BCC women ,general ,,,6806
+Dhule,Dhule,अनकवाडी,Anakwadi,General women ,General ,ST women,general ,,,6807
+Dhule,Dhule,अंचाळे,Anchale,general ,BCC ,general ,ST,,,6808
+Dhule,Dhule,अंचाळे तांडा,Anchale Tanda,General women ,BCC ,General women ,BCC ,,,6809
+Dhule,Dhule,बाबरे,Babare,General ,General ,ST Women ,General ,,,6810
+Dhule,Dhule,बल्हाणे,Balhane,ST women,BCC ,General women ,BCC ,,,6811
+Dhule,Dhule,बांबुर्ले प्र. नेर,Bamburle Pr. Ner,ST ,BCC women ,General ,BCC women ,,,6812
+Dhule,Dhule,बेहेड,Behed,General ,General women ,SC women ,General ,,,6813
+Dhule,Dhule,बेंद्रेपाडा,Bendrepada,General ,BCC ,General ,ST women ,,,6814
+Dhule,Dhule,बाभुळवाडी,Bhabhulwadi,BCC ,ST women ,SC ,General women ,,,6815
+Dhule,Dhule,भदाणे,Bhadane,BCC ,General ,ST women ,BCC ,,,6816
+Dhule,Dhule,भिरडाणे / भिरडाई,Bhirdane / Bhirdai,BCC women ,General ,ST ,General women ,,,6817
+Dhule,Dhule,बिलाडी,Biladi,General women ,ST ,BCC women ,General ,,,6818
+Dhule,Dhule,बोदगांव / वणी खु,Bodgaon / Vani Kh.,ST ,BCC women ,SC women ,General ,,,6819
+Dhule,Dhule,बोरीस,Boris,BCC ,General ,General women ,BCC ,,,6820
+Dhule,Dhule,बोरकुंड,Borkund,General ,General women ,BCC ,General women ,,,6821
+Dhule,Dhule,बोरसुले / नवे कोठारे,Borsule / Nave Kothare,General ,General women ,ST ,BCC women ,,,6822
+Dhule,Dhule,बोरविहीर,Borvihir,General women ,BCC ,General women ,General women ,,,6823
+Dhule,Dhule,बुरझड,Burzad,BCC ,General women ,General ,General women ,,,6824
+Dhule,Dhule,चांदे,Chande,General ,BCC women ,General ,ST women,,,6825
+Dhule,Dhule,चौगांव / हिंगणे,Chaugaon /Hingane,BCC women ,General ,General ,General women ,,,6826
+Dhule,Dhule,चिंचखेडे,Chinchkhede,General women ,General ,BCC women ,ST ,,,6827
+Dhule,Dhule,चिंचवार,Chinchwar,General ,BCC women ,,General ,,,6828
+Dhule,Dhule,दहयाणे,Dahyane,General ,BCC ,ST ,General women ,,,6829
+Dhule,Dhule,दापुरा / दापुरी,Dapura / Dapuri,SC ,ST ,BCC women ,General ,,,6830
+Dhule,Dhule,देवभाने,Deobhane,General ,General women ,SC women ,General ,,,6831
+Dhule,Dhule,देऊर बु,Deur Bk.,ST women ,BCC ,General women ,General ,,,6832
+Dhule,Dhule,देऊर खु.,Deur Kh.,General ,General women ,SC women ,BCC ,,,6833
+Dhule,Dhule,धाडरा,Dhadra,General ,General women ,ST ,BCC women ,,,6834
+Dhule,Dhule,धाडरी,Dhadri,BCC women ,SC ,General women ,BCC ,,,6835
+Dhule,Dhule,धमाणे/ धमाणी / धोडी,Dhamane/ Dhamani / Dhodi,ST ,General women ,SC ,BCC women ,,,6836
+Dhule,Dhule,धामणगांव,Dhamangaon,General women ,BCC ,General women ,General ,,,6837
+Dhule,Dhule,धनुर / लोणकुटे,Dhanur / Lonkute,General women ,BCC ,General women ,BCC ,,,6838
+Dhule,Dhule,दोंदवाड,Dondwad,General ,General women ,BCC ,ST women,,,6839
+Dhule,Dhule,गरताड,Gartad,ST ,General ,BCC women ,General women ,,,6840
+Dhule,Dhule,गोंदूर,Gondur,BCC women ,General ,General ,BCC women ,,,6841
+Dhule,Dhule,गोताणे ,Gotane ,General ,General ,General women ,ST ,,,6842
+Dhule,Dhule,हडसुणे,Hadsune,General women ,General ,General women ,SC ,,,6843
+Dhule,Dhule,हेंद्रुण ,Hendrun ,General women ,ST ,BCC women ,General ,,,6844
+Dhule,Dhule,हेंकळवाडी / तामसवाडी,Henkalwadi / Tamaswadi,ST ,BCC women ,General ,BCC women ,,,6845
+Dhule,Dhule,होरपाडा,Horpada,ST ,BCC women ,General ,General women ,,,6846
+Dhule,Dhule,इसरणे,Isarane,General women ,ST,General women ,BCC ,,,6847
+Dhule,Dhule,जापी,Japi,Bcc,General ,General women ,SC ,,,6848
+Dhule,Dhule,जुनवणे,Junawane,General ,SC women ,BCC ,ST women,,,6849
+Dhule,Dhule,जुन्नेर ,Junner ,ST ,BCC women ,General ,General women ,,,6850
+Dhule,Dhule,काळखेडे ,Kalkhede ,General ,SC women ,BCC ,General women ,,,6851
+Dhule,Dhule,कापडणे,Kapadane,BCC ,General women ,General ,ST women ,,,6852
+Dhule,Dhule,कौठळ,Kauthal,BCC ,General ,ST ,BCC Women ,,,6853
+Dhule,Dhule,कावठी,Kavthi,General women ,SC ,ST women ,BCC ,,,6854
+Dhule,Dhule,खंडलाय बु.,Khandlay Bk.,BCC ,General ,General women ,ST ,,,6855
+Dhule,Dhule,खंडलाय खु,Khandlay Kh.,General women ,BCC ,General women ,ST ,,,6856
+Dhule,Dhule,खेडे - सुट्रेपाडा,Khede - Sutrepada,BCC women ,,General women ,BCC ,,,6857
+Dhule,Dhule,खोरदड,Khordad,general ,General ,BCC women ,ST ,,,6858
+Dhule,Dhule,कुळथे,Kulthe,General ,SC women ,General ,ST women,,,6859
+Dhule,Dhule,कुंडाणे (वार),Kundane (War),General ,SC ,ST ,BCC women ,,,6860
+Dhule,Dhule,कुंडाणे वेल्हाणे,Kundane Velhane,ST ,BCC ,General women ,General ,,,6861
+Dhule,Dhule,कुंडाणे (वरखेडी) ,Kundane(Varkhedi) ,ST women,General ,BCC women ,General ,,,6862
+Dhule,Dhule,कुसुंबा,Kusumba,General women ,BCC ,General women ,General ,,,6863
+Dhule,Dhule,लळींग / दिवानमळा,Laling /Diwanmala,BCC ,General women ,ST ,BCC women ,,,6864
+Dhule,Dhule,लामकनी,Lamkani,BCC ,General ,ST women ,BCC women ,,,6865
+Dhule,Dhule,लोहगड,Lohgad,BCC ,General ,ST women ,General ,,,6866
+Dhule,Dhule,लोणखेडी,Lonkhedi,General ,ST women ,BCC ,General women ,,,6867
+Dhule,Dhule,मळाणे,Malane,General ,SC women ,BCC women ,BCC women ,,,6868
+Dhule,Dhule,मांडळ,Mandal,ST ,SC ,BCC women ,General women ,,,6869
+Dhule,Dhule,मेहेरगाव,Mehergaon,BCC ,ST women,General ,General ,,,6870
+Dhule,Dhule,मोघण,Moghan,General ,General women ,General ,ST women ,,,6871
+Dhule,Dhule,मोहाडी प्र.डा.,Mohadi Pra.Da.,General ,ST ,BCC ,General women ,,,6872
+Dhule,Dhule,मोराणे प्र.नेर,Morane Pr. Ner,General ,General women ,,ST ,,,6873
+Dhule,Dhule,मोरदड,Mordad,General ,ST women ,BCC ,General women ,,,6874
+Dhule,Dhule,मोरदड तांडा,Mordad Tanda,General ,BCC women ,General women ,General ,,,6875
+Dhule,Dhule,मोरशेवडी,Morshevadi,BCC ,ST ,General women ,BCC ,,,6876
+Dhule,Dhule,मुकटी,Mukti,General ,BCC women ,General ,ST women ,,,6877
+Dhule,Dhule,नगाव बु/ढंडाणे/ तिसगाव वडेल,Nagaon Bk./Dhandane / Tisgaon Vadel.,ST women ,BCC ,general women ,BCC ,,,6878
+Dhule,Dhule,नंदाळे बु.,Nandale Bk.,General ,ST women ,BCC ,SC women ,,,6879
+Dhule,Dhule,नंदाळे खु,Nandale Kh.,General ,ST ,BCC women ,General women ,,,6880
+Dhule,Dhule,नंदाणे,Nandane,SC ,ST ,BCC women ,General ,,,6881
+Dhule,Dhule,नांद्रे / पुनीतपाडा,Nandre /Punitpada,ST women ,General ,General women ,BCC ,,,6882
+Dhule,Dhule,नाणे,Nane,SC ,ST women ,General ,BCC women ,,,6883
+Dhule,Dhule,नरव्हाळ,Narvhal,General women ,BCC ,SC women ,general ,,,6884
+Dhule,Dhule,नवलनगर,Navalnagar,General women ,BCC ,ST Women ,General ,,,6885
+Dhule,Dhule,नवलाणे,Navlane,BCC women ,general ,general women ,BCC ,,,6886
+Dhule,Dhule,नावरा,Navra,General ,SC women ,BCC ,ST ,,,6887
+Dhule,Dhule,नावरी,Navri,General women ,ST ,BCC women ,General ,,,6888
+Dhule,Dhule,नेर,Ner,BCC ,General women ,General ,BCC women ,,,6889
+Dhule,Dhule,निकुंभे,Nikumbhe,General ,General ,ST WOMEN ,General ,,,6890
+Dhule,Dhule,निमडाळे,Nimdale,General ,ST women ,BCC ,SC ,,,6891
+Dhule,Dhule,निमगुळ,Nimgul,General ,General ,General women ,BCC ,,,6892
+Dhule,Dhule,निमखेडी,Nimkhedi,General ,BCC ,ST women ,General ,,,6893
+Dhule,Dhule,न्याहळोद,Nyahalod,General women ,BCC ,ST women ,SC women ,,,6894
+Dhule,Dhule,पाडळदे,Padalade,BCC ,ST Women ,General ,BCC women ,,,6895
+Dhule,Dhule,फागणे,Phagane,BCC ,General women ,General ,General women ,,,6896
+Dhule,Dhule,पिंपरखेडे,Pimparkhede,General ,General ,ST women ,General ,,,6897
+Dhule,Dhule,पुरमेपाडा,Purmepada,BCC ,General women ,ST ,BCC women ,,,6898
+Dhule,Dhule,रामी,Rami,BCC women ,General ,ST ,ST women ,,,6899
+Dhule,Dhule,रानमळा,Ranmala,ST ,General women ,General ,BCC women ,,,6900
+Dhule,Dhule,रतनपुरा,Ratanpura,General ,ST ,BCC women ,General ,,,6901
+Dhule,Dhule,रावेर,Raver,ST ,BCC women ,SC ,General women ,,,6902
+Dhule,Dhule,सडगाव/ हेंकळवाडी,Sadgaon / Henkalwadi,General ,General women ,BCC ,General women ,,,6903
+Dhule,Dhule,सैताळे,Saitale,BCC women ,General ,General women ,ST ,,,6904
+Dhule,Dhule,सांजोरी,Sanjori,General women ,BCC ,ST ,BCC women ,,,6905
+Dhule,Dhule,सरवड,Sarvad,General women ,SC ,ST women ,ST women ,,,6906
+Dhule,Dhule,सातरणे,Satarane,ST ,BCC women ,General ,General women ,,,6907
+Dhule,Dhule,सौंदाणे,Saundane,General ,General ,BCC women ,ST ,,,6908
+Dhule,Dhule,सावळदे,Savalde,BCC ,General ,ST women ,General ,,,6909
+Dhule,Dhule,सावळीतांडा,Savalitanda,BCC ,General ,General ,ST women ,,,6910
+Dhule,Dhule,सायने,Sayane,ST women ,BCC ,General women ,BCC ,,,6911
+Dhule,Dhule,शिरडाणे प्र. डां.,Shirdane Pr. Da.,ST ,BCC women ,General ,BCC women ,,,6912
+Dhule,Dhule,शिरधाने प्र.नेर,Shirdhane Pr.Ner,BCC ,General ,General ,ST women ,,,6913
+Dhule,Dhule,शिरुड,Shirud,BCC ,General ,General women ,General ,,,6914
+Dhule,Dhule,सिताणे,Sitane,SC women ,General ,BCC women ,General ,,,6915
+Dhule,Dhule,सोनेवाडी,Sonewadi,General women ,BCC ,General women ,ST ,,,6916
+Dhule,Dhule,सोनगीर,Songir,BCC women ,General ,General ,ST women ,,,6917
+Dhule,Dhule,तांडा ( कुंडाणे वेल्हाणे),Tanda (Kundane Velhane),General ,General women ,BCC ,General women ,,,6918
+Dhule,Dhule,तरवाडे,Tarwade,BCC ,General women ,SC ,General women ,,,6919
+Dhule,Dhule,तिखी,Thikhi,General ,General women ,ST ,General women ,,,6920
+Dhule,Dhule,उभंड,Ubhand,General ,ST women,BCC ,General Women ,,,6921
+Dhule,Dhule,उडाणे,Udane,General ,General ,BCC women ,ST ,,,6922
+Dhule,Dhule,वडणे ,Vadane ,BCC women ,ST ,General women ,General ,,,6923
+Dhule,Dhule,वडगाव,Vadgaon,General women ,General ,ST women ,SC ,,,6924
+Dhule,Dhule,वडजाई,Vadjai,ST women ,General ,BCC ,General women ,,,6925
+Dhule,Dhule,वणी बु,Vani Bk.,General ,General women ,BCC ,ST women ,,,6926
+Dhule,Dhule,वेल्हाणे बु,Velhane Bk.,SC ,ST women ,BCC ,General women ,,,6927
+Dhule,Dhule,विंचुर,Vinchur,General ,BCC women ,General ,General women ,,,6928
+Dhule,Dhule,विश्वनाथ / सुकवद,Vishwnath / Sukwad,ST ,BCC women ,General ,General women ,,,6929
+Dhule,Dhule,वार,War,SC ,BCC ,General women ,General ,,,6930
+Gondia,Amgaon,आसोली,Aasoli,GEN ,BCC ,GEN ,SC (W) ,,,7796
+Gondia,Amgaon,अंजोरा,Anjora,GEN (W) ,GEN ,BCC (W) ,GEN (W) ,,,7797
+Gondia,Amgaon,बघेडा,Bagheda,ST (W) ,BCC ,GEN (W) ,GEN (W) ,,,7798
+Gondia,Amgaon,बाम्हणी,Bamhani,BCC ,GEN (W) ,GEN ,BCC ,,,7799
+Gondia,Amgaon,बंजारीटोला,Banjaritola,GEN ,GEN (W) ,BCC (W) ,GEN (W) ,,,7800
+Gondia,Amgaon,बासीपार,Basipar,GEN ,ST (W) ,GEN ,BCC ,,,7801
+Gondia,Amgaon,भजियापार,Bhajiyapar,BCC (W) ,GEN ,GEN ,GEN ,*Bhajiyapur,,7802
+Gondia,Amgaon,भोसा,Bhosa,GEN ,GEN ,BCC ,GEN (W) ,,,7803
+Gondia,Amgaon,बोदा,Boda,GEN (W) ,GEN ,BCC (W) ,ST (W) ,,,7804
+Gondia,Amgaon,बोरकन्हार,Borkanhar,GEN ,SC ,BCC ,ST ,,,7805
+Gondia,Amgaon,बोथली,Bothali,GEN ,GEN (W) ,SC ,BCC (W) ,,,7806
+Gondia,Amgaon,बुराडीटोला,Buraditola,GEN ,BCC ,GEN ,GEN ,,,7807
+Gondia,Amgaon,चिरचाळबांध,Chirchalbandh,GEN (W) ,BCC ,GEN (W) ,GEN (W) ,,,7808
+Gondia,Amgaon,दहेगांव,Dahegaon,GEN ,BCC ,GEN (W) ,ST ,,,7809
+Gondia,Amgaon,धामनगांव,Dhamangaon,BCC ,GEN ,GEN ,GEN ,,,7810
+Gondia,Amgaon,धावडीटोला,Dhawditola,ST (W) ,GEN ,SC (W) ,BCC ,,,7811
+Gondia,Amgaon,डोंगरगांव,Dongargaon,GEN ,SC (W) ,BCC ,GEN (W) ,,,7812
+Gondia,Amgaon,फुक्कीमेटा,Fukkimeta,GEN (W) ,BCC ,GEN (W) ,GEN ,,,7813
+Gondia,Amgaon,घाटटेमनी,Ghattemani,GEN ,ST ,GEN (W) ,BCC (W) ,,,7814
+Gondia,Amgaon,गिरोला,Girola,GEN ,GEN ,BCC ,GEN (W) ,,,7815
+Gondia,Amgaon,गोंरठा,Gortha,GEN ,SC (W) ,BCC ,GEN ,,,7816
+Gondia,Amgaon,गोसाईटोला,Gosaitola,ST ,GEN ,SC (W) ,BCC (W) ,,,7817
+Gondia,Amgaon,जांभुरटोला,Jambhurtola,,,,ST (W) ,,,7818
+Gondia,Amgaon,जामखारी,Jamkhari,BCC ,GEN (W) ,GEN ,SC ,,,7819
+Gondia,Amgaon,जवरी,Jawari,BCC (W) ,GEN ,GEN (W) ,SC (W) ,,,7820
+Gondia,Amgaon,कालीमाटी,Kalimati,GEN ,GEN (W) ,BCC ,GEN (W) ,,,7821
+Gondia,Amgaon,करंजी,Karanji,GEN ,BCC ,GEN ,SC (W) ,,,7822
+Gondia,Amgaon,कट्टीपार,Kattipar,SC ,GEN ,GEN ,BCC ,,,7823
+Gondia,Amgaon,कातुर्ली,Katurli,GEN ,BCC ,GEN ,GEN ,,,7824
+Gondia,Amgaon,कवडी,Kawadi,SC (W) ,GEN ,ST ,BCC (W) ,,,7825
+Gondia,Amgaon,खुर्शिपार,Khurshipar,BCC ,GEN (W) ,GEN ,GEN ,,,7826
+Gondia,Amgaon,खुर्शिपारटोला,Khurshipartola,BCC ,SC ,GEN (W) ,GEN (W) ,,,7827
+Gondia,Amgaon,क‍करीपार,Kikripar,BCC (W) ,GEN ,GEN (W) ,GEN ,,,7828
+Gondia,Amgaon,महारीटोला,Maharitola,BCC (W) ,GEN ,GEN ,GEN (W) ,,,7829
+Gondia,Amgaon,मानेगांव,Manegaon,GEN (W) ,ST ,BCC (W) ,SC ,,,7830
+Gondia,Amgaon,मरारटोला,Marartola,BCC ,BCC ,GEN (W) ,GEN ,,,7831
+Gondia,Amgaon,मोहगांव,Mohgaon,GEN (W) ,BCC ,GEN ,GEN ,,,7832
+Gondia,Amgaon,मुंडीपार,Mundipar,BCC ,GEN ,ST (W) ,GEN ,,,7833
+Gondia,Amgaon,ननसरी,Nansari,GEN (W) ,SC ,BCC (W) ,GEN ,,,7834
+Gondia,Amgaon,पानगांव,Pangaon,GEN ,GEN (W) ,BCC ,GEN (W) ,,,7836
+Gondia,Amgaon,पाऊळदौना,Pauldauna,GEN ,BCC ,ST ,BCC ,,,7837
+Gondia,Amgaon,पिपरटोला,Pipartola,GEN ,BCC ,GEN (W) ,GEN (W) ,,,7838
+Gondia,Amgaon,रामाटोला,Ramatola,ST ,GEN ,GEN (W) ,BCC ,,,7839
+Gondia,Amgaon,सरकारटोला,Sarkartola,SC ,GEN (W) ,BCC ,GEN (W) ,,,7840
+Gondia,Amgaon,सांवगी,Sawangi,GEN (W) ,GEN ,GEN (W) ,BCC ,,,7841
+Gondia,Amgaon,शिवणी,Shivani,BCC ,GEN ,SC (W) ,GEN ,,,7842
+Gondia,Amgaon,सितेपार,Sitepar,BCC ,GEN (W) ,GEN ,GEN ,,,7843
+Gondia,Amgaon,सोनेखारी,Sonekhari,ST ,BCC ,GEN ,GEN (W) ,,,7844
+Gondia,Amgaon,सुपलीपार,Supalipar,GEN (W) ,GEN ,GEN (W) ,BCC (W) ,,,7845
+Gondia,Amgaon,सुरकुडा,Surkuda,BCC ,GEN ,ST (W) ,GEN ,,,7846
+Gondia,Amgaon,टाकरी,Takari,GEN (W) ,GEN ,BCC (W) ,GEN (W) ,,,7847
+Gondia,Amgaon,टेकरी,Tekari,SC (W) ,GEN ,BCC (W) ,GEN ,,,7848
+Gondia,Amgaon,ठाणा,Thana,GEN (W) ,GEN ,ST (W) ,BCC (W) ,,,7849
+Gondia,Amgaon,तिगांव,Tigaon,SC ,BCC ,GEN ,GEN ,,,7850
+Gondia,Amgaon,वळद,Walad,GEN ,GEN (W) ,GEN ,BCC ,,,7851
+Gondia,Amgaon,येरमडा,Yermada,GEN ,ST ,BCC ,GEN (W) ,,,7852
+Gondia,Goregaon,आंबेतलाव,Aambetalao,,GEN ,BCC,BCC (W),,,8089
+Gondia,Goregaon,आसलपाणी,Aasalpani,,GEN ,GEN,BCC (W),,,8090
+Gondia,Goregaon,बबई,Babai,,GEN ,GEN,ST (W),,,8091
+Gondia,Goregaon,बघोली,Bagholi,,BCC (W),GEN,SC (W) ,,,8092
+Gondia,Goregaon,बाम्हणी,Bamhani,,BCC,GEN (W),GEN,,,8093
+Gondia,Goregaon,भडंगा,Bhadanga,,BCC (W),ST (W),GEN,,,8094
+Gondia,Goregaon,बोरगाव,Borgaon,,SC (W),ST,BCC (W),,,8095
+Gondia,Goregaon,बोटे,Bote,,GEN (W),BCC,GEN (W),,,8096
+Gondia,Goregaon,चिचगांव,Chichgaon,,SC (W),BCC (W),GEN,,,8097
+Gondia,Goregaon,चिल्हाटी,Chilhati,,GEN ,GEN,BCC (W),,,8098
+Gondia,Goregaon,चोपा,Chopa,,GEN (W),BCC,ST,,,8099
+Gondia,Goregaon,दवडीपार,Dawadipar,,GEN ,BCC (W),BCC,,,8100
+Gondia,Goregaon,डव्वा,Dawwa,,GEN ,BCC (W),GEN (W),,,8101
+Gondia,Goregaon,गणखैरा,Gankhaira,,GEN ,GEN (W),GEN,,,8102
+Gondia,Goregaon,घोटी,Ghoti,,SC ,GEN,ST (W),,,8103
+Gondia,Goregaon,घुमर्रा,Ghumarra,,GEN (W),ST,GEN (W),,,8104
+Gondia,Goregaon,गिधाडी,Gidhadi,,GEN (W),SC ,GEN (W),,,8105
+Gondia,Goregaon,गोंदेखारी,Gondekhari,,GEN (W),BCC (W),BCC,,,8106
+Gondia,Goregaon,हिरापूर,Hirapur,,GEN ,ST (W),GEN,,,8107
+Gondia,Goregaon,हिराटोला,Hiratola,,BCC (W),GEN ,GEN (W),,,8108
+Gondia,Goregaon,हिरडामाली,Hirdamali,,GEN (W),SC (W),GEN,,,8109
+Gondia,Goregaon,हौसीटोला,Housitola,,BCC ,ST (W),GEN,,,8110
+Gondia,Goregaon,कालीमाटी,Kalimati,,GEN (W),BCC,SC (W) ,,,8111
+Gondia,Goregaon,कलपाथरी,Kalpathari,,ST,SC (W),BCC,,,8112
+Gondia,Goregaon,कमरगाव,Kamargaon,,ST (W),GEN,GEN (W),,,8113
+Gondia,Goregaon,कटंगी बु,Katangi Bu.,,GEN ,BCC,BCC (W),,,8114
+Gondia,Goregaon,कवलेवाडा,Kawalewada,,GEN (W),ST,GEN (W),,,8115
+Gondia,Goregaon,खाडीपार,Khadipar,,BCC ,GEN (W),ST ,,,8116
+Gondia,Goregaon,कुऱ्हाडी,Kurhadi,,BCC ,GEN (W),ST ,,,8117
+Gondia,Goregaon,मलपुरी,Malpuri,,BCC ,GEN (W),SC,,,8118
+Gondia,Goregaon,मेंगाटोला,Mengatola,,GEN ,GEN (W),BCC,,,8119
+Gondia,Goregaon,म्हसगाव,Mhasgaon,,GEN,GEN,SC (W),,,8120
+Gondia,Goregaon,मोहाडी,Mohadi,,BCC ,GEN (W),GEN,,,8121
+Gondia,Goregaon,मोहगाव बु,Mohgaon Bk,,GEN (W),BCC (W),ST,,,8122
+Gondia,Goregaon,मोहगाव (तिल्ली),Mohgaon(Tilli),,BCC,GEN (W),BCC,,,8123
+Gondia,Goregaon,मुंडीपार,Mundipar,,BCC (W),SC,ST (W),,,8124
+Gondia,Goregaon,मुरदोली,Murdoli,,GEN ,GEN,GEN (W),,,8125
+Gondia,Goregaon,निंबा,Nimba,,ST (W),ST (W),GEN ,,,8126
+Gondia,Goregaon,पालेवाडा,Palewada,,BCC,GEN (W),SC,,,8127
+Gondia,Goregaon,पलखेडा,Palkheda,,ST,SC (W),GEN ,,,8128
+Gondia,Goregaon,पाथरी,Pathari,,ST (W),SC,BCC (W),,,8129
+Gondia,Goregaon,पिंडकेपार,Pindkepar,,ST (W),BCC,SC (W),,,8130
+Gondia,Goregaon,पिपरटोला (तानू),Pipartola (tanu),,,,ST (W),निरंक (Blank) ,,8131
+Gondia,Goregaon,पुरगाव,Purgaon,,SC (W),GEN,GEN (W),,,8132
+Gondia,Goregaon,सटवा,Satwa,,GEN ,GEN ,BCC (W),,,8133
+Gondia,Goregaon,शहारवानी,Shaharvani,,ST ,BCC (W),SC,,,8134
+Gondia,Goregaon,सिलेगाव,Silegaon,,GEN (W),BCC (W),BCC,,,8135
+Gondia,Goregaon,सोनेगाव,Sonegaon,,GEN (W),GEN ,GEN (W),,,8136
+Gondia,Goregaon,सोनी,Soni,,GEN (W),GEN ,GEN (W),,,8137
+Gondia,Goregaon,तेढा,Tedha,,SC (W),BCC (W),GEN,,,8138
+Gondia,Goregaon,तेलनखेडी,Telankhedi,,BCC (W),ST,GEN (W),,,8139
+Gondia,Goregaon,तिल्ली,Tilli,,SC,GEN (W),GEN,,,8140
+Gondia,Goregaon,तिमेझरी,Timezari,,ST (W),GEN (W),BCC,,,8141
+Gondia,Goregaon,तुमखेडा बु.,Tumkheda Bu.,,SC,GEN (W),GEN,,,8142
+Gondia,Goregaon,तुमसर,Tumsar,,GEN (W),BCC ,GEN (W),,,8143
+Gondia,Goregaon,झांजिया,Zanjiya,,BCC (W),ST (W),BCC,,,8144
+Kolhapur,Chandgad,आसगाव,Aasgav,BCC women ,SC,General ,BCC,"(+Humbire +Churniwada +Sulaye, group GP)",,10994
+Kolhapur,Chandgad,अडकूर,Adkur ,GENERAL,GENERAL WOMEN,SC WOMEN,BCC ,"(+Malgewadi, Group GP) ",,10995
+Kolhapur,Chandgad,अलबादेवी,Alabadevi,general women,general,BCC women,General Women,,,10996
+Kolhapur,Chandgad,आंबेवाडी,Ambewadi,General women ,General ,General ,BCC,,,10997
+Kolhapur,Chandgad,आमरोळी,Amroli,general,BCC women ,general women,General,"(+Porwadi, Group GP)",,10998
+Kolhapur,Chandgad,आसगोळी,Asagoli,General ,BCC,General women ,General,,,10999
+Kolhapur,Chandgad,बागिलगे,Bagilage,general,general women,BCC,General,,,11000
+Kolhapur,Chandgad,बसर्गे,Basrge,General ,General ,General women ,SC,"(+Gaulwadi, Group GP)",,11001
+Kolhapur,Chandgad,भोगोली,Bhogoli,SC,BCC women,general women,General,,,11002
+Kolhapur,Chandgad,बोंजूर्डी,Bonjurdi,BCC women,general,general women,General Women,"(+Morewadi, Group GP)",,11003
+Kolhapur,Chandgad,बुझवडे,Bujhavade,general women,general,BCC women,General Women,,,11004
+Kolhapur,Chandgad,बुक्कीहाळ,Bukkihal,general,ST,BCC,General Women,,,11005
+Kolhapur,Chandgad,चिंचणे,Chinchane,ST,general women,BCC women,ST,,,11006
+Kolhapur,Chandgad,दाटे,Date,BCC women,general,general women,General,(+Velebhat +Narewadi +Vargaav Group GP),,11007
+Kolhapur,Chandgad,देवरवाडी,Devarwadi,BCC,General women ,General ,BCC Women,,,11008
+Kolhapur,Chandgad,ढेकोळी,Dhekoli,,,,BCC,,,11009
+Kolhapur,Chandgad,ढोलगरवाडी,Dholagarwadi,general women,general,BCC women,General Women,,,11010
+Kolhapur,Chandgad,धुमडेवाडी,Dhumadewadi,General ,BCC WOMEN ,general women ,General,,,11011
+Kolhapur,Chandgad,दिंडलकोप,Dindalkop ,SC,general women,ST women,BCC Women,"(+Talguli, Group GP)",,11012
+Kolhapur,Chandgad,डुक्करवाडी,Dukkarwadi,,,,SC women ,,,11013
+Kolhapur,Chandgad,दुंडगे,Dundage,,,,BCC,,,11014
+Kolhapur,Chandgad,गणूचीवाडी,Ganuchiwadi,,BCC women,general women,General,,,11015
+Kolhapur,Chandgad,गवसे,Gavase,BCC,SC WOMEN ,General women ,BCC Women,,,11016
+Kolhapur,Chandgad,घुल्लेवाडी,Ghullewadi,General ,OBC women ,General women ,General,"(+Jakkanhatti, Group GP)",,11017
+Kolhapur,Chandgad,गुडवळे खा,Gudavale Kha,BCC,SC WOMEN ,general women ,BCC,"(+Khamadle, Group GP)",,11018
+Kolhapur,Chandgad,गुडेवाडी ,Gudewadi ,,,,BCC Women,,,11019
+Kolhapur,Chandgad,हाजगोळी,Hajgoli,BCC women,general,general women,SC,,,11020
+Kolhapur,Chandgad,हलकर्णी,Halkarni,GEENRAL WOMEN,BCC,SC,General,,,11021
+Kolhapur,Chandgad,हल्लारवाडी,Hallarwadi,general,general women,BCC,General,,,11022
+Kolhapur,Chandgad,हेरे,Here,SC,BCC women ,BCC,General Women,,,11023
+Kolhapur,Chandgad,हिंडगाव,Hindagaon,general,BCC,general women,General,"(+Phatakwadi, group GP)",,11024
+Kolhapur,Chandgad,होसूर,Hosur,general,general women,BCC,General,,,11025
+Kolhapur,Chandgad,इब्राहीमपूर,Ibrahimpur,general,BCC women,general women,General,,,11026
+Kolhapur,Chandgad,इसापूर,Isapur,BCC women,BCC,general women,General,,,11027
+Kolhapur,Chandgad,जांबरे,Jambre,General ,BCC,general women,General,,,11028
+Kolhapur,Chandgad,जंगमहट्टी,Jangamhatti,BCC,general women,general,SC women ,,,11029
+Kolhapur,Chandgad,जट्टेवाडी,Jattewadi,general,general women,general,BCC Women,,,11030
+Kolhapur,Chandgad,जेलुगडे,Jelugade,General ,General women ,General women ,BCC,,,11031
+Kolhapur,Chandgad,कडलगे बु.,Kadalage Bk.,SC women,general women,BCC,General,,,11032
+Kolhapur,Chandgad,कडलगे खुर्द,Kadalage Khu.,general,general women,BCC women,General,,,11033
+Kolhapur,Chandgad,कागणी,Kagani ,ST,GENERAL WOMEN,SC WOMEN,ST WOMEN ,"(+Hanganewadi, Group GP)",,11034
+Kolhapur,Chandgad,काजिर्णे/म्हाळुंगे,Kajirne/ Mahalunge,General ,BCC,General women ,General,Group GP ,,11035
+Kolhapur,Chandgad,कळसगादे,Kalasgade,General ,BCC,General women ,General,,,11036
+Kolhapur,Chandgad,कालकुंद्री,Kalkundri,BCC   ,GENERAL,SC,General Women,,,11037
+Kolhapur,Chandgad,कामेवाडी ,Kamewadi ,SC women,BCC women,ST,General Women,,,11038
+Kolhapur,Chandgad,कानडी,Kanadi,general women,general,BCC,General Women,"(+Povachiwadi, Group GP)",,11039
+Kolhapur,Chandgad,कानूर खु,Kanur Kh.,SC WOMEN ,general women ,general ,BCC,"(+Pilni, Group GP)",,11040
+Kolhapur,Chandgad,करंजगाव,Karanjgaon,general women,general,BCC,General Women,,,11041
+Kolhapur,Chandgad,करेकुंडी,Karekundi,general,SC ,BCC women,General Women,,,11042
+Kolhapur,Chandgad,कौलगे,Kaulage,BCC,General ,General women ,General,,,11043
+Kolhapur,Chandgad,केंचेवाडी,Kenchewadi,general,general women,general,BCC Women,,,11044
+Kolhapur,Chandgad,केरवडे - वाळकोळी,Kervade- Valkoli,general,BCC,general women,General,Group GP ,,11045
+Kolhapur,Chandgad,किणी,Kini,general women,SC women,BCC,General,,,11046
+Kolhapur,Chandgad,किटवाड,Kitwad,,,,BCC Women,,,11047
+Kolhapur,Chandgad,कलिवडे-किटवडे,Klivade-Kitvade ,GENERAL  ,BCC WOMEN,SC,General Women,(Group GP),,11048
+Kolhapur,Chandgad,कोदाळी,Kodali ,general,SC,BCC women,General Women,"(+Gulamb, Group GP)",,11049
+Kolhapur,Chandgad,कोकरे/अडुरे,Kokare/ Adure,BCC,General women ,General women ,General,(Group GP),,11050
+Kolhapur,Chandgad,कोलीक,Kolik,BCC,general women,general,General Women,,,11051
+Kolhapur,Chandgad,कोळिंद्रे खा,Kolindre Khalsa,General women ,general ,general ,BCC Women,"(+Kha. Sawarde +Shippuli, Group GP)",,11052
+Kolhapur,Chandgad,कोनेवाडी,Konewadi,,,,General Women,,,11053
+Kolhapur,Chandgad,कोरज ,Koraj ,general,general,BCC,SC,"(+Kurtanwadi +Gandharwagad, Group GP)",,11054
+Kolhapur,Chandgad,कोवाड,Kowad,BCC,SC,general women,General Women,,,11055
+Kolhapur,Chandgad,कुदनुर,Kudanur,BCC WOMEN,GENERAL,SC WOMEN,General Women,,,11056
+Kolhapur,Chandgad,कुरणी,Kurni,BCC, general,general women,General,"(+Dhamapur, Group GP)",,11057
+Kolhapur,Chandgad,लकीकट्टे,Lakikatte,BCC,GENERAL WOMEN,SC WOMEN,BCC Women,,,11058
+Kolhapur,Chandgad,लाकूडवाडी,Lakudwadi,General ,General women ,General ,BCC Women,,,11059
+Kolhapur,Chandgad,माडवळे,Madawale,,,,SC women,,,11060
+Kolhapur,Chandgad,महिपाळगड,Mahipalgad,General ,General women ,General ,BCC Women,,,11061
+Kolhapur,Chandgad,मजरे कार्वे,Majare Karve,General ,General women ,general ,BCC Women,,,11062
+Kolhapur,Chandgad,मलतवाडी,Malatwadi,OBC,General women ,General ,General Women,,,11063
+Kolhapur,Chandgad,मांडेदुर्ग,Mandedurg,General ,General women ,General ,SC women ,,,11064
+Kolhapur,Chandgad,माणगांव,Mangaon ,GENERAL WOMEN,GENERAL,SC WOMEN,BCC Women ,(Group GP),,11065
+Kolhapur,Chandgad,म्हाळेवाडी,Mhalewadi,SC,BCC WOMEN ,general women ,General,,,11066
+Kolhapur,Chandgad,म्हाळुंगे खा,Mhalunge kha,general,general women,general,BCC Women,,,11067
+Kolhapur,Chandgad,मिरवेल,Mirwel,General women ,General ,General ,BCC,,,11068
+Kolhapur,Chandgad,मोटणवाडी,Motanwadi,BCC,general,BCC women,General Women,,,11069
+Kolhapur,Chandgad,मौजे कारवे,Mouje Karve,,,,General Women,,,11070
+Kolhapur,Chandgad,मुगळी,Mugali,general women,SC women,BCC women,General,"(+Sonarwadi, Group GP)",,11071
+Kolhapur,Chandgad,मुरकुटेवाडी,Murkutewadi,,,,BCC,,,11072
+Kolhapur,Chandgad,नागनवाडी,Naganwadi,general women,general,BCC women,General Women,,,11073
+Kolhapur,Chandgad,नागरदळे,Nagardale,BCC women,general women,general,General Women,,,11074
+Kolhapur,Chandgad,नागवे - इनाम कोळीड्रे,Nagave- Inam Kolindre,general,BCC,BCC,General Women,,,11075
+Kolhapur,Chandgad,नांदवडे,Nandvade,BCC,General ,General women ,SC women,"(+Shevale, Group GP)",,11076
+Kolhapur,Chandgad,निटटूर,Nittur,general,general women,BCC,General,,,11077
+Kolhapur,Chandgad,पार्ले,Parle,SC,BCC women,general women,General,,,11078
+Kolhapur,Chandgad,पाटणे,Patne,general women,BCC,BCC,General,,,11079
+Kolhapur,Chandgad,पुन्द्रा,Pundra,General women ,General ,General ,BCC Women,"(+Kanur Bu. Bijur, Group GP)",,11080
+Kolhapur,Chandgad,राजगोळी बु.,Rajgoli Bk.,general,BCC,General ,General Women,"(+Yartanhatti, Group GP)",,11081
+Kolhapur,Chandgad,राजगोळी खु.,Rajgoli Khu.,general,BCC women,BCC,General Women,,,11082
+Kolhapur,Chandgad,सडेगुडवळे,Sadegudwale,general women,general,BCC women,General Women,,,11083
+Kolhapur,Chandgad,सरोळी,Saroli,general,general,BCC,General Women,,,11084
+Kolhapur,Chandgad,सातवणे,Satawane,BCC,general,general,SC,,,11085
+Kolhapur,Chandgad,शिनोळी बु.,Shinoli Bk.,,,,SC,,,11086
+Kolhapur,Chandgad,शिनोळी खुर्द,Shinoli Khurd,General ,BCC WOMEN ,General women ,General,,,11087
+Kolhapur,Chandgad,शिरगांव,Shirgaon,General ,SC WOMEN ,General women ,BCC,(+Mauje Shirgaon +Majre Shirgaon +Inam Sawarde,,11088
+Kolhapur,Chandgad,शिरोली-सत्तेवाडी,Shiroli-sattewadi,SC,BCC WOMEN ,general women ,General,Group GP ,,11089
+Kolhapur,Chandgad,शिवनगे,Shivanage,General ,General women ,General ,BCC,,,11090
+Kolhapur,Chandgad,सुंडी,Sundi,BCC,General ,General women ,SC,,,11091
+Kolhapur,Chandgad,सुरुते,Surute,BCC,GENERAL WOMEN,SC WOMEN,General ,,,11092
+Kolhapur,Chandgad,तडशिनहाळ,Tadashinhal,,,,General,"(+Supe, Group GP)",,11093
+Kolhapur,Chandgad,तांबुळवाडी,Tambulwadi,BCC women,general women,general,General Women,,,11094
+Kolhapur,Chandgad,तावरेवाडी,Tavarewadi,General women ,OBC,General ,General Women,,,11095
+Kolhapur,Chandgad,तेऊरवाडी,Teurwadi,general,general,BCC women,General Women,,,11096
+Kolhapur,Chandgad,तुडीये,Tudiye ,GENERAL,GENERAL,SC,BCC,"(+Malwiwadi,Group GP)",,11097
+Kolhapur,Chandgad,तुर्केवाडी,Turkewadi ,general,SC,BCC,General Women,"(+Waitagwadi, Group GP)",,11098
+Kolhapur,Chandgad,उमगाव,Umgaon,SC women,general,BCC,General Women,"(+Nhaveli, Group GP)",,11099
+Kolhapur,Chandgad,उत्साळी,Utsali,General ,General ,General women ,BCC,,,11100
+Kolhapur,Chandgad,विंझणे,Vinzane,general,BCC,general women ,General,,,11101
+Kolhapur,Chandgad,वाघोत्रे,Waghotre,BCC,General women ,General ,General Women,,,11102
+Kolhapur,Gaganbavada,अणदुर,Andur,GEN (W),GEN,BCC ,,,,11192
+Kolhapur,Gaganbavada,आसळज,Asalaj,GEN,GEN,SC (W),,,,11193
+Kolhapur,Gaganbavada,असंडोली,Asandoli,GEN,SC (W),GEN,,,,11194
+Kolhapur,Gaganbavada,बावेली,Baveli,SC,BCC (W),GEN (W),,,,11195
+Kolhapur,Gaganbavada,बोरबेट,Borbet,GEN,GEN (W),BCC ,,,,11196
+Kolhapur,Gaganbavada,धुंदवडे,Dhundavade,GEN,BCC,GEN (W),,,,11197
+Kolhapur,Gaganbavada,गगनबावडा,Gaganbavda,BCC,GEN (W),GEN,,,,11198
+Kolhapur,Gaganbavada,जर्गी,Jargi,GEN (W),GEN,BCC (W),,,,11199
+Kolhapur,Gaganbavada,कडवे,Kadave,BCC,GEN (W),SC (W),,,,11200
+Kolhapur,Gaganbavada,कातळी -लाखमपूर,Katali-Lakhamapur,GEN (W),BCC,SC (W),,,,11201
+Kolhapur,Gaganbavada,खेरीवडे,Kherivade,GEN,SC,BCC (W),,,,11202
+Kolhapur,Gaganbavada,खोकूर्ले,Khokurle,GEN,GEN (W),BCC (W),,,,11203
+Kolhapur,Gaganbavada,किरवे,Kirave,BCC,GEN,SC ,,,,11204
+Kolhapur,Gaganbavada,कोदे बु.,Kode Bk,SC,BCC (W),GEN ,,,,11205
+Kolhapur,Gaganbavada,लोंघे,Longhe,SC (W),BCC (W),GEN (W),,,,11206
+Kolhapur,Gaganbavada,मांडुकली,Mandukali,SC (W),BCC (W),GEN (W),,,,11207
+Kolhapur,Gaganbavada,मणदुर,Mandur,GEN ,GEN (W),GEN,,,,11208
+Kolhapur,Gaganbavada,मार्गेवाडी,Margewadi,GEN,GEN (W),BCC ,,,,11209
+Kolhapur,Gaganbavada,मुटकेश्वर/खडुळे,Mutakeshwar/Khadule,GEN (W),GEN,BCC (W),,,,11210
+Kolhapur,Gaganbavada,निवडे,Nivade,BCC,SC (W),GEN,,,,11211
+Kolhapur,Gaganbavada,साखरी म्हाळुंगे,Sakhari Mhalunge,GEN,BCC,GEN (W),,,,11212
+Kolhapur,Gaganbavada,साळवण,Salavan,GEN,GEN (W),GEN,,,,11213
+Kolhapur,Gaganbavada,सांगशी,Sangashi,BCC,SC,GEN (W),,,,11214
+Kolhapur,Gaganbavada,शेळोशी,Sheloshi,BCC,GEN,GEN,,,,11215
+Kolhapur,Gaganbavada,शेणवडे,Shenawade,GEN (W),BCC,SC ,,,,11216
+Kolhapur,Gaganbavada,तळीये ब्रु,Taliye Bru.,SC,GEN,BCC ,,,,11217
+Kolhapur,Gaganbavada,तिसंगी,Tisangi,GEN,SC (W),GEN ,,,,11218
+Kolhapur,Gaganbavada,वेसर्डे,Vesarde,BCC,GEN,GEN (W),,,,11219
+Kolhapur,Gaganbavada,वेतवडे,Vetavde,BCC,GEN (W),SC,,,,11220
+Nanded,Ardhapur,आंबेगांव,Ambegaon,ST (W),,SC,BCC,,,13404
+Nanded,Ardhapur,अमराबाद,Amrabad,SC,ST (W),BCC (W),GEN,,,13405
+Nanded,Ardhapur,अमराबाद तांडा,Amrabad Tanda,,BCC,ST (W),GEN,,,13407
+Nanded,Ardhapur,बामणी /वाहेदपूर /निजामपूर,Bamni /Wahedpur /Nijampur,BCC,,,GEN (W),,,13414
+Nanded,Ardhapur,बारसगांव,Barasgaon,,BCC,,SC (W),,,13423
+Nanded,Ardhapur,बेलसर,Belsar,,BCC,,GEN,,,13434
+Nanded,Ardhapur,भोगांव,Bhogaon,SC,,GEN (W),BCC ,,,13441
+Nanded,Ardhapur,चाभरा,Chabhara,,SC,BCC (W),GEN,,,13442
+Nanded,Ardhapur,चाभरा तांडा,Chabhara Tanda,BCC,,,BCC,,,13445
+Nanded,Dharmabad,आलुर/नेरळी,Aalur / Nerli,SC ,SC (W),BCC ,GEN ,,,13678
+Nanded,Dharmabad,आटाळा,Aatala,,GEN ,BCC,SC ,,,13679
+Nanded,Dharmabad,आतकूर,Aatkur,SC,BCC,ST,GEN ,,,13680
+Nanded,Dharmabad,बाभळी ध.,Babhali Dh.,SC,SC,BCC ,ST,,,13681
+Nanded,Dharmabad,बाभुळगाव,Babhulgaon,SC,BCC,GEN ,GEN ,,,13682
+Nanded,Dharmabad,बाचेगाव,Bachegaon,BCC ,ST,GEN ,GEN ,,,13683
+Nanded,Dharmabad,बामणी थडी,Bamani Thadi,SC,BCC (W),GEN ,GEN ,,,13684
+Nanded,Dharmabad,बन्‍नाळी,Bannali,,ST (W),BCC ,SC (W),,,13685
+Nanded,Dharmabad,बेलगुजरी/ हारेगांव,Belgujari/Haregaon,BCC ,GEN ,ST ,SC,,,13686
+Nanded,Dharmabad,बेल्‍लूर (बु),Bellur (Bu.),BCC ,SC,ST,BCC ,,,13687
+Nanded,Dharmabad,बेल्‍लुर खु.,Bellur Kh.,,BCC (W),GEN ,SC (W),,,13688
+Nanded,Dharmabad,चिकना,chikna,SC ,SC,BCC ,GEN ,,,13689
+Nanded,Dharmabad,चिंचोली,Chincholi,BCC,SC (W),GEN ,GEN ,,,13690
+Nanded,Dharmabad,चोळाखा,cholakha,,GEN ,BCC,SC (W),,,13691
+Nanded,Dharmabad,चोंडी,Chondi,,BCC,SC,GEN ,,,13692
+Nanded,Dharmabad,धानोरा खुर्द,Dhanora Khurd,,BCC (W),GEN ,SC (W),,,13693
+Nanded,Dharmabad,दिग्रस,Digras,BCC,ST (W),SC,BCC ,,,13694
+Nanded,Dharmabad,हसनाळी,Hasnali,SC,GEN (W),GEN ,BCC ,,,13695
+Nanded,Dharmabad,जारीकोट,Jarikot,,GEN ,SC,ST (W),,,13696
+Nanded,Dharmabad,जुन्‍नी,Junni,SC,GEN (W),ST ,BCC (W),,,13697
+Nanded,Dharmabad,कारेगांव,Karegaon,BCC ,SC,GEN ,BCC (W),,,13698
+Nanded,Dharmabad,करखेली,Karkheli,,ST (W),BCC ,BCC (W),,,13699
+Nanded,Dharmabad,मंगनाळी,Mangnali,BCC,GEN ,ST,BCC (W),,,13700
+Nanded,Dharmabad,मनुर त. स.,Manur T.S.,,ST,BCC ,GEN ,,,13701
+Nanded,Dharmabad,माष्‍टी,Mashti,,SC,BCC ,GEN ,,,13702
+Nanded,Dharmabad,मोकळी/ क-हाळ,Mokali/Karhal,,BCC,GEN ,SC,,,13703
+Nanded,Dharmabad,नायगाव(ध),Naigaon (Dh),SC,BCC,GEN ,SC,,,13704
+Nanded,Dharmabad,पांगरी,Pangri,,BCC,SC,ST,,,13705
+Nanded,Dharmabad,पाटोदा(थडी),Patoda (Thadi),SC,GEN ,BCC,GEN ,,,13706
+Nanded,Dharmabad,पाटोदा बु.,Patoda Bk.,SC,ST,GEN ,BCC (W),,,13707
+Nanded,Dharmabad,पाटोदा खु.,Patoda Kh.,SC,GEN ,BCC ,ST (W),,,13708
+Nanded,Dharmabad,पिंपळगाव ध.,Pimpalgaon Dh.,,SC,BCC,ST,,,13709
+Nanded,Dharmabad,राजापुर,Rajapur,BCC,ST,SC,GEN ,,,13710
+Nanded,Dharmabad,रोषनगाव,Roshangaon,,GEN ,SC,BCC,,,13711
+Nanded,Dharmabad,सालेगाव ध.,Salegaon Dh.,,GEN ,BCC,SC,,,13712
+Nanded,Dharmabad,समराळा,Samrala,SC,SC,BCC ,GEN ,,,13713
+Nanded,Dharmabad,संगम,Sangam,BCC,SC (W),ST,BCC ,,,13714
+Nanded,Dharmabad,सायखेड,Saykhed,BCC,ST,SC,BCC (W),,,13715
+Nanded,Dharmabad,शेळगाव थडी,Shelgaon thadi,,SC,ST,BCC,,,13716
+Nanded,Dharmabad,सिरजखोड,Sirajkhod,,BCC (W),GEN ,GEN ,,,13717
+Nanded,Dharmabad,विळेगाव ध.,Vilegaon Dh.,BCC,ST,GEN ,GEN ,,,13718
+Nanded,Dharmabad,विळेगाव थडी,Vilegaon Thadi,SC,BCC,GEN,GEN ,,,13719
+Nanded,Dharmabad,येल्लापुर,Yellapur,BCC,GEN (W),,ST (W),,,13720
+Nanded,Dharmabad,येताळा,Yetala,,GEN ,BCC,ST,,,13721
+Nanded,Dharmabad,येवती,Yevati,SC ,BCC,SC,GEN ,,,13722
+Nanded,Ardhapur,चेनापूर,Chenapur,BCC,,,ST,,,14502
+Nanded,Ardhapur,चोरंबा नां /देशमुखवाडी/सायाळवाडी,Choramba Na /Deshmukhwadi /Sayalwadi,SC (W),ST (W),BCC (W),GEN,,,14503
+Nanded,Ardhapur,दाभड,Dabhad,,,BCC (W),SC,,,14508
+Nanded,Ardhapur,डौर,Daur,,SC,BCC,GEN (W),,,14509
+Nanded,Ardhapur,देगाव (कु),Degaon (Ku),BCC (W),,,BCC,,,14510
+Nanded,Ardhapur,देगांव बु.,Degaon Bu.,SC,,,BCC,,,14517
+Nanded,Ardhapur,देळूब बु.,Delub Bk.,SC (W),,BCC (W),GEN,,,14527
+Nanded,Ardhapur,देळुब खु.,Delub khu.,,,BCC,GEN (W),,,14528
+Nanded,Ardhapur,धामदरी,Dhamdari,,BCC (W),GEN (W),SC,,,14530
+Nanded,Ardhapur,दिग्रस/नांदला,Digras /Nandala,,SC,BCC,GEN (W),,,14531
+Nanded,Ardhapur,गणपूर ,Ganpur ,,,GEN (W),BCC ,,,14532
+Nanded,Ardhapur,जांभरून /कालदगांव,Jambharun /Kaladgaon,,,,SC (W),,,14533
+Nanded,Ardhapur,कामठा बु.,Kamtha Bu.,SC,BCC (W),,GEN (W),,,14539
+Nanded,Ardhapur,खैरगांव बु/खु.,Khairgaon Bu./Khu.,SC (W),BCC,GEN (W),GEN,,,14548
+Nanded,Ardhapur,खैरगांव म.,Khairgaon M.,BCC,,ST,BCC,,,14555
+Nanded,Ardhapur,कोंढा,Kondha,BCC,,,BCC,,,14556
+Nanded,Ardhapur,लहान,Lahan,,SC,BCC (W),GEN,,,14558
+Nanded,Ardhapur,लोणी बु.,Loni Bu.,BCC,,,GEN (W),,,14562
+Nanded,Ardhapur,लोणी खु.,Loni Khu.,,BCC,SC ,GEN (W),,,14574
+Nanded,Ardhapur,मालेगांव,Malegaon,SC,BCC (W),GEN (W),GEN,,,14575
+Nanded,Ardhapur,मेंढला (बु ),Mendhala (Bu),,,BCC (W),SC,,,14578
+Nanded,Ardhapur,मेंढला (खु ),Mendhala (khu ),,,BCC ,GEN(W),,,14585
+Nanded,Ardhapur,निमगाव,Nimgaon,,ST,BCC,GEN (W),,,14594
+Nanded,Ardhapur,पांगरी /कारवाडी,Pangari/Karwadi,ST,,BCC (W),GEN,,,14597
+Nanded,Ardhapur,पार्डी (म),Pardi (M),,BCC,GEN (W),SC,,,14598
+Nanded,Ardhapur,पाटनूर,Patnur,,,SC (W),ST (W),,,14601
+Nanded,Ardhapur,पिंपळगांव (म),Pimpalgaon (M),,BCC (W),,SC (W),,,14610
+Nanded,Ardhapur,रोडगी,Rodagi,,,,GEN (W),,,14611
+Nanded,Ardhapur,सांगवी खडकी,SANGVI khu/khadki,,,SC (W),BCC,,,14614
+Nanded,Ardhapur,सावरगांव,Savargaon,,,SC (W),BCC,,,14615
+Nanded,Ardhapur,शहापूर / अमरापुर / हमरापुर,Shahapur / Amrapur / Hamrapur,BCC (W),SC (W),GEN (W),BCC ,,,14628
+Nanded,Ardhapur,शेलगांव बु.,Shelgaon Bu.,BCC (W),,,GEN,,,14629
+Nanded,Ardhapur,शेलगाव खु.,Shelgaon khu.,,SC (W),BCC,GEN (W),,,14630
+Nanded,Ardhapur,शेणी,Sheni,BCC,BCC,SC,GEN (W),,,14631
+Nanded,Ardhapur,सोनाळा,Sonala,,ST (W),BCC (W),GEN,,,14635
+Nanded,Ardhapur,उमरी,Umri,BCC,,,SC (W),,,14640
+Nanded,Ardhapur,येळेगांव,Yelegaon,BCC,,SC (W),BCC,,,14645
+Palghar,Dahanu,अभ्राम धुमकेत,Abhram-Dhumket,,ST WOMEN,ST,,,,17312
+Palghar,Dahanu,आगवन,Agwan,,ST,ST WOMEN,ST ,,,17313
+Palghar,Dahanu,आंबेसरी,Ambesari,,ST WOMEN,ST,ST (W) ,,,17314
+Palghar,Dahanu,आंबोली,Amboli,,ST WOMEN,ST,ST (W) ,,,17315
+Palghar,Dahanu,आसनगाव,Asangaon,,ST,ST WOMEN,ST ,,,17316
+Palghar,Dahanu,आसवे,Asave,,ST,ST WOMEN,,,,17317
+Palghar,Dahanu,आशागड,Ashagad,,ST,ST WOMEN,ST ,,,17318
+Palghar,Dahanu,अस्वाली,Aswali,,ST,ST WOMEN,ST ,,,17319
+Palghar,Dahanu,बडे पोखरण,Bade Pokharan,,ST,ST WOMEN,,,,17320
+Palghar,Dahanu,बहारे,Bahare,,ST WOMEN,ST,ST (W) ,,,17321
+Palghar,Dahanu,बापुगांव,Bapugaon,,ST,ST WOMEN,ST ,,,17322
+Palghar,Dahanu,बावडे,Bavade,,ST,ST WOMEN,ST ,,,17323
+Palghar,Dahanu,बोर्डी,Bordi,,ST,ST WOMEN,ST ,,,17324
+Palghar,Dahanu,चळणी,Chalani,,ST WOMEN,ST,ST (W) ,,,17325
+Palghar,Dahanu,चंडीगाव,Chandigaon,,ST,ST WOMEN,,,,17326
+Palghar,Dahanu,चरी कोटबी,CHARI KOTBI,,ST WOMEN,ST,ST (W) ,,,17327
+Palghar,Dahanu,चारोटी,Charoti,,ST WOMEN,ST,ST (W) ,,,17328
+Palghar,Dahanu,चिखले,Chikhale,,ST,ST WOMEN,ST ,,,17329
+Palghar,Dahanu,चिंबावे,Chimbave,,ST WOMEN,ST,ST (W) ,,,17330
+Palghar,Dahanu,चिंचले,Chinchale,,ST WOMEN,ST,ST (W) ,,,17331
+Palghar,Dahanu,चिंचणी,Chinchani,,ST WOMEN,ST,ST (W) ,,,17332
+Palghar,Dahanu,दाभाडी,Dabhadi,,ST WOMEN,ST,ST (W) ,,,17333
+Palghar,Dahanu,दाभले,Dabhale,,ST,ST WOMEN,ST ,,,17334
+Palghar,Dahanu,दाभोण,Dabhon,,ST WOMEN,ST,ST (W) ,,,17335
+Palghar,Dahanu,दह्याळे,Dahyale,,ST,ST WOMEN,ST ,,,17336
+Palghar,Dahanu,दापचरी,Dapchari,,ST WOMEN,ST,ST (W) ,,,17337
+Palghar,Dahanu,डेहणे-पळे,Dehane-Pale,,ST,ST WOMEN,ST ,,,17338
+Palghar,Dahanu,धाकटी-डहाणु,Dhakti-Dahanu,,ST WOMEN,ST,,,,17339
+Palghar,Dahanu,धामणगांव,Dhamangaon,,ST,ST WOMEN,ST ,,,17340
+Palghar,Dahanu,धानिवरी,Dhanivari,,ST,ST WOMEN,ST ,,,17341
+Palghar,Dahanu,धरमपूर,Dharampur,,ST,ST WOMEN,ST ,,,17342
+Palghar,Dahanu,धुंदलवाडी,Dhundalwadi,,ST WOMEN,ST,ST (W) ,,,17343
+Palghar,Dahanu,दिवशी,Diwashi,,ST,ST WOMEN,ST ,,,17344
+Palghar,Dahanu,गांगणगाव,Gangangaon,,ST WOMEN,ST,ST (W) ,,,17345
+Palghar,Dahanu,गंजाड,GANJAD,,ST,ST WOMEN,ST ,,,17346
+Palghar,Dahanu,घोलवड,Gholwad,,ST,ST WOMEN,ST ,,,17347
+Palghar,Dahanu,गोवणे,Govane,,ST WOMEN,ST,ST (W) ,,,17348
+Palghar,Dahanu,गुंगवाडा,Gungwada,,ST WOMEN,ST,,,,17349
+Palghar,Dahanu,हळदपाडा,Haladpada,,ST,ST WOMEN,ST ,,,17350
+Palghar,Dahanu,जांबुगांव,Jambugaon,,ST WOMEN,ST,ST (W) ,,,17351
+Palghar,Dahanu,जामशेत,Jamshet,,ST,ST WOMEN,ST ,,,17352
+Palghar,Dahanu,कैनाड,Kainad,,ST WOMEN,ST,ST (W) ,,,17353
+Palghar,Dahanu,कंक्राडी-नंदारे,Kankradi-Nandare,,ST WOMEN,ST,ST (W) ,,,17354
+Palghar,Dahanu,कापशी,Kapshi,,ST WOMEN,ST,ST (W) ,,,17355
+Palghar,Dahanu,कासा,Kasa,,ST WOMEN,ST,ST (W) ,,,17356
+Palghar,Dahanu,किन्हवली,Kinhawali,,ST WOMEN,ST,ST (W) ,,,17357
+Palghar,Dahanu,कोलवली-देदाळे,Kolavali-Dedale,,ST WOMEN,ST,ST (W) ,,,17358
+Palghar,Dahanu,मोडगाव,Modgaon,,ST WOMEN,ST,ST (W) ,,,17359
+Palghar,Dahanu,मुरबाड,Murbad,,ST,ST WOMEN,ST ,,,17360
+Palghar,Dahanu,नागझरी,Nagzari,,ST WOMEN,ST,ST (W) ,,,17361
+Palghar,Dahanu,नरपड,Narpad,,ST WOMEN,ST,ST (W) ,,,17362
+Palghar,Dahanu,निकणे,Nikane,,ST WOMEN,ST,ST (W) ,,,17363
+Palghar,Dahanu,निंबापूर,Nimbapur,,ST,ST WOMEN,ST ,,,17364
+Palghar,Dahanu,ओसरविरा,Osarvira,,ST WOMEN,ST WOMEN,ST ,,,17365
+Palghar,Dahanu,पोखरण,Pokharan,,ST WOMEN,ST,,,,17366
+Palghar,Dahanu,राई,Rai,,ST,ST WOMEN,ST ,,,17367
+Palghar,Dahanu,रायपूर,Raipur,,ST,ST WOMEN,ST ,,,17368
+Palghar,Dahanu,रायतळी,Raitali,,ST,ST WOMEN,ST ,,,17369
+Palghar,Dahanu,रामपूर,Rampur,,ST,ST WOMEN,ST ,,,17370
+Palghar,Dahanu,रणकोळ,Rankol,,ST WOMEN,ST,ST (W) ,,,17371
+Palghar,Dahanu,रानशेत,Ranshet,,ST,ST WOMEN,ST (W) ,,,17372
+Palghar,Dahanu,सायवन,Saiwan,,ST,ST WOMEN,ST ,,,17373
+Palghar,Dahanu,साखरे,Sakhare,,ST WOMEN,ST,ST (W) ,,,17374
+Palghar,Dahanu,सारणी,Sarani,,ST WOMEN,ST,ST (W) ,,,17375
+Palghar,Dahanu,सरावली,SARAVALI,,ST,ST WOMEN,ST ,,,17376
+Palghar,Dahanu,सासवंद,SASWAND,,ST,ST WOMEN,ST ,,,17377
+Palghar,Dahanu,सावटा,Sawata,,ST,ST WOMEN,ST ,,,17378
+Palghar,Dahanu,शेणसरी,Shensari,,ST WOMEN,ST,ST (W) ,,,17379
+Palghar,Dahanu,शिलोंडा,Shilonda,,ST,ST WOMEN,ST ,,,17380
+Palghar,Dahanu,शिसणे,Shisane,,ST WOMEN,ST,ST (W) ,,,17381
+Palghar,Dahanu,सोगवे,Sogave,,ST WOMEN,ST,ST (W) ,,,17382
+Palghar,Dahanu,तडीयाळे,Tadiyale,,ST,ST WOMEN,,,,17383
+Palghar,Dahanu,तणाशी,Tanashi,,ST WOMEN,ST,ST (W) ,,,17384
+Palghar,Dahanu,तवा,Tawa,,ST,ST WOMEN,ST ,,,17385
+Palghar,Dahanu,उर्से,Urse,,ST,ST WOMEN,ST ,,,17386
+Palghar,Dahanu,वाढवण,Vadhavan,,ST WOMEN,ST,ST (W) ,,,17387
+Palghar,Dahanu,वणई- चंद्रनगर,Vanai-Chandranagar,,ST WOMEN,ST,ST (W) ,,,17388
+Palghar,Dahanu,वाणगांव,Vangaon,,ST WOMEN,ST,ST (W) ,,,17389
+Palghar,Dahanu,वंकास,Vankas,,ST WOMEN,ST,ST (W) ,,,17390
+Palghar,Dahanu,वरोर,Varor,,ST,ST WOMEN,ST ,,,17391
+Palghar,Dahanu,वासगाव,Vasgaon,,ST,ST WOMEN,ST ,,,17392
+Palghar,Dahanu,वेती वरोती,Veti-Varoti,,ST WOMEN,ST,ST (W) ,,,17393
+Palghar,Dahanu,विवळवेढे,Vivalvedhe,,ST,ST WOMEN,ST ,,,17394
+Palghar,Dahanu,वाघाडी,Waghadi,,ST,ST WOMEN,ST ,,,17395
+Palghar,Dahanu,वाकी,Waki,,ST,ST WOMEN,ST ,,,17396
+Palghar,Jawhar,एैना,Aaina,,ST WOMEN,ST,ST (W) ,,,17397
+Palghar,Jawhar,आपटाळे,Aaptale,,,ST WOMEN,ST ,,,17398
+Palghar,Jawhar,आयरे,Aayre,,,ST WOMEN,ST ,,,17399
+Palghar,Jawhar,आकरे,Akare,,,ST WOMEN,ST ,,,17400
+Palghar,Jawhar,भुरीटेक,Bhuritek,,,ST WOMEN,ST ,,,17401
+Palghar,Jawhar,बोराळे,Borale,,,ST  ,ST (W) ,,,17402
+Palghar,Jawhar,चांभारशेत,Chambharshet,,ST WOMEN,ST,ST (W) ,,,17403
+Palghar,Jawhar,चौक,Chauk,,,ST  ,ST (W) ,,,17404
+Palghar,Jawhar,दाभेरी,Dabheri,,ST WOMEN,ST,ST (W) ,,,17405
+Palghar,Jawhar,दाभलोन,Dabhlon,,,ST WOMEN,ST ,,,17406
+Palghar,Jawhar,दाभोसा,Dabhosa,,,ST  ,ST (W) ,,,17407
+Palghar,Jawhar,दसकोड,Daskod,,,ST WOMEN,ST ,,,17408
+Palghar,Jawhar,देहरे,Dehare,,,ST WOMEN,ST ,,,17409
+Palghar,Jawhar,डेंगाचीमेट,Dengachimet,,,ST WOMEN,ST ,,,17410
+Palghar,Jawhar,ढाढरी,Dhadhari,,,ST WOMEN,ST ,,,17411
+Palghar,Jawhar,धानोशी,Dhanoshi,,,ST WOMEN,ST ,,,17412
+Palghar,Jawhar,घिवंडा,Ghivanda,,ST WOMEN,ST,ST (W) ,,,17413
+Palghar,Jawhar,गोरठन,Gorthan,,ST WOMEN,ST,ST (W) ,,,17414
+Palghar,Jawhar,हातेरी,Hateri,,,ST WOMEN,ST ,,,17415
+Palghar,Jawhar,हिरडपाडा,Hiradpada,,ST WOMEN,ST,ST (W) ,,,17416
+Palghar,Jawhar,जुनी जव्हार,Juni Jawhar,,,ST WOMEN,ST ,,,17417
+Palghar,Jawhar,कासटवाडी,Kasatwadi,,,ST WOMEN,ST ,,,17418
+Palghar,Jawhar,कौलाळे,Kaulale,,,ST  ,ST (W) ,,,17419
+Palghar,Jawhar,कायरी,Kayari,,,ST  ,ST (W) ,,,17420
+Palghar,Jawhar,केळघर,Kelghar,,,ST WOMEN,ST ,,,17421
+Palghar,Jawhar,खडखड,Khadkhad,,ST WOMEN,ST,ST (W) ,,,17422
+Palghar,Jawhar,किरमिरा,Kirmira,,,ST  ,ST (W) ,,,17423
+Palghar,Jawhar,कोगदा,Kogada,,ST WOMEN,ST,ST (W) ,,,17424
+Palghar,Jawhar,कोरतड,Kortad,,,ST WOMEN,ST ,,,17425
+Palghar,Jawhar,नांदगाव,Nandgaon,,,ST WOMEN,ST ,,,17426
+Palghar,Jawhar,न्याहाळे बु.,Nyahale Bk.,,ST WOMEN,ST,ST (W) ,,,17427
+Palghar,Jawhar,न्याहाळे खु.,Nyahale Kh.,,ST WOMEN,ST,ST (W) ,,,17428
+Palghar,Jawhar,ओझर,Ozar,,,ST WOMEN,ST ,,,17429
+Palghar,Jawhar,पाथर्डी,Pathardi,,,ST WOMEN,ST ,,,17430
+Palghar,Jawhar,पिंपळशेत,Pimpalshet,,,ST WOMEN,ST ,,,17431
+Palghar,Jawhar,रायतळे,Raytale,,ST WOMEN,ST,ST (W) ,,,17432
+Palghar,Jawhar,रुईघर,Ruighar,,,ST  ,ST (W) ,,,17433
+Palghar,Jawhar,साखरशेत,Sakharshet,,ST WOMEN,ST,ST (W) ,,,17434
+Palghar,Jawhar,साकुर,Sakur,,ST WOMEN,ST,ST (W) ,,,17435
+Palghar,Jawhar,सारसून,Sarsun,,,ST WOMEN,ST ,,,17436
+Palghar,Jawhar,शिरोशी,Shiroshi,,,ST  ,ST (W) ,,,17437
+Palghar,Jawhar,तलासरी,Talasari,,,ST WOMEN,ST ,,,17438
+Palghar,Jawhar,,Tilonda,,ST WOMEN,ST,ST (W) ,,,17439
+Palghar,Jawhar,वाळवंडा,Valwanda,,,ST WOMEN,ST ,,,17440
+Palghar,Jawhar,वावर,Vavar,,,ST WOMEN,ST ,,,17441
+Palghar,Jawhar,विनवल,Vinval,,ST WOMEN,ST,ST (W) ,,,17442
+Palghar,Jawhar,वडोली,Wadoli,,ST WOMEN,ST,ST (W) ,,,17443
+Palghar,Jawhar,झाप,Zap,,,ST WOMEN,ST ,,,17444
+Palghar,Mokhada,आडोशी,Adoshi,,ST ,,ST ,,,17445
+Palghar,Mokhada,आसे,Ase,,ST ,,ST ,,,17446
+Palghar,Mokhada,बेरीस्ते,Beriste,,ST ,,ST ,,,17447
+Palghar,Mokhada,बोटोशी,Botoshi,,ST WOMEN ,,ST (W) ,,,17448
+Palghar,Mokhada,चास,Chas,,ST WOMEN ,,ST (W) ,,,17449
+Palghar,Mokhada,दांडवळ,Dandwal,,ST,,ST ,,,17450
+Palghar,Mokhada,धामणशेत,Dhamanshet,,ST,,ST ,,,17451
+Palghar,Mokhada,डोल्हारा,Dolhara,,ST WOMEN ,,ST (W) ,,,17452
+Palghar,Mokhada,गोमघर,Gomghar,,ST WOMEN,,ST (W) ,,,17453
+Palghar,Mokhada,हिरवे,Hirve,,ST ,,ST ,,,17454
+Palghar,Mokhada,कारेगांव,Karegaon,,ST ,,ST ,,,17455
+Palghar,Mokhada,करोळ,Karol,,ST ,,ST ,,,17456
+Palghar,Mokhada,काष्टी,Kashti,,ST WOMEN ,,ST (W) ,,,17457
+Palghar,Mokhada,खोच,Khoch,,ST WOMEN ,,ST (W) ,,,17458
+Palghar,Mokhada,खोडाळा,Khodala,,ST WOMEN ,,ST (W) ,,,17459
+Palghar,Mokhada,किनीस्ते,Kiniste,,ST ,,ST ,,,17460
+Palghar,Mokhada,कुर्लोद,Kurlod,,ST WOMEN ,,ST (W) ,,,17461
+Palghar,Mokhada,मोऱ्हांडा,Morhanda,,ST ,,ST ,,,17462
+Palghar,Mokhada,नाशेरा,Nashera,,ST WOMEN ,,,,,17463
+Palghar,Mokhada,पोशेरा,Poshera,,ST,,ST ,,,17464
+Palghar,Mokhada,साखरी,Sakhari,,ST,,ST ,,,17465
+Palghar,Mokhada,सातुर्ली,Saturli,,ST WOMEN ,,ST (W) ,,,17466
+Palghar,Mokhada,सायदे,Sayade,,ST WOMEN ,,ST (W) ,,,17467
+Palghar,Mokhada,शिवली,Shivali,,ST WOMEN ,,ST (W) ,,,17468
+Palghar,Mokhada,सुर्यमाळ,Suryamal,,ST WOMEN ,,ST (W) ,,,17469
+Palghar,Mokhada,उधळे,UDHALE,,ST WOMEN ,,ST (W) ,,,17470
+Palghar,Mokhada,वाशाळा,Washala,,ST,,ST ,,,17471
+Palghar,Palghar,आलेवाडी,Aalewadi,,BCC,GEN WOMEN,GEN ,,,17472
+Palghar,Palghar,आवढाणी,Aavdhani,,ST WOMEN,ST,ST (W) ,,,17473
+Palghar,Palghar,आगरवाडी,Agarwadi,,,GEN WOMEN,GEN ,,,17474
+Palghar,Palghar,अक्करपटटी,Akkarpatti,,ST WOMEN,ST,ST (W) ,,,17475
+Palghar,Palghar,बहाडोली,Bahadoli,,ST WOMEN,ST,ST (W) ,,,17476
+Palghar,Palghar,बऱ्हाणपूर,Barhanpur,,ST WOMEN,ST,ST (W) ,,,17477
+Palghar,Palghar,बेटेगांव,Betegaon,,ST WOMEN,ST,ST (W) ,,,17478
+Palghar,Palghar,भादवे मधुकरनगर,Bhadave Madhukarnagar,,,GENERAL,GEN (W) ,,,17479
+Palghar,Palghar,बिरवाडी,Birwadi,,ST,ST WOMEN ,ST ,,,17480
+Palghar,Palghar,बोईसर,Boisar,,ST,ST WOMEN ,ST ,,,17481
+Palghar,Palghar,बोरशेती,Borsheti,,ST,ST WOMEN ,ST ,,,17482
+Palghar,Palghar,चहाडे,Chahade,,ST,ST WOMEN ,ST ,,,17483
+Palghar,Palghar,चटाळे,Chatale,,,GENERAL,SC (W) ,,,17484
+Palghar,Palghar,चिंचारे,Chinchare,,ST WOMEN,ST,ST (W) ,,,17485
+Palghar,Palghar,दहिसर तर्फे मनोर,Dahisar Tarf Manor,,ST WOMEN,ST,ST (W) ,,,17486
+Palghar,Palghar,दहिसर तर्फे तारापूर,Dahisar Tarf Tarapur,,ST WOMEN,ST,ST (W) ,,,17487
+Palghar,Palghar,दांडा-खटाळी,Danda Khatali,,,GEN WOMEN,BCC (W) ,,,17488
+Palghar,Palghar,दांडी,Dandi,,ST,ST WOMEN ,ST ,,,17489
+Palghar,Palghar,दापोली,Dapoli,,BCC,GEN WOMEN,BCC ,,,17490
+Palghar,Palghar,दारशेत,Darshet,,ST WOMEN,ST,ST (W) ,,,17491
+Palghar,Palghar,दातिवरे,Datiware,,,BCC WOMEN,GEN ,,,17492
+Palghar,Palghar,धनसार,Dhansar,,BCC,GENERAL,BCC (W) ,,,17493
+Palghar,Palghar,धुकटन,Dhuktan,,ST WOMEN,ST,ST (W) ,,,17494
+Palghar,Palghar,डोंगरे,Dongare,,BCC,GENERAL,GEN (W) ,,,17495
+Palghar,Palghar,दुर्वेस,Durves,,ST,ST WOMEN ,ST ,,,17496
+Palghar,Palghar,एडवण,Edwan,,,GEN WOMEN,BCC ,,,17497
+Palghar,Palghar,गांजे ढेकाळे,Ganje-Dhekale,,ST,ST WOMEN ,ST ,,,17498
+Palghar,Palghar,घिवली,Ghivali,,ST,ST WOMEN ,ST ,,,17499
+Palghar,Palghar,गिराळे,Girale,,ST WOMEN,ST,ST (W) ,,,17500
+Palghar,Palghar,गिरनोली,Girnoli,,ST WOMEN,ST,ST (W) ,,,17501
+Palghar,Palghar,गोवाडे,Gowade,,ST WOMEN,ST,ST (W) ,,,17502
+Palghar,Palghar,गुंदले,Gundale,,ST,ST WOMEN ,ST ,,,17503
+Palghar,Palghar,हलोली बोट,Haloli Bot,,ST,ST WOMEN ,ST ,,,17504
+Palghar,Palghar,हनुमाननगर,Hanumannagar,,ST WOMEN,ST,ST (W) ,,,17505
+Palghar,Palghar,जलसार,Jalsar,,,BCC,GEN (W) ,,,17506
+Palghar,Palghar,जायशेत,Jayshet,,ST WOMEN,ST,ST (W) ,,,17507
+Palghar,Palghar,कमारे,Kamare,,ST WOMEN,ST,ST (W) ,,,17508
+Palghar,Palghar,कांद्रेभुरे,Kandrebhure,,BCC,GENERAL,GEN (W) ,,,17509
+Palghar,Palghar,कपासे,Kapase,,ST,ST WOMEN ,ST ,,,17510
+Palghar,Palghar,करळगाव,Karalgaon,,ST WOMEN,ST,ST (W) ,,,17511
+Palghar,Palghar,कर्दळ,Kardal,,ST,ST WOMEN ,GEN ,,,17512
+Palghar,Palghar,करवाळे,Karvale,,ST,ST WOMEN ,ST ,,,17513
+Palghar,Palghar,काटाळे,Katale,,ST,ST WOMEN ,ST ,,,17514
+Palghar,Palghar,केळवे,Kelwe,,,BCC WOMEN,GEN ,,,17515
+Palghar,Palghar,खडकोली-वसरे,Khadkoli-Wasare,,ST WOMEN,ST,ST (W) ,,,17516
+Palghar,Palghar,खैरेग्रुप,Khaire Group,,ST WOMEN,ST,ST (W) ,,,17517
+Palghar,Palghar,खैरेपाडा,Khairepada,,,GENERAL WOMEN,BCC ,,,17518
+Palghar,Palghar,खामलोली,Khamloli,,ST,ST WOMEN ,ST ,,,17519
+Palghar,Palghar,खानिवडे-गारगांव,Khanivade-Gargaon,,ST,ST WOMEN ,ST ,,,17520
+Palghar,Palghar,खार्डी,Khardi,,,GENERAL,GEN (W) ,,,17521
+Palghar,Palghar,खारेकुरण,Kharekuran,,,GEN WOMEN,BCC ,,,17522
+Palghar,Palghar,किराट,Kirat,,ST WOMEN,ST,ST (W) ,,,17523
+Palghar,Palghar,कोकणेर,Kokner,,ST WOMEN,ST,ST (W) ,,,17524
+Palghar,Palghar,कोळगाव,Kolgaon,,,BCC WOMEN,GEN ,,,17525
+Palghar,Palghar,कोलवडे,Kolwade,,BCC,GEN WOMEN,BCC ,,,17526
+Palghar,Palghar,कोंढाण,Kondhan,,ST WOMEN,ST,ST (W) ,,,17527
+Palghar,Palghar,कोरे,Kore,,,GEN WOMEN,GEN ,,,17528
+Palghar,Palghar,कोसबाड,Kosbad,,ST WOMEN,ST,ST (W) ,,,17529
+Palghar,Palghar,कुडण,Kudan,,ST,ST WOMEN ,ST ,,,17530
+Palghar,Palghar,कुंभवली,Kumbhavali,,,BCC WOMEN,GEN ,,,17531
+Palghar,Palghar,कुरगांव,Kurgaon,,ST,ST WOMEN ,ST ,,,17532
+Palghar,Palghar,लालोंडे,Lalonde,,ST,ST WOMEN ,ST ,,,17533
+Palghar,Palghar,लालठाणे,Lalthane,,ST WOMEN,ST,ST (W) ,,,17534
+Palghar,Palghar,लोवरे,Lowre,,ST,ST WOMEN ,ST ,,,17535
+Palghar,Palghar,महागांव,Mahagaon,,ST WOMEN,ST,ST (W) ,,,17536
+Palghar,Palghar,माहीम,Mahim,,,ST,BCC (W) ,,,17537
+Palghar,Palghar,माकणे,Makne,,ST,ST WOMEN ,ST ,,,17538
+Palghar,Palghar,माकुणसार,Makunsar,,,GENERAL,GEN (W) ,,,17539
+Palghar,Palghar,मान,Man,,ST WOMEN,ST,ST (W) ,,,17540
+Palghar,Palghar,मांडे,Mande,,BCC,GEN WOMEN,GEN ,,,17541
+Palghar,Palghar,मनोर,Manor,,ST,ST WOMEN ,ST ,,,17542
+Palghar,Palghar,मासवण,Maswan,,ST WOMEN,ST,ST (W) ,,,17543
+Palghar,Palghar,मथाणे,Mathane,,BCC,GENERAL,BCC (W) ,,,17544
+Palghar,Palghar,मेढवण,Medhwan,,,,ST ,,,17545
+Palghar,Palghar,मोरेकुरण,Morekuran,,,BCC WOMEN,GEN ,,,17546
+Palghar,Palghar,मुरबे,Murbe,,,GENERAL,BCC (W) ,,,17547
+Palghar,Palghar,मायखोप,Mykhop,,,GENERAL,GEN ,,,17548
+Palghar,Palghar,नगावे,Nagave,,,BCC,GEN (W) ,,,17549
+Palghar,Palghar,नागझरी,Nagzari,,ST WOMEN,ST,ST (W) ,,,17550
+Palghar,Palghar,नांदगाव तर्फे मनोर,Nandgaon T. Manor,,ST WOMEN,ST,ST (W) ,,,17551
+Palghar,Palghar,नांदगाव तर्फे तारापूर,Nandgaon Tarfe Tarapur,,,GEN WOMEN,BCC ,,,17552
+Palghar,Palghar,नंडोरे देवखोप,Nandore Deokhop,,ST WOMEN,ST,ST (W) ,,,17553
+Palghar,Palghar,नानिवली,Nanivali,,ST WOMEN,ST,ST (W) ,,,17554
+Palghar,Palghar,नवापूर,Navapur,,,GENERAL,GEN (W) ,,,17555
+Palghar,Palghar,नावझे,Navaze,,ST,ST WOMEN ,ST ,,,17556
+Palghar,Palghar,नवघर घाटीम,Navghar Ghatim,,ST,ST WOMEN ,ST ,,,17557
+Palghar,Palghar,नवी दापचेरी,Navi Dapcheri,,ST,ST WOMEN ,ST ,,,17558
+Palghar,Palghar,नवी देलवाडी,Navi Delwadi,,ST WOMEN,ST,ST (W) ,,,17559
+Palghar,Palghar,नेवाळे,Nevale,,ST,ST WOMEN ,ST ,,,17560
+Palghar,Palghar,निहे,Nihe,,ST,ST WOMEN ,ST ,,,17561
+Palghar,Palghar,पडघे,Padaghe,,ST,ST WOMEN ,ST ,,,17562
+Palghar,Palghar,पाम,Pam,,,BCC,GEN (W) ,,,17563
+Palghar,Palghar,पंचाळी,Panchali,,,GENERAL,GEN (W) ,,,17564
+Palghar,Palghar,पारगांव,Pargaon,,ST,ST WOMEN ,ST ,,,17565
+Palghar,Palghar,परनाळी,Parnali,,ST WOMEN,ST,ST (W) ,,,17566
+Palghar,Palghar,पास्थळ,Pasthal,,ST,ST WOMEN ,ST ,,,17567
+Palghar,Palghar,पथराळी,Pathrali,,ST WOMEN,ST,ST (W) ,,,17568
+Palghar,Palghar,पोचाडे,Pochade,,ST,ST WOMEN ,ST ,,,17569
+Palghar,Palghar,पोळे,Pole,,ST WOMEN,ST,ST (W) ,,,17570
+Palghar,Palghar,पोफरण,Popharan,,ST,ST WOMEN ,ST ,,,17571
+Palghar,Palghar,रावते,Ravate,,ST,ST WOMEN ,ST ,,,17572
+Palghar,Palghar,सागावे,Sagave,,ST,ST WOMEN ,ST ,,,17573
+Palghar,Palghar,साखरे,Sakhre,,ST WOMEN,ST,ST (W) ,,,17574
+Palghar,Palghar,सालवड,Salwad,,,GEN WOMEN,GEN ,,,17575
+Palghar,Palghar,सरावली,Sarawali,,,SC WOMEN,GEN ,,,17576
+Palghar,Palghar,सातीवली,Satiwali,,ST,ST WOMEN ,ST ,,,17577
+Palghar,Palghar,सातपाटी,Satpati,,,GENERAL,GEN (W) ,,,17578
+Palghar,Palghar,सावरे-ऐंबुर,Savre-Embur,,ST,ST WOMEN ,ST ,,,17579
+Palghar,Palghar,शेलवली,Shelavali,,ST WOMEN,ST,ST (W) ,,,17580
+Palghar,Palghar,शिगांव-खुताड,Shigaon-khutad,,ST WOMEN,ST,ST (W) ,,,17581
+Palghar,Palghar,शिल्टे,Shilte,,,BCC,GEN ,,,17582
+Palghar,Palghar,शिरगाव,Shirgaon,,BCC,GEN WOMEN,GEN ,,,17583
+Palghar,Palghar,सोनावे,Sonave,,ST,ST WOMEN ,ST ,,,17584
+Palghar,Palghar,तांदुळवाडी,Tandulwadi,,ST WOMEN,ST,ST (W) ,,,17585
+Palghar,Palghar,तारापूर,Tarapur,,ST WOMEN,ST,ST (W) ,,,17586
+Palghar,Palghar,टेंभी,Tembhi,,BCC,GENERAL,GEN (W) ,,,17587
+Palghar,Palghar,टेंभी खाडोवे,Tembhi-Khodave,,,GEN WOMEN,BCC (W) ,,,17588
+Palghar,Palghar,टेन,Ten,,ST,ST WOMEN ,ST ,,,17589
+Palghar,Palghar,तिघरे अंबोडे,Tighare Ambode,,,GEN WOMEN,GEN ,,,17590
+Palghar,Palghar,उच्छेळी,Uchchheli,,ST,ST WOMEN ,ST ,,,17591
+Palghar,Palghar,उंबरपाडा-सफाळे,Umberpada- Saphale,,,,ST (W) ,,,17592
+Palghar,Palghar,उमरोळी,Umroli,,,BCC WOMEN,GEN ,,,17593
+Palghar,Palghar,उनभाट,Unbhat,,ST,ST WOMEN ,ST ,,,17594
+Palghar,Palghar,उसरणी,Usarni,,BCC,GENERAL,GEN (W) ,,,17595
+Palghar,Palghar,वाडा खडकोना,Vada Khadkona,,ST,ST WOMEN ,ST ,,,17596
+Palghar,Palghar,वाढीव सरावली,Vadhiv Sarawali,,ST,ST WOMEN ,ST ,,,17597
+Palghar,Palghar,वसरोली-खारशेत,Vasroli-Kharshet,,ST WOMEN,ST,ST (W) ,,,17598
+Palghar,Palghar,वेढी मांजुर्ली,Vedhi Manjurli,,,GEN WOMEN,BCC ,,,17599
+Palghar,Palghar,वेंगणी,Vengani,,ST,ST WOMEN ,ST ,,,17600
+Palghar,Palghar,विळंगी,Vilangi,,,BCC,GEN (W) ,,,17601
+Palghar,Palghar,विराथन बुद्रुक,Virathan Bk.,,,BCC,GEN (W) ,,,17602
+Palghar,Palghar,विराथन खुर्द,Virathan Khurd,,,BCC WOMEN,GEN ,,,17603
+Palghar,Palghar,वाकसई,Waksai,,BCC,GENERAL,GEN (W) ,,,17604
+Palghar,Talasari,आमगाव अच्छाड,Aamgaon - Achhad,,,,ST ,,,17605
+Palghar,Talasari,डोंगारी,Dongari,,,,ST (W) ,,,17606
+Palghar,Talasari,घिमाणीया,Ghimaniya,,,,ST ,,,17607
+Palghar,Talasari,गिरगाव,Girgaon,,,,ST ,,,17608
+Palghar,Talasari,करजगाव,Karajgaon,,,,ST (W) ,,,17609
+Palghar,Talasari,कवाडा,Kawada,,,,ST (W) ,,,17610
+Palghar,Talasari,कोचाई-बोरमाळ,Kochai - Bormal,,,,ST (W) ,,,17611
+Palghar,Talasari,कोदाड,Kodad,,,,ST (W) ,,,17612
+Palghar,Talasari,कुर्झे,Kurze,,,,ST ,,,17613
+Palghar,Talasari,संभा,Sambha,,,,ST (W) ,,,17614
+Palghar,Talasari,सावरोली अणवीर,Sawroli-Anvir,,,,ST ,,,17615
+Palghar,Talasari,सुत्रकार,Sutrakar,,,,ST (W) ,,,17616
+Palghar,Talasari,उधवा,Udhawa,,,,ST (W) ,,,17617
+Palghar,Talasari,उपलाट,Uplat,,,,ST ,,,17618
+Palghar,Talasari,वडवली - सवणे,Vadavali-Savane,,,,ST ,,,17619
+Palghar,Talasari,वरवाडा,Varvada,,,,ST ,,,17620
+Palghar,Talasari,वसा,Vasa,,,,ST (W) ,,,17621
+Palghar,Talasari,वेवजी,Vevaji,,,,ST ,,,17622
+Palghar,Talasari,झाई-बोरीगांव,Zai-Borigaon,,,,ST ,,,17623
+Palghar,Talasari,झरी,ZARI,,,,ST (W) ,,,17624
+Palghar,Vasai,आडणे- भिनार,Adane-Bhinar,,ST WOMEN,ST,ST (W) ,,,17625
+Palghar,Vasai,अर्नाळा,Arnala,,,ST WOMEN,GEN (W) ,,,17626
+Palghar,Vasai,अर्नाळा किल्ला,Arnala Fort,,,GENERAL   ,ST ,,,17627
+Palghar,Vasai,भाताणे,Bhatane,,,ST WOMEN,ST ,,,17628
+Palghar,Vasai,चंद्रपाडा,Chandrapada,,,ST WOMEN,ST ,,,17629
+Palghar,Vasai,कळंब,Kalamb,,,BCC,ST (W) ,,,17630
+Palghar,Vasai,करंजोण,Karanjon,,ST WOMEN,ST,ST ,,,17631
+Palghar,Vasai,खैरपाडा-टोकरे,Khairpada- Tokare,,,ST WOMEN,,,,17632
+Palghar,Vasai,खानिवडे,Khaniwade,,,ST WOMEN,ST ,,,17633
+Palghar,Vasai,खार्डी-डोलीव,Khardi- Doliv,,,GENERAL WOMEN,GEN ,,,17634
+Palghar,Vasai,खोचिवडे,Khochivade,,,GENERAL   ,GEN (W) ,,,17635
+Palghar,Vasai,माजिवली-देपिवली,Majivali-Depivali,,ST WOMEN,ST,ST (W) ,,,17636
+Palghar,Vasai,मालजीपाडा,Maljipada,,,ST WOMEN,GEN (W) ,,,17637
+Palghar,Vasai,मेढे-वडघर,Medhe- Vadghar,,ST ,ST,ST (W) ,,,17638
+Palghar,Vasai,नागले,Nagale,,ST WOMEN,ST,ST (W) ,,,17639
+Palghar,Vasai,पाली,Pali,,,GENERAL WOMEN,,,,17640
+Palghar,Vasai,पाणजू,Panju,,,GENERAL   ,BCC ,,,17641
+Palghar,Vasai,पारोळ,Parol,,ST WOMEN,ST,ST (W) ,,,17642
+Palghar,Vasai,पेामण,Poman,,,ST WOMEN,ST ,,,17643
+Palghar,Vasai,रानगाव,Rangaon,,,BCC,GEN (W) ,,,17644
+Palghar,Vasai,सायवन,Saiwan,,ST WOMEN,ST,ST (W) ,,,17645
+Palghar,Vasai,सकवार,Sakvar,,,ST WOMEN,ST ,,,17646
+Palghar,Vasai,सत्पाळा,SATPALA,,,BCC,,,,17647
+Palghar,Vasai,शिरवली,Shirvali,,,ST WOMEN,ST ,,,17648
+Palghar,Vasai,शिवनसई,Shivansai,,ST WOMEN,ST,ST (W) ,,,17649
+Palghar,Vasai,तरखड-आक्टन,Tarkhad-Aktan,,,GENERAL   ,BCC (W) ,,,17650
+Palghar,Vasai,टेंभी-कोल्हापूर,Tembhi-Kolhapur,,,GENERAL WOMEN,GEN ,,,17651
+Palghar,Vasai,तिल्हेर,Tilher,,,ST WOMEN,ST ,,,17652
+Palghar,Vasai,टिवरी,Tivari,,,ST WOMEN,ST ,,,17653
+Palghar ,Vasai,टोकरे ,Tokare ,,,,ST ,,,17654
+Palghar,Vasai,उसगाव,Usgaon,,ST WOMEN,ST,ST (W) ,,,17655
+Palghar,Vasai,वासळई,Vasalai,,,GENERAL WOMEN,GEN ,,,17656
+Palghar,Vikramgad,आलोंडे,Alonde,,,ST   ,ST (W) ,,,17657
+Palghar,Vikramgad,आंबेघर तर्फे धरमपूर,Ambeghar T. Dharampur,,,ST WOMEN,ST ,,,17658
+Palghar,Vikramgad,बांधण,Bandhan,,,ST   ,ST (W) ,,,17659
+Palghar,Vikramgad,बोरांडा,Boranda,,,ST   ,ST (W) ,,,17660
+Palghar,Vikramgad,चाबके-तलावली,Chabke Talawali,,,ST   ,ST (W) ,,,17661
+Palghar,Vikramgad,चिेंचघर,Chinchghar,,,ST   ,ST (W) ,,,17662
+Palghar,Vikramgad,दादडे,Dadade,,,ST   ,ST (W) ,,,17663
+Palghar,Vikramgad,देहर्जे,Deharje,,,ST WOMEN,ST ,,,17664
+Palghar,Vikramgad,डोल्हारी बु.,Dolhari bu.,,,ST WOMEN,ST ,,,17665
+Palghar,Vikramgad,डोल्हारी खु.,Dolhari Khu.,,,ST WOMEN,ST ,,,17666
+Palghar,Vikramgad,घाणेघर/ भोपोली,Ghaneghar/ Bhopoli,,,ST WOMEN,ST ,,,17667
+Palghar,Vikramgad,इंदगाव,Indgaon,,,ST WOMEN,ST ,,,17668
+Palghar,Vikramgad,जांभे,Jambhe,,,ST WOMEN,ST ,,,17669
+Palghar,Vikramgad,कऱ्हे तलावली,Karhe-Talavali,,,ST WOMEN,ST ,,,17670
+Palghar,Vikramgad,करसुड/ घाणेाडे,Karsud/Ghanode,,,ST WOMEN,ST ,,,17671
+Palghar,Vikramgad,कासा बु.,Kasa Bk.,,,ST,ST (W) ,,,17672
+Palghar,Vikramgad,केगवा बालापूर,Kegava-Balapur,,,ST,ST (W) ,,,17673
+Palghar,Vikramgad,केव,Kev,,,ST WOMEN,ST ,,,17674
+Palghar,Vikramgad,खडकी /कुंज,Khadaki-Kunj,,,ST WOMEN,ST ,,,17675
+Palghar,Vikramgad,खोस्ते,Khoste,,,ST,ST (W) ,,,17676
+Palghar,Vikramgad,खुडेद,Khuded,,,ST WOMEN,,,,17677
+Palghar,Vikramgad,कोंडगाव /विलशेत,Kondgaon/Vilshet,,,ST,ST (W),,,17678
+Palghar,Vikramgad,कुंर्झे,Kunzre,,,ST,ST (W) ,,,17679
+Palghar,Vikramgad,मलवाडा,Malwada,,,ST,ST (W) ,,,17680
+Palghar,Vikramgad,म्हसरोली,Mhasroli,,,ST WOMEN,ST ,,,17681
+Palghar,Vikramgad,मोहो बु.,Moho Bu.,,,ST WOMEN,ST ,,,17682
+Palghar,Vikramgad,औंदे,Onde,,,ST WOMEN,ST ,,,17683
+Palghar,Vikramgad,साखरे,Sakhare,,,ST,ST (W) ,,,17684
+Palghar,Vikramgad,सारशी,Sarshi,,,ST WOMEN,ST ,,,17685
+Palghar,Vikramgad,सवादे,Sawade,,,ST WOMEN,ST ,,,17686
+Palghar,Vikramgad,सुकसाळे,Suksale,,,ST,ST (W) ,,,17687
+Palghar,Vikramgad,तलवाडा,Talwada,,,ST WOMEN,ST ,,,17688
+Palghar,Vikramgad,टेटवाली,Tetavali,,,ST,ST (W) ,,,17689
+Palghar,Vikramgad,उपराळे,Uparale,,,ST,ST (W) ,,,17690
+Palghar,Vikramgad,उटावली,Utavali,,,ST,ST (W) ,,,17691
+Palghar,Vikramgad,वसुरी,Vasuri,,,ST,ST (W) ,,,17692
+Palghar,Vikramgad,वेढे/चरी,Vedhe /Chari,,,ST,ST (W) ,,,17693
+Palghar,Vikramgad,,Vikramgad,,,ST WOMEN,,,,17694
+Palghar,Vikramgad,वेहेलपाडा,Wehelpada,,,ST WOMEN,ST ,,,17695
+Palghar,Wada,आबिटघर,Abitghar,,ST WOMEN,ST  ,ST (W) ,,,17696
+Palghar,Wada,आब्जे-वैतरणानगर,Abje-Vaitarnanagar,,ST WOMEN,ST  ,ST (W) ,,,17697
+Palghar,Wada,एनशेत,Ainsheet,,ST,ST WOMEN,ST ,,,17698
+Palghar,Wada,आखाडा,Akhada,,ST,ST WOMEN,ST ,,,17699
+Palghar,Wada,आलमान,Alman,,ST WOMEN,ST  ,ST (W) ,,,17700
+Palghar,Wada,अंभई,Ambhai,,ST WOMEN,ST  ,ST (W) ,,,17701
+Palghar,Wada,अंबिस्ते,Ambiste,,ST,ST WOMEN,ST ,,,17702
+Palghar,Wada,बालिवली,Balivali,,ST,ST WOMEN,ST ,,,17703
+Palghar,Wada,भावेघर,Bhaveghar,,ST WOMEN,ST  ,ST (W) ,,,17704
+Palghar,Wada,बिलावली,Bilavali,,ST,ST WOMEN,ST ,,,17705
+Palghar,Wada,बिलघर,Bilghar,,ST,ST WOMEN,ST ,,,17706
+Palghar,Wada,बिलोशी,Biloshi,,ST WOMEN,ST  ,ST (W) ,,,17707
+Palghar,Wada,ब्राम्हणगांव,Bramhangaon,,ST,ST WOMEN,ST ,,,17708
+Palghar,Wada,बुधावली-काटी,Budhavali-Kati,,ST,ST WOMEN,ST ,,,17709
+Palghar,Wada,चांबळे,Chamble,,ST WOMEN,ST  ,ST (W) ,,,17710
+Palghar,Wada,,Chikhale,,ST,ST WOMEN,ST ,,,17711
+Palghar,Wada,चिंचघर,Chinchghar,,ST WOMEN,ST  ,ST (W) ,,,17712
+Palghar,Wada,डाहे,Dahe,,ST WOMEN,ST  ,ST (W) ,,,17713
+Palghar,Wada,डाकिवली,Dakivali,,ST WOMEN,ST  ,ST (W) ,,,17714
+Palghar,Wada,देवळी,Devali,,ST,ST WOMEN,ST ,,,17715
+Palghar,Wada,देवघर,Devghar,,ST,ST WOMEN,ST ,,,17716
+Palghar,Wada,डोंगस्ते,Dongaste,,ST,ST WOMEN,ST ,,,17717
+Palghar,Wada,गालतरे,Galtare,,ST,ST WOMEN,ST ,,,17718
+Palghar,Wada,गांधरे,Gandhare,,ST,ST WOMEN,ST ,,,17719
+Palghar,Wada,गारगाव,Gargaon,,ST WOMEN,ST  ,ST (W) ,,,17720
+Palghar,Wada,गातेस,Gates,,ST WOMEN,ST  ,ST (W) ,,,17721
+Palghar,Wada,गौरापूर,Gaurapur,,ST WOMEN,ST  ,ST (W) ,,,17722
+Palghar,Wada,घोनसई,Ghonsai,,ST WOMEN,ST  ,ST (W) ,,,17723
+Palghar,Wada,गोराड,Gorad,,ST WOMEN,ST  ,ST (W) ,,,17724
+Palghar,Wada,गोऱ्हे,Gorhe,,ST WOMEN,ST  ,ST (W) ,,,17725
+Palghar,Wada,गुहीर,Guhir,,ST WOMEN,ST  ,ST (W) ,,,17726
+Palghar,Wada,गुंज,Gunj,,ST WOMEN,ST  ,ST (W) ,,,17727
+Palghar,Wada,हमरापूर,Hamrapur,,ST WOMEN,ST  ,ST (W) ,,,17728
+Palghar,Wada,हरोसाळे,Harosale,,ST,ST WOMEN,ST ,,,17729
+Palghar,Wada,जामघर,Jamghar,,ST,ST WOMEN,ST ,,,17730
+Palghar,Wada,कळंभे,Kalambhe,,ST,ST WOMEN,ST ,,,17731
+Palghar,Wada,कळमखांड,Kalamkhand,,ST WOMEN,ST  ,ST (W) ,,,17732
+Palghar,Wada,कांबारे,Kambare,,ST WOMEN,ST  ,ST (W) ,,,17733
+Palghar,Wada,कंचाड,Kanchad,,ST WOMEN,ST  ,ST (W) ,,,17734
+Palghar,Wada,कासघर,Kasghar,,ST,ST WOMEN,ST ,,,17735
+Palghar,Wada,केळठण,Kelthan,,ST,ST WOMEN,ST ,,,17736
+Palghar,Wada,खैरे-आंबिवली,Khaire Ambivali,,ST WOMEN,ST  ,ST (W) ,,,17737
+Palghar,Wada,खानिवली,Khanivali,,ST,ST WOMEN,ST ,,,17738
+Palghar,Wada,खरीवली,Kharivali,,ST WOMEN,ST  ,ST (W) ,,,17739
+Palghar,Wada,खुपरी,Khupari,,ST,ST WOMEN,ST ,,,17740
+Palghar,Wada,कोंढले,Kondhale,,ST,ST WOMEN,ST ,,,17741
+Palghar,Wada,कोने,KONE,,ST,ST WOMEN,ST ,,,17742
+Palghar,Wada,कोनसई,Konsai,,ST,ST WOMEN,ST ,,,17743
+Palghar,Wada,कुडूस,Kudus,,ST,ST WOMEN,ST ,,,17744
+Palghar,Wada,कुयलू,Kuyalu,,ST,ST WOMEN,ST ,,,17745
+Palghar,Wada,मांडा,Manda,,ST WOMEN,ST  ,ST (W) ,,,17746
+Palghar,Wada,मांडवा,Mandava,,ST,ST WOMEN,ST ,,,17747
+Palghar,Wada,मांगरूळ,Mangrul,,ST,ST WOMEN,ST ,,,17748
+Palghar,Wada,मानिवली,Manivali,,ST,ST WOMEN,ST ,,,17749
+Palghar,Wada,मोज,Moj,,ST WOMEN,ST  ,ST (W) ,,,17750
+Palghar,Wada,मुसारणे,Musarne,,ST WOMEN,ST  ,ST (W) ,,,17751
+Palghar,Wada,नांदणी,Nandani,,ST WOMEN,ST  ,ST (W) ,,,17752
+Palghar,Wada,नारे,Nare,,ST,ST WOMEN,ST ,,,17753
+Palghar,Wada,नेहरोली,Neharoli,,ST WOMEN,ST  ,ST (W) ,,,17754
+Palghar,Wada,निचोळे,Nichole,,ST WOMEN,ST  ,ST (W) ,,,17755
+Palghar,Wada,ओगदा,Ogada,,ST WOMEN,ST  ,ST (W) ,,,17756
+Palghar,Wada,पालसई,Palsai,,ST WOMEN,ST  ,ST (W) ,,,17757
+Palghar,Wada,परळी,Parali,,ST WOMEN,ST  ,ST (W) ,,,17758
+Palghar,Wada,पीक,Pik,,ST,ST WOMEN,ST ,,,17759
+Palghar,Wada,पिंपळास,Pimpalas,,ST,ST WOMEN,ST ,,,17760
+Palghar,Wada,पोशेरी,Posheri,,ST,ST WOMEN,ST ,,,17761
+Palghar,Wada,सांगे,Sange,,ST,ST WOMEN,ST ,,,17762
+Palghar,Wada,सापणे,Sapane,,ST WOMEN,ST  ,ST (W) ,,,17763
+Palghar,Wada,सापरोंडे,Sapronde,,ST WOMEN,ST  ,ST (W) ,,,17764
+Palghar,Wada,सरस ओहळ,Saras Ohol,,ST WOMEN,ST  ,ST (W) ,,,17765
+Palghar,Wada,सारशी,Sarshi,,ST,ST WOMEN,ST ,,,17766
+Palghar,Wada,शेले,Shele,,ST,ST WOMEN,ST ,,,17767
+Palghar,Wada,शेल्टे,Shelte,,ST WOMEN,ST  ,ST (W) ,,,17768
+Palghar,Wada,सोनाळे,Sonale,,ST WOMEN,ST  ,ST (W) ,,,17769
+Palghar,Wada,सोनशीव,Sonshiv,,ST,ST WOMEN,ST ,,,17770
+Palghar,Wada,सुपोंडे,Suponde,,ST,ST WOMEN,ST ,,,17771
+Palghar,Wada,तिळगाव,Tilgaon,,ST WOMEN,ST  ,ST (W) ,,,17772
+Palghar,Wada,तुसे,Tuse,,ST,ST WOMEN,ST ,,,17773
+Palghar,Wada,उचाट,Uchat,,ST WOMEN,ST  ,ST (W) ,,,17774
+Palghar,Wada,उज्जैनी,Ujjaini,,ST,ST WOMEN,ST ,,,17775
+Palghar,Wada,उसर,Usar,,ST,ST WOMEN,ST ,,,17776
+Palghar,Wada,वडलाई,Vadlai,,ST WOMEN,ST  ,ST (W) ,,,17777
+Palghar,Wada,वरले,Varale,,ST WOMEN,ST  ,ST (W) ,,,17778
+Palghar,Wada,वरसाळे,Varsale,,ST WOMEN,ST  ,ST (W) ,,,17779
+Palghar,Wada,वसुरी,Vasuri,,ST,ST WOMEN,ST ,,,17780
+Palghar,Wada,,Wada,,,ST (W),,,,17781
+Parbhani,Parbhani,आळंद,Aaland,,GEN,,BCC (W),,,17793
+Parbhani,Parbhani,आलापूर पांढरी,Aalapur Pandhari,,,GEN,BCC (W),,,17800
+Parbhani,Parbhani,आंबेटाकळी,Aambetakali,,BCC,GEN,GEN (W),,,17810
+Parbhani,Parbhani,आनंदवाडी,Aanandwadi,,GEN,BCC (W),GEN (W),,,17818
+Parbhani,Parbhani,आंगलगाव,Aangalgao,,BCC,GEN (W),GEN,,,17825
+Parbhani,Parbhani,आर्वी,Aarvi,,BCC (W),GEN,SC (W),,,17840
+Parbhani,Parbhani,अमडापूर,Amdapur,,GEN,GEN,BCC (W),,,17846
+Parbhani,Parbhani,आसोला,Asola,,BCC (W),GEN (W),GEN,,,17860
+Parbhani,Parbhani,बाभळी,Babhali,,GEN (W),GEN,BCC (W),,,17867
+Parbhani,Parbhani,बाभुळगाव,Babhulgaon,,BCC (W),GEN,GEN (W),,,17890
+Parbhani,Parbhani,बलसा खुर्द,Balsa khurd,,,GEN (W),GEN,,,17893
+Parbhani,Parbhani,भारस्‍वाडा,Bharaswada,,GEN,SC (W),BCC (W),,,17894
+Parbhani,Parbhani,भोगाव,Bhogaon,,GEN (W),,BCC,,,17907
+Parbhani,Parbhani,बोरवंड बु.,Borvand Bk.,,BCC (W),GEN,SC (W),,,17926
+Parbhani,Parbhani,बोरवंड खु.,Borvand Kh.,,BCC (W),SC (W),GEN (W),,,17927
+Parbhani,Parbhani,ब्राम्‍हणगाव,Brahmangaon,,GEN (W),BCC (W),GEN,,,17931
+Parbhani,Parbhani,ब्रम्‍हपुरी तर्फे पाथरी,Brahmapuri T. Pathari,,GEN,GEN (W),GEN,,,18005
+Parbhani,Parbhani,ब्रम्‍हपुरी तर्फे पेडगाव,Brahmapuri T. Pedgaon,,GEN (W),GEN,BCC (W),,,18013
+Parbhani,Parbhani,दैठणा,Daithana,,GEN,GEN,BCC,,,18028
+Parbhani,Parbhani,दामपुरी,Dampuri,,BCC,GEN (W),GEN,,,18032
+Parbhani,Parbhani,डफवाडी,Daphavadi,,GEN,GEN (W),BCC,,,18061
+Parbhani,Parbhani,देवठाणा,Devthana,,BCC,GEN,SC,,,18110
+Parbhani,Parbhani,धार,Dhar,,GEN,GEN (W),BCC,,,18153
+Parbhani,Parbhani,धारणगाव,Dharangaon,,GEN,BCC (W),GEN (W),,,18197
+Parbhani,Parbhani,धर्मापुरी,Dharmapuri,,BCC,GEN (W),SC,,,18276
+Parbhani,Parbhani,धसाडी,Dhasadi,,GEN,GEN (W),GEN,,,18282
+Parbhani,Parbhani,धोंडी ,Dhondi ,,GEN,GEN (W),GEN,,,18291
+Parbhani,Parbhani,डिग्रस,Digras,,GEN,GEN (W),GEN,,,18317
+Parbhani,Parbhani,दुर्डी,Durdi,,GEN (W),SC (W),BCC (W),,,18320
+Parbhani,Parbhani,एकरुखा,Ekrukha,,GEN (W),BCC (W),GEN,,,18325
+Parbhani,Parbhani,गोंविंदपूर,Govindpur,,SC,GEN (W),GEN,,,18326
+Parbhani,Parbhani,हिंगला,Hingla,,GEN,GEN,GEN (W),,,18347
+Parbhani,Parbhani,इंदेवाडी,Indewadi,,BCC (W),GEN (W),GEN,,,18361
+Parbhani,Parbhani,ईस्माइलपूर,Ismaipur,,GEN,GEN (W),BCC,,,18376
+Parbhani,Parbhani,ईठलापूर देशमुख,Ithlapur Deshmukh,,GEN,BCC (W),GEN (W),,,18394
+Parbhani,Parbhani,जलालपूर,Jalalpur,,GEN,BCC,GEN (W),,,18398
+Parbhani,Parbhani,जांब,Jamb,,GEN (W),BCC,GEN,,,18403
+Parbhani,Parbhani,जोडपरळी,Jodparli,,GEN,GEN,BCC (W),,,18406
+Parbhani,Parbhani,कैलासवाडी,Kailaswadi,,BCC,GEN (W),GEN,,,18412
+Parbhani,Parbhani,करडगाव,Karadgaon,,BCC,ST (W),GEN (W),,,18444
+Parbhani,Parbhani,कारेगाव,Karegaon,,GEN,BCC,GEN (W),,,18446
+Parbhani,Parbhani,काष्‍टगाव,Kashtagaon,,GEN,GEN (W),BCC,,,18449
+Parbhani,Parbhani,कौडगाव,Kaudgaon,,SC,BCC,GEN (W),,,18467
+Parbhani,Parbhani,किन्‍होळा,Kinhola,,BCC (W),GEN (W),GEN,,,18476
+Parbhani,Parbhani,कोटंबवाडी,Kotambwadi,,,BCC (W),GEN (W),,,18477
+Raigad,Khalapur,आपटी,Apati,,ST WOMEN ,SC WOMEN ,BCC women ,,,20004
+Raigad,Khalapur,आसरे,Asare,,,ST women ,BCC ,,,20005
+Raigad,Khalapur,आत्करगांव,Atkargaon,,general women ,BCC women ,ST women ,,,20006
+Raigad,Khalapur,बिडखुर्द,Bidkhurd,,general women ,BCC ,ST ,,,20007
+Raigad,Khalapur,बोरगांव खुर्द,Borgaon (Kh.),,general women ,General,General women ,,,20008
+Raigad,Khalapur,चांभार्ली,Chambharli,,General women ,ST women ,General ,,,20009
+Raigad,Khalapur,चौक,Chauk,,ST,BCC women ,General women ,,,20010
+Raigad,Khalapur,चावणी,Chavani,,general women ,ST ,General,,,20011
+Raigad,Khalapur,चिलठण,Chilthan,,general ,SC,BCC women ,,,20012
+Raigad,Khalapur,देवन्हावे,Devnhave,,general ,General,ST women ,,,20013
+Raigad,Khalapur,गोरठण बु,Gorthan Bk.,,BCC ,ST,General,,,20014
+Raigad,Khalapur,हाळ खुर्द,Hal kh.,,SC women ,ST women ,BCC ,,,20015
+Raigad,Khalapur,होनाड,Honad,,general ,General women ,General,,,20016
+Raigad,Khalapur,होराळे,Horale,,ST WOMEN ,General women ,BCC women ,,,20017
+Raigad,Khalapur,इसांबे,Isambe,,general ,General women ,ST,,,20018
+Raigad,Khalapur,जांभिवली,Jambhivali,,ST,General,General,,,20019
+Raigad,Khalapur,जांबरुंग,Jambrung,,BCC ,General,General women ,,,20020
+Raigad,Khalapur,कलोते मोकाशी,Kalote Mokashi,,general ,BCC ,General women ,,,20021
+Raigad,Khalapur,खानांव,Khanav,,general ,BCC women ,ST women ,,,20022
+Raigad,Khalapur,खरिवली,Kharivali,,general women ,BCC women ,ST women ,,,20023
+Raigad,Khalapur,कुंभिवली,Kumbhiwali,,BCC women ,General women ,ST women ,,,20024
+Raigad,Khalapur,लोधिवली,Lodhivali,,,ST ,BCC women ,,,20025
+Raigad,Khalapur,माडप,Madap,,BCC women ,General women ,General women ,,,20026
+Raigad,Khalapur,माजगांव,Majgaon,,ST women ,General,BCC women ,,,20027
+Raigad,Khalapur,माणकिवली,Mankiwali,,general women ,BCC ,ST,,,20028
+Raigad,Khalapur,नडोदे,Nadode,,ST ,BCC women ,SC women ,,,20029
+Raigad,Khalapur,नंदनपाडा,Nandanpada,,BCC women ,General women,ST ,,,20030
+Raigad,Khalapur,नारंगी,Narangi,,general ,General women ,BCC women ,,,20031
+Raigad,Khalapur,नावंढे,Navandhe,,general ,General women ,BCC ,,,20032
+Raigad,Khalapur,साजगांव,Sajgaon,,general women ,ST ,BCC ,,,20033
+Raigad,Khalapur,सावरोली,Saoroli,,ST women ,BCC women ,General,,,20034
+Raigad,Khalapur,शिरवली,Shiravali,,BCC ,General,General ,,,20035
+Raigad,Khalapur,तांबाटी,Tambati,,ST,General ,General,,,20036
+Raigad,Khalapur,टेंभरी,Tembhari,,ST women ,General,SC,,,20037
+Raigad,Khalapur,ठाणेन्हावे,Thanenhave,,ST,General,General women ,,,20038
+Raigad,Khalapur,तुपगांव,Tupgaon,,,ST women ,BCC ,,,20039
+Raigad,Khalapur,उंबरे,Umbare,,BCC women ,General women ,General,,,20040
+Raigad,Khalapur,वडगांव,Vadgaon,,BCC ,General women ,ST,,,20041
+Raigad,Khalapur,वडवळ,Vadval,,General ,ST,BCC ,,,20042
+Raigad,Khalapur,वरोसे,Varose,,general women ,BCC ,General women ,,,20043
+Raigad,Khalapur,वासांबे,Vasambe,,BCC ,ST women ,General women ,,,20044
+Raigad,Khalapur,वावंढळ,Vavandhal,,ST ,BCC ,General,,,20045
+Raigad,Khalapur,वावर्ले,Vavarle,,BCC women ,General women,General women ,,,20046
+Raigad,Khalapur,वावोशी,Vavoshi,,General ,BCC ,General women ,,,20047
+Raigad,Mahad,आचळोली,Aachloli,,,GENERAL,GEN(W),"2010-15 data not available with the concerned authorities, as the documents were damaged during the flood. ",,20048
+Raigad,Mahad,आढी,Aadhi,,,GENERAL,GEN(W),,,20049
+Raigad,Mahad,आदिस्ते,Aadiste,,,GEN WOMEN,GEN ,,,20050
+Raigad,Mahad,आकले ,Aakale ,,,GENERAL,GEN(W),,,20051
+Raigad,Mahad,आंबिवली बु.,Aambivali Bu.,,,GEN WOMEN,GEN,,,20052
+Raigad,Mahad,आंबावडे,Ambavade,,,BCC WOMEN,GEN,,,20053
+Raigad,Mahad,आंबेशिवथर,Ambeshivthar,,,GEN WOMEN,,,,20054
+Raigad,Mahad,आमशेत,Amshet,,,GEN WOMEN,,,,20055
+Raigad,Mahad,अप्पर तुडील,Appar Tudil,,,GENERAL,GEN(W),,,20056
+Raigad,Mahad,असनपेाई,ASANPOI,,,GENERAL,GEN(W),,,20057
+Raigad,Mahad,बारसगांव,Barasgaon,,,GEN WOMEN,GEN ,,,20058
+Raigad,Mahad,बावले,Bavale,,,GEN WOMEN,,,,20059
+Raigad,Mahad,भावे,Bhave,,,GEN WOMEN,,,,20060
+Raigad,Mahad,भेलोशी,BHELOSHI,,,BCC  ,GEN(W),,,20061
+Raigad,Mahad,भोमजाई,Bhomjai,,,GENERAL,GEN(W),,,20062
+Raigad,Mahad,बिजघर,Bijghar,,,GENERAL,,,,20063
+Raigad,Mahad,बिरवाडी,Birwadi,,,GEN WOMEN,GEN ,,,20064
+Raigad,Mahad,चांभारखिंड,Chambharkhind,,,BCC,GEN ,,,20065
+Raigad,Mahad,चांढवे बु.,Chandhave BK.,,,GEN WOMEN,,,,20066
+Raigad,Mahad,चांढवे खुर्द,CHANDHAVE KH.,,,BCC WOMEN,,,,20067
+Raigad,Mahad,चापगांव,Chapgaon,,,ST,,,,20068
+Raigad,Mahad,चिंभावे,Chimbhave,,,GEN WOMEN,GEN,,,20069
+Raigad,Mahad,चिंभावे मोहल्ला,Chimbhave Mohalla,,,BCC WOMEN,GEN(W),,,20070
+Raigad,Mahad,चोचिंदे,CHOCHINDE,,,GEN WOMEN,GEN ,,,20071
+Raigad,Mahad,दाभोळ,Dabhol,,,BCC WOMEN,GEN ,,,20072
+Raigad,Mahad,दादली,Dadali,,,GENERAL,,,,20073
+Raigad,Mahad,दहीवड ,Dahiwad ,,,ST,GEN ,,,20074
+Raigad,Mahad,दापोली,Dapoli,,,GENERAL,GEN(W),,,20075
+Raigad,Mahad,दासगांव,Dasgaon,,,BCC,GEN(W),,,20076
+Raigad,Mahad,धामणे,Dhamane,,,GEN WOMEN,,,,20077
+Raigad,Mahad,फाळकेवाडी,Falkewadi,,,GENERAL,,,,20078
+Raigad,Mahad,घावरेकोंड,Ghavrekond,,,GEN WOMEN,GEN ,,,20079
+Raigad,Mahad,घुरुपाचाकोंड,Ghurpachakond,,,GENERAL,,,,20080
+Raigad,Mahad,गोंडाळे,Gondale,,,GEN WOMEN,GEN,,,20081
+Raigad,Mahad,गोठे बु.,Gothe Bk.,,,BCC,GEN(W),,,20082
+Raigad,Mahad,जिते,Jite,,,GEN WOMEN,GEN,,,20083
+Raigad,Mahad,जुई बुद्रुक,Jui Bk.,,,GEN WOMEN,GEN ,,,20084
+Raigad,Mahad,काचले,Kachale,,,BCC WOMEN,GEN(W),,,20085
+Raigad,Mahad,कांबळे तर्फे महाड,KAMBALE TARF MAHAD,,,BCC,GEN ,,,20086
+Raigad,Mahad,कांबळे तर्फे बिरवाडी,Kambale Tarfe Birwadi,,,GEN WOMEN,GEN ,,,20087
+Raigad,Mahad,करंजाडी,Karanjadi,,,BCC WOMEN,GEN(W),,,20088
+Raigad,Mahad,करंजखोल,Karanjkhol,,,GENERAL,GEN(W),,,20089
+Raigad,Mahad,कसबेशिवथर,Kasabeshivthar,,,GENERAL,,,,20090
+Raigad,Mahad,कावळे तर्फे विन्हेरे,Kavale Tarfe Vinhere,,,GENERAL,GEN(W),,,20091
+Raigad,Mahad,केंबुर्ली,Kemburli,,,GENERAL,GEN(W),,,20092
+Raigad,Mahad,खर्डी,KHARDI,,,GENERAL,GEN(W),,,20093
+Raigad,Mahad,खरवली,KHARVALI,,,GEN WOMEN,GEN ,,,20094
+Raigad,Mahad,खुटील,Khutil,,,BCC ,,,,20095
+Raigad,Mahad,किंजळघर,Kinjalghar,,,GENERAL,,,,20096
+Raigad,Mahad,किंजळोली खुर्द,Kinjaloli (Kd),,,BCC WOMEN,,,,20097
+Raigad,Mahad,किंजळोली बु. ,Kinjaloli Bk. ,,,BCC WOMEN,GEN(W),,,20098
+Raigad,Mahad,किये,Kiye,,,GENERAL,GEN(W),,,20099
+Raigad,Mahad,कोकरे त. नाते,Kokare T. Nate,,,BCC WOMEN,GEN ,,,20100
+Raigad,Mahad,कोल,Kol,,,BCC WOMEN,GEN ,,,20101
+Raigad,Mahad,कोळोसे,Kolose,,,BCC WOMEN,GEN(W),,,20102
+Raigad,Mahad,कोंडीवते,Kondiwate,,,BCC ,GEN(W),,,20103
+Raigad,Mahad,कोंझर,Konzar,,,GEN WOMEN,GEN,,,20104
+Raigad,Mahad,कोथेरी,Kotheri,,,BCC,GEN,,,20105
+Raigad,Mahad,कोथुर्डे,Kothurde,,,GEN WOMEN,GEN,,,20106
+Raigad,Mahad,कुंबळे,Kumbale,,,GEN WOMEN,,,,20107
+Raigad,Mahad,कुंभार्डे,Kumbharde,,,ST WOMEN,,,,20108
+Raigad,Mahad,कुंभेशिवथर,Kumbheshivthar,,,GEN WOMEN,,,,20109
+Raigad,Mahad,कुर्ले,Kurle,,,GENERAL,GEN(W),,,20110
+Raigad,Mahad,कुसगांव,Kusgaon,,,GEN WOMEN,GEN ,,,20111
+Raigad,Mahad,लाडीवली,Ladiwali,,,GENERAL,GEN(W),,,20112
+Raigad,Mahad,लोअर तुडील,Lowar Tudil,,,BCC WOMEN,GEN ,,,20113
+Raigad,Mahad,मांडले,Mandle,,,ST,GEN(W),,,20114
+Raigad,Mahad,मांघरुण,Mangharun,,,BCC,GEN(W),,,20115
+Raigad,Mahad,मोहोप्रे,Mohopre,,,GEN WOMEN,,,,20116
+Raigad,Mahad,मोहोत,Mohot,,,GEN WOMEN,GEN ,,,20117
+Raigad,Mahad,मुमुर्शी,Mumurshi,,,GEN WOMEN,GEN ,,,20118
+Raigad,Mahad,नडगांव तर्फे बिरवाडी,Nadgaon Tarfe Birwadi,,,GENERAL,,,,20119
+Raigad,Mahad,नडगांव तर्फे तुडील,Nadgaon Tarfe Tudil,,,BCC,GEN(W),,,20120
+Raigad,Mahad,नागाव,Nagaon,,,GENERAL,,,,20121
+Raigad,Mahad,नांदगांव खु.,Nandgaon (Kd),,,GENERAL,,,,20122
+Raigad,Mahad,नांदगाव बु.,Nandgaon Bk.,,,BCC,GEN(W),,,20123
+Raigad,Mahad,नरवण,Narvan,,,GEN WOMEN,,,,20124
+Raigad,Mahad,नाते,Nate,,,GENERAL,,,,20125
+Raigad,Mahad,नातोंडी,Natondi,,,BCC,GEN(W),,,20126
+Raigad,Mahad,नेराव,Nerav,,,GENERAL,,,,20127
+Raigad,Mahad,निगडे,Nigade,,,GENERAL,GEN(W),,,20128
+Raigad,Mahad,निजामपूर ,Nijampur ,,,GEN WOMEN,,,,20129
+Raigad,Mahad,पाचाड,Pachad,,,SC WOMEN,GEN(W),,,20130
+Raigad,Mahad,पडवी,Padavi,,,GEN WOMEN,,,,20131
+Raigad,Mahad,पाले,Pale,,,GEN WOMEN,GEN ,,,20132
+Raigad,Mahad,पंदेरी,Panderi,,,GEN WOMEN,GEN ,,,20133
+Raigad,Mahad,पाने ,Pane ,,,GENERAL,,,,20134
+Raigad,Mahad,पांगारी,PANGARI,,,SC WOMEN,,,,20135
+Raigad,Mahad,पारमाची,Parmachi,,,BCC WOMEN,GEN ,,,20136
+Raigad,Mahad,पिंपळकोंड,Pimpalkond,,,GENERAL,GEN(W),,,20137
+Raigad,Mahad,पिंपळवाडी,Pimpalwadi,,,GEN WOMEN,,,,20138
+Raigad,Mahad,पुनाडे,Punade,,,GEN WOMEN,GEN,,,20139
+Raigad,Mahad,राजेवाडी,Rajewadi,,,GEN WOMEN,GEN,,,20140
+Raigad,Mahad,राजिवली,Rajivali,,,GEN WOMEN,,,,20141
+Raigad,Mahad,रानवडी खुर्द,Ranvadi Kh.,,,GEN WOMEN,GEN,,,20142
+Raigad,Mahad,रावढळ,Ravdhal,,,GENERAL,,,,20143
+Raigad,Mahad,रावतळी,Ravtali,,,GENERAL,,,,20144
+Raigad,Mahad,रेवतळे,Revtale,,,GEN WOMEN,,,,20145
+Raigad,Mahad,रूपवली,Rupavali,,,SC ,GEN(W),,,20146
+Raigad,Mahad,साकडी,Sakdi,,,GENERAL,GEN(W),,,20147
+Raigad,Mahad,सांदोशी ,Sandoshi ,,,ST WOMEN,,,,20148
+Raigad,Mahad,सव,Sav,,,GENERAL,GEN(W),,,20149
+Raigad,Mahad,सावरट,Savrat,,,GEN WOMEN,GEN ,,,20150
+Raigad,Mahad,सवाणे,Sawane,,,GENERAL,,,,20151
+Raigad,Mahad,शेल,Shel,,,ST WOMEN,GEN(W),,,20152
+Raigad,Mahad,शिंगरकोंड,Shingar Kond,,,GEN WOMEN,GEN ,,,20153
+Raigad,Mahad,शिरवली,Shiravali,,,BCC,GEN,,,20154
+Raigad,Mahad,शिरगांव,Shirgaon,,,GENERAL,,,,20155
+Raigad,Mahad,शिरसवणे,Shirsavane,,,GEN WOMEN,GEN,,,20156
+Raigad,Mahad,सोनघर ,Songhar ,,,BCC,,,,20157
+Raigad,Mahad,तळीये,Taliye,,,GENERAL,,,,20158
+Raigad,Mahad,तळोशी,Taloshi,,,GENERAL,,,,20159
+Raigad,Mahad,ताम्हाणे,Tamhane,,,GENERAL,GEN(W),,,20160
+Raigad,Mahad,तेलंगे,Telange,,,BCC WOMEN,GEN(W),,,20161
+Raigad,Mahad,तेलंगे मोहल्ला,TELANGE MOHALLA,,,GENERAL,,,,20162
+Raigad,Mahad,तेटघर ,Tetghar ,,,BCC WOMEN,GEN(W),,,20163
+Raigad,Mahad,टोळ ब्रु.,Tol Bk.,,,GEN WOMEN,,,,20164
+Raigad,Mahad,उंदेरी,Underi,,,SC WOMEN,,,,20165
+Raigad,Mahad,वडवली,Vadwali,,,GENERAL,GEN(W),,,20166
+Raigad,Mahad,वाघोली,Vagholi,,,ST,,,,20167
+Raigad,Mahad,वहूर,Vahur,,,GENERAL,GEN(W),,,20168
+Raigad,Mahad,वाळसुरे,Valsure,,,SC,GEN ,,,20169
+Raigad,Mahad,वामणे,Vamane,,,SC,,,,20170
+Raigad,Mahad,वरंध,Varandh,,,BCC WOMEN,GEN,,,20171
+Raigad,Mahad,वारंगी,Varangi,,,BCC WOMEN,GEN ,,,20172
+Raigad,Mahad,वराठी,Varathi,,,BCC,,,,20173
+Raigad,Mahad,वीर,Veer,,,ST WOMEN,,,,20174
+Raigad,Mahad,विन्हेरे ,Vinhere ,,,BCC,GEN ,,,20175
+Raigad,Mahad,वाकी बु.,Waki Bk.,,,BCC,GEN(W),,,20176
+Raigad,Mahad,वाळण बु.,Walan Bk.,,,GEN WOMEN,GEN,,,20177
+Raigad,Mahad,वाळण खुर्द,Walan Kh.,,,GENERAL,,,,20178
+Raigad,Mahad,वलंग ,Walang ,,,GENERAL,,,,20179
+Raigad,Mahad,वरंडोली,WARANDOLI,,,GEN WOMEN,,,,20180
+Raigad,Mahad,वसाप ,Wasap ,,,BCC WOMEN,GEN ,,,20181
+Raigad,Panvel,आकुर्ली,Aakurli,,GEN,GEN,GEN (W),,,20319
+Raigad,Panvel,आपटा,Aapta,,BCC,GEN,GEN (W),Written आपटे in document,,20320
+Raigad,Panvel,आदई,ADAI,,BCC,SC,GEN ,,,20321
+Raigad,Panvel,,Asudgaon,,GEN,GEN,,,,20322
+Raigad,Panvel,बारवई,Barvai,,BCC,GEN (W),SC,,,20323
+Raigad,Panvel,भाताण,Bhatan,,GEN,BCC,GEN,,,20324
+Raigad,Panvel,भिंगार,Bhingar,,BCC,GEN (W),ST (W),,,20325
+Raigad,Panvel,चावणे ,Chavane ,,GEN,GEN (W),ST (W),,,20326
+Raigad,Panvel,चिखले,Chikhale,,GEN,GEN,BCC ,,,20327
+Raigad,Panvel,चिंध्रण,Chindhran,,GEN,GEN,GEN,,,20328
+Raigad,Panvel,चिपळे ,Chipale ,,GEN,ST (W),BCC,,,20329
+Raigad,Panvel,दापोली,Dapoli,,BCC,GEN (W),GEN (W),,,20330
+Raigad,Panvel,देवद,Devad,,,SC ,BCC,,,20331
+Raigad,Panvel,देवळोली,Devloli,,BCC,ST (W),GEN (W),,,20332
+Raigad,Panvel,,Dhansar,,GEN,GEN,,,,20333
+Raigad,Panvel,दिघाटी,Dighati,,GEN,BCC,GEN (W),,,20334
+Raigad,Panvel,दुंद्रे,Dundre,,BCC,ST,GEN,,,20335
+Raigad,Panvel,गव्हाण,Gavhan,,BCC,GEN (W),GEN,,,20336
+Raigad,Panvel,,Ghot,,GEN,GEN,,,,20337
+Raigad,Panvel,गिरवले,Giravale,,ST,GEN (W),BCC,,,20338
+Raigad,Panvel,गुळसुंदे,Gulsunde,,SC,ST ,BCC (W),,,20339
+Raigad,Panvel,हरिग्राम,Harigram,,GEN,GEN,ST,,,20340
+Raigad,Panvel,जांभीवली ,Jambhivali ,,ST,BCC (W),GEN,,,20341
+Raigad,Panvel,,Kalamboli,,GEN,GEN (W),,,,20342
+Raigad,Panvel,,Kalundre,,GEN,GEN (W),,,,20343
+Raigad,Panvel,,Kamothe,,GEN,GEN,,,,20344
+Raigad,Panvel,कानपोली,Kanpoli,,SC,BCC (W),GEN,,,20345
+Raigad,Panvel,कराडे खु.,Karade Kh.,,ST,SC (W),BCC,,,20346
+Raigad,Panvel,करंजाडे,Karanjade,,GEN,GEN,GEN,,,20347
+Raigad,Panvel,कर्नाळा ,Karnala ,,GEN,GEN,BCC (W),,,20348
+Raigad,Panvel,कसळखंड,Kasalkhand,,ST,GEN (W),BCC,,,20349
+Raigad,Panvel,केळवणे,Kelvane,,GEN,GEN (W),BCC,,,20350
+Raigad,Panvel,केवाळे,Kevale,,ST,GEN,BCC (W),,,20351
+Raigad,Panvel,खैरवाडी,KHAIRWADI,,GEN,BCC (W),GEN (W),,,20352
+Raigad,Panvel,खानाव,Khanav,,ST,BCC,GEN (W),,,20353
+Raigad,Panvel,खानावळे,Khanavale,,GEN,GEN (W),ST (W),,,20354
+Raigad,Panvel,,Kharghar,,GEN,BCC,,,,20355
+Raigad,Panvel,खेरणे,Kherane,,GEN,BCC (W),GEN,,,20356
+Raigad,Panvel,,Khidukpada,,,BCC (W),,,,20357
+Raigad,Panvel,कोळखे,Kolakhe,,GEN,BCC (W),GEN (W),,,20358
+Raigad,Panvel,कोन,Kon,,GEN,GEN,GEN (W),,,20359
+Raigad,Panvel,,Koyana Velhe,,GEN,SC (W),,,,20360
+Raigad,Panvel,कुंडेवहाळ,Kundevahal,,BCC,BCC,GEN (W),,,20361
+Raigad,Panvel,मालडुंगे,Maldunge,,BCC,GEN (W),GEN,,,20362
+Raigad,Panvel,मोर्बे,MORBE,,BCC,GEN (W),ST,,,20363
+Raigad,Panvel,नांदगाव,Nandgaon,,ST,GEN (W),BCC,,,20364
+Raigad,Panvel,नानोशी,Nanoshi,,BCC,GEN (W),GEN (W),,,20365
+Raigad,Panvel,,Navde,,GEN,GEN,,,,20366
+Raigad,Panvel,नेरे,Nere,,ST,BCC (W),GEN,,,20367
+Raigad,Panvel,न्हावे,Nhave,,BCC,GEN,GEN,,,20368
+Raigad,Panvel,नितळस,Nitalas,,BCC,GEN (W),GEN (W),,,20369
+Raigad,Panvel,ओवळे,Ovale,,GEN,GEN (W),GEN,,,20370
+Raigad,Panvel,,Ove,,GEN,BCC,,,,20371
+Raigad,Panvel,,Padghe,,GEN,BCC ,,,,20372
+Raigad,Panvel,पाले बु.,Pale bk.,,ST,GEN,BCC,,,20373
+Raigad,Panvel,,Pale Khurd,,BCC,GEN,,,,20374
+Raigad,Panvel,पालीदेवद,Palidevad,,GEN,SC,BCC (W),,,20375
+Raigad,Panvel,पळस्पे,Palspe,,BCC,BCC,GEN (W),,,20376
+Raigad,Panvel,पारगाव,Pargaon,,ST,BCC (W),GEN,,,20377
+Raigad,Panvel,,Pendhar,,BCC,GEN,,,,20378
+Raigad,Panvel,,Pisarve,,ST,GEN (W),,,,20379
+Raigad,Panvel,पोसरी,Posari,,SC,GEN (W),BCC (W),,,20380
+Raigad,Panvel,पोयंजे,Poyanje,,BCC,GEN,ST,,,20381
+Raigad,Panvel,,Roadpali,,ST,GEN (W),,,,20382
+Raigad,Panvel,,Rohinjan,,GEN,GEN,,,,20383
+Raigad,Panvel,साई,Sai,,ST,BCC,GEN (W),,,20384
+Raigad,Panvel,सांगूर्ली,Sangurli,,GEN,GEN,ST,,,20385
+Raigad,Panvel,सावळे,Savale,,GEN,BCC,GEN,,,20386
+Raigad,Panvel,शिरवली ,Shiravali ,,GEN,BCC (W),GEN,,,20387
+Raigad,Panvel,शिरढोण,Shirdhon,,GEN,ST (W),BCC (W),,,20388
+Raigad,Panvel,शिवकर,Shivkar,,GEN,GEN,GEN,,,20389
+Raigad,Panvel,सोमटणे,Somtane,,GEN,BCC,GEN (W),,,20390
+Raigad,Panvel,,Taloja Panchanand,,GEN,GEN,,,,20391
+Raigad,Panvel,,Taloje Majkur,,BCC,BCC,,,,20392
+Raigad,Panvel,तरघर,TARGHAR,,GEN,BCC (W),ST (W),,,20393
+Raigad,Panvel,,Tembhode,,GEN,GEN,,,,20394
+Raigad,Panvel,,Tondare,,GEN,GEN (W),,,,20395
+Raigad,Panvel,तुराडे,Turade,,,,SC (W),,,20396
+Raigad,Panvel,,Turbhe,,ST,GEN,,,,20397
+Raigad,Panvel,उलवे,ULAWE,,GEN,BCC (W),ST (W),,,20398
+Raigad,Panvel,उमरोली,Umaroli,,GEN,GEN (W),BCC (W),,,20399
+Raigad,Panvel,उसर्ली खुर्द,Usarli Kh.,,BCC,ST,SC (W),,,20400
+Raigad,Panvel,वडघर,Vadghar,,GEN,GEN,GEN,,,20401
+Raigad,Panvel,वाजे,Vaje,,BCC,GEN (W),GEN (W),,,20402
+Raigad,Panvel,वाकडी,Vakadi,,GEN,GEN (W),ST,,,20403
+Raigad,Panvel,वलप,Valap,,ST,GEN (W),BCC (W),,,20404
+Raigad,Panvel,,Valavali,,BCC,GEN (W),,,,20405
+Raigad,Panvel,वारदोली,Vardoli,,BCC,BCC (W),ST,,,20406
+Raigad,Panvel,वावेघर,Vaveghar,,,,BCC (W),,,20407
+Raigad,Panvel,विचुंबे,VICHUMBE,,GEN,SC (W),BCC,,,20408
+Raigad,Panvel,वाघीवली,Waghivali,,GEN,GEN,GEN,,,20409
+Raigad,Panvel,वहाळ,Wahal,,ST,BCC (W),GEN (W),,,20410
+Raigad,Panvel,वांगणी तर्फे वाजे,Wangani Tarf Waje,,GEN,ST (W),GEN (W),,,20411
+Raigad,Panvel,वांवजे,Wavanje,,BCC,GEN,GEN (W),,,20412
+Raigad,Shrivardhan,आराठी,Aarathi,ST,BCC,GEN (W),GEN (W),,,20583
+Raigad,Shrivardhan,आदगाव,Adgaon,GEN (W),BCC (W),BCC (W),BCC (W),,,20584
+Raigad,Shrivardhan,बागमांडला,Bagmandala,BCC,GEN,BCC,BCC,,,20585
+Raigad,Shrivardhan,भरडखोल,Bharadkhol,ST,GEN (W),GEN,GEN,,,20586
+Raigad,Shrivardhan,भोस्ते,Bhoste,BCC,GEN (W),ST (W),ST (W),,,20587
+Raigad,Shrivardhan,बोर्लीपंचतन,Borlipanchatan,BCC,GEN,GEN (W),GEN (W),,,20588
+Raigad,Shrivardhan,चिखलप,Chikhalap,GEN,GEN (W),ST,ST,,,20589
+Raigad,Shrivardhan,दांडा,Danda,GEN (W),GEN,GEN,GEN,,,20590
+Raigad,Shrivardhan,दांडगुरी,Dandguri,GEN,BCC,GEN,GEN,,,20591
+Raigad,Shrivardhan,दिघी,DIGHI,ST,GEN (W),GEN (W),GEN (W),,,20592
+Raigad,Shrivardhan,दिवेआगर,Diveagar,GEN,GEN (W),GEN,GEN,,,20593
+Raigad,Shrivardhan,गालसुरे,Galsure,GEN,GEN,ST,ST,,,20594
+Raigad,Shrivardhan,गाणी,Gani,BCC,GEN,GEN (W),GEN (W),,,20595
+Raigad,Shrivardhan,गौळवाडी,Gaulwadi,GEN (W),BCC,BCC (W),BCC (W),,,20596
+Raigad,Shrivardhan,गुळधे,Guladhe,GEN,GEN (W),BCC,BCC,,,20597
+Raigad,Shrivardhan,हरेश्वर,Hareshwar,BCC (W),GEN (W),GEN,GEN,,,20598
+Raigad,Shrivardhan,हरवीत,Harvit,BCC,ST,GEN (W),GEN (W),,,20599
+Raigad,Shrivardhan,जसवली,Jasvali,GEN,GEN (W),GEN (W),GEN (W),,,20600
+Raigad,Shrivardhan,काळींजे,KALINJE,GEN (W),ST (W),GEN,GEN,,,20601
+Raigad,Shrivardhan,कारीवणे,Karivane,GEN,BCC (W),BCC (W),BCC (W),,,20602
+Raigad,Shrivardhan,कार्ले,Karle,SC,BCC (W),ST (W),SC (W),,,20603
+Raigad,Shrivardhan,खारगांव,Khargaon,GEN,GEN (W),GEN (W),GEN (W),,,20604
+Raigad,Shrivardhan,खुजारे,Khujare,GEN,BCC (W),GEN (W),GEN (W),,,20605
+Raigad,Shrivardhan,कोलमांडले,Kolmandale,BCC (W),SC,GEN (W),GEN (W),,,20606
+Raigad,Shrivardhan,कुडगाव,Kudgaon,ST (W),BCC,GEN (W),GEN (W),,,20607
+Raigad,Shrivardhan,कुडकी,Kudki,GEN,GEN,ST,ST,,,20608
+Raigad,Shrivardhan,मारळ,Maral,GEN (W),BCC (W),BCC,BCC,,,20609
+Raigad,Shrivardhan,मेघरे,Meghare,GEN,GEN (W),GEN (W),GEN (W),,,20610
+Raigad,Shrivardhan,नागलोली,Nagloli,BCC (W),GEN,GEN,GEN,,,20611
+Raigad,Shrivardhan,निगडी,Nigadi,BCC (W),GEN,GEN,GEN,,,20612
+Raigad,Shrivardhan,रानवली,Ranvali,GEN,GEN (W),BCC (W),BCC (W),,,20613
+Raigad,Shrivardhan,साखरोणे,Sakhrone,GEN,BCC,GEN,GEN,,,20614
+Raigad,Shrivardhan,सर्वे,Sarve,BCC,GEN (W),GEN,GEN,,,20615
+Raigad,Shrivardhan,सायगांव,Saygaon,GEN (W),ST,BCC,BCC,,,20616
+Raigad,Shrivardhan,शेखाडी,Shekhadi,BCC,GEN,ST (W),ST (W),,,20617
+Raigad,Shrivardhan,शिस्ते,Shiste,GEN (W),GEN,BCC,BCC,,,20618
+Raigad,Shrivardhan,वडवली,Vadavali,GEN,GEN (W),BCC (W),BCC (W),,,20619
+Raigad,Shrivardhan,वडघर,Vadghar,BCC,GEN (W),GEN,GEN,,,20620
+Raigad,Shrivardhan,वाकळघर,Vakalghar,GEN,BCC,GEN,GEN,,,20621
+Raigad,Shrivardhan,वाळवटी,Valvati,GEN,BCC (W),GEN (W),GEN (W),,,20622
+Raigad,Shrivardhan,वाजंळे,Vanjale,GEN,GEN,SC (W),SC (W),,,20623
+Raigad,Shrivardhan,वावे तर्फे श्रीवर्धन,Vave Tarf. Shrivardhan,GEN (W),ST (W),BCC (W),BCC (W),,,20624
+Raigad,Shrivardhan,वेळास,VELAS,GEN (W),GEN,BCC,BCC,,,20625
+Raigad,Tala,भानंग,Bhanang,,,,GEN (W),,,20660
+Raigad,Tala,बोरघर हवेली,Borghar Haveli,ST ,BCC ,GEN ,GEN ,,,20661
+Raigad,Tala,चरई खुर्द,Charai Kh.,ST,ST,SC ,GEN ,,,20662
+Raigad,Tala,फळशेत कर्नाळा,Falshet Karnala,,BCC,BCC,GEN ,,,20663
+Raigad,Tala,गिरणे,Girane,,BCC,,ST,,,20664
+Raigad,Tala,काकडशेत,Kakadshet,,,,BCC (W),,,20665
+Raigad,Tala,महागाव,Mahagaon,,ST,GEN (W),GEN ,,,20666
+Raigad,Tala,मजगाव,Majgaon,, BCC,BCC (w) ,GEN,,,20667
+Raigad,Tala,मालुक,Maluk,,,,ST (W),,,20668
+Raigad,Tala,मांदाड,Mandad,ST,,,BCC (W),,,20669
+Raigad,Tala,मेढे,Medhe,ST,,,GEN (W),,,20670
+Raigad,Tala,निगुडशेत,Nigudshet,,,ST,BCC (W),,,20671
+Raigad,Tala,पढवण,Padhavan,,BCC,,GEN (W),,,20672
+Raigad,Tala,पन्हेळी,Panheli,,SC,GEN (W),GEN ,,,20673
+Raigad,Tala,पिटसई,Pitsai,,ST,SC,BCC,,,20674
+Raigad,Tala,रहाटाड,Rahatad,ST,,ST,BCC (W),,,20675
+Raigad,Tala,रोवळे,Rowale,,,ST (W),ST (W),,,20676
+Raigad,Tala,शेणवली,SHENAVALI,SC,BCC,,ST ,,,20677
+Raigad,Tala,सोनसडे,Sonsade,,BCC,,ST ,,,20678
+Raigad,Tala,तळेगाव,Talegaon,ST,,,GEN (W),,,20679
+Raigad,Tala,उसर खुर्द,Usar Kh.,ST,,,BCC,,,20680
+Raigad,Tala,वानस्ते,Vanaste,,,ST ,BCC ,,,20681
+Raigad,Tala,वांजळोशी,Wanjloshi,,,,ST (W),,,20682
+Raigad,Tala,वरळ,Waral,ST,,,GEN (W),,,20683
+Raigad,Tala,वाशी हवेली,WASHI HAVELI,,BCC,BCC,GEN (W),,,20684
+Satara,Jawali,आगलावेवाडी,Aaglavewadi,GEN,GEN (W),GEN (W),SC,,,22267
+Satara,Jawali,आखेगणी,Aakhegani,BCC,GEN,GEN,BCC (W),,,22268
+Satara,Jawali,आलेवाडी,Aalevadi,GEN,GEN (W),GEN (W),ST,,,22269
+Satara,Jawali,आपटी,aapati,GEN (W),GEN,GEN (W),BCC,,,22270
+Satara,Jawali,आर्डे,Aarde,BCC,GEN,GEN (W),GEN,,,22271
+Satara,Jawali,आखाडे,Akhade,BCC,GEN (W),GEN (W),BCC,,,22272
+Satara,Jawali,आंबेघर तर्फ कुडाळ,Ambeghar T. Kudal,GEN,BCC,GEN,GEN (W),,,22273
+Satara,Jawali,आंबेघर तर्फ मेढा,Ambeghar tarf Medha,GEN,BCC (W),BCC,GEN (W),,,22274
+Satara,Jawali,अंधारी कास,Andhari Kas,GEN,GEN,BCC (W),GEN (W),,,22275
+Satara,Jawali,आणेवाडी,Anewadi,GEN,GEN (W),BCC,GEN (W),,,22276
+Satara,Jawali,आसणी,Asani,ST,GEN (W),GEN,GEN (W),,,22277
+Satara,Jawali,बाहुळे,Bahule,BCC,GEN,GEN (W),GEN,,,22278
+Satara,Jawali,बामणोली तर्फ कुडाळ,Bamnoli tarf kudal,GEN (W),GEN,GEN,GEN (W),,,22279
+Satara,Jawali,बेलावडे,belawade,BCC,GEN,GEN,SC (W),,,22280
+Satara,Jawali,बेलोशी,Beloshi,GEN (W),BCC,GEN (W),BCC,,,22281
+Satara,Jawali,भालेघर,bhaleghar,GEN,BCC (W),GEN (W),GEN,,,22282
+Satara,Jawali,भामघर,Bhamghar,GEN,GEN (W),GEN (W),GEN,,,22283
+Satara,Jawali,भणंग,Bhanang,GEN,BCC (W),GEN (W),GEN,,,22284
+Satara,Jawali,भिवडी,bhivdi,GEN,BCC (W),SC (W),BCC,,,22285
+Satara,Jawali,भोगवली तर्फे कुडाळ,Bhogavali T. Kudal,GEN,GEN (W),BCC (W),GEN,,,22286
+Satara,Jawali,भोगवली त. मेढा,Bhogavali T. Medha,GEN,BCC (W),GEN,GEN (W),,,22287
+Satara,Jawali,भुतेघर,Bhuteghar,BCC (W),ST,GEN,BCC (W),,,22288
+Satara,Jawali,बिभवी,Bibhavi,BCC,GEN (W),GEN (W),GEN,,,22289
+Satara,Jawali,बोंडारवाडी,Bondarvadi,GEN,BCC (W),GEN,GEN (W),,,22290
+Satara,Jawali,चोरांबे,Chorambe,BCC,GEN,GEN,BCC (W),,,22291
+Satara,Jawali,डांगरेघर ,Dangreghar,GEN,BCC,GEN,GEN (W),,,22292
+Satara,Jawali,दापवडी,Dapvadi,GEN,BCC (W),GEN (W),GEN,,,22293
+Satara,Jawali,दरे बु.,Dare Bk.,GEN (W),GEN,GEN (W),BCC,,,22294
+Satara,Jawali,दरे खुर्द,Dare khurd,GEN,BCC,GEN,GEN (W),,,22295
+Satara,Jawali,धनकवडी,Dhankavadi,GEN (W),GEN,GEN,BCC (W),,,22296
+Satara,Jawali,धोंडेवाडी,Dhondevadi,GEN,BCC (W),GEN,GEN (W),,,22297
+Satara,Jawali,दिवदेव,Divdev,BCC (W),GEN,GEN (W),BCC,,,22298
+Satara,Jawali,दुदूस्करवाडी,Duduskarwadi,GEN (W),BCC,GEN,GEN (W),,,22299
+Satara,Jawali,दुंद,Dund,GEN,GEN (W),BCC (W),BCC,,,22300
+Satara,Jawali,गाढवली (पुनर्व),Gadhavali Pun.,GEN,GEN (W),BCC (W),GEN,,,22301
+Satara,Jawali,गाळदेव,Galdev,GEN,GEN (W),BCC (W),GEN,,,22302
+Satara,Jawali,गांजे,Ganje,GEN,SC,GEN (W),GEN,,,22303
+Satara,Jawali,गवडी,Gavdi,GEN,GEN (W),GEN,SC (W),,,22304
+Satara,Jawali,घोटेघर,Ghoteghar,GEN (W),GEN,GEN,GEN (W),,,22305
+Satara,Jawali,गोंदेमाळ,Gondemal,BCC,GEN (W),GEN,SC (W),,,22306
+Satara,Jawali,हातगेघर,Hatgeghar,GEN (W),GEN,BCC,GEN (W),,,22307
+Satara,Jawali,हुमगांव,Humgaon,SC,BCC,BCC,GEN (W),,,22308
+Satara,Jawali,इंदवली,indwali,BCC (W),GEN,GEN,GEN (W),,,22309
+Satara,Jawali,जरेवाडी,Jarevadi,GEN,GEN,GEN,GEN (W),,,22310
+Satara,Jawali,जवळवाडी ,Jawalwadi ,BCC,GEN (W),GEN (W),GEN,,,22311
+Satara,Jawali,काळोशी,Kaloshi,SC,GEN (W),GEN (W),GEN,,,22312
+Satara,Jawali,करंडी त मेढा,Karandi T.Medha,BCC (W),GEN,GEN (W),GEN,,,22313
+Satara,Jawali,करंडी तर्फ कुडाळ,Karandi Tarf Kudal,GEN (W),BCC (W),GEN,GEN (W),,,22314
+Satara,Jawali,कारगांव,Kargaon,GEN,GEN (W),GEN,GEN (W),,,22315
+Satara,Jawali,करहर,Karhar,GEN (W),BCC,GEN,GEN (W),,,22316
+Satara,Jawali,करंदोशी,Karndoshi,GEN,GEN,BCC (W),GEN,,,22317
+Satara,Jawali,करंजे,karnje,GEN,GEN (W),BCC (W),GEN,,,22318
+Satara,Jawali,कसबे बामणोली,Kasbe Bamnoli,GEN,BCC,GEN (W),BCC,,,22319
+Satara,Jawali,काटवली,Katavali,GEN,GEN,GEN,GEN (W),,,22320
+Satara,Jawali,कावडी,Kavadi,GEN,BCC,GEN (W),GEN,,,22321
+Satara,Jawali,केडंबे,Kedambe,GEN,GEN,BCC (W),SC,,,22322
+Satara,Jawali,केळघर,Kelghar,GEN,SC (W),BCC,GEN (W),,,22323
+Satara,Jawali,केळघर त. सोळशी,Kelghar T. Solshi,BCC,GEN (W),GEN (W),GEN,,,22324
+Satara,Jawali,केंजळ,Kenjal,GEN,GEN,GEN,BCC (W),,,22325
+Satara,Jawali,केसकरवाडी,Keskarvadi,BCC,GEN,GEN,BCC (W),,,22326
+Satara,Jawali,खर्शी तर्फ कुडाळ,Kharshi tarf kudal,BCC,GEN (W),GEN,SC (W),,,22327
+Satara,Jawali,खर्शीबारामुरे ,Khurshibaramure ,GEN (W),BCC (W),GEN (W),GEN,,,22328
+Satara,Jawali,कोलेवाडी,Kolevadi,BCC,GEN (W),GEN (W),BCC,,,22329
+Satara,Jawali,कोळघर,Kolghar,BCC,GEN (W),GEN (W),GEN,,,22330
+Satara,Jawali,कुडाळ,Kudal,GEN,GEN (W),GEN,BCC (W),,,22331
+Satara,Jawali,कुंभारगणी,Kumbhargani,GEN (W),GEN,GEN,BCC (W),,,22332
+Satara,Jawali,कुरळोशी,Kurloshi,BCC (W),ST (W),GEN,GEN (W),,,22333
+Satara,Jawali,कुसूंबी,Kusumbi,GEN,BCC (W),GEN (W),GEN,,,22334
+Satara,Jawali,महामुलकरवाडी,Mahamulkarvadi,GEN,GEN (W),GEN (W),BCC,,,22335
+Satara,Jawali,महिगाव,Mahigaon,GEN,GEN (W),ST (W),GEN (W),,,22336
+Satara,Jawali,महू,Mahu,GEN,GEN,GEN (W),GEN,,,22337
+Satara,Jawali,मालचौंडी,Malchaundi,GEN,BCC,GEN,BCC (W),,,22338
+Satara,Jawali,मामुर्डी,Mamurdi,GEN,BCC,BCC,ST (W),,,22339
+Satara,Jawali,मरडमुरे,Maradmure,BCC,GEN (W),GEN (W),GEN,,,22340
+Satara,Jawali,मार्ली,Marli,BCC,GEN (W),GEN,GEN (W),,,22341
+Satara,Jawali,म्हसवे,Mhasve,GEN,GEN (W),BCC (W),GEN,,,22342
+Satara,Jawali,म्हाते बु.,Mhate Bu.,GEN (W),GEN,BCC (W),SC,,,22343
+Satara,Jawali,म्हाते खु.,Mhate Khu.,GEN,GEN,GEN (W),GEN,,,22344
+Satara,Jawali,मोहाट,Mohat,GEN (W),GEN,BCC (W),GEN,,,22345
+Satara,Jawali,मोरावळे,Moravale,GEN,GEN (W),GEN (W),BCC,,,22346
+Satara,Jawali,मोरघर,Morghar,BCC,GEN (W),GEN (W),BCC,,,22347
+Satara,Jawali,मुकवली,Mukavali,GEN,GEN (W),SC (W),GEN (W),,,22348
+Satara,Jawali,मुनावळे,Munavale,GEN (W),GEN,GEN,BCC (W),,,22349
+Satara,Jawali,नांदगणे,Nandgane,GEN (W),GEN,BCC,GEN (W),,,22350
+Satara,Jawali,नरफदेव,Narafdeo,GEN,BCC,BCC (W),GEN,,,22351
+Satara,Jawali,निपाणी,Nipani,GEN,BCC,BCC ,GEN (W),,,22352
+Satara,Jawali,निझरे,Nizare,BCC,GEN (W),GEN (W),GEN,,,22353
+Satara,Jawali,ओखवडी,Okhavadi,GEN (W),GEN,BCC,GEN (W),,,22354
+Satara,Jawali,ओझरे,Ozare,SC,GEN (W),BCC (W),GEN,,,22355
+Satara,Jawali,पानस,Panas,GEN (W),GEN,SC,BCC (W),,,22356
+Satara,Jawali,पानस पुनर्वसन,Panas punarvasan,GEN,GEN (W),GEN (W),BCC,,,22357
+Satara,Jawali,पवारवाडी,Pawarvadi,BCC,GEN (W),GEN (W),GEN,,,22358
+Satara,Jawali,पिंपळी,pimpali,GEN,GEN (W),GEN (W),GEN,,,22359
+Satara,Jawali,पिंपरी त. मेढा,Pimpri T. Medha,GEN,GEN,BCC,GEN (W),,,22360
+Satara,Jawali,पुनवडी,Punvadi,GEN,GEN,BCC (W),GEN,,,22361
+Satara,Jawali,रायगाव,Raigaon,BCC,GEN,GEN (W),BCC,,,22362
+Satara,Jawali,रामवाडी,Ramwadi,GEN (W),GEN,BCC (W),GEN,,,22363
+Satara,Jawali,रानगेघर,Rangeghar,BCC (W),GEN,GEN (W),BCC,,,22364
+Satara,Jawali,रांजणी,Ranjani,GEN,GEN,BCC,GEN (W),,,22365
+Satara,Jawali,रेंगडी,Rengadi,ST (W),BCC (W),BCC,GEN (W),,,22366
+Satara,Jawali,रेंगडेवाडी,Rengadewadi,ST (W),BCC (W),BCC,GEN (W),,,22367
+Satara,Jawali,रिटकवली,Ritkawali,GEN,GEN (W),BCC,GEN (W),,,22368
+Satara,Jawali,रूईघर,Ruighar,GEN,SC (W),BCC,GEN (W),,,22369
+Satara,Jawali,सांगवी तर्फे मेढा,Sangavi T. Medha,GEN,BCC,GEN,BCC (W),,,22370
+Satara,Jawali,सनपाने,sanpane,GEN,GEN (W),GEN (W),GEN,,,22371
+Satara,Jawali,सर्जापूर,Sarjapur,GEN,GEN,BCC,GEN (W),,,22372
+Satara,Jawali,सरताळे,Sartale,GEN,SC,BCC,GEN (W),,,22373
+Satara,Jawali,सावली,Savali,GEN,GEN (W),GEN (W),BCC,,,22374
+Satara,Jawali,सायगाव,Saygaon,BCC (W),GEN,GEN,SC,,,22375
+Satara,Jawali,शेंबडी,Shembadi,BCC (W),GEN,GEN,BCC (W),,,22376
+Satara,Jawali,शेते,Shete,GEN,BCC,GEN,BCC (W),,,22377
+Satara,Jawali,शिंदेवाडी,Shindewadi,GEN,BCC,GEN (W),GEN,,,22378
+Satara,Jawali,सोमर्डी,Somardi,BCC,GEN (W),GEN,BCC (W),,,22379
+Satara,Jawali,सोनगांव ,Songaon ,GEN,BCC,BCC (W),GEN,,,22380
+Satara,Jawali,तळोशी,Taloshi,BCC (W),GEN (W),GEN ,GEN (W),,,22381
+Satara,Jawali,तेटली,Tetali,BCC,GEN (W),GEN,BCC (W),,,22382
+Satara,Jawali,उंबरेवाडी,Umbarevadi,BCC,GEN,GEN (W),BCC,,,22383
+Satara,Jawali,वागदरे,Vagdare,GEN,BCC,GEN,GEN (W),,,22384
+Satara,Jawali,वहागाव,Vahagaon,GEN (W),GEN,SC,BCC (W),,,22385
+Satara,Jawali,वाळंजवाडी,Valanjwadi,GEN,BCC,GEN (W),GEN,,,22386
+Satara,Jawali,वालूथ,Valuth,GEN,GEN (W),GEN,SC (W),,,22387
+Satara,Jawali,वरोशी,Varoshi,BCC (W),GEN,GEN (W),BCC,,,22388
+Satara,Jawali,वेळे,Vele,GEN (W),BCC,GEN (W),BCC,,,22389
+Satara,Jawali,विवर,Vivar,GEN,BCC,BCC (W),GEN (W),,,22390
+Satara,Jawali,वाकी,Waki,GEN (W),GEN,BCC (W),GEN,,,22391
+Satara,Jawali,ऐकीव,Yekiv,GEN,BCC,GEN (W),BCC,,,22392
+Satara,Karad,आणे,Aane,GEN ,GEN (W),BCC (W),GEN,,,22393
+Satara,Karad,अबईचीवाडी,Abaichiwadi,GEN ,SC (W),BCC ,GEN (W),,,22394
+Satara,Karad,आदर्शनगर,Adarshnagar,BCC ,GEN (W),GEN ,GEN (W),,,22395
+Satara,Karad,अकाईचीवाडी,Akachiwadi,BCC ,GEN (W),BCC (W),SC,,,22396
+Satara,Karad,अंबवडे,Ambavade,GEN ,BCC ,GEN ,SC (W),,,22397
+Satara,Karad,अंधारवाडी,Andharwadi,GEN ,GEN (W ),GEN ,SC,,,22398
+Satara,Karad,अंतवडी,Antvadi,GEN ,GEN ,SC ,BCC (W),,,22399
+Satara,Karad,आरेवाडी,Arewadi,BCC ,GEN (W),GEN (W ),GEN,,,22400
+Satara,Karad,आटके,Atake,GEN (W),SC,BCC ,GEN (W),,,22401
+Satara,Karad,बाबरमाची,Babarmachi,GEN (W),BCC ,GEN (W),SC,,,22402
+Satara,Karad,बाबरमाची (डिचोली),Babarmachi (Dicholi),-,-,GEN (W),BCC,,,22403
+Satara,Karad,बामनवाडी,Bamanwadi,GEN ,GEN ,BCC ,GEN (W),,,22404
+Satara,Karad,बनवडी,Banavdi,SC ,GEN ,GEN (W),BCC,,,22405
+Satara,Karad,बानुगडेवाडी,Banugadewadi,GEN (W),GEN ,GEN ,BCC (W),,,22406
+Satara,Karad,बेलवडे (हवेली),Belavade (Haveli),GEN (W),BCC ,GEN (W),GEN,,,22407
+Satara,Karad,बेलवडे (बु),Belavade Bk.,SC (W),GEN ,BCC (W),GEN,,,22408
+Satara,Karad,बेलदरे,Beldare,BCC ,GEN (W),BCC ,SC (W),,,22409
+Satara,Karad,भांबे,Bhambe,-,GEN ,SC,BCC (W),,,22410
+Satara,Karad,भरेवाडी,Bharewadi,BCC ,GEN ,BCC (W),GEN,,,22411
+Satara,Karad,भवानवाडी,Bhavanwadi,GEN (W),BCC ,GEN ,SC (W),,,22412
+Satara,Karad,भोळेवाडी,Bholewadi,GEN ,BCC (W),GEN ,GEN (W),,,22413
+Satara,Karad,भोसलेवाडी,Bhosalewadi,GEN ,GEN (W),SC (W),BCC,,,22414
+Satara,Karad,भुरभुशी,Bhurbhushi,BCC (W),GEN ,SC,GEN (W),,,22415
+Satara,Karad,भुयाचीवाडी,Bhuyachiwadi,GEN (W),GEN ,SC,BCC (W),,,22416
+Satara,Karad,चचेगाव,Chachegaon,GEN ,BCC ,GEN (W),GEN,,,22417
+Satara,Karad,चरेगाव,Charegaon,GEN ,BCC ,GEN (W),GEN,,,22418
+Satara,Karad,चौगुलेमळा (भैरवनाथ नगर),Chaugulemala (Bhairavnath Nagar ),GEN ,BCC ,GEN (W),GEN ,,,22419
+Satara,Karad,चिखली,chikhali,BCC ,GEN ,BCC (W),GEN ,,,22420
+Satara,Karad,चिंचणी,Chinchani,GEN (W),GEN ,GEN (W),SC ,,,22421
+Satara,Karad,चोरजवाडी,Chorajwadi,GEN ,GEN (W),BCC (W),GEN,,,22422
+Satara,Karad,चोरे,Chore,BCC ,GEN ,GEN (W),BCC (W) ,,,22423
+Satara,Karad,डेळेवाडी,Delewadi,GEN ,GEN (W),GEN ,SC (W),,,22424
+Satara,Karad,धनकवडी ,Dhanakwadi ,BCC ,GEN (W),GEN (W),GEN,,,22425
+Satara,Karad,धावरवाडी,Dhavarwadi,GEN ,GEN (W),BCC ,SC (W),,,22426
+Satara,Karad,धोंडेवाडी,Dhondewadi,GEN ,BCC (W),GEN (W),GEN,,,22427
+Satara,Karad,दुशेरे,Dushere,SC (W),GEN ,GEN (W),BCC,,,22428
+Satara,Karad,गायकवाडवाडी,Gaikwadwadi,GEN ,GEN ,BCC , GEN (W),,,22429
+Satara,Karad,गमेवाडी,Gamewadi,GEN (W),GEN ,GEN ,BCC (W),,,22430
+Satara,Karad,गणेशवाडी,Ganeshwadi,GEN ,BCC (W),GEN (W),GEN,,,22431
+Satara,Karad,घराळवाडी,Gharalwadi,GEN (W),GEN ,BCC ,GEN (W),,,22432
+Satara,Karad,घारेवाडी,Gharewadi,GEN ,BCC ,SC,GEN (W),,,22433
+Satara,Karad,घोगाव,Ghogaon,GEN ,BCC (W),GEN ,GEN (W),,,22434
+Satara,Karad,घोलपवाडी,Gholapwadi,GEN ,GEN ,BCC (W),GEN,,,22435
+Satara,Karad,घोणशी,Ghonashi,GEN (W),GEN ,GEN (W),BCC,,,22436
+Satara,Karad,गोडवाडी,Godwadi,BCC (W),GEN ,BCC (W ),SC,,,22437
+Satara,Karad,गोळेश्वर,Goleshwar,GEN ,GEN ,GEN (W),BCC,,,22438
+Satara,Karad,‌गोंदी,Gondi,GEN ,SC,BCC (W),GEN,,,22439
+Satara,Karad,गोसावेवाडी,Gosavewadi,GEN ,GEN ,SC,BCC (W),,,22440
+Satara,Karad,गोटे,Gote,BCC ,GEN ,BCC ,GEN (W),,,22441
+Satara,Karad,गोटेवाडी,Gotewadi,BCC ,GEN ,BCC (W),GEN,,,22442
+Satara,Karad,गोवारे,Goware,GEN (W),GEN ,SC (W),BCC ,,,22443
+Satara,Karad,हजारमाची,Hajarmachi,GEN (W),GEN ,GEN (W),BCC ,,,22444
+Satara,Karad,हणमंतवाडी,Hanamantwadi,GEN ,GEN ,BCC ,GEN (W),,,22445
+Satara,Karad,हणबरवाडी,Hanbarwadi,GEN (W),GEN ,GEN (W),SC,,,22446
+Satara,Karad,हनुमानवाडी,Hanumanwadi,GEN ,GEN (W),BCC ,GEN (W) ,,,22447
+Satara,Karad,हरपळवाडी,Harphalwadi,BCC ,GEN (W),GEN ,GEN (W) ,,,22448
+Satara,Karad,हवेलवाडी,Havelwadi,GEN ,GEN (W),GEN ,BCC (W),,,22449
+Satara,Karad,हेळगांव,Helgaon,SC ,BCC ,GEN (W),GEN ,,,22450
+Satara,Karad,हिेंगनोळे,Hingnole,SC ,BCC ,GEN (W),GEN,,,22451
+Satara,Karad,इंदेाली,Indoli,GEN ,SC ,GEN (W),BCC,,,22452
+Satara,Karad,जखीणवाडी,Jakhinwadi,SC (W),GEN ,BCC (W),GEN,,,22453
+Satara,Karad,जिंती,Jinti,GEN (W),SC (W),BCC (W),GEN ,,,22454
+Satara,Karad,जुजारवाडी,Jujarwadi,GEN ,BCC ,GEN (W),GEN,,,22455
+Satara,Karad,जुळेवाडी,Julewadi,GEN ,GEN ,BCC (W),GEN,,,22456
+Satara,Karad,कचरेवाडी,Kacharewadi,GEN ,GEN (W),BCC (W),GEN,,,22457
+Satara,Karad,कळंत्रेवाडी,Kalantrewadi,BCC (W),GEN ,SC (W),GEN ,,,22458
+Satara,Karad,कालवडे,Kalavade,GEN (W),GEN ,GEN (W),BCC,,,22459
+Satara,Karad,काले,Kale,GEN ,SC,GEN (W),BCC,,,22460
+Satara,Karad,कालेटेक,Kaletek,SC,GEN (W),GEN ,BCC (W) ,,,22461
+Satara,Karad,कालगाव,Kalgaon,GEN ,BCC ,GEN (W),GEN,,,22462
+Satara,Karad,कामथी,Kamathi,GEN (W),GEN ,BCC (W),GEN,,,22463
+Satara,Karad,कांबीरवाडी,Kambirwadi,GEN ,BCC (W),SC,GEN (W),,,22464
+Satara,Karad,कापील ,Kapil ,GEN (W),GEN ,SC (W),BCC,,,22465
+Satara,Karad,करंजोशी (हरपळवाडी),Karanjoshi (Harpalwadi),-,-,GEN ,ST,In data it's (करंजोशी),,22466
+Satara,Karad,कार्वे,Karve,GEN (W),GEN ,SC (W),BCC,,,22467
+Satara,Karad,करवडी,Karwadi,BCC ,GEN ,GEN ,GEN (W),,,22468
+Satara,Karad,कासारशिंरंबे,Kasarshirambe,GEN ,BCC ,GEN (W),GEN,,,22469
+Satara,Karad,कवठे (जुने),Kavathe (Old),BCC ,GEN (W),GEN ,BCC (W) ,,,22470
+Satara,Karad,केसे,Kese,SC,BCC (W),GEN (W),GEN,,,22471
+Satara,Karad,खालकरवाडी,Khalkarwadi,SC (W),BCC ,GEN ,GEN (W),,,22472
+Satara,Karad,खराडे,Kharade,GEN ,BCC ,GEN ,GEN (W),,,22473
+Satara,Karad,खोडजाईवाडी,Khodjaiwadi,GEN ,GEN ,GEN (W),BCC (W),,,22474
+Satara,Karad,खोडशी,khodshi,GEN ,GEN ,BCC (W),GEN,,,22475
+Satara,Karad,खुबी,Khubi,GEN (W),GEN ,BCC ,GEN (W),,,22476
+Satara,Karad,किरपे,Kirape,GEN ,BCC (W),GEN ,GEN (W),,,22477
+Satara,Karad,किवळ,Kival,SC ,GEN ,GEN (W),BCC,,,22478
+Satara,Karad,कोडोली,Kodoli,GEN ,SC,BCC ,GEN (W),,,22479
+Satara,Karad,कोळे,Kole,GEN (W),BCC ,SC,GEN (W),,,22480
+Satara,Karad,कोळेवाडी,Kolewadi,SC ,GEN ,GEN (W),BCC,,,22481
+Satara,Karad,कोणेगाव,Konegaon,GEN ,BCC (W),SC (W),GEN ,,,22482
+Satara,Karad,कोपर्डे- हवेली,Koparde- Haveli,BCC ,GEN (W),SC (W),GEN ,,,22483
+Satara,Karad,कोरेगाव,Koregaon,BCC ,GEN (W ),GEN (W),GEN,,,22484
+Satara,Karad,कोरीवळे,koriwale,GEN (W),SC (W),GEN (W),BCC,,,22485
+Satara,Karad,कोर्टी,Korti,SC (W),BCC ,ST (W),GEN,,,22486
+Satara,Karad,कुसूर,Kusur,BCC ,SC,GEN (W),GEN,,,22487
+Satara,Karad,लटकेवाडी,Latkewadi,GEN ,GEN ,BCC (W),GEN ,,,22488
+Satara,Karad,लोहारवाडी ,Loharwadi ,GEN (W),GEN ,SC,BCC (W),,,22489
+Satara,Karad,महारुगडेवाडी,Maharugadewadi,BCC ,GEN ,BCC (W),GEN,,,22490
+Satara,Karad,मालखेड,Malkhed,GEN (W),GEN ,GEN (W),BCC,,,22491
+Satara,Karad,माळवाडी ,Malwadi ,GEN ,BCC ,GEN ,GEN (W),,,22492
+Satara,Karad,मांगवाडी,Mangwadi,GEN (W),BCC ,GEN ,GEN (W),,,22493
+Satara,Karad,मनू,Manu,SC ,BCC ,GEN (W),GEN,,,22494
+Satara,Karad,मरळी,Marali,BCC (W),GEN (W),GEN ,GEN (W),,,22495
+Satara,Karad,मस्करवाडी,Maskarwadi,BCC ,GEN ,GEN (W),GEN,,,22496
+Satara,Karad,मसुर ,Masur ,BCC ,SC,BCC ,GEN (W),,,22497
+Satara,Karad,मेरवेवाडी ,Mervewadi ,BCC ,GEN (W),GEN ,SC (W),,,22498
+Satara,Karad,म्हासोली,Mhasoli,GEN ,BCC (W),SC (W),GEN (W),,,22499
+Satara,Karad,म्होप्रे,mhopre,GEN ,BCC ,GEN ,GEN (W),,,22500
+Satara,Karad,मुनावळे,Munawale,GEN (W),SC (W),BCC ,GEN (W),,,22501
+Satara,Karad,मुंढे,Mundhe,GEN ,GEN (W),BCC ,GEN (W),,,22502
+Satara,Karad,नडशी,Nadashi,BCC ,GEN ,GEN ,GEN (W),,,22503
+Satara,Karad,नांदलापूर,Nandalapur,GEN (W),GEN ,BCC (W),SC,,,22504
+Satara,Karad,नांदगांव,Nandgaon,BCC (W),GEN ,GEN (W),GEN,,,22505
+Satara,Karad,नानेगाव,Nanegaon,-,-,-,SC (W),,,22506
+Satara,Karad,नारायणवाडी,Narayanwadi,GEN ,GEN (W),BCC (W),SC,,,22507
+Satara,Karad,नविन कवठे,Navin Kavathe,GEN (W ),SC (W ),BCC ,GEN (W),,,22508
+Satara,Karad,निगडी,Nigadi,GEN ,BCC ,GEN ,GEN (W),,,22509
+Satara,Karad,ओंड,Ond,GEN ,SC (W),GEN ,BCC (W),,,22510
+Satara,Karad,ओडोंशी,Ondoshi,GEN ,BCC ,GEN ,GEN (W),,,22511
+Satara,Karad,पाचुंद,Pachund,GEN (W),GEN ,SC (W),BCC,,,22512
+Satara,Karad,पाचुपतेवाडी,Pachupatewadi,BCC ,GEN ,GEN (W),BCC (W),,,22513
+Satara,Karad,पाडळी (हेळगांव),Padali (Helgaon),GEN ,BCC ,GEN (W),GEN,,,22514
+Satara,Karad,पाडळी केसे,Padali Kese,BCC (W),GEN ,GEN ,GEN  (W),,,22515
+Satara,Karad,पाल,Pal,GEN ,BCC ,GEN ,GEN  (W),,,22516
+Satara,Karad,पार्ले,Parle,GEN (W),GEN ,GEN ,BCC (W),,,22517
+Satara,Karad,पश्चिम सुपने,Pashchim Supane,GEN (W),SC,GEN (W),BCC,,,22518
+Satara,Karad,पवारवाडी ,Pawarwadi ,BCC (W),GEN ,BCC ,GEN (W),,,22519
+Satara,Karad,पेरले,Perle,GEN (W),GEN ,GEN ,BCC (W),,,22520
+Satara,Karad,पिंपरी,Pimpari,GEN ,BCC (W),SC (W),GEN,,,22521
+Satara,Karad,पोतले,Potale,GEN ,GEN ,BCC (W),GEN,,,22522
+Satara,Karad,राजमाची ,Rajmachi ,BCC ,GEN (W),GEN ,GEN (W),,,22523
+Satara,Karad,रेठरे बु.,Rethare Bk.,SC (W),BCC (W),GEN (W),GEN,,,22524
+Satara,Karad,रेठरे खु. ,Rethare Kh.,BCC (W),GEN ,SC,GEN (W) ,,,22525
+Satara,Karad,रिसवड,Riswad,BCC ,GEN ,GEN ,BCC (W),,,22526
+Satara,Karad,साबळेवाडी,Sabalewadi,BCC ,GEN ,BCC (W),GEN,SABALWADI,,22527
+Satara,Karad,सैदापूर,Saidapur,BCC (W),SC ,GEN (W),GEN,,,22528
+Satara,Karad,साजुर,Sajur,GEN (W),SC ,GEN ,BCC (W),,,22529
+Satara,Karad,साकुर्डी,Sakurdi,BCC ,SC ,GEN (W),GEN,,,22530
+Satara,Karad,साळशिरंबे,Salshirambe,GEN ,SC ,GEN ,BCC (W),,,22531
+Satara,Karad,संजयनगर,sanjaynagar,GEN ,GEN (W),GEN (W),BCC,संजयनगर (काले),,22532
+Satara,Karad,संजयनगर (शेरे),Sanjaynagar (Shere),-,-,-,SC (W),,,22533
+Satara,Karad,सवादे,Savade,GEN ,GEN ,SC ,BCC (W),,,22534
+Satara,Karad,सावरघर,Sawarghar,-,-,GEN ,SC,,,22535
+Satara,Karad,सयापूर,Sayapur,BCC (W),GEN ,GEN ,GEN (W),,,22536
+Satara,Karad,शहापूर,Shahapur,GEN ,SC (W),GEN (W),BCC,,,22537
+Satara,Karad,शामगाव,Shamgaon,GEN ,GEN (W),SC (W),BCC,,,22538
+Satara,Karad,शेळकेवाडी (म्हासोली),Shelkewadi (Mhasoli),GEN (W),GEN ,GEN ,BCC (W),,,22539
+Satara,Karad,शेळकेवाडी (येवती),Shelkewadi (Yevati),GEN ,GEN ,BCC ,GEN,,,22540
+Satara,Karad,शेणोली,Shenoli,BCC ,GEN ,GEN (W),GEN,,,22541
+Satara,Karad,शेरे,Shere,BCC (W ),GEN ,BCC ,GEN (W),,,22542
+Satara,Karad,शेवाळेवाडी (म्हासोली ),Shevalewadi (Mhasoli),SC ,GEN ,BCC (W),GEN,,,22543
+Satara,Karad,शेवाळेवाडी ( उंडाळे ),Shevalewadi (Undale),BCC ,GEN (W),GEN (W),BCC ,,,22544
+Satara,Karad,शिंदेवाडी ( विंग ),Shindewadi (Ving),GEN (W),GEN ,GEN ,SC (W),,,22545
+Satara,Karad,शिंगणवाडी,Shinganwadi,GEN ,BCC (W),GEN ,SC (W),,,22546
+Satara,Karad,शिरगांव,Shirgaon,SC ,BCC ,GEN ,GEN (W) ,,,22547
+Satara,Karad,शिरवडे,Shirvade,BCC (W),GEN ,BCC (W),GEN ,,,22548
+Satara,Karad,शितळवाडी,Shitalwadi,GEN ,GEN (W),BCC (W),SC,,,22549
+Satara,Karad,शिवडे,Shivade,GEN (W),GEN ,SC ,BCC (W),,,22550
+Satara,Karad,सुपने,Supane,GEN ,BCC ,SC ,GEN (W),,,22551
+Satara,Karad,सुर्ली,Surli,SC ,BCC ,GEN (W),GEN,,,22552
+Satara,Karad,तळबीड,Talbeed,BCC ,GEN ,GEN ,GEN (W),,,22553
+Satara,Karad,टाळगांव,Talgaon,GEN ,SC,BCC ,GEN (W),,,22554
+Satara,Karad,तांबवे,tambave,BCC (W),GEN ,BCC ,GEN (W),,,22555
+Satara,Karad,तारुख,Tarukh,BCC ,GEN ,BCC (W),GEN,,,22556
+Satara,Karad,तासवडे,Tasavade,BCC ,GEN ,GEN (W),GEN (W),,,22557
+Satara,Karad,टेंभू,Tembhu,GEN ,BCC (W),GEN ,GEN (W),,,22558
+Satara,Karad,तुळसण,Tulsan,GEN ,GEN ,GEN (W),BCC ,,,22559
+Satara,Karad,उंब्रज,Umbraj,GEN ,BCC (W),SC (W),GEN,,,22560
+Satara,Karad,उंडाळे,Undale,GEN (W),SC,GEN ,BCC (W),,,22561
+Satara,Karad,उत्तर तांबवे,Uttar Tambave,GEN ,BCC ,SC (W),GEN ,,,22562
+Satara,Karad,वडोली भिकेश्वर ,Vadoli Bhikeshwar ,GEN (W),BCC (W),GEN (W),GEN,,,22563
+Satara,Karad,वडोली निळेश्वर,Vadoli Nileshwar,GEN (W),GEN ,GEN (W),BCC,,,22564
+Satara,Karad,वाघेश्वर,Vagheshwar,SC (W),BCC (W),GEN ,GEN (W) ,,,22565
+Satara,Karad,वानरवाडी,Vanarwadi,GEN ,GEN (W),BCC ,GEN (W) ,,,22566
+Satara,Karad,वनवासमाची (खोडशी),Vanvasmachi (Khodashi),GEN ,GEN ,BCC ,SC,,,22567
+Satara,Karad,वनवासमाची (सदाशिवगड),Vanvasmachi (Sadashivgad),GEN ,BCC ,GEN ,SC,,,22568
+Satara,Karad,वराडे,Varade,BCC (W),GEN ,BCC ,GEN (W) ,,,22569
+Satara,Karad,वसंतगड,Vasantgad,GEN ,GEN (W),GEN (W),SC ,,,22570
+Satara,Karad,वस्ती साकुर्डी,Vasti Sakurdi,SC,GEN ,GEN (W),BCC,,,22571
+Satara,Karad,विजयनगर,Vijaynagar,GEN ,BCC (W),SC,GEN (W) ,,,22572
+Satara,Karad,विरवडे,virvade,GEN (W),GEN ,BCC ,GEN (W) ,,,22573
+Satara,Karad,वडगाव (उंब्रज),Wadgaon (Umbraj),SC (W),BCC ,GEN ,GEN (W) ,,,22574
+Satara,Karad,वडगाव हवेली,Wadgaon Haveli,SC ,BCC ,GEN (W),GEN,,,22575
+Satara,Karad,वाघेरी,Wagheri,GEN ,BCC ,SC (W),GEN,,,22576
+Satara,Karad,वहागाव,Wahagaon,BCC ,GEN (W),BCC (W),GEN,,,22577
+Satara,Karad,वाण्याचीवाडी ,Wanyachiwadi ,GEN ,GEN ,GEN ,SC (W),,,22578
+Satara,Karad,वारुंजी,Warunji,GEN ,BCC ,GEN ,GEN (W),,,22579
+Satara,Karad,वाठार,Wathar,BCC ,GEN (W),GEN ,GEN (W),,,22580
+Satara,Karad,विंग,Wing,BCC (W),GEN ,GEN ,GEN (W),,,22581
+Satara,Karad,यादववाडी,Yadavwadi,GEN ,GEN (W),BCC ,GEN (W),,,22582
+Satara,Karad,यशवंतनगर,Yashwantnagar,GEN ,GEN ,SC,BCC (W),,,22583
+Satara,Karad,येळगाव,Yelgaon,BCC ,GEN (W),GEN ,GEN (W),,,22584
+Satara,Karad,येणके,yenake,GEN ,GEN (W ),SC,BCC (W),,,22585
+Satara,Karad,येणपे,Yenape,SC ,GEN ,GEN ,BCC (W),,,22586
+Satara,Karad,येरवळे,Yeravle,BCC ,GEN ,GEN ,GEN (W),,,22587
+Satara,Karad,येवती,Yevati,GEN (W),GEN ,GEN ,BCC (W) ,,,22588
+Satara ,Karad ,बेलवाडी,Belwadi,GEN ,GEN (W),BCC (W),GEN,,,22589
+Satara ,Karad ,कोयनावसहत,Koyanavsahat ,GEN ,GEN (W),GEN ,SC (W),,,22590
+Satara ,Karad ,उत्तर कोपर्डे (यादववाडी),Uttar Kopre (Yadavwadi),GEN ,GEN ,SC (W),BCC,,,22591
+Satara ,Karad ,विठोबाचीवाडी,Vitobhachiwadi ,SC ,BCC ,GEN (W),GEN,,,22592
+Satara,Khandala,अहिरे,Ahire,GEN,BCC (W),GEN (W),SC,,,22593
+Satara,Khandala,अजनुज,Ajnuj,GEN (W),GEN,GEN,BCC (W),,,22594
+Satara,Khandala,अंबरवाडी,Ambarwadi,BCC,GEN,GEN,GEN (W),,,22595
+Satara,Khandala,अंदोरी,Andori,GEN,GEN,GEN (W),BCC,,,22596
+Satara,Khandala,असवली,Asavali,GEN,BCC (W),GEN (W),SC,,,22597
+Satara,Khandala,अतिट,Atit,GEN ,GEN,GEN (W),BCC (W),,,22598
+Satara,Khandala,बाळु पाटलाचीवाडी,Balu Patalachiwadi,GEN,GEN,GEN (W),BCC,,,22599
+Satara,Khandala,बावडा,Bavada,GEN,BCC,ST (W),GEN ,,,22600
+Satara,Khandala,बावकलवाडी,Bavkalwadi,GEN,BCC,GEN (W),SC (W),,,22601
+Satara,Khandala,भादवडे,Bhadawade,BCC,GEN (W),GEN,SC (W),,,22602
+Satara,Khandala,भादे,Bhade,BCC,ST,GEN (W),BCC (W),,,22603
+Satara,Khandala,भाटघर,Bhatghar,BCC (W),GEN,SC,GEN (W),,,22604
+Satara,Khandala,भोळी,Bholi,GEN (W),BCC (W),GEN,SC (W),,,22605
+Satara,Khandala,बोरी,Bori,GEN,SC (W),GEN (W),BCC,,,22606
+Satara,Khandala,दापकेघर,Dapkeghar,BCC,GEN (W) ,GEN,GEN (W),,,22607
+Satara,Khandala,देवघर,Devghar,GEN (W),BCC (W),GEN ,GEN (W),,,22608
+Satara,Khandala,धनगरवाडी,Dhangarwadi,BCC,GEN (W),GEN,GEN (W),,,22609
+Satara,Khandala,धावडवाडी,Dhawadwadi,SC (W),GEN,BCC,GEN (W),,,22610
+Satara,Khandala,घाडगेवाडी,Ghadgewadi,GEN,GEN,GEN (W) ,BCC (W),,,22611
+Satara,Khandala,घाटदरे,Ghatdare,BCC,GEN (W),GEN,GEN (W),,,22612
+Satara,Khandala,गोळेगांव,Golegaon,GEN,BCC,GEN (W),GEN ,,,22613
+Satara,Khandala,गुठाळवाडी,Guthalwadi,BCC (W) ,GEN,GEN (W),GEN ,,,22614
+Satara,Khandala,हरळी,Harali,GEN (W),GEN,SC,BCC (W),,,22615
+Satara,Khandala,जवळे,Jawale,SC,GEN (W),GEN,BCC (W),,,22616
+Satara,Khandala,कान्हवडी,Kanhawadi,GEN,GEN (W),GEN,BCC (W),,,22617
+Satara,Khandala,कण्हेरी,Kanheri,GEN (W) ,BCC ,ST (W),GEN,,,22618
+Satara,Khandala,कराडवाडी,Karadwadi,BCC,GEN (W),GEN ,GEN (W) ,,,22619
+Satara,Khandala,कर्णवडी,Karnawadi,GEN ,GEN (W),SC (W),BCC,,,22620
+Satara,Khandala,कवठे,Kavthe,BCC,GEN (W),GEN,BCC,,,22621
+Satara,Khandala,केसुर्डी,Kesurdi,GEN (W),GEN ,BCC (W),GEN,,,22622
+Satara,Khandala,खेड बु.,Khed Bk.,GEN,SC,BCC (W),GEN (W),,,22623
+Satara,Khandala,कोपर्डे,Koparde,GEN,BCC,GEN (W),GEN ,,,22624
+Satara,Khandala,लिंबाचीवाडी,Limbachiwadi,GEN,GEN,BCC,GEN (W),,,22625
+Satara,Khandala,लोहोम,Lohom,GEN,BCC,GEN (W),GEN ,,,22626
+Satara,Khandala,लोणी,Loni,GEN (W),BCC,GEN,GEN (W),,,22627
+Satara,Khandala,मरी आईचीवाडी,Mari Aaichiwadi,GEN (W),GEN,BCC,GEN (W),,,22628
+Satara,Khandala,म्हावशी,Mhawashi,GEN,GEN,BCC (W),GEN ,,,22629
+Satara,Khandala,मिरजे,Mirje,GEN (W),BCC,SC,GEN (W),,,22630
+Satara,Khandala,मोर्वे,Morve,GEN (W),SC (W),BCC (W),GEN ,,,22631
+Satara,Khandala,नायगाव,Naigaon,GEN (W),GEN,BCC,GEN (W),,,22632
+Satara,Khandala,निंबोडी,Nimbodi,GEN ,GEN,BCC (W),GEN ,,,22633
+Satara,Khandala,पाडळी,Padali,GEN,SC,BCC,GEN (W),,,22634
+Satara,Khandala,पाडेगाव,Padegaon,BCC,GEN (W),GEN,GEN  (W),,,22635
+Satara,Khandala,पळशी,Palshi,SC,GEN (W) ,GEN,BCC (W),,,22636
+Satara,Khandala,पारगांव,Pargaon,BCC (W) ,GEN,GEN (W),GEN,,,22637
+Satara,Khandala,पिंपरे बु.,Pimpre Bk.,ST,SC,BCC ,GEN (W),,,22638
+Satara,Khandala,पिसाळवाडी,Pisalwadi,GEN,GEN,GEN (W),BCC,,,22639
+Satara,Khandala,राजेवाडी,Rajewadi,,,,GEN ,,,22640
+Satara,Khandala,साळव,Salav,GEN (W),BCC (W),GEN,GEN (W),,,22641
+Satara,Khandala,सांगवी,Sangvi,GEN,GEN (W),SC (W),BCC,,,22642
+Satara,Khandala,शेडगेवाडी,Shedgewadi,GEN,BCC,GEN (W),GEN,,,22643
+Satara,Khandala,शेखमीरवाडी,Shekhmirwadi,GEN (W),GEN,BCC,GEN (W),,,22644
+Satara,Khandala,शिंदेवाडी,Shindewadi,BCC ,GEN (W) ,GEN ,GEN (W) ,,,22645
+Satara,Khandala,शिरवळ,Shirwal,GEN,BCC,GEN (W),SC,,,22646
+Satara,Khandala,शिवाजीनगर,Shivajinagar,SC,BCC,BCC (W),GEN ,,,22647
+Satara,Khandala,सुखेड,Sukhed,BCC,GEN (W),SC (W),BCC,,,22648
+Satara,Khandala,तोंडल,Tondal,GEN,GEN ,BCC (W),GEN ,,,22649
+Satara,Khandala,वाघोशी,Vaghoshi,BCC (W),GEN,GEN (W),GEN,,,22650
+Satara,Khandala,वडगाव,Wadgaon,BCC (W),GEN,GEN (W),BCC,,,22651
+Satara,Khandala,वाण्याचीवाडी,Wanyachiwadi,GEN ,GEN,BCC,GEN,,,22652
+Satara,Khandala,वाठार बु.,Wathar Bu.,BCC,GEN,GEN,GEN ,,,22653
+Satara,Khandala,विंग,Wing,ST (W),GEN         ,BCC (W),GEN ,,,22654
+Satara,Khandala,झगलवाडी,Zagalwadi,GEN (W) ,BCC,GEN,GEN (W) ,,,22655
+Satara,Khatav,अंबवडे,Ambavade,GEN ,BCC ,GEN ,GEN (W),,,22656
+Satara,Khatav,अंभेरी,Ambheri,GEN ,BCC ,GEN (W),GEN ,,,22657
+Satara,Khatav,अनपटवाडी,Anpatwadi,GEN ,GEN (W) ,BCC (W) ,GEN ,,,22658
+Satara,Khatav,अनफळे,Anphale,GEN (W),BCC,SC (W),GEN ,,,22659
+Satara,Khatav,औंध,Aundh,GEN ,GEN (W),BCC (W),GEN ,,,22660
+Satara,Khatav,बनपुरी,Banpuri,BCC ,GEN (W),GEN ,SC (W),,,22661
+Satara,Khatav,भांडेवाडी ,Bhandewadi ,GEN (W) ,GEN ,GEN ,BCC (W) ,,,22662
+Satara,Khatav,भोसरे,Bhosare,GEN ,SC ,GEN ,BCC (W),,,22663
+Satara,Khatav,भुरकवडी,Bhurkawadi,GEN (W) ,GEN ,BCC ,GEN (W) ,,,22664
+Satara,Khatav,भूषणगड,Bhushangad,BCC ,GEN (W) ,BCC (W) ,GEN ,,,22665
+Satara,Khatav,बोंबाळे,Bombale,GEN (W),GEN,BCC,GEN (W),,,22666
+Satara,Khatav,बुध,Budh,GEN ,SC (W),GEN ,BCC (W),,,22667
+Satara,Khatav,चिंचणी,Chinchani,GEN ,BCC (W) ,GEN (W) ,GEN ,,,22668
+Satara,Khatav,चितळी,Chitali,GEN ,GEN,GEN (W),SC ,,,22669
+Satara,Khatav,चोराडे,Chorade,BCC (W),SC ,GEN (W),GEN ,,,22670
+Satara,Khatav,दहिवड,Dahivad,,BCC (W) ,GEN (W) ,GEN ,,,22671
+Satara,Khatav,डाळमोडी,Dalmodi,GEN ,BCC (W),GEN (W),SC ,,,22672
+Satara,Khatav,डांभेवाडी,Dambhewadi,SC,BCC (W),GEN (W),GEN ,,,22673
+Satara,Khatav,दरजाई ,Darjai,GEN ,GEN (W) ,GEN ,BCC (W) ,,,22674
+Satara,Khatav,दरूज,Daruj,SC,GEN,BCC (W),GEN (W),,,22675
+Satara,Khatav,दातेवाडी,Datewadi,GEN ,SC ,BCC ,GEN (W),,,22676
+Satara,Khatav,धकटवाडी,Dhakatwadi,BCC ,GEN (W) ,GEN ,BCC ,,,22677
+Satara,Khatav,धारपुडी,Dharpudi,GEN ,GEN,GEN (W),BCC ,,,22678
+Satara,Khatav,ढोकळवाडी,Dhokalwadi,GEN ,BCC,GEN ,GEN (W),,,22679
+Satara,Khatav,धोंडेवाडी,Dhondewadi,SC,GEN (W),GEN (W),BCC,,,22680
+Satara,Khatav,डिस्कळ ,Diskal ,BCC ,GEN (W),GEN ,SC (W),,,22681
+Satara,Khatav,एनकुळ,Enkul,BCC,GEN,GEN (W),GEN ,,,22682
+Satara,Khatav,गादेवाडी,Gadewadi,GEN (W) ,GEN ,GEN (W) ,BCC ,,,22683
+Satara,Khatav,गणेशवाडी,Ganeshawadi,GEN (W) ,BCC ,GEN (W) ,GEN ,,,22684
+Satara,Khatav,गारळेवाडी,Garlewadi,GEN (W) ,GEN ,BCC (W) ,GEN ,,,22685
+Satara,Khatav,गारूडी,Garudi,GEN ,BCC (W) ,GEN (W) ,GEN ,,,22686
+Satara,Khatav,गारवडी,Garwadi,BCC ,GEN (W) ,GEN ,GEN (W) ,,,22687
+Satara,Khatav,गिरीजाशंकर वाडी,Girijashankarwadi,GEN ,BCC (W) ,GEN (W) ,GEN ,,,22688
+Satara,Khatav,गोपूज,Gopuj,GEN ,BCC,ST (W),GEN ,,,22689
+Satara,Khatav,गोरेगाव (निमसोड ),Goregaon (Nimsod),SC (W),BCC (W),GEN ,GEN (W),,,22690
+Satara,Khatav,गोरेगाव (वांगी),Goregaon (Wangi),GEN ,GEN,SC,BCC (W),,,22691
+Satara,Khatav,गोसाव्याचीवाडी,Gosavyachiwadi,GEN (W) ,GEN ,GEN (W) ,BCC ,,,22692
+Satara,Khatav,गुंडेवाडी,gundewadi,BCC (W) ,GEN ,GEN (W) ,GEN ,,,22693
+Satara,Khatav,गुरसाळे,Gursale,GEN (W),GEN,SC (W),BCC ,,,22694
+Satara,Khatav,हिंगणे,Hingane,BCC,GEN (W),GEN ,GEN (W),,,22695
+Satara,Khatav,हिवरवाडी,Hivarwadi,SC,GEN (W),BCC,GEN (W),,,22696
+Satara,Khatav,होळीचागाव,Holichagaon,BCC (W),GEN,GEN ,GEN (W),,,22697
+Satara,Khatav,जाखणगाव,Jakhangaon,BCC ,SC (W),BCC (W),GEN ,,,22698
+Satara,Khatav,जांब,Jamb,GEN (W),GEN,GEN (W),BCC,,,22699
+Satara,Khatav,जायगाव,Jayagaon,SC (W),BCC (W),GEN (W),GEN ,,,22700
+Satara,Khatav,कळंबी,Kalambi,GEN ,GEN (W),SC ,BCC ,,,22701
+Satara,Khatav,कलेढोण,Kaledhon,BCC ,GEN,SC ,GEN (W),,,22702
+Satara,Khatav,काळेवाडी,Kalewadi,GEN ,GEN (W) ,GEN ,BCC (W) ,,,22703
+Satara,Khatav,कामथी तर्फ परळी,Kamathi T. Parali,,BCC,SC (W),GEN (W),,,22704
+Satara,Khatav,कान्हरवाडी,Kanharwadi,GEN ,BCC (W),GEN ,GEN (W),,,22705
+Satara,Khatav,कानकात्रे,Kankatre,GEN (W) ,GEN ,GEN ,BCC (W) ,,,22706
+Satara,Khatav,कणसेवाडी,Kansewadi,GEN ,BCC ,GEN (W),GEN (W),,,22707
+Satara,Khatav,करांडेवाडी,Karandewadi,GEN ,BCC (W) ,GEN ,GEN (W) ,,,22708
+Satara,Khatav,कातळगेवाडी,Katalgewadi,GEN ,GEN (W) ,GEN ,BCC (W) ,,,22709
+Satara,Khatav,कातरखटाव,Katarkhatav,SC,BCC,GEN ,GEN (W),,,22710
+Satara,Khatav,काटेवाडी,Katewadi,GEN ,GEN (W) ,GEN ,BCC (W) ,,,22711
+Satara,Khatav,कटगुण,Katgun,BCC,SC (W),BCC (W),GEN ,,,22712
+Satara,Khatav,खबालवाडी,Khabalwadi,BCC (W) ,GEN ,GEN (W) ,BCC ,,,22713
+Satara,Khatav,खरशिंगे,Kharshinge,GEN ,GEN (W) ,GEN ,BCC (W) ,,,22714
+Satara,Khatav,खटाव ,Khatav ,GEN ,GEN (W),SC,BCC (W),,,22715
+Satara,Khatav,खातगूण,Khatgun,BCC,GEN (W),SC,BCC (W),,,22716
+Satara,Khatav,खातवळ,Khatwal,GEN (W),GEN (W),GEN (W),GEN ,,,22717
+Satara,Khatav,कोकराळे,Kokrale,GEN ,GEN ,BCC (W) ,GEN ,,,22718
+Satara,Khatav,कुमठे नागाचे,Kumthe Nagache,BCC (W),SC,GEN ,BCC,,,22719
+Satara,Khatav,कुरोली (सिध्देश्वर),Kuroli (Siddheshvar),BCC,SC,GEN (W),GEN ,,,22720
+Satara,Khatav,लाडेगाव,Ladegaon,GEN ,BCC (W),GEN ,GEN (W),,,22721
+Satara,Khatav,ललगुण,Lalgun,GEN (W),GEN,BCC ,SC (W),,,22722
+Satara,Khatav,लांडेवाडी,Landewadi,GEN ,BCC (W) ,GEN (W) ,GEN (W) ,,,22723
+Satara,Khatav,लोणी,Loni,GEN (W),BCC ,GEN (W),GEN ,,,22724
+Satara,Khatav,मांडवे,Mandave,GEN ,BCC ,GEN ,SC (W),,,22725
+Satara,Khatav,मानेवाडी (तुपेवाडी ),Manewadi/Tupewadi,GEN (W),GEN,BCC ,SC (W),,,22726
+Satara,Khatav,मांजरवाडी,Manjarwadi,BCC ,GEN ,GEN (W) ,GEN ,,,22727
+Satara,Khatav,मरडवाक,Maradwak,BCC,GEN (W),BCC (W),GEN ,,,22728
+Satara,Khatav,मायणी,Mayani,SC (W),GEN,BCC ,GEN (W),,,22729
+Satara,Khatav,म्हासुर्णे,Mhasurne,SC,GEN (W),GEN ,BCC (W),,,22730
+Satara,Khatav,मोळ,Mol,GEN ,BCC (W),GEN (W),SC ,,,22731
+Satara,Khatav,मोराळे,Morale,GEN ,BCC (W),GEN (W),GEN ,,,22732
+Satara,Khatav,मुळीकवाडी,Mulikwadi,GEN ,BCC (W),GEN ,SC (W),,,22733
+Satara,Khatav,मुसांडेवाडी,Musandewadi,GEN (W) ,BCC (W) ,GEN (W) ,GEN ,,,22734
+Satara,Khatav,नढवळ,Nadhaval,SC,GEN (W),BCC (W),GEN ,,,22735
+Satara,Khatav,नागनाथवाडी,Nagnathwadi,GEN (W) ,GEN ,GEN (W) ,BCC ,,,22736
+Satara,Khatav,नांदोशी,Nandoshi,BCC,GEN (W),BCC (W),GEN ,,,22737
+Satara,Khatav,नवलेवाडी,Navalewadi,GEN ,GEN (W) ,BCC ,GEN (W) ,,,22738
+Satara,Khatav,नायकाचीवाडी,Nayakachiwadi,GEN ,GEN ,BCC ,GEN (W) ,,,22739
+Satara,Khatav,नेर,Ner,BCC (W),GEN,GEN (W),GEN ,,,22740
+Satara,Khatav,निढळ,Nidhal,BCC (W),SC (W),GEN ,GEN (W),,,22741
+Satara,Khatav,निमसोड,Nimsod,GEN ,BCC ,GEN (W),GEN ,,,22742
+Satara,Khatav,पाचवड,Pachavad,GEN ,BCC ,SC (W),GEN ,,,22743
+Satara,Khatav,पडळ ,Padal ,GEN (W),GEN,BCC (W),GEN ,,,22744
+Satara,Khatav,पळसगांव ,Palasgaon ,GEN ,BCC (W),SC ,GEN (W),,,22745
+Satara,Khatav,पळशी,Palashi,GEN (W),GEN,SC ,BCC (W),,,22746
+Satara,Khatav,पांढरवाडी,Pandharwadi,BCC (W) ,GEN ,BCC (W) ,GEN ,,,22747
+Satara,Khatav,पांगारखेळ,Pangarkhel,GEN ,GEN (W) ,BCC ,GEN (W) ,,,22748
+Satara,Khatav,पारगाव,Pargaon,GEN ,BCC (W),GEN (W),GEN ,,,22749
+Satara,Khatav,पवारवाडी,Pawarwadi,GEN ,GEN (W) ,GEN ,BCC (W) ,,,22750
+Satara,Khatav,पेडगाव,Pedagaon,BCC ,SC ,BCC (W),GEN ,,,22751
+Satara,Khatav,फडतरवाडी (बुध),Phadtarwadi (Budh),GEN ,GEN (W) ,BCC ,GEN (W) ,,,22752
+Satara,Khatav,फडतरवाडी नेर,Phadtarwadi Ner,GEN (W) ,GEN ,BCC (W) ,GEN ,,,22753
+Satara,Khatav,पिंपरी,Pimpari,BCC,GEN (W),SC,GEN (W),,,22754
+Satara,Khatav,पोफळकरवाडी,Pophalkarwadi,,,BCC ,GEN (W) ,,,22755
+Satara,Khatav,पुनवडी,punwadi,,BCC ,GEN ,GEN (W) ,,,22756
+Satara,Khatav,पुसेगाव,Pusegaon,GEN ,GEN (W),BCC (W),SC ,,,22757
+Satara,Khatav,पुसेसावळी,Pusesavali,GEN (W),GEN,SC (W),BCC ,,,22758
+Satara,Khatav,रहाटणी,Rahatni,GEN (W),GEN,SC (W),BCC,,,22759
+Satara,Khatav,राजाचे कुर्लै,Rajache Kurle,BCC,GEN (W),GEN ,GEN (W),,,22760
+Satara,Khatav,राजापूर,Rajapur,GEN ,BCC (W) ,GEN ,GEN (W) ,,,22761
+Satara,Khatav,रणसिंगवाडी,Ransingwadi,GEN ,BCC (W) ,GEN (W) ,GEN ,,,22762
+Satara,Khatav,रेवली,Revali,GEN (W) ,GEN (W) ,BCC ,GEN (W) ,,,22763
+Satara,Khatav,रेवलकरवाडी,Revalkarwadi,GEN ,GEN ,GEN (W) ,BCC ,,,22764
+Satara,Khatav,सातेवाडी,Satewadi,BCC,GEN (W),GEN ,GEN (W),,,22765
+Satara,Khatav,शेनवडी,Shenwadi,GEN ,GEN,BCC (W),GEN ,,,22766
+Satara,Khatav,शिंदेवाडी,Shindewadi,BCC ,GEN (W) ,GEN ,GEN (W) ,,,22767
+Satara,Khatav,शिरसवाडी,Shiraswadi,BCC,GEN (W),BCC (W),GEN ,,,22768
+Satara,Khatav,सुर्याचावाडी,Suryachiwadi,GEN (W) ,GEN ,BCC ,GEN (W) ,,,22769
+Satara,Khatav,तडवळे,Tadavale,GEN ,GEN,GEN (W),BCC ,,,22770
+Satara,Khatav,तरसवाडी,Taraswadi,BCC (W) ,GEN ,GEN (W) ,GEN ,,,22771
+Satara,Khatav,त्रिमली,Trimali,GEN (W) ,GEN ,GEN (W) ,BCC ,,,22772
+Satara,Khatav,उंबर्डे,Umbarde,BCC (W) ,GEN ,BCC ,GEN (W) ,,,22773
+Satara,Khatav,उंबरमळे,Umbarmale,GEN (W) ,GEN ,BCC ,GEN (W) ,,,22774
+Satara,Khatav,उचिठाणे,Unchithane,BCC,GEN (W),GEN ,GEN (W),,,22775
+Satara,Khatav,वडगाव (ज.स्वा.),Vadagaon (J.Saw.),GEN ,SC (W),GEN ,BCC (W),,,22776
+Satara,Khatav,वाकळवाडी,Vakalwadi,GEN ,GEN (W) ,BCC ,GEN (W) ,,,22777
+Satara,Khatav,वांझोळी,Vanzholi,BCC,GEN (W),SC (W),GEN ,,,22778
+Satara,Khatav,वर्धनगड,Vardhangadh,BCC (W) ,GEN ,GEN ,GEN (W) ,,,22779
+Satara,Khatav,वरुड,Varud,GEN (W),GEN,GEN (W),SC ,,,22780
+Satara,Khatav,वेटणे,Vetane,GEN ,GEN,GEN (W),BCC,,,22781
+Satara,Khatav,विखळे,Vikhale,GEN ,GEN (W),GEN ,SC ,,,22782
+Satara,Khatav,विसापूर,Visapur,GEN ,GEN (W),GEN ,SC (W),,,22783
+Satara,Khatav,वडी,Wadi,SC,BCC,GEN ,GEN (W),,,22784
+Satara,Khatav,वाकेश्वर,Wakeshwar,SC (W),GEN,GEN (W),BCC,,,22785
+Satara,Khatav,येळीव,Yeliv,GEN (W),GEN,GEN ,BCC (W),,,22786
+Satara,Khatav,येलमरवाडी ,Yelmarwadi ,BCC (W),GEN,BCC ,GEN (W),,,22787
+Satara,Khatav,येरळवाडी,Yeralwadi,GEN ,GEN,SC (W),BCC,,,22788
+Satara,Koregaon,अनपटवाडी,Anpatwadi,GEN ,BCC ,GEN ,GEN (W) ,,,22789
+Satara,Koregaon,अनभुलवाडी,Anbhulwadi,GEN ,GEN (W) ,GEN (W) ,BCC ,,,22790
+Satara,Koregaon,अपशिंगे,Apshinge,BCC ,GEN (W) ,GEN (W) ,GEN ,,,22791
+Satara,Koregaon,अंबवडे स. कोरेगाव,Ambawade S. Koregaon,BCC ,GEN (W) ,GEN (W) ,GEN ,,,22792
+Satara,Koregaon,अबंवडे स. वाघोली,Ambawade S. Vagholi,BCC ,GEN ,SC ,GEN (W) ,,,22793
+Satara,Koregaon,अंभेरी ,Ambheri ,GEN ,GEN (W) ,BCC ,GEN (W) ,,,22794
+Satara,Koregaon,अरबवाडी,Aarabwadi,GEN (W) ,GEN ,GEN ,BCC (W) ,,,22795
+Satara,Koregaon,आझादपूर,Azhadpur,GEN (W) ,SC (W) ,BCC ,GEN (W) ,,,22796
+Satara,Koregaon,आर्वी,Arvi,GEN ,BCC (W) ,BCC (W) ,SC ,,,22797
+Satara,Koregaon,आसगाव,Asgaon,BCC ,GEN (W) ,GEN (W) ,GEN ,,,22798
+Satara,Koregaon,आसनगाव,Asangaon,GEN ,SC (W) ,BCC ,GEN (W) ,,,22799
+Satara,Koregaon,आसरे,Asare,BCC ,GEN (W) ,GEN ,GEN (W) ,,,22800
+Satara,Koregaon,एकसळ ,Eksal ,BCC ,GEN (W) ,GEN ,GEN (W) ,,,22801
+Satara,Koregaon,ऐकंबे,Ekambe,GEN ,GEN (W) ,BCC ,GEN (W) ,,,22802
+Satara,Koregaon,कठापूर,Kathapur,SC (W) ,GEN ,GEN (W) ,BCC ,,,22803
+Satara,Koregaon,कण्हेरखेड,Kanherkhed,GEN (W) ,GEN (W) ,GEN ,BCC (W) ,,,22804
+Satara,Koregaon,करंजखोप,Karanjkhop,GEN ,SC (W) ,BCC ,GEN (W) ,,,22805
+Satara,Koregaon,कवडेवाडी,Kawadewadi,GEN ,GEN (W) ,GEN (W) ,BCC ,,,22806
+Satara,Koregaon,काळोशी,Kaloshi,GEN ,GEN (W) ,BCC ,GEN (W) ,,,22807
+Satara,Koregaon,किन्हई,Kinhai,SC (W) ,BCC ,GEN (W) ,GEN ,,,22808
+Satara,Koregaon,किरोली,Kiroli,BCC ,GEN (W) ,GEN ,GEN (W) ,,,22809
+Satara,Koregaon,कुमठे,Kumthe,GEN (W) ,BCC ,BCC (W) ,SC ,,,22810
+Satara,Koregaon,कोंबडवाडी,Kombadwadi,BCC (W) ,GEN ,GEN ,GEN (W) ,,,22811
+Satara,Koregaon,कोलवडी,Kolawadi,GEN ,GEN (W) ,BCC ,GEN (W) ,,,22812
+Satara,Koregaon,खडखडवाडी,Khadkhadwadi,GEN ,GEN (W) ,BCC (W) ,GEN ,,,22813
+Satara,Koregaon,खामकरवाडी,Khamkarwadi,GEN ,GEN (W) ,BCC ,GEN (W) ,,,22814
+Satara,Koregaon,खिरखिंडी,Khirkhindi,GEN ,GEN (W) ,SC (W) ,BCC ,,,22815
+Satara,Koregaon,खेड,Khed,SC ,GEN ,GEN ,BCC (W) ,,,22816
+Satara,Koregaon,गुजरवाडी (एन.व्ही. )पळशी,Gujarwadi (N.V.) Palashi,BCC ,BCC (W) ,GEN ,GEN (W) ,,,22817
+Satara,Koregaon,गुजरवाडी (टकले) ,Gujarwadi (Takale) ,GEN ,GEN (W) ,GEN (W) ,BCC ,,,22818
+Satara,Koregaon,गोगावलेवाडी,Gogavalewadi,GEN ,GEN ,GEN (W) ,BCC ,,,22819
+Satara,Koregaon,गोडसेवाडी,Godasewadi,GEN ,GEN ,BCC ,GEN (W) ,,,22820
+Satara,Koregaon,गोळेवाडी,Golewadi,GEN ,GEN ,BCC (W) ,GEN ,,,22821
+Satara,Koregaon,घाडगेवाडी,Ghadagewadi,GEN ,GEN (W) ,GEN (W) ,BCC ,,,22822
+Satara,Koregaon,घिगेवाडी,Ghigewadi,GEN ,GEN (W) ,BCC (W) ,GEN ,,,22823
+Satara,Koregaon,चंचळी,Chanchali,GEN ,SC ,BCC ,GEN (W) ,,,22824
+Satara,Koregaon,चवणेश्वर,Chawaneshwar,GEN ,BCC (W) ,ST,GEN (W) ,,,22825
+Satara,Koregaon,चांदवडी,Chandwadi,GEN ,BCC (W) ,GEN (W) ,GEN ,,,22826
+Satara,Koregaon,चिमणगाव,Chimangaon,GEN ,BCC ,GEN ,GEN (W) ,,,22827
+Satara,Koregaon,चिलेवाडी,Chilewadi,BCC ,GEN (W) ,GEN ,GEN (W) ,,,22828
+Satara,Koregaon,चेारगेवाडी,Chorgewadi,BCC ,GEN (W) ,GEN (W) ,SC ,,,22829
+Satara,Koregaon,चौधरवाडी,Chudharwadi,GEN ,GEN ,BCC (W) ,GEN ,,,22830
+Satara,Koregaon,जगतापवाडी,Jagtapwadi,GEN (W) ,GEN ,BCC (W) ,GEN ,,,22831
+Satara,Koregaon,जरेवाडी,Jarewadi,GEN ,GEN (W) ,GEN ,BCC (W) ,,,22832
+Satara,Koregaon,जळगाव,Jalgaon,BCC ,GEN (W) ,GEN ,SC (W) ,,,22833
+Satara,Koregaon,जाधववाडी (एन. व्ही. ),Jadhavwadi (N.V.),GEN (W) ,GEN ,BCC ,GEN (W) ,,,22834
+Satara,Koregaon,जांब खु. ,Jambh Kh.,GEN ,BCC ,SC ,GEN (W) ,,,22835
+Satara,Koregaon,जांब बु.,Jamb Bk.,BCC ,GEN ,GEN (W) ,GEN ,,,22836
+Satara,Koregaon,जायगांव,Jaygaon,GEN ,GEN (W),GEN ,BCC (W) ,,,22837
+Satara,Koregaon,टकले ,Takale ,GEN ,GEN (W) ,GEN (W) ,BCC ,,,22838
+Satara,Koregaon,तडवळे सं. कोरेगाव,Tadwale s. Koregaon,GEN (W) ,GEN ,GEN (W) ,BCC ,,,22839
+Satara,Koregaon,तडवेळे स. वाघोली,Tadwele S. Vagholi,BCC (W) ,GEN ,GEN (W) ,SC (W) ,,,22840
+Satara,Koregaon,तळीये,Taliye,BCC ,GEN (W) ,GEN ,SC (W) ,,,22841
+Satara,Koregaon,तांदुळवाडी,Tandulwadi,BCC (W) ,GEN ,GEN (W) ,GEN ,,,22842
+Satara,Koregaon,तांबी,Tanmbi,SC ,BCC (W) ,GEN ,GEN (W) ,,,22843
+Satara,Koregaon,तारगांव,Targaon,GEN (W) ,BCC (W) ,BCC ,GEN (W) ,,,22844
+Satara,Koregaon,त्रिपुटी,Triputi,SC ,BCC ,GEN ,GEN (W) ,,,22845
+Satara,Koregaon,दरे तर्फ तांब (एन व्ही) ,Dare Tarf. Tamb ,BCC (W) ,SC ,GEN ,GEN (W) ,,,22846
+Satara,Koregaon,दहिगांव,Dahigaon,GEN ,BCC (W) ,GEN (W) ,GEN ,,,22847
+Satara,Koregaon,दुघी,Dughi,GEN (W) ,GEN ,SC (W) ,BCC ,,,22848
+Satara,Koregaon,दुधनवाडी,Dudhanwadi,GEN ,BCC ,GEN (W) ,GEN ,,,22849
+Satara,Koregaon,दुर्गळवाडी,Durgalwadi,GEN ,GEN ,GEN (W) ,BCC ,,,22850
+Satara,Koregaon,देऊर,Deur,BCC ,SC (W) ,GEN (W) ,GEN ,,,22851
+Satara,Koregaon,धामणेर,Dhamaner,GEN ,GEN (W) ,BCC (W) ,SC (W) ,,,22852
+Satara,Koregaon,धुमाळवाडी,Dhumalwadi,GEN ,SC ,BCC ,GEN (W) ,,,22853
+Satara,Koregaon,नलवडेवाडी (तारगाव),Nalavadewadi (Targaon),GEN ,GEN (W) ,BCC (W) ,GEN ,,,22854
+Satara,Koregaon,नलवडेवाडी बी.,Nalvadewadi B.,BCC ,GEN ,GEN (W) ,GEN ,,,22855
+Satara,Koregaon,नागझरी,Nagzari,BCC ,GEN (W) ,GEN ,SC (W) ,,,22856
+Satara,Koregaon,नागेवाडी,Nagewadi,BCC ,GEN (W) ,GEN ,GEN (W) ,,,22857
+Satara,Koregaon,नांदवळ,Nandaval,GEN ,GEN (W) ,SC ,BCC (W) ,,,22858
+Satara,Koregaon,नायगाव,Naigaon,GEN ,BCC (W) ,GEN (W) ,GEN ,,,22859
+Satara,Koregaon,निगडी,Nigadi,BCC ,GEN ,SC ,GEN (W) ,,,22860
+Satara,Koregaon,न्हाळेवाडी,Nhalewadi,GEN ,GEN ,GEN (W) ,BCC ,,,22861
+Satara,Koregaon,न्हावी बु ,Nhavi Bk.,BCC (W) ,GEN ,GEN (W) ,GEN ,,,22863
+Satara,Koregaon,परतवाडी ,Paratwadi ,GEN ,GEN (W) ,GEN ,BCC (W) ,,,22864
+Satara,Koregaon,पळशी ,Palashi ,GEN (W) ,SC ,GEN ,BCC (W) ,,,22865
+Satara,Koregaon,पवारवाडी,Pawarwadi,GEN (W) ,GEN ,GEN (W) ,BCC ,,,22866
+Satara,Koregaon,पाडळी,Padali,BCC (W) ,GEN ,GEN (W) ,GEN ,,,22867
+Satara,Koregaon,पिंपरी ,Pimpri ,GEN ,BCC (W) ,GEN (W) ,SC ,,,22868
+Satara,Koregaon,पिंपोंडे खु.,Pimpode Kh.,GEN (W) ,BCC ,BCC ,GEN (W) ,,,22869
+Satara,Koregaon,पिंपोंडे बु.,Pimpode Bk.,GEN ,BCC ,SC ,GEN (W) ,,,22870
+Satara,Koregaon,पेठ किन्हई,Peth kinhai,GEN (W) ,GEN ,GEN ,BCC (W) ,,,22871
+Satara,Koregaon,फडतरवाडी,Phadtarwadi,GEN (W) ,BCC (W) ,BCC (W) ,GEN ,,,22872
+Satara,Koregaon,बनवडी,Banawadi,SC ,GEN (W) ,GEN ,BCC (W) ,,,22873
+Satara,Koregaon,बरगेवाडी,Bargewadi,GEN (W) ,GEN ,GEN ,BCC (W) ,,,22874
+Satara,Koregaon,बिचुकले,Bichukale,SC ,BCC ,GEN (W) ,GEN ,,,22875
+Satara,Koregaon,बेलेवाडी (एन.व्ही.),Belewadi (N.V.),BCC ,GEN (W) ,GEN ,GEN (W) ,,,22876
+Satara,Koregaon,बोधेवाडी (चिमणगाव),Bodhewadi (Chimangao),GEN ,BCC ,GEN (W) ,GEN ,,,22877
+Satara,Koregaon,बोधेवाडी (भाडळे),Bodhewadi (Bhadale),SC ,BCC (W) ,GEN (W) ,GEN ,,,22878
+Satara,Koregaon,बोबडेवाडी,Bobadewadi,GEN (W) ,ST (W) ,BCC ,GEN (W) ,,,22879
+Satara,Koregaon,बोरगांव ,Borgaon ,BCC (W) ,GEN ,GEN (W) ,GEN ,,,22880
+Satara,Koregaon,बोरजाईवाडी,Borjaiwadi,GEN ,BCC (W) ,GEN (W) ,GEN ,,,22881
+Satara,Koregaon,बोरीव,Boriv,,,,BCC ,,,22882
+Satara,Koregaon,भक्तवडी,Bhaktwadi,GEN (W) ,GEN ,GEN ,BCC (W) ,,,22883
+Satara,Koregaon,भंडारमाची,Bhandarmachi,GEN ,GEN ,GEN (W) ,BCC ,,,22884
+Satara,Koregaon,भाकरवाडी,Bhakarwadi,GEN (W) ,GEN ,GEN ,BCC (W) ,,,22885
+Satara,Koregaon,भाटमवाडी,Bhatamwadi,BCC ,GEN ,GEN ,GEN (W) ,,,22886
+Satara,Koregaon,भाडळे ,Bhadale ,GEN ,BCC (W) ,GEN ,GEN (W) ,,,22887
+Satara,Koregaon,भावेनगर,Bhavenagar,GEN (W) ,GEN ,GEN ,BCC (W) ,,,22888
+Satara,Koregaon,भिमनगर,Bhimnagar,BCC ,GEN (W) ,GEN ,GEN (W) ,,,22889
+Satara,Koregaon,भिवडी,Bhivadi,GEN ,GEN ,BCC ,GEN (W) ,,,22890
+Satara,Koregaon,भोसे,Bhose,GEN (W) ,GEN ,GEN ,SC (W) ,,,22891
+Satara,Koregaon,मंगळापूर,Manglapur,BCC (W) ,GEN ,GEN (W) ,GEN ,,,22892
+Satara,Koregaon,मदनापूरवाडी,Madnapurwadi,SC (W) ,BCC ,GEN (W) ,GEN ,,,22893
+Satara,Koregaon,मुगांव,Mugaon,GEN ,BCC ,BCC (W) ,GEN ,,,22894
+Satara,Koregaon,मोरबेंद,Morbend,GEN (W) ,BCC (W) ,GEN ,GEN ,,,22895
+Satara,Koregaon,मोहितेवाडी,Mohitewadi,GEN ,GEN (W) ,BCC (W) ,GEN ,,,22896
+Satara,Koregaon,रनदुल्लाबाद,Randullabad,BCC ,GEN (W) ,GEN ,GEN (W) ,,,22897
+Satara,Koregaon,राऊतवाडी,Rautwadi,GEN (W) ,GEN ,BCC ,GEN ,,,22898
+Satara,Koregaon,रामोशी वाडी,Ramoshiwadi,GEN ,BCC ,BCC (W) ,GEN ,,,22899
+Satara,Koregaon,रिकीबदारवाडी,Rikibadarvadi,ST (W) ,BCC ,GEN (W) ,GEN ,,,22900
+Satara,Koregaon,रुई,Rui,GEN ,GEN (W) ,GEN ,BCC (W) ,,,22901
+Satara,Koregaon,रेवडी,Revdi,BCC ,GEN ,GEN (W) ,GEN ,,,22902
+Satara,Koregaon,ल्हासूर्णे,Lhasurne,GEN (W) ,GEN ,SC (W) ,BCC ,,,22903
+Satara,Koregaon,वडाचीवाडी,Vadachiwadi,BCC (W) ,GEN ,GEN (W) ,GEN ,,,22905
+Satara,Koregaon,वाघजाईवाडी (एन.व्ही. ),Waghjaiwadi (N.V.),GEN (W) ,BCC ,BCC (W) ,GEN ,,,22906
+Satara,Koregaon,वाघोली,Wagholi,BCC ,GEN (W) ,GEN ,GEN (W) ,,,22907
+Satara,Koregaon,वाठार (किरोली),Vathar (Kiroli),GEN ,BCC (W) ,BCC (W) ,SC ,,,22908
+Satara,Koregaon,वाठार स्टेशन,Vathar Station,GEN ,SC ,GEN ,BCC (W) ,,,22909
+Satara,Koregaon,विखळे,Vikhale,GEN (W) ,BCC ,GEN ,BCC (W) ,,,22910
+Satara,Koregaon,वेलंग (कण्हेरखेड) ,Velang (Kanherkhed) ,BCC ,GEN (W) ,GEN ,GEN (W) ,,,22911
+Satara,Koregaon,वेलंग शिरंबे,Velang Shirmbe,GEN ,GEN (W) ,GEN ,BCC (W) ,,,22912
+Satara,Koregaon,वेळू,Velu,BCC ,GEN (W) ,GEN (W) ,GEN ,,,22913
+Satara,Koregaon,शिरढोण,Shirdhon,GEN ,SC (W) ,BCC (W) ,GEN ,,,22914
+Satara,Koregaon,शिरंबे,Shirambe,GEN (W) ,GEN ,BCC ,GEN (W) ,,,22915
+Satara,Koregaon,शेंदूरजणे,Shendurjane,SC ,GEN ,GEN (W) ,BCC ,,,22916
+Satara,Koregaon,शेल्टी (एन.व्ही.),Shelti (N.V.),GEN ,BCC (W) ,GEN ,GEN (W) ,,,22917
+Satara,Koregaon,सर्कलवाडी,Sarkalwadi,GEN ,GEN (W) ,GEN ,BCC (W) ,,,22918
+Satara,Koregaon,सांगवी,Sangavi,GEN (W) ,GEN ,BCC ,GEN (W) ,,,22919
+Satara,Koregaon,साठेवाडी,Sathewadi,GEN ,BCC (W) ,GEN (W) ,GEN ,,,22920
+Satara,Koregaon,साप,Saap,GEN ,GEN (W) ,GEN (W) ,SC ,,,22921
+Satara,Koregaon,सायगाव (एन.व्ही.),Saigaon (N.V.),GEN ,GEN (W) ,SC (W) ,BCC ,,,22922
+Satara,Koregaon,सायगाव (धामणेर),Saigaon (Dhamner),BCC (W) ,GEN ,GEN (W) ,GEN ,,,22923
+Satara,Koregaon,सासुर्वे,Sasurve,GEN (W) ,GEN ,SC (W) ,BCC ,,,22924
+Satara,Koregaon,सिध्दार्थनगर,Sidharthnagar,BCC (W) ,GEN ,GEN ,GEN (W) ,,,22925
+Satara,Koregaon,सुर्ली,Surli,GEN (W) ,BCC (W) ,BCC (W) ,GEN ,,,22926
+Satara,Koregaon,सुलतानवाडी (एन.व्ही. ),Sultanwadi (N.V.),GEN ,GEN ,BCC (W) ,GEN ,,,22927
+Satara,Koregaon,सोनके,Sonake,GEN (W) ,GEN ,GEN ,SC (W) ,,,22928
+Satara,Koregaon,सोळशी,Solashi,BCC ,GEN ,GEN (W) ,ST (W) ,,,22929
+Satara,Koregaon,हासेवाडी,Hasewadi,GEN ,BCC ,BCC (W) ,GEN ,,,22930
+Satara,Koregaon,हिवरे,Hivare,SC ,GEN ,GEN ,BCC (W) ,,,22931
+Satara,Koregaon,होलेवाडी,Holewadi,GEN ,BCC (W) ,GEN (W) ,GEN ,,,22932
+Satara,Mahabaleshwar,आकल्पे,Aakalpe,BCC (W),GEN,GEN (W),GEN,,,22934
+Satara,Mahabaleshwar,आमशी,Aamshi,BCC,GEN (W),GEN,BCC (W),,,22935
+Satara,Mahabaleshwar,अहीर,Ahir,BCC (W),GEN,GEN (W),GEN,,,22936
+Satara,Mahabaleshwar,आंब्रळ ,Ambral,GEN,GEN,BCC (W),GEN,,,22937
+Satara,Mahabaleshwar,आरव,Arav,ST (W),BCC,GEN (W),GEN,,,22938
+Satara,Mahabaleshwar,अवकाळी,Avakali,GEN,GEN (W),GEN,BCC (W),,,22939
+Satara,Mahabaleshwar,भेकवली,Bhekavali,GEN (W),GEN,GEN,BCC,,,22940
+Satara,Mahabaleshwar,भिलार,Bhilar,GEN,BCC (W),GEN (W),GEN,,,22941
+Satara,Mahabaleshwar,भिमनगर,Bhimnagar,GEN,GEN (W),BCC,GEN (W),,,22942
+Satara,Mahabaleshwar,भोसे,Bhose,BCC,GEN (W),GEN,BCC (W),,,22943
+Satara,Mahabaleshwar,बिरमणी,Birmani,GEN,BCC (W),GEN (W),GEN (W),,,22944
+Satara,Mahabaleshwar,बिरवाडी,Birwadi,ST (W),BCC,GEN (W),ST,,,22945
+Satara,Mahabaleshwar,चतुरबेट,Chaturbet,GEN,BCC (W),GEN,GEN (W),,,22946
+Satara,Mahabaleshwar,चिखली,Chikhali,GEN (W),GEN,BCC,GEN (W),,,22947
+Satara,Mahabaleshwar,दाभेदाभेकर,Dabhe dabhekar,GEN (W),GEN,GEN (W),BCC,,,22948
+Satara,Mahabaleshwar,दाभेमेाहन,Dabhemohan,GEN,GEN (W),BCC (W),SC,,,22949
+Satara,Mahabaleshwar,दानवली,Danavali,BCC (W),GEN,GEN,GEN (W),,,22950
+Satara,Mahabaleshwar,दांडेघर,Dandeghar,GEN (W),GEN (W),GEN,SC (W),,,22951
+Satara,Mahabaleshwar,देवळी,Devali,ST (W),GEN (W),GEN,BCC (W),,,22952
+Satara,Mahabaleshwar,देवसरे,Devsare,GEN (W),BCC,GEN (W),GEN,,,22953
+Satara,Mahabaleshwar,दुधगाव,Dudhgaon,GEN,ST (W),BCC (W),GEN,,,22954
+Satara,Mahabaleshwar,एरंडल,Erandal,BCC,GEN (W),GEN,BCC (W),,,22955
+Satara,Mahabaleshwar,गावढोशी,Gavdhoshi,ST (W),GEN (W),GEN,BCC (W),,,22956
+Satara,Mahabaleshwar,घावरी,Ghavari,GEN,GEN,BCC (W),GEN,,,22957
+Satara,Mahabaleshwar,गोडवली,Godavali,GEN (W),GEN,GEN,BCC,,,22958
+Satara,Mahabaleshwar,गोगवे,Gogave,GEN,ST,BCC,SC (W),,,22959
+Satara,Mahabaleshwar,गोरोशी,Goroshi,GEN,BCC,GEN (W),ST (W),,,22960
+Satara,Mahabaleshwar,गुरेघर,Gureghar,GEN,BCC (W),GEN (W),GEN,,,22961
+Satara,Mahabaleshwar,हरचंदी,Harchandi,GEN,ST (W),GEN,BCC (W),,,22962
+Satara,Mahabaleshwar,हातलोट,Hatlot,GEN,GEN,BCC,GEN (W),,,22963
+Satara,Mahabaleshwar,जावली,Jaoli,GEN,BCC,GEN (W),GEN,,,22964
+Satara,Mahabaleshwar,कळमगाव,Kalamgaon,BCC (W),GEN,GEN (W),BCC,,,22965
+Satara,Mahabaleshwar,कासवंड,Kaswand,ST,GEN (W),GEN,BCC,,,22966
+Satara,Mahabaleshwar,खांबील चोरगे,Khambil Chorge,GEN,GEN (W),BCC,GEN (W),,,22967
+Satara,Mahabaleshwar,खरोशी,Kharoshi,GEN,GEN,BCC,GEN (W),,,22968
+Satara,Mahabaleshwar,खिंगर,Khingar,GEN (W),GEN,GEN (W),SC,,,22969
+Satara,Mahabaleshwar,कोत्रोशी,Kotroshi,GEN (W),BCC (W),GEN (W),GEN,,,22970
+Satara,Mahabaleshwar,क्षेत्र महाबळेश्वर,Kshetra Mahabaleshwar,GEN,GEN,BCC (W),GEN,,,22971
+Satara,Mahabaleshwar,कुंभरोशी,Kumbhroshi,BCC,ST (W),ST,ST (W),,,22972
+Satara,Mahabaleshwar,कुमठे,Kumthe,BCC (W),GEN (W),GEN,SC (W),,,22973
+Satara,Mahabaleshwar,कुरोशी,Kuroshi,BCC,GEN (W),GEN,GEN (W),,,22974
+Satara,Mahabaleshwar,लाखवड,Lakhvad,GEN (W),GEN,BCC (W),GEN (W),,,22975
+Satara,Mahabaleshwar,लामज,Lamaj,GEN (W),GEN,BCC,GEN (W),,,22976
+Satara,Mahabaleshwar,माचुतर,Machutar,GEN,GEN,BCC (W),GEN,,,22977
+Satara,Mahabaleshwar,मांघर,Manghar,GEN,BCC (W),GEN (W),GEN,,,22978
+Satara,Mahabaleshwar,मेटगुताड,Metgutad,BCC,GEN,GEN (W),ST,,,22979
+Satara,Mahabaleshwar,मेटतळे,Mettale,BCC,GEN (W),GEN,BCC (W),,,22980
+Satara,Mahabaleshwar,मोरणी,Morani,GEN,ST (W),GEN,BCC (W),,,22982
+Satara,Mahabaleshwar,नाकिंदा,Nakinda,GEN (W),GEN,GEN (W),BCC,,,22983
+Satara,Mahabaleshwar,निवळी,Nivali,GEN (W),GEN (W),BCC (W),GEN,,,22984
+Satara,Mahabaleshwar,पाली त. आटेगांव,Pali T. Ategaon,BCC (W),GEN (W),GEN,GEN (W),,,22985
+Satara,Mahabaleshwar,पांगारी,Pangari,GEN,GEN (W),BCC,GEN (W),,,22986
+Satara,Mahabaleshwar,पारपार,Parpar,ST,BCC,GEN (W),GEN (W),,,22987
+Satara,Mahabaleshwar,पारूट,Parut,GEN,BCC (W),GEN (W),GEN,,,22988
+Satara,Mahabaleshwar,पर्वत त वाघावळे,Parvat T. Waghavale,GEN (W),GEN,BCC,GEN (W),,,22989
+Satara,Mahabaleshwar,राजपुरी,Rajpuri,GEN,GEN (W),BCC,GEN (W),,,22990
+Satara,Mahabaleshwar,रामेघर,Rameghar,GEN,BCC (W),GEN (W),GEN,,,22991
+Satara,Mahabaleshwar,रेणोशी,Renoshi,GEN,BCC (W),GEN (W),GEN,,,22992
+Satara,Mahabaleshwar,रुळे,Rule,GEN,GEN,GEN (W),SC,,,22993
+Satara,Mahabaleshwar,सालोशी,Saloshi,GEN (W),GEN,BCC (W),GEN (W),,,22994
+Satara,Mahabaleshwar,सौंदरी,Saundari,GEN (W),GEN,GEN,BCC,,,22995
+Satara,Mahabaleshwar,शिरवली,Shiravali,GEN (W),GEN,ST (W),BCC,,,22996
+Satara,Mahabaleshwar,सोनाट,Sonat,GEN,GEN (W),GEN,BCC (W),,,22997
+Satara,Mahabaleshwar,तायघाट,Taighat,GEN (W),BCC,GEN,GEN (W),,,22998
+Satara,Mahabaleshwar,तळदेव,Taldev,ST (W),BCC,GEN (W),GEN,,,22999
+Satara,Mahabaleshwar,उचाट,Uchat,BCC,GEN (W),GEN,BCC (W),,,23000
+Satara,Mahabaleshwar,उंबरी,Umbari,GEN (W),BCC (W),GEN,GEN (W),,,23001
+Satara,Mahabaleshwar,वलवण,Valvan,GEN (W),GEN,BCC (W),SC (W),,,23002
+Satara,Mahabaleshwar,वानवली त. सोळशी,Vanavali T. Solshi,GEN,BCC,GEN (W),GEN,,,23003
+Satara,Mahabaleshwar,वारसोळी देव,Varsoli Deo,GEN (W),BCC,ST (W),GEN,,,23004
+Satara,Mahabaleshwar,वेळापूर,Velapur,BCC,GEN (W),GEN,GEN (W),,,23005
+Satara,Mahabaleshwar,वेंगळे,Vengale,BCC,GEN (W),SC,GEN (W),,,23006
+Satara,Mahabaleshwar,वाळणे,Walane,GEN,SC,GEN (W),BCC,,,23007
+Satara,Mahabaleshwar,येर्णे बु्.,Yerne Bk.,BCC,GEN (W),GEN,ST (W),,,23008
+Satara,Mahabaleshwar,झांजवड,Zanzwad,BCC,GEN (W),GEN,GEN (W),,,23009
+Satara,Man,आंधळी,Andhali,BCC (W) ,SC (W),BCC (W),GEN,,,23010
+Satara,Man,अनुभुलेवाडी (एन.व्ही. ),Anubhulewadi (N.V.),BCC,GEN (W),BCC,GEN (W),,,23011
+Satara,Man,बनगरवाडी,Bangarwadi,BCC (W),GEN ,GEN (W),GEN,,,23012
+Satara,Man,भालवडी,Bhalwadi,GEN,GEN ,GEN (W),BCC (W),,,23013
+Satara,Man,भांडवली,Bhandwali,SC (W),GEN ,GEN (W),BCC (W),,,23014
+Satara,Man,भाटकी,Bhataki,BCC,GEN (W),BCC,SC (W),,,23015
+Satara,Man,बिदाल,Bidal,BCC,SC (W),GEN (W),GEN,,,23016
+Satara,Man,बिजवडी,Bijavadi,GEN ,GEN (W),SC ,BCC (W),,,23017
+Satara,Man,बोडके,Bodake,BCC,GEN,BCC (W),SC,,,23018
+Satara,Man,बोथे,Bothe,GEN,BCC,GEN,SC (W),,,23019
+Satara,Man,चिलारवाडी (एन.व्ही. ),Chilarwadi (N.V.),GEN (W),GEN (W),BCC (W),GEN,,,23020
+Satara,Man,डंगिरेवाडी,Dangirewadi,BCC,GEN,BCC,GEN (W),,,23021
+Satara,Man,दानवलेवाडी,Danvalewadi,GEN (W),GEN ,BCC,GEN (W),,,23022
+Satara,Man,देवापूर,Devapur,BCC,GEN (W),BCC (W),GEN,,,23023
+Satara,Man,ढाकणी,Dhakani,BCC,GEN (W),BCC (W),GEN,,,23024
+Satara,Man,धामणी,Dhamani,GEN,GEN (W),GEN (W),SC,,,23025
+Satara,Man,धुळदेव,Dhuldeo,BCC (W),GEN,BCC,GEN (W),,,23026
+Satara,Man,दिडवाघवाडी,Didwaghwadi,GEN,GEN (W),GEN ,BCC (W),,,23027
+Satara,Man,दिवड,Divad,GEN,BCC (W),GEN ,GEN (W),,,23028
+Satara,Man,दिवडी,Divadi,GEN,BCC,GEN (W),GEN ,,,23029
+Satara,Man,दोरगेवाडी,Doragewadi,GEN,GEN (W),GEN ,BCC (W),,,23030
+Satara,Man,गंगोती,Gangoti,SC (W),GEN,BCC,GEN (W),,,23031
+Satara,Man,गटेवाडी,Gatewadi,BCC (W),BCC,GEN,GEN (W),,,23032
+Satara,Man,गोंदवले बु.,Gondvale Bk.,BCC,GEN ,GEN (W),GEN,,,23033
+Satara,Man,गोंदवले खु.,Gondvale Kh.,GEN,GEN (W),GEN,BCC (W),,,23034
+Satara,Man,हस्तनपूर (घेरेवाडी),Hastanapur (Gherewadi),GEN,GEN,GEN (W),SC,,,23035
+Satara,Man,हवालदारवाडी,Hawaldarwadi,GEN,BCC,GEN,GEN (W),,,23036
+Satara,Man,हिंगणी,Hingani,BCC (W),GEN,BCC,GEN (W),,,23037
+Satara,Man,इंजबाव,Injbav,SC (W),BCC (W),GEN,GEN (W),,,23038
+Satara,Man,जाधववाडी,Jadhavwadi,BCC,GEN (W),GEN,GEN (W),,,23039
+Satara,Man,जांभुळणी,Jambhulani,GEN,SC,GEN,BCC (W),,,23040
+Satara,Man,जाशी,Jashi,BCC ,GEN (W),BCC (W),GEN,,,23041
+Satara,Man,काळचौंडी,Kalchaundi,GEN,BCC (W),SC (W),GEN (W),,,23042
+Satara,Man,काळेवाडी (नरावणे ),Kalewadi (Naravane),BCC,GEN (W),BCC (W),GEN,,,23043
+Satara,Man,कारखेल,Karkhel,BCC,GEN,BCC (W),GEN,,,23044
+Satara,Man,कासारवाडी (आंधळी ),Kasarwadi (Andhali),GEN (W),BCC,GEN,GEN (W),,,23045
+Satara,Man,खडकी,Khadaki,GEN,GEN (W),GEN,SC (W),,,23046
+Satara,Man,खुटबाव,Khutbav,GEN,BCC (W),SC (W),GEN,,,23047
+Satara,Man,किरकसाल,Kirakasal,SC,GEN (W),GEN,BCC (W),,,23048
+Satara,Man,कोळेवाडी,Kolewadi,BCC ,BCC (W),GEN,GEN (W),,,23049
+Satara,Man,कुकूडवाड,Kukudwad,BCC,SC (W),BCC (W),GEN,,,23050
+Satara,Man,कुळकजाई,Kulkajai,GEN,BCC,SC (W),GEN,,,23051
+Satara,Man,कुरुणेवाडी,Kurunewadi,GEN,GEN (W),GEN,SC (W),,,23052
+Satara,Man,लोधवडे,Lodhawade,BCC ,GEN (W),BCC (W),GEN,,,23053
+Satara,Man,महाबळेश्वर वाडी,Mahabaleshwar wadi,GEN,SC (W),BCC,GEN (W),,,23054
+Satara,Man,महिमानगड,Mahimangad,GEN (W),GEN,GEN (W),SC,,,23055
+Satara,Man,मलवडी,Malvadi,SC,BCC (W),GEN,GEN (W),,,23056
+Satara,Man,मनकर्णवाडी,Mankarnwadi,GEN (W),BCC,GEN,GEN (W),,,23057
+Satara,Man,मार्डी,Mardi,GEN,SC (W),GEN (W),GEN,,,23058
+Satara,Man,मोगराळे,Mograle,GEN (W),SC (W),GEN (W),BCC,,,23059
+Satara,Man,मोही,Mohi,GEN (W),GEN,SC (W),GEN,,,23060
+Satara,Man,नरवणे,Naravane,SC ,GEN (W),GEN ,BCC (W),,,23061
+Satara,Man,पाचवड,Pachwad,GEN,BCC,GEN (W),GEN,,,23062
+Satara,Man,पळसावडे,Palasawade,SC,BCC (W),GEN,GEN (W),,,23063
+Satara,Man,पळशी,Palashi,GEN,GEN (W),SC,BCC (W),,,23064
+Satara,Man,पांढरवाडी (महिमानगड ),Pandharwadi (Mahimangad),GEN,GEN (W),BCC,SC,,,23065
+Satara,Man,पांगरी,Pangari,BCC,BCC (W),GEN,GEN (W),,,23066
+Satara,Man,पानवण,Panvan,GEN,BCC,GEN (W),GEN ,,,23067
+Satara,Man,परकंदी,Parkandi,GEN,GEN (W),GEN,SC (W),,,23068
+Satara,Man,पर्यंती,Paryanti,BCC (W),GEN,GEN (W),BCC,,,23069
+Satara,Man,पिंपरी,Pimapri,SC,BCC (W),GEN,GEN (W),,,23070
+Satara,Man,पिंगळी बु.,Pingali Bk.,GEN,GEN,BCC,SC (W),,,23071
+Satara,Man,पिंगळी खु.,Pingali Kh.,GEN,BCC,GEN (W),GEN,,,23072
+Satara,Man,पुकळेवाडी,Puklewadi,GEN (W),GEN (W),GEN,BCC (W),,,23073
+Satara,Man,पुळकोटी,Pulkoti,GEN,SC (W),GEN (W),BCC,,,23074
+Satara,Man,राजवडी,Rajwadi,GEN (W),SC,BCC,GEN (W),,,23075
+Satara,Man,राणंद,Ranand,GEN (W ),GEN ,GEN (W),BCC,,,23076
+Satara,Man,रांजणी,Ranjani,GEN (W ),GEN ,GEN (W),BCC,,,23077
+Satara,Man,संभुखेड,Sambhukhed,GEN (W),GEN,BCC (W),GEN,,,23078
+Satara,Man,सत्रेवाडी (मलवडी),Satrewadi (Malavadi),BCC,GEN (W),GEN,BCC (W),,,23079
+Satara,Man,शेनवडी,Shenavadi,SC,BCC,GEN,GEN (W),,,23080
+Satara,Man,शेवरी,Shevari,GEN,BCC (W),GEN,GEN (W),,,23081
+Satara,Man,शिंदी बु.,Shindi Bk.,GEN,BCC,GEN,GEN (W),,,23082
+Satara,Man,शिंदी खु.,Shindi Kh.,GEN (W),SC,GEN (W),BCC,,,23083
+Satara,Man,शिंगणापूर,Shinganapur,GEN (W),BCC (W),GEN,GEN (W),,,23084
+Satara,Man,शिरवली,Shiravali,GEN ,GEN,SC (W),BCC,,,23085
+Satara,Man,शिरताव,Shirtav,GEN (W),GEN,BCC (W),GEN,,,23086
+Satara,Man,श्रीपालवन,Shripalvan,SC,GEN ,GEN (W),BCC,,,23087
+Satara,Man,सोकासन,Sokasan,BCC (W),GEN ,SC (W),BCC (W),,,23088
+Satara,Man,स्वरुपखानवाडी,Swarupkhanwadi,BCC (W),GEN ,SC,GEN (W),,,23089
+Satara,Man,टाकेवाडी,Takewadi,GEN,GEN (W),SC (W),GEN,,,23090
+Satara,Man,थदाळे,Thadale,BCC,SC (W),BCC,GEN (W),,,23091
+Satara,Man,तोंडले,Tondale,GEN,BCC,SC (W),GEN,,,23092
+Satara,Man,उकिर्डे,Ukirde,BCC (W),GEN,GEN (W),GEN,,,23093
+Satara,Man,वडगाव,Vadgaon,GEN ,BCC (W),SC (W),GEN,,,23094
+Satara,Man,वडजल,Vadjal,SC (W),GEN ,GEN (W),BCC,,,23095
+Satara,Man,वाकी,Vaki,GEN (W),GEN ,BCC (W),GEN,,,23096
+Satara,Man,वळई,Valai,GEN (W),SC,GEN (W),BCC,,,23097
+Satara,Man,वर-म्हसवड,Var-Mhaswad,GEN ,GEN (W),SC (W),BCC,,,23098
+Satara,Man,वरकुटेमलवडी,Varkute Malavadi,SC (W),GEN (W),GEN (W),BCC,,,23099
+Satara,Man,वारुगड,Varugad,BCC ,GEN,GEN (W),SC,,,23100
+Satara,Man,विरळी,Virali,BCC ,GEN (W),GEN,GEN (W),,,23101
+Satara,Man,वाघमोडेवाडी,Waghmodewadi,GEN ,BCC,GEN (W),GEN,,,23102
+Satara,Man,वावरहिरे,Wavarhire,BCC,GEN,BCC ,GEN (W),,,23103
+Satara,Man,येळेवाडी,Yelewadi,GEN (W) ,BCC (W),SC (W),GEN,,,23104
+Satara,Patan,आडदेव,Aaddev,GEN ,GEN (W) ,GEN (W),GEN (W) ,,,23105
+Satara,Patan,आंबळे,Aambale,GEN (W) ,GEN ,GEN (W) ,BCC,,,23106
+Satara,Patan,आंबवणे,Aambvane,GEN (W) ,GEN ,,GEN (W) ,,,23107
+Satara,Patan,आसवलेवाडी,Aasavalewadi,GEN ,GEN ,,BCC (W),,,23108
+Satara,Patan,आटोली,Aatoli,GEN (W) ,GEN ,,GEN (W) ,,,23109
+Satara,Patan,अबदारवाडी,Abadarwadi,GEN ,,GEN ,BCC,,,23110
+Satara,Patan,अडूळ गावठाण,Adul Gavthan,,GEN (W) ,GEN ,SC (W),,,23111
+Satara,Patan,अडूळपेठ,Adulpeth,GEN ,,GEN ,GEN (W) ,,,23112
+Satara,Patan,अंबवडे खु.,Ambavde Khu.,GEN ,GEN (W) ,GEN ,BCC (W),,,23113
+Satara,Patan,अंबेघर तर्फे माराली,Ambeghar Tarf Marali,GEN ,GEN ,,GEN (W) ,,,23114
+Satara,Patan,अंब्रग,Ambrag,GEN (W) ,GEN ,,BCC (W),,,23115
+Satara,Patan,आंब्रुळे,Ambrule,,GEN (W) ,GEN ,BCC (W),,,23116
+Satara,Patan,आवर्डे,Awarde,,GEN ,GEN (W) ,GEN (W) ,,,23117
+Satara,Patan,बाचोली,Bacholi,,GEN ,GEN (W) ,BCC,,,23118
+Satara,Patan,बहुले,Bahule,,GEN ,GEN (W) ,SC,,,23119
+Satara,Patan,बांबवडे,Bambavade,GEN ,GEN (W) ,GEN ,BCC (W),,,23120
+Satara,Patan,बांधवट,Bandhavat,GEN ,GEN (W) ,GEN ,BCC (W),,,23121
+Satara,Patan,बनपेठवाडी,Banpethwadi,GEN ,,GEN ,BCC (W),,,23122
+Satara,Patan,बनपुरी,Banpuri,,GEN (W) ,,GEN,,,23123
+Satara,Patan,बेलवडे खु.,Belavade Kh.,GEN ,,GEN (W) ,GEN,,,23124
+Satara,Patan,भांबे,Bhambe,,GEN ,,,,,23125
+Satara,Patan,भारसाखळे,Bharsakhale,GEN ,GEN (W) ,GEN (W) ,ST,,,23126
+Satara,Patan,भिलारवाडी एन.व्ही.,Bhilarwadi N.V.,GEN (W) ,,GEN (W) ,GEN (W) ,,,23127
+Satara,Patan,भोसगाव,Bhosgaon,GEN ,GEN (W) ,GEN ,BCC (W),,,23128
+Satara,Patan,भुडकेवाडी,Bhudakewadi,GEN (W) ,,GEN (W) ,BCC,,,23129
+Satara,Patan,बिबी,Bibi,,GEN (W) ,,GEN (W) ,,,23130
+Satara,Patan,बोडकेवाडी,Bodakewadi,GEN ,,GEN ,GEN (W) ,,,23131
+Satara,Patan,बोंद्री,Bondri,GEN (W) ,,,BCC (W),,,23132
+Satara,Patan,चाफळ ,Chafal ,,GEN (W) ,GEN ,BCC (W),,,23133
+Satara,Patan,चाळकेवाडी,Chalkewadi,GEN (W) ,GEN ,GEN (W) ,GEN (W) ,,,23134
+Satara,Patan,चाफोली,Chapholi,,GEN ,,GEN,,,23135
+Satara,Patan,चौगुलेवाडी,Chaugulewadi,,GEN (W) ,GEN (W) ,BCC (W),,,23136
+Satara,Patan,चौगुलेवाडी (काळगांव),Chaugulewadi (Kalgaon),,,,GEN (W) ,,,23137
+Satara,Patan,चव्हाणवाडी,Chavhanwadi,GEN (W) ,GEN ,GEN (W) ,BCC,,,23138
+Satara,Patan,चव्हाणवाडी (धा),Chavhanwadi (dha),GEN ,,GEN (W) ,GEN (W) ,,,23139
+Satara,Patan,चिखलेवाडी,Chikhalewadi,GEN (W) ,GEN ,GEN (W) ,BCC,,,23140
+Satara,Patan,चिटेघर (तामकणे),Chiteghar (Tamkane),GEN ,GEN ,GEN (W) ,GEN (W) ,,,23141
+Satara,Patan,चोपडी,Chopadi,,GEN ,GEN (W) ,GEN (W) ,,,23142
+Satara,Patan,चोपदारवाडी,Chopdarwadi,GEN ,,GEN ,BCC (W),,,23143
+Satara,Patan,दाढोली,Dadholi,GEN (W) ,,GEN (W) ,GEN (W) ,,,23144
+Satara,Patan,डाकेवाडी (कालगांव),Dakewadi (Kalgaon),GEN ,GEN (W) ,GEN (W) ,GEN (W) ,,,23145
+Satara,Patan,डांगिष्टेवाडी,Dangishtewadi,,GEN (W) ,,GEN (W) ,,,23146
+Satara,Patan,डावरी,Davari,,GEN (W) ,GEN ,BCC (W),,,23147
+Satara,Patan,डेरवण,Dervan,GEN (W) ,,GEN (W) ,GEN (W) ,,,23148
+Satara,Patan,धडामवाडी,Dhadamwadi,GEN ,,GEN ,GEN (W) ,,,23149
+Satara,Patan,धजगाव,Dhajgaon,,GEN (W) ,GEN ,,,,23150
+Satara,Patan,धामणी,Dhamani,GEN ,,GEN ,GEN (W) ,,,23151
+Satara,Patan,ढाणकल,Dhankal,,GEN (W) ,GEN ,GEN (W) ,,,23152
+Satara,Patan,धावडे,Dhavade,GEN (W) ,,GEN (W) ,SC,,,23153
+Satara,Patan,धायटी,Dhayati,,GEN (W) ,GEN ,GEN (W) ,,,23154
+Satara,Patan,ढेबेवाडी,Dhebewadi,,GEN (W) ,GEN ,BCC (W),,,23155
+Satara,Patan,ढोरोशी,Dhoroshi,GEN (W) ,GEN ,GEN (W) ,GEN (W) ,,,23156
+Satara,Patan,डिचोली,Dicholi,,GEN,,,,,23157
+Satara,Patan,डिगेवाडी,Digewadi,GEN ,GEN (W) ,GEN ,BCC (W),,,23158
+Satara,Patan,दिवशी बु.,Divashi Bk.,,,GEN ,GEN (W) ,,,23159
+Satara,Patan,दिवशी खु.,Divashi Kh.,GEN (W) ,GEN ,GEN (W) ,GEN (W) ,,,23160
+Satara,Patan,डोगळेवाडी,Dongalewadi,,GEN (W) ,GEN ,BCC (W),,,23161
+Satara,Patan,दुसाळे,Dusale,GEN ,GEN (W),GEN ,BCC (W),,,23162
+Satara,Patan,गाढवखोप,Gadhavkhop,GEN (W) ,,,BCC (W),,,23163
+Satara,Patan,गलमेवाडी,Galamewadi,GEN ,,GEN ,BCC (W),,,23164
+Satara,Patan,गमेवाडी,Gamewadi,GEN ,GEN (W) ,GEN ,BCC (W),,,23165
+Satara,Patan,गारवडे,Garwade,GEN (W) ,GEN (W) ,,GEN (W) ,,,23166
+Satara,Patan,गावडेवाडी,Gavdewadi,,GEN ,,GEN (W) ,,,23167
+Satara,Patan,गव्हाणवाडी,Gavhanwadi,GEN ,,GEN ,BCC (W),,,23168
+Satara,Patan,घाणबी,Ghanabi,,GEN ,,GEN (W) ,,,23169
+Satara,Patan,घाणव,Ghanav,GEN (W) ,GEN ,,BCC (W),,,23170
+Satara,Patan,घोट,Ghot,,GEN (W) ,GEN ,SC (W),,,23171
+Satara,Patan,घोटील,Ghotil,GEN (W) ,GEN ,,GEN (W) ,,,23172
+Satara,Patan,गिरेवाडी,Girewadi,,GEN (W) ,,GEN (W) ,,,23173
+Satara,Patan,गोकुळ तर्फे हेळवाक,Gokul Tarf Helwak,GEN ,GEN (W) ,,BCC (W),गोकुळ तर्फ ,,23174
+Satara,Patan,गोकुळ तर्फ पाटण,Gokul Tarf Patan,GEN (W) ,GEN ,,GEN,,,23175
+Satara,Patan,गोषटवाडी,Goshatwadi,,GEN ,GEN (W) ,BCC,,,23176
+Satara,Patan,गोठणे,Gothane,,GEN (W) ,,BCC (W),,,23177
+Satara,Patan,गोवारे,Govare,,GEN (W) ,,GEN,,,23178
+Satara,Patan,गुढे,Gudhe,GEN ,,GEN (W) ,SC,,,23179
+Satara,Patan,गुंजाळी,Gunjali,GEN ,GEN (W) ,GEN ,BCC (W),,,23180
+Satara,Patan,हावळेवाडी,Havalewadi,,GEN ,GEN (W) ,,,,23181
+Satara,Patan,हेळवाक,Helwak,GEN (W) ,GEN ,,GEN (W) ,,,23182
+Satara,Patan,हूंबरळी,Humbarli,,GEN ,GEN (W) ,SC (W),,,23183
+Satara,Patan,हुंबरवाडी,Humbarwadi,,GEN (W) ,GEN ,BCC (W),,,23184
+Satara,Patan,जाधववाडी,Jadhavwadi,,GEN ,,BCC (W),,,23185
+Satara,Patan,जळव,Jalav,GEN (W) ,,GEN (W) ,GEN,,,23186
+Satara,Patan,जाळगेवाडी,Jalgewadi,GEN ,GEN (W) ,GEN ,BCC (W),,,23187
+Satara,Patan,जमदाडवाडी,Jamdadwadi,GEN (W) ,,GEN ,BCC,,,23188
+Satara,Patan,जानुगडेवाडी,Janugadewadi,GEN (W) ,GEN ,,SC,,,23189
+Satara,Patan,जरेवाडी,Jarevadi,,GEN ,,GEN,,,23190
+Satara,Patan,जिंती,Jinti,GEN ,GEN (W) ,GEN ,BCC (W),,,23191
+Satara,Patan,कडवे बु.,Kadave Bk.,GEN ,GEN (W) ,,GEN (W) ,,,23192
+Satara,Patan,कडवे खु.,Kadave Kh.,,,GEN ,BCC (W),,,23193
+Satara,Patan,काढणे,Kadhane,GEN (W) ,GEN ,GEN (W) ,BCC,,,23194
+Satara,Patan,काडोली,Kadoli,GEN ,GEN ,GEN (W) ,BCC,,,23195
+Satara,Patan,काहीर,Kahir,GEN ,GEN (W),,GEN,,,23196
+Satara,Patan,कळंबे,Kalambe,GEN ,GEN (W) ,,GEN (W) ,,,23197
+Satara,Patan,काळगाव,Kalgaon,GEN ,,GEN ,BCC (W),,,23198
+Satara,Patan,कळकेवाडी,Kalkewadi,GEN (W) ,GEN ,GEN (W) ,,,,23199
+Satara,Patan,काळोली,Kaloli,,GEN (W),GEN ,BCC,,,23200
+Satara,Patan,कामरगाव,Kamargaon,GEN ,GEN ,GEN (W) ,GEN (W) ,,,23201
+Satara,Patan,कराळे,Karale,,GEN ,GEN (W) ,GEN (W) ,,,23202
+Satara,Patan,कराटे,Karate,GEN (W) ,GEN (W) ,,GEN,,,23203
+Satara,Patan,करपेवाडी,Karpewadi,,GEN (W),,GEN,,,23204
+Satara,Patan,कारवट,karvat,,GEN ,GEN (W) ,SC,,,23205
+Satara,Patan,कसणी,kasani,GEN ,,GEN (W) ,SC,,,23206
+Satara,Patan,काठी,Kathi,,GEN (W) ,,BCC (W),,,23207
+Satara,Patan,कातवडी,Katvadi,GEN (W) ,,GEN (W) ,BCC,,,23208
+Satara,Patan,कवडेवाडी,Kavadewadi,,,GEN (W) ,GEN (W) ,,,23209
+Satara,Patan,कवरवाडी,Kavarwadi,GEN (W) ,,GEN (W) ,GEN,,,23210
+Satara,Patan,केळोली,Keloli,GEN (W) ,,GEN (W) ,BCC,,,23211
+Satara,Patan,केर,Ker,,GEN ,GEN (W) ,GEN (W) ,,,23212
+Satara,Patan,केरळ,Keral,GEN ,GEN (W) ,GEN (W) ,BCC,,,23213
+Satara,Patan,खळे,Khale,GEN ,,GEN,SC (W),,,23214
+Satara,Patan,खराडवाडी,Kharadwadi,GEN ,GEN ,,GEN (W) ,,,23215
+Satara,Patan,खिवशी,Khivshi,GEN (W) ,GEN ,,BCC (W),,,23216
+Satara,Patan,खोनोली,Khonoli,GEN ,GEN (W),GEN ,BCC (W),,,23217
+Satara,Patan,किल्लेमोरगिरी,Killemorgiri,,,GEN (W) ,GEN,,,23218
+Satara,Patan,कोचरेवाडी,Kocharewadi,,GEN ,GEN (W) ,GEN (W) ,,,23219
+Satara,Patan,कोदळ पुनवर्सन,Kodal Punarvasan,,GEN (W) ,,BCC,,,23220
+Satara,Patan,कोकीसरे,Kokisare,GEN ,GEN ,,SC,,,23221
+Satara,Patan,कोळेकरवाडी,kolekarwadi,GEN (W) ,,GEN (W) ,GEN (W) ,,,23222
+Satara,Patan,कोंजवडे,Konjawade,GEN (W) ,GEN ,,GEN (W) ,,,23223
+Satara,Patan,कोरीवळे,Koriwale,,GEN,,GEN (W) ,,,23224
+Satara,Patan,कुंभारगाव,Kumbhargaon,GEN ,,GEN (W) ,SC,,,23225
+Satara,Patan,कुसवडे,Kusavade,GEN (W) ,,GEN (W) ,GEN,,,23226
+Satara,Patan,कुशी,Kushi,,GEN (W) ,,,,,23227
+Satara,Patan,कुसरुंड,Kusrund,GEN ,GEN (W) ,GEN ,BCC (W),,,23228
+Satara,Patan,कुठरे,Kuthare,,GEN ,GEN (W) ,BCC,,,23229
+Satara,Patan,लेंडोरी,Lendori,GEN ,GEN (W) ,GEN ,BCC (W),,,23230
+Satara,Patan,लुगडेवाडी,Lugadewadi,,GEN ,GEN (W) ,GEN (W) ,,,23231
+Satara,Patan,महिंद,Mahind,GEN ,GEN (W) ,GEN ,GEN (W) ,,,23232
+Satara,Patan,माजगाव,Majgaon,GEN ,,GEN ,BCC (W),,,23233
+Satara,Patan,मालदन,Maldan,GEN ,,,BCC (W),,,23234
+Satara,Patan,मल्हारपेठ,Malharpeth,GEN (W) ,,GEN (W) ,BCC,,,23235
+Satara,Patan,मालोशी,Maloshi,GEN ,,GEN ,BCC (W),,,23236
+Satara,Patan,मंद्रुळ कोळे,Mandrul Kole,GEN ,,GEN ,BCC (W),,,23237
+Satara,Patan,मंद्रुळ कोळे खु.,Mandrul Kole Kh.,GEN ,,GEN ,BCC (W),,,23238
+Satara,Patan,मंद्रुळ हवेली,Mandrulhaveli,GEN ,,,BCC (W),,,23239
+Satara,Patan,मणदूरे,Mandure,GEN (W) ,GEN ,GEN (W) ,GEN (W) ,,,23240
+Satara,Patan,मणेरी,Maneri,GEN (W) ,,GEN ,SC (W),,,23242
+Satara,Patan,मानेवाडी,Manewadi,,GEN ,GEN (W) ,,,,23243
+Satara,Patan,मान्याचीवाडी,Manyachiwadi,GEN ,GEN (W) ,GEN ,BCC (W),,,23244
+Satara,Patan,मरळी,Marali,GEN (W) ,,GEN ,BCC (W),,,23245
+Satara,Patan,मराठवाडी (ढेबेवाडी),Marathwadi (Dhebewadi),GEN ,GEN (W) ,,GEN (W) ,,,23246
+Satara,Patan,मरळोशी,Marloshi,GEN (W) ,GEN ,,GEN,,,23247
+Satara,Patan,मारुल हवेली,Marul Haveli,,GEN ,,SC (W),,,23248
+Satara,Patan,मारुल तर्फ पाटण,Marul Tarf Patan,GEN ,GEN (W) ,,BCC,,,23249
+Satara,Patan,मस्करवाडी,maskarwadi,GEN ,GEN (W),,BCC (W),,,23250
+Satara,Patan,माथनेवाडी,Mathanewadi,GEN ,GEN (W) ,GEN ,GEN (W) ,,,23251
+Satara,Patan,मत्रेवाडी,Matrewadi,,GEN (W) ,GEN ,GEN (W) ,,,23252
+Satara,Patan,मेंढ,Mendh,,,GEN ,BCC (W),,,23253
+Satara,Patan,मेंढेघर,Mendheghar,GEN ,GEN (W) ,,BCC (W),,,23254
+Satara,Patan,मेंढोशी,Mendhoshi,,,GEN ,BCC (W),,,23255
+Satara,Patan,म्हावशी,Mhavashi,GEN ,,GEN ,BCC (W),,,23256
+Satara,Patan,मोरेवाडी,Morewadi,,GEN ,GEN (W) ,BCC,,,23257
+Satara,Patan,मोरगिरी,Morgiri,GEN ,GEN (W) ,GEN ,GEN (W) ,,,23258
+Satara,Patan,मूळगाव,Mulgaon,,,GEN (W) ,GEN,,,23259
+Satara,Patan,मुरुड,Murud,,GEN ,GEN (W) ,SC,,,23260
+Satara,Patan,नाडे,Nade,GEN ,,GEN ,BCC (W),,,23261
+Satara,Patan,नाडोली,Nadoli,GEN ,,GEN ,BCC (W),,,23262
+Satara,Patan,नहिंबे चिरंबे,Nahimbe Chirambe,GEN ,GEN (W) ,GEN ,BCC (W),,,23263
+Satara,Patan,नानेगाव बु.,Nanegaon Bk.,GEN ,GEN (W) ,GEN ,BCC (W),,,23264
+Satara,Patan,नाणेगांव खु.,Nanegaon Khurd,GEN (W) ,GEN ,,BCC (W),,,23265
+Satara,Patan,नाणेल,Nanel,GEN ,GEN ,,GEN (W) ,,,23266
+Satara,Patan,नारळवाडी,Naralwadi,GEN ,,GEN (W) ,BCC,,,23267
+Satara,Patan,नाटोशी,Natoshi,GEN ,GEN ,,GEN (W) ,,,23268
+Satara,Patan,नाव,Nav,GEN ,GEN (W) ,,GEN (W) ,,,23269
+Satara,Patan,नावडी,Navadi,,GEN (W),GEN ,BCC (W),,,23270
+Satara,Patan,नवसरवाडी,Navsarwadi,GEN ,GEN (W) ,,,,,23271
+Satara,Patan,नेचल,Nechal,GEN (W) ,,,GEN (W) ,,,23272
+Satara,Patan,नेरले,Nerale,GEN (W) ,GEN ,GEN (W) ,GEN,,,23273
+Satara,Patan,निगडे,Nigade,GEN ,GEN ,GEN (W) ,GEN,,,23274
+Satara,Patan,निसरे,Nisare,GEN (W) ,,GEN (W) ,GEN,,,23275
+Satara,Patan,निवाडे पुनर्वासन,Nivade Punarvasan,,,GEN ,,,,23276
+Satara,Patan,निवडे,Nivade,GEN,,SC (W),,,,23277
+Satara,Patan,निवी,Nivi,,GEN ,,BCC (W),,,23278
+Satara,Patan,निवकणे,Nivkane,,GEN ,GEN (W) ,BCC,,,23279
+Satara,Patan,नुने,Nune,GEN (W) ,GEN ,,BCC (W),,,23280
+Satara,Patan,पाबळवाडी,Pabalwadi,GEN ,GEN (W) ,GEN ,BCC (W),,,23281
+Satara,Patan,पाचगणी,pachgani,GEN ,GEN ,,GEN (W) ,,,23282
+Satara,Patan,पाचुपतेवाडी,pachupatewadi,GEN (W) ,,GEN (W) ,,,,23283
+Satara,Patan,पाडळोशी,Padloshi,GEN ,,GEN ,GEN (W) ,,,23284
+Satara,Patan,पाळशी,palshi,GEN ,,GEN (W) ,BCC,,,23285
+Satara,Patan,पाणेरी,Paneri,GEN ,GEN (W) ,GEN (W) ,GEN (W) ,,,23286
+Satara,Patan,पापर्डे,Paparde,,GEN ,,GEN (W) ,,,23287
+Satara,Patan,पाटण,Patan,GEN,,,,,,23288
+Satara,Patan,पाठवडे,Pathvade,,GEN (W),GEN,BCC (W),,,23289
+Satara,Patan,पवारवाडी,Pawarwadi,GEN ,GEN ,GEN (W) ,GEN,,,23290
+Satara,Patan,पेठशिवापूर,Pethshivapur,,GEN (W),,GEN (W) ,,,23291
+Satara,Patan,पिंपळोशी,Pimploshi,,,GEN (W) ,GEN (W) ,,,23292
+Satara,Patan,राहुडे,Rahude,GEN ,,GEN ,BCC (W),,,23293
+Satara,Patan,रामिष्टेवाडी,Ramishtewadi,GEN ,,GEN ,BCC (W),,,23294
+Satara,Patan,रासाटी,Rasati,GEN ,,GEN (W) ,GEN,,,23295
+Satara,Patan,रुवले,Ruvale,GEN ,GEN (W) ,GEN ,BCC,,,23296
+Satara,Patan,साबळेवाडी,Sablewadi,,GEN (W) ,GEN ,GEN (W) ,,,23297
+Satara,Patan,सडावाघापूर,Sadawaghapur,GEN (W) ,,GEN (W) ,GEN,,,23298
+Satara,Patan,साईकडे,Saikade,,,GEN (W) ,GEN (W) ,,,23299
+Satara,Patan,साखरी,Sakhari,GEN ,,GEN (W) ,GEN (W) ,,,23300
+Satara,Patan,सळवे,Salve,GEN (W) ,GEN ,,BCC (W),,,23301
+Satara,Patan,सणबूर,Sanbur,GEN (W) ,GEN ,,GEN (W) ,,,23302
+Satara,Patan,सांगवड,Sangwad,GEN ,,,BCC (W),,,23303
+Satara,Patan,सातर,satar,GEN ,GEN ,GEN (W) ,GEN (W) ,,,23304
+Satara,Patan,शेडगेवाडी,Shedgewadi,,,,BCC,,,23305
+Satara,Patan,सावरघर,Sawarghar,GEN,GEN (W) ,,,,,23306
+Satara,Patan,शेंडेवाडी,Shendewadi,GEN (W) ,GEN ,GEN (W) ,GEN (W) ,,,23307
+Satara,Patan,शिद्रुकवाडी,Shidrukwadi,GEN ,GEN ,GEN (W) ,GEN (W) ,,,23308
+Satara,Patan,शिंदेवाडी,shindewadi,GEN (W) ,GEN ,,GEN,,,23309
+Satara,Patan,शिंगणवाडी,shinganwadi,GEN ,GEN ,,GEN,,,23310
+Satara,Patan,शिरळ,Shiral,GEN ,,GEN ,BCC (W),,,23311
+Satara,Patan,शितपवाडी,Shitapwadi,,GEN (W) ,,GEN (W) ,,,23312
+Satara,Patan,शिवंदेश्वर,Shivandeshwar,,GEN (W) ,GEN ,SC (W),,,23313
+Satara,Patan,सोनाईचीवाडी,Sonaichiwadi,GEN ,,GEN (W) ,GEN (W) ,,,23314
+Satara,Patan,सोनावडे,Sonawade,GEN ,GEN ,,SC,,,23315
+Satara,Patan,सुळेवाडी,Sulewadi,GEN ,,GEN ,BCC (W),,,23316
+Satara,Patan,सुपूगडेवाडी,supugadewadi,GEN ,,,BCC,,,23317
+Satara,Patan,सुरुल,Surul,GEN ,,GEN (W) ,BCC,,,23318
+Satara,Patan,सुतारवाडी,Sutarwadi,GEN (W) ,,GEN (W) ,GEN (W) ,,,23319
+Satara,Patan,ताईगडेवाडी,Taigadewadi,,GEN ,GEN (W) ,GEN (W) ,,,23320
+Satara,Patan,तामिणे,Tamine,GEN ,,,BCC (W),,,23321
+Satara,Patan,तामकडे,tamkade,,,GEN ,GEN (W) ,,,23322
+Satara,Patan,तारळे,Tarale,GEN ,,,GEN,,,23323
+Satara,Patan,टेळेवाडी,Telewadi,,GEN ,GEN (W) ,GEN,,,23324
+Satara,Patan,ठोमसे,Thomse,GEN (W) ,,GEN (W) ,GEN (W) ,,,23325
+Satara,Patan,टोळेवाडी,Tolewadi,GEN ,GEN (W) ,,SC (W),,,23326
+Satara,Patan,तोंडोशी,Tondoshi,GEN (W) ,GEN ,,SC (W),,,23327
+Satara,Patan,त्रिपुडी,Tripudi,GEN ,,,BCC (W),,,23328
+Satara,Patan,उधवणे,Udhavane,GEN ,GEN (W) ,GEN ,GEN (W) ,,,23329
+Satara,Patan,उमरकांचन,Umarkanchan,GEN ,,GEN (W) ,BCC,,,23330
+Satara,Patan,उरुल,Urul,GEN ,GEN (W) ,GEN (W) ,GEN (W) ,,,23331
+Satara,Patan,वाडी कोतावडे,Vadi Kotavade,GEN ,,GEN (W) ,GEN,,,23332
+Satara,Patan,वजरोशी,Vajroshi,GEN (W) ,GEN ,GEN (W) ,BCC,,,23333
+Satara,Patan,वाटोळे,Vatole,,GEN ,,GEN (W) ,,,23334
+Satara,Patan,वाझोली,Vazoli,GEN ,,GEN,BCC (W),,,23335
+Satara,Patan,वेखंडवाडी,Vekhandwadi,,GEN (W) ,,BCC (W),,,23336
+Satara,Patan,वेताळवाडी,Vetalwadi,GEN ,GEN (W) ,GEN ,BCC (W),,,23337
+Satara,Patan,विहे,Vihe,,GEN ,,BCC (W),,,23338
+Satara,Patan,विरेवाडी,Virewadi,GEN ,GEN ,,GEN (W) ,,,23339
+Satara,Patan,वाघजाईवाडी,Waghjaiwadi,GEN (W) ,GEN ,,BCC (W),,,23340
+Satara,Patan,वांझोळे,Wanzole,GEN ,GEN (W) ,,GEN,,,23341
+Satara,Patan,येराड,Yerad,GEN (W) ,,GEN ,BCC (W),,,23342
+Satara,Patan,येराडवाडी,Yeradwadi,,GEN (W) ,,GEN (W) ,,,23343
+Satara,Patan,येरफळे,Yerphale,,,GEN (W) ,BCC,,,23344
+Satara,Patan,झाकडे,Zakade,,GEN (W) ,GEN ,BCC (W),,,23345
+Satara,Phaltan,शेडगेवाडी,Shedagewadi,GEN ,GEN (W) ,GEN ,,शेंडगेवाडी ,,23346
+Satara,Phaltan,आळजापूर,Aaljapur,BCC,SC,BCC (W),GEN ,,,23347
+Satara,Phaltan,आरडगाव,Aaradgaon,BCC (W),GEN,SC (W),BCC ,,,23348
+Satara,Phaltan,आदर्की बु.,Adarki Bk.,GEN,GEN (W),SC (W),GEN ,,,23349
+Satara,Phaltan,आदर्की खु.,Adarki Kh.,SC,BCC,GEN,GEN (W),,,23350
+Satara,Phaltan,अलगुडेवाडी,Algudewadi,SC (W),BCC (W),GEN,BCC (W),,,23351
+Satara,Phaltan,आंदरुड,Andrud,SC (W),BCC (W),GEN (W),GEN ,,,23352
+Satara,Phaltan,आसू,Asu,BCC,GEN (W),GEN,GEN (W),,,23353
+Satara,Phaltan,बरड,Barad,BCC,GEN (W),GEN (W),GEN ,,,23354
+Satara,Phaltan,भाडळी बु.,Bhadali Bk.,GEN (W),GEN,GEN (W),GEN ,,,23355
+Satara,Phaltan,भाडळी खु.,Bhadali Khu.,SC,GEN,GEN,BCC (W),,,23356
+Satara,Phaltan,भिलकटी,Bhilkati,GEN (W),BCC,GEN (W),GEN ,,,23357
+Satara,Phaltan,बिबी,Bibi,SC,GEN (W),BCC (W),GEN (W),,,23358
+Satara,Phaltan,बोडकेवाडी,Bodakewadi,GEN,GEN,GEN (W),GEN ,,,23359
+Satara,Phaltan,चांभारवाडी ,Chambharwadi ,GEN,BCC (W),SC,BCC (W),,,23360
+Satara,Phaltan,चौधरवाडी,Chaudharwadi,SC,BCC (W),GEN (W),GEN ,,,23361
+Satara,Phaltan,चव्हाणवाडी,Chavanwadi,GEN,GEN (W),SC (W),BCC ,,,23362
+Satara,Phaltan,दालवडी ,Dalvadi ,GEN,BCC (W),GEN,GEN (W),,,23363
+Satara,Phaltan,दऱ्याचीवाडी,Daryachiwadi,BCC,GEN (W),GEN (W),BCC ,,,23364
+Satara,Phaltan,ढवळ,Dhaval,GEN (W),GEN,BCC (W),GEN ,,,23365
+Satara,Phaltan,ढवळेवाडी (आ.),Dhawalewadi (A.),BCC (W),GEN,BCC (W),GEN ,,,23366
+Satara,Phaltan,ढवळेवाडी (निंभोरे),Dhawalewadi (Nimbhore),BCC,GEN,BCC (W),GEN ,,,23367
+Satara,Phaltan,धुळदेव,Dhuldev,BCC,GEN,GEN,SC (W),,,23368
+Satara,Phaltan,धुमाळवाडी,Dhumalwadi,GEN (W),GEN,GEN,SC (W),,,23369
+Satara,Phaltan,डोंबाळवाडी,Dombalwadi,GEN,GEN (W),BCC (W),ST,,,23370
+Satara,Phaltan,दुधेबावी,Dudhebavi,GEN,SC (W),BCC,GEN (W),,,23371
+Satara,Phaltan,फडतरवाडी,Fadatarwadi,,,,GEN (W ),No data,,23372
+Satara,Phaltan,फरांदवाडी,Farandwadi,GEN,BCC,GEN (W),ST,,,23373
+Satara,Phaltan,घाडगेमळा,Ghadagemala,GEN,BCC,GEN (W),ST ,,,23374
+Satara,Phaltan,घाडगेवाडी,Ghadgewadi,,,,SC (W),No data,,23375
+Satara,Phaltan,गिरवी,Girvi,GEN,GEN (W),BCC,GEN (W),,,23376
+Satara,Phaltan,गोखळी ,Gokhali ,BCC (W),GEN,BCC (W),GEN ,,,23377
+Satara,Phaltan,गोळेगांव (पुनर्वसित),Golegaon (Punervasit),,,BCC,GEN (W),,,23378
+Satara,Phaltan,गोळेवाडी,Golewadi,BCC,SC (W),GEN,GEN (W),,,23379
+Satara,Phaltan,गुणवरे,Gunavare,BCC,GEN,BCC (W),GEN ,,,23380
+Satara,Phaltan,हणमंतवाडी,Hanmantwadi,GEN (W),GEN,GEN,BCC (W),,,23381
+Satara,Phaltan,हिंगणगाव,Hingangaon,GEN (W),GEN,SC,GEN (W),,,23382
+Satara,Phaltan,होळ,Hol,BCC,GEN (W),ST,BCC (W),,,23383
+Satara,Phaltan,जाधवनगर,Jadhavnagar,GEN,BCC (W),GEN,GEN (W),,,23384
+Satara,Phaltan,जाधववाडी (फ),Jadhavwadi (Ph),GEN,GEN,BCC,SC (W),,,23385
+Satara,Phaltan,जाधववाडी (तामखडा),Jadhavwadi (Tamkhada),GEN,GEN (W),SC (W),BCC ,,,23386
+Satara,Phaltan,जावली,Jawali,BCC,GEN,GEN,BCC (W),,,23387
+Satara,Phaltan,जिंती,Jinti,BCC,GEN,BCC,GEN (W),,,23388
+Satara,Phaltan,जोर (कुरवली खु.),JOR (KURAVLI KH.),,,,ST (W),No data,,23389
+Satara,Phaltan,जोर (वाखरी),JOR (WAKHARI),,,GEN,BCC (W),No data,,23390
+Satara,Phaltan,काळज,Kalaj,GEN,SC (W),BCC (W),GEN ,,,23391
+Satara,Phaltan,कांबळेश्‍वर,Kambaleshwar,GEN (W),BCC,GEN,BCC (W),,,23392
+Satara,Phaltan,कापडगाव,Kapadgaon,SC,GEN,BCC,GEN (W),,,23393
+Satara,Phaltan,कापशी,Kapashi,SC,GEN,BCC (W),GEN ,,,23394
+Satara,Phaltan,काशिदवाडी,Kashidwadi,GEN,GEN,SC,GEN (W),,,23395
+Satara,Phaltan,खडकी ,Khadaki ,BCC,GEN (W),GEN (W),GEN ,,,23396
+Satara,Phaltan,खामगांव,Khamgaon,GEN,BCC,GEN,GEN (W),,,23397
+Satara,Phaltan,खराडेवाडी,Kharadewadi,GEN,SC,BCC (W),GEN ,,,23398
+Satara,Phaltan,खटकेवस्ती ,Khatkewasti ,BCC,GEN (W),BCC,GEN (W),,,23399
+Satara,Phaltan,खुंटे,Khunte,GEN (W),GEN,ST (W),BCC ,,,23400
+Satara,Phaltan,कोळकी,Kolki,GEN,SC,BCC,GEN (W),,,23401
+Satara,Phaltan,कोरेगाव,Koregaon,GEN (W),BCC,SC,BCC (W),,,23402
+Satara,Phaltan,कोऱ्‍हाळे,Korhale,GEN,BCC (W),GEN (W),ST,,,23403
+Satara,Phaltan,कुरवली खु.,Kuravali Kh.,GEN (W),GEN,BCC (W),GEN ,,,23404
+Satara,Phaltan,कुरवली बु.,Kurvali Bk.,SC (W),BCC (W),GEN (W),BCC ,,,23405
+Satara,Phaltan,कुसुर,Kusur,BCC (W),GEN,SC,GEN (W ),,,23406
+Satara,Phaltan,मलवडी,Malavadi,GEN (W),SC,SC (W),GEN ,,,23407
+Satara,Phaltan,माळेवाडी ,Malewadi ,BCC (W),GEN ,BCC,SC (W),,,23408
+Satara,Phaltan,मानेवाडी,Manewadi,GEN,GEN (W),GEN (W),BCC ,,,23409
+Satara,Phaltan,मठाचीवाडी,Mathachiwadi,GEN,GEN (W),SC,GEN (W ),,,23410
+Satara,Phaltan,माझेरी,Mazeri,GEN,BCC (W),GEN (W),GEN ,,,23411
+Satara,Phaltan,मिरढे,Mirdhe,,,,BCC (W),No data,,23412
+Satara,Phaltan,मिरेवाडी (कुसुर ),Mirewadi (Kusur),BCC (W),GEN,BCC (W),ST,,,23413
+Satara,Phaltan,मिरेवाडी (दालवडे) ,Mirewadi( Dalwade) ,GEN,BCC (W),GEN (W),SC (W),,,23414
+Satara,Phaltan,मिरगांव ,Mirgaon ,BCC,GEN (W),SC,GEN (W),,,23415
+Satara,Phaltan,मुळीकवाडी,Mulikwadi,GEN,GEN (W),BCC,SC (W),,,23417
+Satara,Phaltan,मुंजवाडी,Munjwadi,BCC,GEN (W),GEN,GEN (W ),,,23418
+Satara,Phaltan,मुरूम,Murum,SC,GEN (W),BCC,GEN (W),,,23419
+Satara,Phaltan,नाइकबोमवाडी,Naikbomwadi,GEN (W),GEN,GEN (W),GEN ,,,23420
+Satara,Phaltan,नांदल,Nandal,,,,BCC (W),No data,,23421
+Satara,Phaltan,निंबळक,Nimbalak,GEN (W),GEN,GEN (W),BCC ,,,23422
+Satara,Phaltan,निंभोरे,Nimbhore,GEN,GEN (W),BCC,GEN (W),,,23423
+Satara,Phaltan,निरगुडी,Nirgudi,BCC,GEN ,BCC (W),GEN ,,,23424
+Satara,Phaltan,पाडेगाव,Padegaon,GEN,SC (W),GEN (W),GEN ,,,23425
+Satara,Phaltan,परहर बु.,Parahar Bk.,SC,BCC (W),GEN,BCC (W),,,23426
+Satara,Phaltan,परहर खु.,Parahar Kh.,BCC,GEN,GEN,BCC (W),,,23427
+Satara,Phaltan,पवारवाडी,Pawarwadi,GEN,BCC,GEN,BCC (W),,,23428
+Satara,Phaltan,पिंपळवाडी,Pimpalwadi,GEN (W),GEN,GEN,BCC (W),,,23429
+Satara,Phaltan,पिंपरद,Pimprad,BCC,GEN (W),BCC,GEN (W),,,23430
+Satara,Phaltan,पिराचीवाडी,Pirachiwadi,BCC,GEN (W),BCC (W),GEN ,,,23431
+Satara,Phaltan,राजाळे,Rajale,GEN (W),SC (W),GEN,GEN (W),,,23432
+Satara,Phaltan,राजुरी,Rajuri,,,,GEN ,No data,,23433
+Satara,Phaltan,रावडी बु.,Ravadi Bk.,GEN,GEN,SC,GEN (W),,,23434
+Satara,Phaltan,रावडी खु.,Ravadi Khu.,GEN (W),GEN,SC (W),BCC ,,,23435
+Satara,Phaltan,सालपे,Salape,GEN (W),GEN,SC (W),BCC ,,,23436
+Satara,Phaltan,सांगवी,Sangavi,SC,BCC,GEN (W),ST,,,23437
+Satara,Phaltan,सरडे,Sarade,GEN (W),GEN,GEN,GEN (W),,,23438
+Satara,Phaltan,सासकल,Saskal,GEN,SC (W),GEN (W),BCC ,,,23439
+Satara,Phaltan,सस्तेवाडी,Sastewadi,BCC,GEN (W),BCC,GEN (W),,,23440
+Satara,Phaltan,सासवड ,Saswad ,GEN (W),BCC,SC,GEN (W),,,23441
+Satara,Phaltan,साठे,Sathe,BCC (W),GEN,GEN (W),ST,,,23442
+Satara,Phaltan,सावंतवाडी,Sawantwadi,GEN,BCC (W),GEN,GEN (W),,,23443
+Satara,Phaltan,शेरेचीवाडी (ढवळ),Sherechiwadi (Dhawal),GEN (W),BCC,GEN,SC (W),,,23444
+Satara,Phaltan,शेरेचीवाडी हिं.,Sherechiwadi Hi.,GEN,BCC,GEN,GEN (W),,,23445
+Satara,Phaltan,शेरेशिंदेवाडी,Shereshindewadi,GEN,GEN,GEN (W),ST,,,23446
+Satara,Phaltan,शिंदेमाळ ,Shindemal ,GEN,GEN (W),GEN (W),GEN ,,,23447
+Satara,Phaltan,शिंदेनगर,Shindenagar,GEN,GEN,GEN (W),GEN ,,,23448
+Satara,Phaltan,शिंदेवाडी,Shindewadi,BCC,GEN,BCC (W),GEN ,,,23449
+Satara,Phaltan,सोमंथळी,Somanthali,SC,BCC (W),GEN (W),GEN ,,,23450
+Satara,Phaltan,सोनगाव,Songaon,GEN,BCC (W),GEN,S (W),,,23451
+Satara,Phaltan,सोनवडी बु,Sonwadi Bk.,GEN,SC,GEN (W),GEN ,,,23452
+Satara,Phaltan,सोनवडी खु,Sonwadi Khu.,GEN ,SC,BCC,GEN (W),,,23453
+Satara,Phaltan,सुरवडी,Survadi,GEN,BCC (W),GEN,GEN (W ),,,23454
+Satara,Phaltan,तडवळे,Tadavale,BCC,SC (W),BCC (W),GEN ,,,23455
+Satara,Phaltan,टाकळवाडे,Takalwade,SC,BCC (W),GEN (W),BCC ,,,23456
+Satara,Phaltan,टाकुबाईचीवाडी,Takubaichiwadi,GEN (W),GEN,GEN,BCC  (W),,,23457
+Satara,Phaltan,तांबवे,Tambave,GEN,GEN,GEN (W),ST,,,23458
+Satara,Phaltan,तरडगांव ,Taradgaon ,GEN (W),GEN,SC (W),GEN ,,,23459
+Satara,Phaltan,तरडफ,Tardaf,GEN,SC (W),GEN,GEN (W),,,23460
+Satara,Phaltan,ताथवडा,Tathavada,GEN (W),BCC,SC (W),GEN ,,,23461
+Satara,Phaltan,तावडी,Tawadi,GEN,BCC (W),GEN,SC (W),,,23462
+Satara,Phaltan,ठाकुरकी,Thakurki,BCC,SC (W),GEN (W),GEN ,,,23463
+Satara,Phaltan,तिरकवाडी,Tirakwadi,GEN,GEN (W),SC,BCC (W),,,23464
+Satara,Phaltan,उळूंब,Ulumb,GEN,SC,GEN (W),BCC,,,23465
+Satara,Phaltan,उपळवे,Upalave,BCC,GEN (W),SC (W),GEN ,,,23466
+Satara,Phaltan,वडले,Vadale,SC (W),BCC,GEN (W),,,,23467
+Satara,Phaltan,वडगांव,Vadgaon,BCC,GEN (W),BCC,GEN (W),,,23468
+Satara,Phaltan,वाखरी,Vakhari,BCC,SC,GEN,GEN (W ),,,23469
+Satara,Phaltan,वेळोशी,Veloshi,BCC (W),GEN,BCC (W),GEN ,,,23470
+Satara,Phaltan,विडणी,Vidani,SC (W),BCC,GEN (W),BCC ,,,23471
+Satara,Phaltan,विंचूर्णी,Vinchurni,GEN,GEN (W),GEN,BCC (W),,,23472
+Satara,Phaltan,विठ्ठलवाडी ,Vitthalwadi ,GEN,GEN (W),GEN (W),BCC ,,,23473
+Satara,Phaltan,वडजल,Wadjal,GEN (W),BCC (W),SC,GEN (W),,,23474
+Satara,Phaltan,वाघोशी,Waghoshi,SC,GEN,GEN (W),GEN ,,,23475
+Satara,Phaltan,वाठार (निंबळकर),Wathar (Nimbalkar),,,,BCC ,No data,,23476
+Satara,Phaltan,झडकबाईची वाडी,Zadakbaichiwadi,SC (W),GEN,GEN,GEN (W),,,23477
+Satara,Phaltan,झिरपवाडी,Zirapvadi,GEN (W),BCC,GEN,BCC (W),,,23478
+Satara,Satara,आकले,Aakale,ST (W) ,BCC ,GEN (W) ,GEN ,,,23479
+Satara,Satara,आगुंडेवाडी,Agundewadi,BCC ,GEN (W) ,BCC ,GEN (W) ,,,23480
+Satara,Satara,अलावडी धावली,Alawadi Dhawali,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23481
+Satara,Satara,आंबळे रायघर,Ambale Raighar,GEN (W),BCC,GEN (W) ,GEN,,,23482
+Satara,Satara,अंबवडे खुर्द,Ambavade Kh.,GEN (W),BCC,SC (W),GEN,,,23483
+Satara,Satara,अंबवडे बु.,Ambawade Bk.,GEN (W),GEN,GEN,BCC (W) ,,,23484
+Satara,Satara,अंबेवाडी,Ambewadi, GEN ,SC (W) ,BCC (W) ,GEN ,,,23485
+Satara,Satara,अंगापूर तर्फ तारगांव,Angapur Tarf Targaon,GEN (W),BCC (W),GEN (W) ,GEN,,,23486
+Satara,Satara,अंगापूर वंदन,Angapur Vandan,SC (W),BCC,GEN (W) ,GEN,,,23487
+Satara,Satara,अपशिंगे,Apshinge,BCC (W) ,SC (W) ,BCC (W) ,GEN ,,,23488
+Satara,Satara,अरगडवाडी,Aragadwadi,GEN (W) ,GEN ,ST (W) ,BCC ,,,23489
+Satara,Satara,आरळे,Arale,GEN (W) ,SC ,GEN (W) ,BCC ,,,23490
+Satara,Satara,अरे तर्फ परळी,Are T. Parali,BCC (W) ,GEN (W) ,GEN ,GEN (W) ,,,23491
+Satara,Satara,आरफळ,Arphal,GEN ,GEN (W) ,SC ,BCC (W) ,,,23492
+Satara,Satara,आसनगाव,Asangaon,GEN ,BCC (W) ,GEN (W) ,GEN ,,,23493
+Satara,Satara,आसगाव,Asgaon,SC ,GEN (W) ,GEN ,BCC (W) ,,,23494
+Satara,Satara,आष्टे (पुर्न),Ashte Punarvasan,GEN ,BCC (W) ,GEN (W) ,GEN ,Ashte (NAG. 2) Nag1,,23496
+Satara,Satara,अटाळी सावली,Atali Sawali,GEN ,GEN,GEN (W) ,BCC,,,23497
+Satara,Satara,अतीत,Attit,GEN (W),BCC,SC (W),GEN,,,23498
+Satara,Satara,आवाडवाडी,Awadwadi,BCC,GEN (W),BCC (W),GEN,,,23499
+Satara,Satara,बनघर,Banghar,GEN ,GEN (W),BCC,GEN (W),,,23500
+Satara,Satara,बसाप्पाचीवाडी,Basappachiwadi,GEN,BCC,GEN (W) ,GEN,,,23501
+Satara,Satara,बेंडवाडी,Bendwadi,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23502
+Satara,Satara,भैरवगड,Bhairavgad,BCC ,GEN (W) ,GEN ,GEN (W) ,,,23503
+Satara,Satara,भरतगांव,Bharatgaon,GEN (W),GEN,SC ,BCC (W) ,,,23504
+Satara,Satara,भरतगाववाडी,Bharatgavwadi,BCC ,GEN (W) ,BCC ,GEN (W) ,,,23505
+Satara,Satara,भाटमरळी,Bhatmarali,BCC,SC (W|),GEN (W) ,GEN,,,23506
+Satara,Satara,भोंदवडे,Bhondawade,GEN (W),GEN,SC (W),BCC,,,23507
+Satara,Satara,बोपोशी,Boposhi,GEN ,BCC (W) ,GEN ,GEN (W) ,,,23508
+Satara,Satara,बोरगांव,Borgaon,GEN (W),GEN,BCC (W),GEN,,,23509
+Satara,Satara,बोरखळ,Borkhal,BCC ,GEN (W) ,BCC ,GEN (W) ,,,23510
+Satara,Satara,बोर्णे,Borne,BCC (W),GEN,GEN (W) ,GEN,,,23511
+Satara,Satara,चाळकेवाडी,Chalakewadi,GEN ,GEN ,GEN (W) ,BCC ,,,23512
+Satara,Satara,चिखली,Chikhali,GEN ,GEN (W) ,BCC (W) ,SC ,,,23513
+Satara,Satara,चिंचणेर स. निंब,Chinchaner S. Nimb,GEN ,BCC (W) ,GEN (W) ,GEN ,,,23514
+Satara,Satara,चिंचणेर वंदन,Chinchaner Vandan,GEN,SC,BCC (W),GEN,,,23515
+Satara,Satara,चिंचणी,Chinchani,GEN ,GEN ,BCC (W),GEN ,,,23516
+Satara,Satara,चिंचणी पु,Chinchani Pu.,GEN (W) ,BCC (W) ,GEN (W) ,GEN ,,,23517
+Satara,Satara,चोरगेवाडी,chorgewadi,BCC (W),GEN,BCC (W),GEN,,,23518
+Satara,Satara,डबेवाडी,Dabewadi,GEN (W),BCC,GEN (W) ,GEN,,,23519
+Satara,Satara,दरे त. परळी,Dare Tarf Parali,BCC (W) ,GEN ,BCC ,SC (W) ,,,23520
+Satara,Satara,देगाव,Degaon,BCC ,SC ,BCC ,GEN (W) ,,,23521
+Satara,Satara,देशमूखनगर,Deshmukhnagar,BCC (W) ,GEN (W) ,GEN ,GEN (W) ,,,23522
+Satara,Satara,देवकल पारंबे,Devakal Parambe,GEN ,GEN (W) ,BCC (W) ,GEN ,,,23523
+Satara,Satara,धनगरवाडी निगडी,Dhanagarwadi Nigdi,GEN ,SC ,GEN ,BCC (W) ,,,23524
+Satara,Satara,धनवडेवाडी,dhanavadewadi,GEN ,GEN ,GEN (W) ,GEN ,,,23525
+Satara,Satara,धावडशी,Dhawadshi,GEN ,BCC ,SC (W) ,GEN ,,,23527
+Satara,Satara,धोंडेवाडी,Dhondewadi,BCC (W) ,GEN (W) ,GEN ,GEN (W) ,,,23528
+Satara,Satara,डोळेगांव,Dolegaon,GEN ,GEN,BCC (W),GEN,,,23529
+Satara,Satara,फत्त्यापूर,Fatyapur,GEN ,GEN,GEN (W) ,BCC,,,23530
+Satara,Satara,गजवडी,Gajawadi,GEN ,GEN ,GEN (W) ,SC ,,,23531
+Satara,Satara,गणेशवाडी,Ganeshwadi,GEN,GEN ,GEN,GEN (W) ,,,23532
+Satara,Satara,गवडी,Gawadi,GEN (W) ,BCC ,GEN ,GEN (W) ,,,23533
+Satara,Satara,गोगावलेवाडी,Gogawalewadi,BCC ,GEN ,GEN ,GEN (W) ,,,23534
+Satara,Satara,गोजेगांव,Gojegaon,BCC ,GEN ,SC ,GEN (W) ,,,23535
+Satara,Satara,गोवे,Gove,BCC,SC,GEN (W) ,GEN,,,23536
+Satara,Satara,हमदाबाज,Hamadabaj,BCC (W) ,GEN,GEN (W) ,GEN,,,23537
+Satara,Satara,इंगळेवाडी,Ingalewadi,GEN (W) ,GEN ,BCC (W) ,GEN ,,,23539
+Satara,Satara,जाधववाडी,Jadhavwadi,GEN ,GEN ,GEN (W) ,BCC ,,,23540
+Satara,Satara,जैतापूर,Jaitapur,GEN ,BCC (W) ,GEN (W) ,GEN ,,,23541
+Satara,Satara,जकातवाडी,Jakatwadi,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23542
+Satara,Satara,जांभगाव,Jambhagaon,GEN ,BCC (W) ,GEN (W) ,GEN ,,,23543
+Satara,Satara,जांभळेवाडी,Jambhalewadi,GEN (W) ,GEN ,GEN (W) ,BCC ,,,23544
+Satara,Satara,जांभे,Jambhe,BCC,GEN (W) ,BCC,SC (W),,,23545
+Satara,Satara,जावळवाडी,Jawalwadi,GEN (W) ,GEN ,GEN (W) ,BCC ,,,23547
+Satara,Satara,जिहे ,Jihe ,SC ,GEN (W) ,BCC (W) ,GEN ,,,23548
+Satara,Satara,जोतिबाचीवाडी,Jotibachiwadi,BCC,GEN,GEN,GEN (W),,,23549
+Satara,Satara,कळंबे,Kalambe,GEN (W) ,BCC,GEN (W) ,SC,,,23550
+Satara,Satara,काळोशी,Kaloshi,GEN ,GEN ,GEN (W) ,GEN ,,,23551
+Satara,Satara,कामथी तर्फ सातारा,Kamathi Tarf Satara,BCC ,GEN ,BCC (W),GEN,,,23552
+Satara,Satara,कामेरी,Kameri,GEN (W) ,BCC (W) ,GEN ,GEN (W) ,,,23553
+Satara,Satara,कण्हेर,Kanher,GEN ,BCC ,GEN (W) ,GEN ,,,23554
+Satara,Satara,करंडी,Karandi,GEN,BCC,GEN (W) ,GEN,,,23555
+Satara,Satara,कारंडवाडी,Karandwadi,GEN ,GEN ,SC (W) ,BCC ,,,23556
+Satara,Satara,करंजे तर्फ परळी,Karanje Tarf Parali,BCC ,GEN (W) ,BCC ,GEN (W) ,,,23557
+Satara,Satara,कारी,Kari,BCC ,GEN (W) ,GEN ,GEN (W) ,,,23558
+Satara,Satara,कासारस्थळ,Kasarsthal,GEN (W) ,BCC (W) ,SC ,GEN (W) ,,,23559
+Satara,Satara,काशीळ,Kashil,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23560
+Satara,Satara,कातवडी बु. ,Katavadi Bk.,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23561
+Satara,Satara,कौंदणी नरेवाडी,Kaundani Narewadi,GEN (W),SC ,BCC,GEN (W),,,23562
+Satara,Satara,केळवली,Kelawali,BCC ,GEN (W) ,GEN ,GEN (W) ,,,23563
+Satara,Satara,खडगाव,Khadgaon,GEN (W),BCC (W) ,GEN (W),GEN,,,23564
+Satara,Satara,खावली,Khawali,GEN ,BCC (W) ,GEN ,GEN (W) ,,,23565
+Satara,Satara,खिंडवाडी,Khindwadi,GEN ,GEN (W) ,GEN ,SC (W) ,,,23566
+Satara,Satara,खोडद,Khodad,SC,BCC,GEN (W),GEN,,,23567
+Satara,Satara,खोजेवाडी,Khojewadi,BCC ,GEN ,BCC ,GEN (W) ,,,23568
+Satara,Satara,किडगांव,Kidgaon,BCC (W) ,GEN ,SC ,GEN (W) ,,,23569
+Satara,Satara,कोडोली,Kodoli,BCC,GEN,SC (W),GEN,,,23570
+Satara,Satara,कोंढवली,Kondhavali,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23572
+Satara,Satara,कोंडवे,kondve,BCC (W) ,GEN,GEN (W),GEN,,,23573
+Satara,Satara,कोपर्डे,Koparde,GEN (W) ,GEN ,GEN (W) ,SC ,,,23574
+Satara,Satara,क्षेत्र माहुली,Kshetra Mahuli,GEN ,GEN (W) ,GEN ,SC (W) ,,,23575
+Satara,Satara,कुमठे,Kumathe,SC (W) ,GEN ,BCC ,GEN (W) ,,,23576
+Satara,Satara,कुरूलबाजी,Kurulbaji,BCC ,GEN (W) ,BCC (W) ,GEN (W) ,,,23577
+Satara,Satara,कुरुण,Kurun,BCC ,GEN ,BCC ,GEN (W) ,,,23578
+Satara,Satara,कुस बु.,Kus Bk.,GEN (W),GEN,GEN (W),BCC,,,23579
+Satara,Satara,कुस खु,Kus Kh.,BCC (W) ,GEN ,BCC ,GEN (W) ,,,23580
+Satara,Satara,कुसवडे,Kusawade,GEN,SC,GEN (W),BCC,,,23581
+Satara,Satara,कुशी,Kushi,GEN,GEN,GEN,GEN (W),,,23582
+Satara,Satara,लांडेवाडी,landewadi,GEN,GEN,GEN (W),SC,,,23583
+Satara,Satara,लावंघर,Lawanghar,GEN,BCC,SC,GEN (W),,,23584
+Satara,Satara,लिंब,Limb,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23585
+Satara,Satara,लिंबाचीवाडी,Limbachiwadi,GEN ,GEN ,GEN (W) ,BCC ,,,23586
+Satara,Satara,लुमणेखोल,Lumanekhol,GEN ,BCC (W) ,GEN ,GEN (W) ,,,23587
+Satara,Satara,मगदुल भटाचीवाडी,Magdul Bhatachiwadi,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23588
+Satara,Satara,महागांव,Mahagaon,GEN,SC (W),GEN,BCC (W) ,,,23589
+Satara,Satara,माजगांव,Majgaon,GEN (W),GEN,BCC,GEN (W),,,23590
+Satara,Satara,मालगाव,Malgaon,BCC ,GEN (W) ,GEN ,GEN (W) ,,,23591
+Satara,Satara,माळयाची वाडी,Malyachiwadi,GEN ,BCC (W) ,GEN (W) ,GEN ,,,23592
+Satara,Satara,मांडवे,Mandave,SC,GEN (W) ,GEN ,BCC (W) ,,,23593
+Satara,Satara,मापरवाडी,Maparwadi,GEN,BCC (W) ,GEN (W),GEN,,,23594
+Satara,Satara,मर्ढे,Mardhe,BCC (W) ,GEN (W) ,GEN ,GEN (W) ,,,23595
+Satara,Satara,मस्करवाडी,Maskarwadi,BCC,GEN,GEN (W),GEN,,,23596
+Satara,Satara,मत्यापूर,Matyapur,GEN (W) ,BCC (W) ,GEN (W) ,GEN ,,,23597
+Satara,Satara,मोरेवाडी,Morewadi,BCC (W) ,GEN (W) ,BCC (W) ,GEN ,,,23599
+Satara,Satara,नागेवाडी,nagewadi,GEN,GEN,GEN (W),BCC,,,23600
+Satara,Satara,नागठाणे,Nagthane,SC (W),GEN ,GEN,BCC (W),,,23601
+Satara,Satara,नांदगांव,Nandgaon,BCC (W) ,SC (W),GEN (W),ST,,,23602
+Satara,Satara,नेले,Nele,GEN,GEN (W) ,BCC (W) ,SC,,,23603
+Satara,Satara,न्हाळेवाडी,Nhalewadi,BCC ,GEN (W) ,BCC ,GEN (W) ,,,23604
+Satara,Satara,निगडी तर्फ सातारा,Nigadi Tarf Satara,GEN (W) ,GEN ,BCC (W) ,GEN ,,,23605
+Satara,Satara,निगडी वंदन,Nigadi Vandan,SC (W) ,BCC (W) ,GEN ,GEN (W) ,,,23606
+Satara,Satara,निगूडमाळ,Nigudmal,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23607
+Satara,Satara,निनाम,Ninam,GEN (W),BCC,GEN ,SC (W) ,,,23608
+Satara,Satara,निसराळे,Nisrale,GEN,GEN,SC (W),BCC,,,23609
+Satara,Satara,नित्रळ,Nitral,BCC ,GEN (W) ,BCC (W) ,SC ,,,23610
+Satara,Satara,नुने,Nune,GEN (W) ,GEN ,GEN ,SC (W) ,,,23611
+Satara,Satara,पाडळी,Padali,GEN,GEN,GEN (W),GEN,,,23612
+Satara,Satara,पांगारे,Pangare,GEN ,GEN ,GEN (W) ,BCC ,,,23613
+Satara,Satara,पानमळेवाडी ,Panmalewadi ,BCC ,SC (W) ,GEN ,GEN (W) ,,,23614
+Satara,Satara,परळी,Parali,GEN ,BCC,SC (W),GEN,,,23615
+Satara,Satara,परमाळे,Parmale,GEN ,GEN (W),BCC (W),GEN,,,23616
+Satara,Satara,पाटेघर,Pateghar,GEN,GEN (W),GEN,BCC (W),,,23617
+Satara,Satara,पाटेश्वरनगर,Pateshwarnagar,BCC ,GEN (W) ,BCC ,GEN (W) ,,,23618
+Satara,Satara,पाटखळ,Patkhal,BCC (W) ,SC (W),GEN (W),GEN,,,23619
+Satara,Satara,पेत्री अनावळे,Petri Anavale,BCC (W) ,GEN ,GEN (W),GEN,,,23620
+Satara,Satara,फडतरवाडी,Phadatarwadi,GEN,GEN ,GEN (W),BCC,,,23621
+Satara,Satara,पिलाणीवाडी,Pilanawadi,BCC ,GEN ,GEN ,GEN (W) ,,,23622
+Satara,Satara,पिलाणी,Pilani,GEN ,BCC,GEN (W),GEN,,,23623
+Satara,Satara,पिंपळवाडी,Pimpalwadi,GEN,BCC (W) ,GEN,GEN (W) ,,,23624
+Satara,Satara,पोगरवाडी,Pogarwadi,GEN (W),GEN,GEN (W),BCC,,,23625
+Satara,Satara,राजापुरी,Rajapuri,GEN ,BCC (W) ,GEN ,GEN (W) ,,,23626
+Satara,Satara,राकूसलेवाडी,Rakusalewadi,BCC (W) ,GEN ,BCC (W) ,GEN ,,,23627
+Satara,Satara,रामकृष्णनगर,Ramkrushnanagar,SC ,GEN (W) ,BCC (W) ,GEN ,,,23628
+Satara,Satara,रामनगर ,Ramnagar ,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23629
+Satara,Satara,रेनावळे,Renawale,GEN ,GEN (W) ,GEN ,BCC ,,,23630
+Satara,Satara,रेवंडे,Revande,BCC ,GEN (W) ,BCC ,GEN (W) ,,,23631
+Satara,Satara,रोहोट,Rohot,BCC ,GEN (W) ,BCC (W) ,SC ,,,23632
+Satara,Satara,साबळेवाडी,Sabalewadi,GEN ,SC ,GEN (W) ,BCC ,,,23633
+Satara,Satara,सैदापूर,Saidapur,BCC ,GEN ,SC ,GEN (W) ,,,23634
+Satara,Satara,समर्थगाव,Samarthgaon,,GEN (W) ,BCC ,GEN (W) ,,,23635
+Satara,Satara,समर्थनगर,samarthnagar,GEN (W) ,GEN ,GEN (W) ,BCC ,,,23636
+Satara,Satara,सांबरवाडी,Sambarwadi,GEN ,GEN ,BCC ,GEN (W) ,,,23637
+Satara,Satara,संगममाहुली,sangammahuli,GEN (W) ,BCC ,GEN ,SC (W) ,,,23638
+Satara,Satara,सारखळ,Sarkhal,GEN ,BCC ,GEN ,GEN (W) ,,,23639
+Satara,Satara,सासपडे,saspade,GEN ,BCC ,GEN (W) ,SC ,,,23640
+Satara,Satara,सायळी,Sayali,GEN (W) ,GEN ,GEN ,BCC (W) ,,,23641
+Satara,Satara,सायली (पुर्न),Sayali (Punarvasan),SC ,ST (W) ,GEN (W) ,BCC ,,,23642
+Satara,Satara,शहापूर,Shahapur,GEN ,BCC (W) ,GEN (W) ,GEN ,,,23643
+Satara,Satara,शेळकेवाडी,shelkewadi,GEN (W) ,BCC,GEN,GEN (W) ,,,23644
+Satara,Satara,शेंद्रे,Shendre,GEN (W) ,GEN ,SC (W) ,BCC ,,,23645
+Satara,Satara,शेरेवाडी ,Sherewadi,GEN ,BCC ,GEN ,GEN (W) ,,,23646
+Satara,Satara,शिंदेवाडी,Shindewadi,SC ,GEN (W) ,GEN ,BCC (W) ,,,23647
+Satara,Satara,शिवथर,Shivthar,GEN ,SC (W) ,BCC (W) ,GEN (W) ,,,23648
+Satara,Satara,सोनापूर,Sonapur,SC (W),GEN,GEN (W) ,BCC,,,23649
+Satara,Satara,सोनवडी,Sonawadi,GEN ,BCC ,GEN ,GEN (W) ,,,23650
+Satara,Satara,सोनगांव स. निंब,Songaon S. Nimb,SC ,GEN ,BCC,GEN (W) ,,,23651
+Satara,Satara,सोनगाव तर्फ सातारा,Songaon Tarf Satara,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23652
+Satara,Satara,तासगांव,Tasgaon,SC ,BCC (W) ,GEN ,GEN (W) ,,,23653
+Satara,Satara,ठोसेघर ,Thoseghar,BCC ,GEN ,BCC ,GEN (W) ,,,23654
+Satara,Satara,टिटवेवाडी ,Titavewadi ,GEN ,BCC (W) ,GEN (W) ,GEN ,,,23655
+Satara,Satara,तुकाईचीवाडी,Tukaichiwadi,GEN (W) ,GEN ,GEN ,GEN (W) ,,,23656
+Satara,Satara,उपळी,Upali,BCC ,GEN ,GEN (W) ,GEN (W) ,,,23657
+Satara,Satara,वाढे,vadhe,BCC ,GEN ,BCC ,SC (W) ,,,23658
+Satara,Satara,वडुथ,Vaduth,GEN (W) ,SC (W) ,BCC ,GEN (W) ,,,23659
+Satara,Satara,वळसे,Valase,SC ,GEN (W) ,BCC ,GEN (W) ,,,23660
+Satara,Satara,वनगळ,Vangal,GEN (W) ,BCC ,GEN (W) ,GEN ,,,23661
+Satara,Satara,वर्णे,Varne,GEN ,BCC ,GEN (W) ,GEN ,,,23662
+Satara,Satara,वर्ये,Varye,GEN ,GEN,GEN (W) ,SC (W) ,,,23663
+Satara,Satara,वासोळे,Vasole,GEN ,GEN (W) ,BCC ,GEN (W) ,,,23664
+Satara,Satara,वावदरे,Vavdare,GEN ,BCC,GEN (W) ,GEN,,,23665
+Satara,Satara,वेचले,Vechale,SC (W),GEN,GEN,BCC (W),,,23666
+Satara,Satara,वेळे,vele,GEN (W) ,ST,GEN (W) ,BCC,,,23667
+Satara,Satara,वेणेगांव,Venegaon,GEN (W) ,BCC (W) ,GEN (W) ,GEN ,,,23668
+Satara,Satara,वेणेखोल,Venekhol,,,GEN ,SC (W) ,,,23669
+Satara,Satara,विजयनगर,Vijaynagar,BCC,GEN,BCC,GEN (W),,,23670
+Satara,Satara,वडगांव,Wadgaon,GEN ,SC (W) ,GEN (W) ,BCC ,,,23671
+Satara,Satara,यादववाडी,Yadavwadi,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23672
+Satara,Satara,यवतेश्वर,Yavateshwar,GEN (W) ,GEN ,GEN (W) ,BCC ,,,23673
+Satara,Satara,झरेवाडी,Zarewadi,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23674
+Satara,Wai,आकोशी,Aakoshi,BCC ,GEN (W) ,BCC ,GEN (W) ,,,23675
+Satara,Wai,आसले,Aasale,GEN ,BCC ,GEN ,GEN (W) ,,,23676
+Satara,Wai,आसरे,Aasare,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23677
+Satara,Wai,अभेपुरी,Abhepuri,GEN (W) ,GEN ,BCC ,GEN (W) ,,,23678
+Satara,Wai,अमृतवाडी,Amrutwadi,GEN (W) ,GEN ,GEN (W) ,BCC ,,,23679
+Satara,Wai,अनवडी,Anavadi,GEN ,BCC ,GEN (W) ,SC ,,,23680
+Satara,Wai,अनपटवाडी,Anpatwadi,BCC ,GEN (W) ,GEN ,GEN (W) ,,,23681
+Satara,Wai,बालेघर,Baleghar,GEN (W) ,GEN ,GEN ,BCC (W) ,,,23682
+Satara,Wai,बावधन,Bavdhan,BCC (W) ,GEN ,GEN ,SC (W) ,,,23683
+Satara,Wai,बेलमाची,Belmachi,BCC ,GEN (W) ,BCC ,GEN (W) ,,,23684
+Satara,Wai,भिवडी(पुर्नवसन),Bhivadi (R.H.V.),SC ,BCC (W) ,GEN (W) ,GEN (W) ,,,23685
+Satara,Wai,भोगाव,Bhogaon,GEN ,GEN ,GEN (W) ,BCC ,,,23686
+Satara,Wai,भुईंज,Bhuinj,GEN ,SC ,GEN (W) ,BCC ,,,23687
+Satara,Wai,बोपर्डी,Bopardi,GEN ,SC (W) ,BCC (W) ,GEN ,,,23688
+Satara,Wai,बोपेगाव,Bopegaon,GEN ,BCC ,SC (W) ,GEN ,,,23689
+Satara,Wai,बोरगाव,Borgaon,GEN ,GEN (W) ,BCC (W) ,GEN ,,,23690
+Satara,Wai,बोरीव,Boriv,GEN ,ST ,BCC (W) ,SC ,,,23691
+Satara,Wai,चांदक,Chandak,BCC ,GEN (W) ,BCC ,GEN (W) ,,,23692
+Satara,Wai,चांदवडी पुर्न.,Chandwadi Punarvasan,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23693
+Satara,Wai,चिखली,Chikhali,SC (W) ,GEN ,BCC ,GEN (W) ,,,23694
+Satara,Wai,चिंधवली,Chindhawali,GEN ,GEN (W) ,SC ,BCC (W) ,,,23695
+Satara,Wai,चोराचीवाडी,Chorachiwadi,BCC ,GEN ,BCC (W) ,GEN ,,,23696
+Satara,Wai,दह्याट,Dahyat,BCC ,GEN ,BCC (W) ,GEN (W) ,,,23697
+Satara,Wai,दरेवाडी,Darewadi,BCC (W) ,GEN ,GEN (W) ,GEN ,,,23698
+Satara,Wai,दसवडी,Daswadi,BCC (W) ,GEN ,GEN (W) ,GEN ,,,23699
+Satara,Wai,देगाव,Degaon,GEN (W) ,SC ,GEN (W) ,BCC ,,,23700
+Satara,Wai,धावडी,Dhawadi,ST (W) ,GEN ,SC (W) ,BCC ,,,23701
+Satara,Wai,धोम,Dhom,GEN (W) ,BCC ,GEN (W) ,GEN ,,,23702
+Satara,Wai,धोम पुनर्वसन,Dhom Punarvasan ,,,,BCC (W) ,New ,,23703
+Satara,Wai,एकसर,Eksar,BCC ,GEN (W) ,GEN ,GEN (W) ,,,23704
+Satara,Wai,गाढवेवाडी,Gadhavewadi,BCC (W) ,GEN ,GEN (W) ,GEN ,,,23705
+Satara,Wai,गोळेगांव,Golegaon,GEN (W) ,GEN ,GEN (W) ,BCC ,,,23706
+Satara,Wai,गोवेदिगर,Govedigar,GEN ,BCC ,GEN ,SC (W) ,,,23707
+Satara,Wai,गुळूंब,Gulumb,BCC ,GEN (W) ,GEN ,BCC ,,,23708
+Satara,Wai,गुंडेवाडी,Gundewadi,BCC (W) ,ST ,GEN (W) ,GEN ,,,23709
+Satara,Wai,जांब,Jamb,GEN ,GEN ,BCC (W) ,GEN ,,,23710
+Satara,Wai,जांभळी,Jambhali,GEN ,GEN ,BCC ,GEN (W) ,,,23711
+Satara,Wai,जोर,Jor,BCC ,GEN (W) ,GEN ,GEN (W) ,,,23712
+Satara,Wai,कडेगाव,Kadegaon,GEN (W) ,GEN ,BCC (W) ,GEN ,,,23713
+Satara,Wai,कंळभे,Kalambhe,BCC ,GEN ,BCC ,GEN (W) ,,,23714
+Satara,Wai,काळंगवाडी,Kalangwadi,SC ,GEN (W) ,GEN ,BCC (W) ,,,23715
+Satara,Wai,कणुर,Kanur,GEN ,BCC ,GEN (W) ,GEN ,,,23716
+Satara,Wai,कवठे,Kawathe,GEN (W) ,SC ,BCC ,GEN (W) ,,,23717
+Satara,Wai,केंजळ,Kenjal,GEN (W) ,GEN ,GEN (W) ,SC ,,,23718
+Satara,Wai,खडकी,Khadaki,SC (W) ,BCC ,GEN (W) ,ST (W) ,,,23719
+Satara,Wai,खानापूर,Khanapur,GEN ,GEN ,BCC ,GEN (W) ,,,23720
+Satara,Wai,खावली,Khavali,BCC ,GEN ,GEN ,SC (W) ,,,23721
+Satara,Wai,खोलवडी,Kholwadi,GEN ,BCC ,SC (W) ,GEN ,,,23722
+Satara,Wai,किकली,Kikali,GEN (W) ,GEN ,GEN ,BCC ,,,23723
+Satara,Wai,किरोंडे,Kironde,GEN ,GEN ,GEN (W) ,BCC ,,,23724
+Satara,Wai,कोंढावळे,Kondhavale,GEN ,BCC (W) ,ST (W) ,GEN ,,,23725
+Satara,Wai,कोंढवली,Kondhavali,BCC (W) ,GEN ,GEN ,GEN (W) ,,,23726
+Satara,Wai,कुसगांव,Kusgaon,GEN (W) ,BCC (W) ,GEN ,GEN (W) ,,,23727
+Satara,Wai,लगडवाडी,Lagadwadi,BCC (W) ,GEN ,GEN (W) ,GEN ,,,23728
+Satara,Wai,लोहारे,Lohare,BCC ,GEN ,BCC (W) ,GEN ,,,23729
+Satara,Wai,मालतपूर,Malatpur,GEN ,BCC ,SC (W) ,GEN ,,,23730
+Satara,Wai,मांढरदेव,Mandhardeo,GEN (W) ,BCC ,GEN (W) ,GEN ,,,23731
+Satara,Wai,मेणवली,Menavali,GEN ,GEN (W) ,SC ,BCC (W) ,,,23732
+Satara,Wai,मोहोडेकरवाडी,Mohodekarwadi,GEN ,BCC ,GEN (W) ,GEN ,,,23733
+Satara,Wai,मुगांव,Mugaon,GEN (W) ,BCC ,GEN (W) ,GEN (W) ,,,23734
+Satara,Wai,मुंगसेवाडी,Mungasewadi,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23735
+Satara,Wai,नागेवाडी,Nagewadi,GEN ,GEN ,SC ,BCC (W) ,,,23736
+Satara,Wai,नांदगणे,Nandgane,BCC ,GEN (W) ,BCC (W) ,GEN ,,,23737
+Satara,Wai,निकमवाडी,Nikamwadi,GEN ,GEN ,GEN ,BCC (W) ,,,23738
+Satara,Wai,ओहळी,Oholi,BCC ,GEN (W) ,GEN ,GEN (W) ,,,23739
+Satara,Wai,ओझर्डे,Ozarde,SC ,BCC ,GEN (W) ,ST ,,,23740
+Satara,Wai,पाचवड,Pachwad,GEN (W) ,GEN ,BCC (W) ,GEN ,,,23741
+Satara,Wai,पांडे,Pande,SC ,GEN (W) ,BCC ,GEN (W) ,,,23742
+Satara,Wai,पांडेवाडी,Pandewadi,BCC ,GEN (W) ,BCC (W) ,GEN ,,,23743
+Satara,Wai,पांढरेचीवाडी,Pandharechiwadi,GEN ,BCC ,GEN (W) ,GEN ,,,23744
+Satara,Wai,परतवडी,Paratwadi,GEN ,BCC ,GEN (W) ,GEN ,,,23745
+Satara,Wai,परखंदी,Parkhandi,GEN ,GEN ,BCC ,GEN (W) ,,,23746
+Satara,Wai,पसरणी,Pasarani,GEN (W) ,GEN ,GEN (W) ,SC ,,,23747
+Satara,Wai,राउतवाडी,Rautwadi,BCC ,GEN ,BCC (W) ,GEN ,,,23748
+Satara,Wai,रेनावळे,Renavale,GEN ,BCC ,GEN ,GEN (W) ,,,23749
+Satara,Wai,सटालेवाडी,Satalewadi,GEN (W) ,GEN ,BCC (W) ,GEN ,,,23750
+Satara,Wai,शहाबाग,Shahabag,GEN (W) ,GEN ,SC (W) ,BCC ,,,23751
+Satara,Wai,शेलारवाडी,Shelarwadi,GEN ,GEN ,GEN (W) ,BCC ,,,23752
+Satara,Wai,शेंदुरजणे,Shendurjane,GEN (W) ,SC ,BCC (W) ,GEN (W) ,,,23753
+Satara,Wai,शिरगांव,Shirgaon,BCC ,GEN ,BCC ,GEN (W) ,,,23754
+Satara,Wai,सुलतानपूर,Sultanpur,GEN ,SC ,GEN ,BCC (W) ,,,23755
+Satara,Wai,सुरुर,Surur,GEN ,GEN (W) ,GEN ,SC (W) ,,,23756
+Satara,Wai,उडतारे,Udatare,SC ,BCC ,GEN ,GEN (W) ,,,23757
+Satara,Wai,उळूंब,Ulumb,GEN ,BCC ,GEN ,GEN (W) ,,,23758
+Satara,Wai,वडोली,Vadoli,GEN ,BCC (W) ,GEN (W) ,GEN ,,,23759
+Satara,Wai,वहागांव,Vahagaon,GEN ,BCC ,GEN ,GEN (W) ,,,23760
+Satara,Wai,वयगाव,Vaigaon,GEN ,GEN ,GEN (W) ,BCC ,,,23761
+Satara,Wai,वरखडवाडी,Varkhadwadi,GEN ,SC ,ST ,BCC (W) ,,,23762
+Satara,Wai,वाशिवली,Vashivali,GEN ,GEN ,GEN (W) ,BCC ,,,23763
+Satara,Wai,वासोळे,Vasole,ST ,BCC ,GEN (W) ,GEN ,,,23764
+Satara,Wai,वेलंग,Velang,BCC ,GEN (W) ,GEN ,GEN (W) ,,,23765
+Satara,Wai,वेळे,Vele,GEN (W) ,GEN ,BCC ,SC (W) ,,,23766
+Satara,Wai,वेरुळी,Veruli,BCC (W) ,GEN ,GEN ,GEN (W) ,,,23767
+Satara,Wai,विरमाडे,Virmade,GEN ,GEN (W) ,GEN ,BCC (W) ,,,23768
+Satara,Wai,विठ्ठलवाडी,Vithalwadi,GEN ,BCC (W) ,GEN (W) ,GEN ,,,23769
+Satara,Wai,व्याहली पुन.,Vyahali Pun.,GEN ,BCC ,GEN (W) ,GEN ,,,23770
+Satara,Wai,व्याजवाडी,Vyajwadi,BCC (W) ,GEN ,GEN ,GEN (W) ,,,23771
+Satara,Wai,वाघजाईवाडी,Waghjaiwadi,GEN ,GEN ,GEN ,BCC (W) ,,,23772
+Satara,Wai,यशवंतनगर,Yashwantnagar,GEN (W) ,BCC ,SC ,GEN (W) ,,,23773
+Parbhani,Parbhani,कुंभारी,Kumbhari,,GEN,GEN,GEN (W),,,26986
+Parbhani,Parbhani,लोहगाव,Lohgaon,,BCC,GEN (W),ST,,,26987
+Parbhani,Parbhani,माळसोन्‍ना,Malasonna,,GEN,BCC,SC,,,26988
+Parbhani,Parbhani,मांडाखळी,Mandakhali,,BCC,GEN (W),GEN,,,26989
+Parbhani,Parbhani,मांडवा,Mandwa,,,BCC (W),GEN,,,26990
+Parbhani,Parbhani,मांगणगाव,Mangangaon,,GEN,GEN (W),GEN,,,26991
+Parbhani,Parbhani,,Matak hala,,BCC,GEN,GEN (W),,,26992
+Parbhani,Parbhani,मिरखेल,Mirkhel,,GEN,SC (W),BCC (W),,,26993
+Parbhani,Parbhani,मिर्झापूर,Mirzapur,,GEN,GEN,GEN (W),,,26994
+Parbhani,Parbhani,मुरुंबा,Murumba,,GEN (W),GEN,SC (W),,,26995
+Parbhani,Parbhani,नागापूर,Nagapur,,BCC (W),GEN,GEN (W),,,26997
+Parbhani,Parbhani,नांदापूर,Nandapur,,GEN,BCC,GEN (W),,,26999
+Parbhani,Parbhani,नांदगाव बु.,Nandgaon Bk.,,GEN,BCC,GEN (W),,,27000
+Parbhani,Parbhani,नांदगाव खु.,Nandgaon Kh.,,BCC (W),,GEN,,,27003
+Parbhani,Parbhani,नांदखेडा,Nandkheda,,GEN (W),,ST (W),,,27004
+Parbhani,Parbhani,नरसापूर,Narsapur,,GEN (W),GEN,GEN,,,27010
+Parbhani,Parbhani,पांढरी,Pandhari,,GEN,GEN,BCC,,,27011
+Parbhani,Parbhani,पांढरी पोरजवळा,Pandhri Porjawala,,GEN,GEN (W),SC,,,27015
+Parbhani,Parbhani,पान्‍हेरा,Panhera,,GEN,GEN (W),BCC,,,27016
+Parbhani,Parbhani,परळगव्‍हाण,Paralgavhan,,,BCC (W),GEN (W),,,27017
+Parbhani,Parbhani,पाथरा,Pathara,,GEN (W),GEN,BCC,,,27018
+Parbhani,Parbhani,,Parawa,,GEN,BCC,SC,,,27019
+Parbhani,Parbhani,पेडगाव,Pedgaon,,GEN (W),SC (W),BCC (W),,,27020
+Parbhani,Parbhani,पेगरगव्‍हाण,Pegargavhan,,GEN (W),BCC (W),SC,,,27021
+Parbhani,Parbhani,पिंपळगाव सय्यदमियॉं,Pimpalgaon Sayyadmiyan,,BCC,GEN,GEN (W),,,27022
+Parbhani,Parbhani,पिंपळगाव ठो.,Pimpalgaon Tho.,,GEN,BCC (W),SC (W),,,27023
+Parbhani,Parbhani,पिंपळगाव टोंग,Pimpalgaon TONG,,BCC (W),GEN,GEN (W),,,27024
+Parbhani,Parbhani,पिंपळा,Pimpla,,GEN,BCC,GEN (W),,,27025
+Parbhani,Parbhani,,Pimpri Deshmukh,,GEN (W),GEN (W),SC (W),,,27026
+Parbhani,Parbhani,पिंगळी को.,Pingali Ko.,,GEN (W),BCC,GEN,,,27027
+Parbhani,Parbhani,पिंगळी,Pingli,,BCC,GEN (W),GEN,,,27037
+Parbhani,Parbhani,पोखर्णी,Pokharni,,GEN,SC (W),BCC (W),,,27038
+Parbhani,Parbhani,पोरवड,Porwad,,BCC (W),GEN,GEN,,,27041
+Parbhani,Parbhani,राहाटी,Rahati,,GEN,GEN,BCC (W),,,27042
+Parbhani,Parbhani,रायपूर,Raipur,,GEN (W),BCC,GEN,,,27043
+Parbhani,Parbhani,साबा,Saba,,ST (W),,BCC (W),,,27046
+Parbhani,Parbhani,साडेगाव,Sadegaon,,GEN,GEN,GEN (W),,,27049
+Parbhani,Parbhani,सहजपूर,Sahajpur,,GEN,GEN (W),SC,,,27055
+Parbhani,Parbhani,साळापुरी,Salapuri,,BCC,GEN,GEN (W),,,27764
+Parbhani,Parbhani,संबर,Sambar,,GEN (W),SC (W),BCC,,,27765
+Parbhani,Parbhani,समसापूर,Samsapur,,GEN,,BCC (W),,,27770
+Parbhani,Parbhani,सनपुरी/सुल्‍तानपूर,Sanpuri/Sultanpur,,GEN,GEN,BCC,,,27771
+Parbhani,Parbhani,साटला,Satla,,BCC,GEN,GEN (W),,,27772
+Parbhani,Parbhani,सावंगी खु.,Sawangi Kh.,,BCC,GEN,GEN (W),,,27775
+Parbhani,Parbhani,सायाळा खटींग,Sayala Khating,,GEN (W),BCC (W),GEN,,,27789
+Parbhani,Parbhani,,Shahapur,,GEN (W),BCC (W),GEN,,,27791
+Parbhani,Parbhani,शेंद्रा,Shendra,,GEN,BCC (W),GEN (W),,,27792
+Parbhani,Parbhani,सिंगणापूर,Singnapur,,GEN,BCC,GEN (W),,,27797
+Parbhani,Parbhani,सिरसी बु.,Sirsi Bk.,,GEN,GEN (W),GEN,,,27798
+Parbhani,Parbhani,सिरसी खु.,Sirsi Kh.,,GEN (W),BCC (W),GEN,,,27800
+Parbhani,Parbhani,सोन्‍ना,Sonna,,SC  (W),BCC (W),GEN (W),,,27802
+Parbhani,Parbhani,सुरपिंप्री,Surpimpri,,BCC (W),GEN (W),GEN,,,27808
+Parbhani,Parbhani,ताडलिंबला,Tadlimbala,,GEN (W),BCC (W),SC,,,27811
+Parbhani,Parbhani,ताडपांगरी,Tadpangri,,GEN (W),GEN,BCC (W),,,27819
+Parbhani,Parbhani,टाकळगव्‍हाण,Takalgavhan,,GEN (W),GEN,BCC (W),,,27821
+Parbhani,Parbhani,टाकळी बोबडे,Takli Bo.,,SC (W),BCC,GEN (W),,,27822
+Parbhani,Parbhani,,Takli Kumbharna,,GEN,BCC,SC (W),,,27823
+Parbhani,Parbhani,तामसवाडी,Tamaswadi,,GEN,,SC (W),,,27824
+Parbhani,Parbhani,तरोडा,Taroda,,GEN,GEN (W),GEN,,,27826
+Parbhani,Parbhani,तट्टु जवळा,Tattu Jawala,,BCC (W),GEN (W),GEN,,,27829
+Parbhani,Parbhani,ठोळा,Thola,,GEN,BCC,GEN (W),,,27830
+Parbhani,Parbhani,,Tuljapur/ Hasnapur,,BCC (W),GEN (W),,,,27831
+Parbhani,Parbhani,उजळांबा,Ujalamba,,GEN,GEN,BCC,,,27832
+Parbhani,Parbhani,उखळद,Ukhlad,,BCC (W),GEN (W),GEN,,,27837
+Parbhani,Parbhani,उमरी,Umari,,GEN (W),SC (W),BCC,,,27839
+Parbhani,Parbhani,वडगाव,Wadgaon,,BCC,BCC,SC (W),,,27840
+Parbhani,Parbhani,वडगाव सु,Wadgaon Su.,,,,GEN (W),,,27844
+Parbhani,Parbhani,,Wadgaon Tarfe Takli,,,GEN,,,,27845
+Parbhani,Parbhani,वाडी दमई,Wadi Damai,,SC (W),GEN (W),BCC,,,27846
+Parbhani,Parbhani,वांगी,Wangi,,GEN (W),GEN (W),BCC,,,27847
+Parbhani,Parbhani,वरपूड,Warpud,,BCC,,GEN (W),,,27848
+Parbhani,Parbhani,झाडगाव,Zadgaon,,GEN (W),,BCC,,,27849
+Parbhani,Parbhani,झरी,Zari,,BCC,GEN (W),GEN,,,27851
+Satara,Satara,,Ashte T. Parali Punarvasan ,GEN (W) ,BCC (W) ,ST ,SC (W) ,,,27926
+Satara,Satara,,Ashte Tarf Parali Punarvasan ,GEN (W) ,BCC (W) ,ST ,SC (W) ,,,27927
+Satara,Satara,धावडशी,Dhawdashi,GEN ,BCC (W) ,GEN (W) ,SC ,,,27928
+Satara,Satara,,Khed,GEN (W) ,GEN ,GEN ,BCC (W) ,,,27929
+Satara,Satara,,Palsawade,BCC ,GEN (W) ,GEN ,GEN (W) ,,,27930
+Satara,Satara,,Sambhajinagar,,GEN (W) ,BCC (W) ,GEN ,,,27931
+Satara,Wai,,Dhom Punarvasan,GEN (W) ,GEN ,GEN ,GEN,,,27932

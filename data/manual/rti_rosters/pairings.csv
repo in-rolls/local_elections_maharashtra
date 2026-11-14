@@ -1,0 +1,375 @@
+document,serial,gram_panchayat_document,workbook_row,reason,district,decision,block
+Mahabalwshwar.pdf,7,दाभेदाभेमोहन,2119,spelling variant (workbook दाभेमेाहन); all four 2005-2020 codes identical,Satara,pair,
+Mahabalwshwar.pdf,9,येर्णे बु.,2177,spelling variant (workbook येर्णे बु्.); all four 2005-2020 codes identical,Satara,pair,
+Mahabalwshwar.pdf,26,वाळण,2176,spelling variant (workbook वाळणे); all four 2005-2020 codes identical,Satara,pair,
+Mahabalwshwar.pdf,36,पाली त. आटेगाव,2154,spelling variant (workbook पाली त. आटेगांव); all four 2005-2020 codes identical,Satara,pair,
+Mahabalwshwar.pdf,70,कोट्रोशी,2140,spelling variant (workbook कोत्रोशी); all four 2005-2020 codes identical,Satara,pair,
+Khandala.pdf,49,"ाडी, वडवाडी, हर",1813,name cut off at the scan edge; the only Khandala workbook row not paired (63 scan entries vs 63 rows); the Jan 2021 order names राजेवाडी (p11 serial 17) and its 2020 value equals the scan's,Satara,pair,
+Patan.pdf,*,चिटेघर,2310,only Chiteghar row in Patan (workbook चिटेघर (तामकणे)); same pairing as the 2021 order,Satara,pair,
+Patan.pdf,*,निवडे पुनर्वसन,2444,spelling variant (workbook निवाडे पुनर्वासन); निवडे (2445) is a separate GP,Satara,pair,
+Patan.pdf,*,सोनवडे,2483,spelling variant (workbook सोनावडे),Satara,pair,
+Patan.pdf,*,मराठवाडी,2414,only Marathwadi row in Patan (workbook मराठवाडी (ढेबेवाडी)); same pairing as the 2021 order,Satara,pair,
+Patan.pdf,*,डेरवन,2317,spelling variant (workbook डेरवण),Satara,pair,
+Patan.pdf,*,चौगुलेवाडी (सांगवड),2305,same pairing as the 2021 order; the other Chougulewadi row is (काळगांव),Satara,pair,
+Patan.pdf,*,डाकेवाडी,2314,only Dakewadi row in Patan (workbook डाकेवाडी (कालगांव)),Satara,pair,
+Patan.pdf,*,भिलारवाडी,2296,only Bhilarwadi row in Patan (workbook भिलारवाडी एन.व्ही.),Satara,pair,
+Patan.pdf,*,न□बे□चिरंबे,2431,damaged glyphs; the visible letters match one Patan row (नहिंबे चिरंबे),Satara,pair,
+Patan.pdf,*,गा□ढखोप,2332,damaged glyph; the visible letters match one Patan row (गाढवखोप),Satara,pair,
+Patan.pdf,*,बां□धवट,2290,damaged glyph; the visible letters match one Patan row (बांधवट),Satara,pair,
+Patan.pdf,*,चा□फळ,2302,damaged glyph; the visible letters match one Patan row (चाफळ),Satara,pair,
+,,पिंपळगाव महादेव,574,spelling (workbook पिंपळगांव (म)),,pair,Ardhapur
+,,सांगवी खु /खडकी,576,group GP (workbook सांगवी खडकी / SANGVI khu/khadki),,pair,Ardhapur
+,,मनुर,526,suffix only (workbook मनुर त. स.),,pair,Dharmabad
+,,मनूर,526,suffix only (workbook मनुर त. स.),,pair,Dharmabad
+,,साखरी,485,group GP साखरी म्हाळुंगे; first member,,pair,Gaganbavada
+,,साखरी-म्हाळुंगे,485,spelling (workbook साखरी म्हाळुंगे),,pair,Gaganbavada
+,,साखरी/म्हाळुंगे,485,spelling (workbook साखरी म्हाळुंगे),,pair,Gaganbavada
+,,कोदे खुर्द/कोदे बु.,478,group GP (workbook कोदे बु.),,pair,Gaganbavada
+,,फळेशत,1418,letters transposed (workbook फळशेत कर्नाळा); WAVE_LOG wave 3,,pair,Tala
+,,खैरेआंबिवली,1010,hyphen only (workbook खैरे-आंबिवली),,pair,Wada
+,,सावरोली - अणवीर,888,hyphen only (workbook सावरोली अणवीर),,pair,Talasari
+,,आमगाव - अच्छाड,878,hyphen only (workbook आमगाव अच्छाड),,pair,Talasari
+,,चरी - कोटबी,600,hyphen only (workbook चरी कोटबी),,pair,Dahanu
+,,चरी-कोटबी,600,hyphen only (workbook चरी कोटबी),,pair,Dahanu
+,,वेती -वरोती,666,hyphen only (workbook वेती वरोती),,pair,Dahanu
+,,वेती,666,first member of वेती वरोती (only Veti in Dahanu),,pair,Dahanu
+,,धूमकेत,585,member of group GP अभ्राम धुमकेत (only Dhumket in Dahanu),,pair,Dahanu
+,,धुमकेत,585,member of group GP अभ्राम धुमकेत (only Dhumket in Dahanu),,pair,Dahanu
+,,सावरे ऐंबुर,852,hyphen only (workbook सावरे-ऐंबुर),,pair,Palghar
+,,सफाळे,865,= उंबरपाडा-सफाळे (WAVE_LOG wave 2: the script mis-paired it),,pair,Palghar
+,,टेंभी खोडावे,861,spelling (workbook टेंभी खाडोवे),,pair,Palghar
+,,टेंभीखोडावे,861,spelling (workbook टेंभी खाडोवे),,pair,Palghar
+,,तिघरे-अंबोडे,863,hyphen only (workbook तिघरे अंबोडे),,pair,Palghar
+,,धिवली,772,ध/घ font shape (workbook घिवली),,pair,Palghar
+,,देहजें,937,spelling (workbook देहर्जे),,pair,Vikramgad
+,,जांभा,942,spelling (workbook जांभे),,pair,Vikramgad
+,,आंबिस्ते बु.,975,spelling (workbook अंबिस्ते),,pair,Wada
+,,कळंवे,1004,व/भ font shape (workbook कळंभे),,pair,Wada
+,,कोशिमशेत/धामणशेत,724,group GP (workbook धामणशेत),,pair,Mokhada
+,,मटक-हाळा,2941,workbook Latin name Matak hala (no Devanagari typed),,pair,Parbhani
+,,तुळजापूर / हसनापूर,2996,workbook Latin name Tuljapur/ Hasnapur (no Devanagari typed),,pair,Parbhani
+,,वडगाव तर्फे भारस्वाडा,,three Wadgaon rows; pairing open (WAVE_LOG wave 1),,unpair,Parbhani
+,,वडगाव तर्फे पेडगाव,,three Wadgaon rows; pairing open,,unpair,Parbhani
+,,अर्धापूर,,script paired it to रोडगी,,unpair,Ardhapur
+,,आयळा,,script paired it to आटाळा; not certain,,unpair,Dharmabad
+,,बल्लाळी,,script paired it to बन्नाळी; a separate GP in the lists,,unpair,Dharmabad
+,,बामणी (ध),,script paired it to बाभळी ध.; not certain,,unpair,Dharmabad
+,,थोटी,,script paired it to चोंडी,,unpair,Dharmabad
+,,वाडापोखरण,,script paired it to बडे पोखरण; pairing open (WAVE_LOG wave 2),,unpair,Dahanu
+,,मोखाडा,,script paired it to मोऱ्हांडा,,unpair,Mokhada
+,,क-हे तलावली,,script paired it to साखरे,,unpair,Vikramgad
+,,चा?ोगाव/हिंगणे,139,name variant (workbook चौगांव / हिंगणे); all four 2005-2020 values equal the row,,pair,Dhule
+,,देवमाने,144,भ/म shape (workbook देवभाने); all four 2005-2020 values equal the row,,pair,Dhule
+,,घाडरा,147,ध/घ shape (workbook धाडरा); all four values equal the row,,pair,Dhule
+,,घाडरी,148,ध/घ shape (workbook धाडरी); all four values equal the row,,pair,Dhule
+,,घमाणे/घमाणी/घोडी,149,ध/घ shape (workbook धमाणे/ धमाणी / धोडी); all four values equal the row,,pair,Dhule
+,,ला?ोगड,179,one letter unread (workbook लोहगड); all four values equal the row,,pair,Dhule
+,,नगाव/तिसगाव/वडेल/ढंढाणे,191,group GP (workbook नगाव बु/ढंडाणे/ तिसगाव वडेल); all four values equal the row,,pair,Dhule
+,,सावळी/सावळीतांडा,223,group GP (workbook सावळीतांडा); all four values equal the row,,pair,Dhule
+,,तांडा(कुंडाणे),231,workbook तांडा ( कुंडाणे वेल्हाणे); all four values equal the row,,pair,Dhule
+,,उमंड,234,म/भ shape (workbook उभंड); all four values equal the row,,pair,Dhule
+,,नारडा,18,न/म shape (workbook मारडा); all three 2010-2020 values equal the row,,pair,Chandrapur
+,,शेणगाव,34,spelling (workbook शेनगांव); all three values equal the row,,pair,Chandrapur
+,,वटा,45,ट/ढ shape (workbook वढा); all three values equal the row,,pair,Chandrapur
+,,वायगांव मोकासा,46,workbook वायगांव; all three values equal the row,,pair,Chandrapur
+,,कु-हाडी,328,spelling (workbook कुऱ्हाडी); all three values equal the row,,pair,Goregaon
+,,"ग्रुप.ग्रा.पं.खा.कोर्ळीद्रे,खा.सावर्डे,शिप्पुर",414,group GP (workbook कोळिंद्रे खा); 2005-2015 values equal the row,,pair,Chandgad
+,,"खा.कोर्ळीद्रे,खा.सावर्डे,शिप्पुर",414,group GP (workbook कोळिंद्रे खा); 2020 value equals the row,,pair,Chandgad
+Patan.pdf,,धावडे,2322,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,नाणेल,2434,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,जरेवाडी,2359,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,टेळेवाडी,2492,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,विरेवाडी,2507,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कोचरेवाडी,2388,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,केर,2381,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,सुरुल,2486,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,पाचगणी,2450,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,वजरोशी,2501,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मस्करवाडी,2418,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,वाझोली,2503,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,खळे,2383,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,खोनोली,2386,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,चव्हाणवाडी,2307,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कवडेवाडी,2378,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,तामिणे,2489,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,गोकुळ तर्फ पाटण,2344,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,सुपूगडेवाडी,2485,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,चाफोली,2304,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,खिवशी,2385,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,बोंद्री,2301,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,नाडोली,2430,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,हावळेवाडी,2350,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,गोषटवाडी,2345,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कातवडी,2377,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मणदूरे,2409,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कवरवाडी,2379,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,पेठशिवापूर,2459,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,आडदेव,2274,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मुरुड,2428,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कोळेकरवाडी,2391,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,पिंपळोशी,2460,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,तामकडे,2490,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कसणी,2375,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,धामणी,2320,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,करपेवाडी,2373,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,पापर्डे,2455,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,सोनाईचीवाडी,2482,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,केळोली,2380,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मेंढोशी,2423,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,सुळेवाडी,2484,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,आंब्रुळे,2285,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,शिद्रुकवाडी,2476,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,पाळशी,2453,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,दुसाळे,2331,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,निगडे,2442,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मानेवाडी,2411,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,बोडकेवाडी,2300,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,शिंगणवाडी,2478,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,काळोली,2369,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,वाघजाईवाडी,2508,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,आटोली,2278,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,काढणे,2363,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,बाचोली,2287,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,चोपडी,2311,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,पाठवडे,2457,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,नावडी,2438,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मालोशी,2405,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,चोपदारवाडी,2312,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,टोळेवाडी,2494,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,बांबवडे,2289,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,येराड,2510,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,गलमेवाडी,2333,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,लेंडोरी,2399,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मणेरी,2410,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,शिंदेवाडी,2477,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,तारळे,2491,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,जानुगडेवाडी,2358,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,सळवे,2469,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कुठरे,2398,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,सांगवड,2471,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,चिखलेवाडी,2309,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,वाटोळे,2502,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,आंबवणे,2276,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,आंबळे,2275,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मालदन,2403,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,गोठणे,2346,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,जाधववाडी,2354,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,काडोली,2364,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,उमरकांचन,2498,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,वांझोळे,2509,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मेंढेघर,2422,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,घाणबी,2338,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,गुढे,2348,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,साखरी,2468,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मोरेवाडी,2425,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कारवट,2374,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,आवर्डे,2286,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,भुडकेवाडी,2298,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,ढोरोशी,2325,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,निवकणे,2447,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,शेंडेवाडी,2475,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,ताईगडेवाडी,2488,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,धडामवाडी,2318,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,धायटी,2323,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,झाकडे,2513,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,आसवलेवाडी,2277,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,सातर,2472,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,चव्हाणवाडी (धा),2308,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,पवारवाडी,2458,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,भारसाखळे,2295,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मारुल तर्फ पाटण,2417,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,माथनेवाडी,2419,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,हेळवाक,2351,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,म्हावशी,2424,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,शिरळ,2479,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,राहुडे,2461,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,वेताळवाडी,2505,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,शिवंदेश्वर,2481,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,बनपेठवाडी,2291,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,पाडळोशी,2452,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,ढेबेवाडी,2324,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मत्रेवाडी,2420,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,जाळगेवाडी,2356,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,ढाणकल,2321,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,हुंबरवाडी,2353,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,धजगाव,2319,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,नाडे,2429,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,डिगेवाडी,2327,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,डावरी,2316,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,अडूळ गावठाण,2280,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,महिंद,2401,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,माजगाव,2402,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,बिबी,2299,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,केरळ,2382,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,बनपुरी,2292,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मरळोशी,2415,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मारुल हवेली,2416,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,रासाटी,2463,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,गोवारे,2347,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,बहुले,2288,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,काठी,2376,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,चाळकेवाडी,2303,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,साईकडे,2467,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,येरफळे,2512,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,शितपवाडी,2480,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,घोटील,2341,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,जळव,2355,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,तोंडोशी,2495,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,वेखंडवाडी,2504,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,गिरेवाडी,2342,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,नाव,2437,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,दाढोली,2313,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कुसवडे,2395,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,नुने,2448,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,गावडेवाडी,2336,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,उरुल,2499,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कळंबे,2366,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,नाटोशी,2436,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,नवसरवाडी,2439,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,खराडवाडी,2384,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कोंजवडे,2392,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,निवी,2446,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,विहे,2506,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मरळी,2413,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,घाणव,2339,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कळकेवाडी,2368,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,लुगडेवाडी,2400,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,गुंजाळी,2349,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,रामिष्टेवाडी,2462,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,पाबळवाडी,2449,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,गव्हाणवाडी,2337,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,रुवले,2464,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मान्याचीवाडी,2412,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मेंढ,2421,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,चाफळ,2302,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,जिंती,2360,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मोरगिरी,2426,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,उधवणे,2497,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,साबळेवाडी,2465,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,गमेवाडी,2334,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कुसरुंड,2397,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,बांधवट,2290,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मल्हारपेठ,2404,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,किल्लेमोरगिरी,2387,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,येराडवाडी,2511,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,नारळवाडी,2435,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कोदळ पुनवर्सन,2389,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,डांगिष्टेवाडी,2315,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कराटे,2372,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,ठोमसे,2493,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,गारवडे,2335,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,नेचल,2440,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,पाचुपतेवाडी,2451,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,निसरे,2443,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,डिचोली,2326,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,सावरघर,2474,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,कुशी,2396,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,भांबे,2294,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,पाटण,2456,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,सुतारवाडी,2487,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,निवडे,2445,"name key (exact / loose / looser), unique Patan row",,exact,
+Patan.pdf,,मंद्रुळहवेली,2408,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,हुंबरळी,2352,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,दिवशी खु,2329,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,कोरिवळे,2393,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,वाडीकोतावडे,2500,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,काहिर,2365,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,त्रिपूडी,2496,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,दिवशी बु,2328,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,नेरळे,2441,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,कोकिसरे,2390,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,घो ट,2340,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,कडवे खु //,2362,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,नानेगाव बु //,2432,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,अडुळपेठ,2281,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,सडावाघापुर,2466,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,सणबुर,2470,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,कडवे बु //,2361,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,नहिंबे- चिरंबे,2431,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,मंद्रुळकोळे,2406,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,डाकेवाडी (काळगांव),2314,"name key (exact / loose / looser), unique Patan row",,loose,
+Patan.pdf,,मुळगांव,2427,"name key (exact / loose / looser), unique Patan row",,looser,
+Patan.pdf,,डोंगळेवाडी,2330,"name key (exact / loose / looser), unique Patan row",,looser,
+Patan.pdf,,कामरगांव,2370,"name key (exact / loose / looser), unique Patan row",,looser,
+Patan.pdf,,काळगांव,2367,"name key (exact / loose / looser), unique Patan row",,looser,
+Patan.pdf,,भोसगांव,2297,"name key (exact / loose / looser), unique Patan row",,looser,
+Patan.pdf,,कुंभारगांव,2394,"name key (exact / loose / looser), unique Patan row",,looser,
+Patan.pdf,,शेंडगेवाडी,2473,"name key (exact / loose / looser), unique Patan row",,looser,
+Patan.pdf,,बेलवडे खुर्द,2293,"name key (exact / loose / looser), unique Patan row",,looser,
+Patan.pdf,,मंद्रुळकोळे खुर्द,2407,"name key (exact / loose / looser), unique Patan row",,looser,
+Patan.pdf,,गोकुळ तर्फ हेळवाक,2343,"name key (exact / loose / looser), unique Patan row",,looser,
+,,अंबर्ले,,low:agree 0.75; SEC Ambarle GEN(W),,SEC name accepted,Mangaon
+,,उणेगांव,,agree (matcher swapped Unegaon/Nagaon; names checked by eye); SEC Unegaon GEN,,SEC name accepted,Mangaon
+,,कडापे,,agree 1.00; SEC Kadape GEN,,SEC name accepted,Mangaon
+,,कपिळवहाळ बु.,,low:agree 0.86; SEC Kavilvahal (Bk.) BCC,,SEC name accepted,Mangaon
+,,करंबेळी,,low:agree 0.80; SEC Karambeli BCC(W),,SEC name accepted,Mangaon
+,,काकल,,differ 1.00; SEC Kakal ST(W),,SEC name not accepted,Mangaon
+,,कुंभे,,low:agree 0.50; SEC g.p.Kumbhe BCC(W),,SEC name accepted,Mangaon
+,,कुमशेत,,low:agree 0.80; SEC g.p.Kumshet GEN(W),,SEC name accepted,Mangaon
+,,कोस्ते खुर्द,,agree 1.00; SEC Koste Khurd GEN(W),,SEC name accepted,Mangaon
+,,खरवली,,agree 1.00; SEC Kharavali GEN(W),,SEC name accepted,Mangaon
+,,गांगवली,,agree 1.00; SEC Gangavali GEN(W),,SEC name accepted,Mangaon
+,,गोरेगांव,,agree 0.89; SEC Goregaon GEN,,SEC name accepted,Mangaon
+,,गोवेले,,agree 1.00; SEC Govele GEN(W),,SEC name accepted,Mangaon
+,,चांदोरे,,agree 1.00; SEC Chandore SC,,SEC name accepted,Mangaon
+,,चिंचवली,,agree 1.00; SEC Chinchvali BCC(W),,SEC name accepted,Mangaon
+,,जिते,,agree 1.00; SEC Jite GEN,,SEC name accepted,Mangaon
+,,टेमपाले,,,,SEC name not accepted,Mangaon
+,,टोळ खुर्द,,agree 1.00; SEC Tol Kh. GEN,,SEC name accepted,Mangaon
+,,डोंगरोळी,,agree 1.00; SEC Dongroli GEN(W),,SEC name accepted,Mangaon
+,,तळाशेत,,low:agree 0.50; SEC Talashet Grampanchayat BCC,,SEC name accepted,Mangaon
+,,तळेगांव त.गोरेगांव,,agree 0.90; SEC Talegaon Tarf Goregaon GEN,,SEC name accepted,Mangaon
+,,दहिवली त.गोवेले,,agree 1.00; SEC Dahivali Tarfe Govele BCC,,SEC name accepted,Mangaon
+,,दहिवलीकोंड,,agree 1.00; SEC Dahiwali Kond GEN(W),,SEC name accepted,Mangaon
+,,दाखणे,,agree 1.00; SEC Dakhane GEN,,SEC name accepted,Mangaon
+,,देगांव,,,,SEC name not accepted,Mangaon
+,,देवळी,,,,SEC name not accepted,Mangaon
+,,नांदवी,,agree 1.00; SEC Nandavi BCC(W),,SEC name accepted,Mangaon
+,,नागांव,,agree (matcher swapped Unegaon/Nagaon; names checked by eye); SEC Nagaon BCC,,SEC name accepted,Mangaon
+,,निजामपूर,,agree 1.00; SEC Nijampur GEN,,SEC name accepted,Mangaon
+,,निळज,,agree 1.00; SEC Nilaj BCC,,SEC name accepted,Mangaon
+,,न्हावे,,agree 1.00; SEC Nhave GEN(W),,SEC name accepted,Mangaon
+,,पन्हळघर खुर्द,,,,SEC name not accepted,Mangaon
+,,पन्हळघर बु.,,,,SEC name not accepted,Mangaon
+,,पळसगांव बु.,,agree 0.92; SEC Palasgaon Bk. GEN,,SEC name accepted,Mangaon
+,,पळसप,,low:agree 0.80; SEC g.p.Palsap GEN(W),,SEC name accepted,Mangaon
+,,पहेल,,agree 1.00; SEC Pahel BCC,,SEC name accepted,Mangaon
+,,पाटणूस,,agree 1.00; SEC Patanus ST(W),,SEC name accepted,Mangaon
+,,पाणसई,,agree 1.00; SEC Pansai GEN(W),,SEC name accepted,Mangaon
+,,पुरार,,agree 1.00; SEC Purar BCC,,SEC name accepted,Mangaon
+,,पेण त.तळे,,low:agree 0.56; SEC Pen T. Tale Grampanchayat GEN(W),,SEC name accepted,Mangaon
+,,पोटणेर,,agree 1.00; SEC Potner GEN,,SEC name accepted,Mangaon
+,,फलाणी,,agree 1.00; SEC Falani SC,,SEC name accepted,Mangaon
+,,बामणोली,,,,SEC name not accepted,Mangaon
+,,भागाड,,agree 1.00; SEC Bhagad BCC,,SEC name accepted,Mangaon
+,,भाले,,agree 1.00; SEC Bhale GEN,,SEC name accepted,Mangaon
+,,भुवन,,agree 1.00; SEC Bhuvan GEN(W),,SEC name accepted,Mangaon
+,,मढेगांव,,agree 0.89; SEC Madhegaon GEN,,SEC name accepted,Mangaon
+,,मांगरुळ,,agree 1.00; SEC Mangrul GEN,,SEC name accepted,Mangaon
+,,मांजरवणे,,agree 1.00; SEC Manjarwane SC(W),,SEC name accepted,Mangaon
+,,माणगांव,,,,SEC name not accepted,Mangaon
+,,मुठवली,,low:agree 0.73; SEC Muthavali Tarfe Tale GEN(W),,SEC name accepted,Mangaon
+,,मोर्बा,,agree 1.00; SEC Morba GEN(W),,SEC name accepted,Mangaon
+,,रवाळजे,,agree 1.00; SEC Ravalaje GEN,,SEC name accepted,Mangaon
+,,रातवड,,agree 1.00; SEC Ratwad SC(W),,SEC name accepted,Mangaon
+,,लाखपाले,,,,SEC name not accepted,Mangaon
+,,लोणशी,,agree 1.00; SEC Lonshi BCC(W),,SEC name accepted,Mangaon
+,,लोणेरे,,,,SEC name not accepted,Mangaon
+,,वडगांव,,agree 0.89; SEC Vadgaon GEN,,SEC name accepted,Mangaon
+,,वडवली,,agree 1.00; SEC Wadawali BCC(W),,SEC name accepted,Mangaon
+,,वणीमलईकोंड,,agree 1.00; SEC Vanimalaikond GEN,,SEC name accepted,Mangaon
+,,वरचीवाडी,,agree 1.00; SEC Varchiwadi BCC,,SEC name accepted,Mangaon
+,,वारक,,agree 1.00; SEC Warak BCC(W),,SEC name accepted,Mangaon
+,,वावेदिवाळी,,agree 1.00; SEC Wavediwali ST,,SEC name accepted,Mangaon
+,,विळे,,agree 1.00; SEC Vile GEN,,SEC name accepted,Mangaon
+,,विहुले,,agree 1.00; SEC Vihule GEN,,SEC name accepted,Mangaon
+,,शिरवली,,low:agree 0.57; SEC Shirvali Tarfe Nijampur ST(W),,SEC name accepted,Mangaon
+,,शिरसाड,,agree 1.00; SEC Shirasad GEN(W),,SEC name accepted,Mangaon
+,,सणसवाडी,,agree 1.00; SEC Sanaswadi GEN(W),,SEC name accepted,Mangaon
+,,साई,,agree 1.00; SEC Sai GEN,,SEC name accepted,Mangaon
+,,साजे,,agree 1.00; SEC Saje GEN(W),,SEC name accepted,Mangaon
+,,साले,,agree 1.00; SEC Sale BCC(W),,SEC name accepted,Mangaon
+,,साळवे,,agree 1.00; SEC Salave ST(W),,SEC name accepted,Mangaon
+,,सुरव त.तळे,,agree 1.00; SEC Surav Tarf Tale BCC(W),,SEC name accepted,Mangaon
+,,हरकोल,,agree 1.00; SEC Harkol GEN,,SEC name accepted,Mangaon
+,,होडगांव,,low:agree 0.73; SEC g.p.Hodgaon ST(W),,SEC name accepted,Mangaon
