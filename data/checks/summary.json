@@ -177,7 +177,8 @@
  },
  "release_mb": {
   "sarpanch_candidates.parquet": 3.0,
-  "sarpanch_results.parquet": 1.8
+  "sarpanch_results.parquet": 1.8,
+  "sarpanch_rti_reservations.parquet": 0.3
  },
  "columns": {
   "results": 58,

@@ -18,6 +18,7 @@ collect:
 
 data:
 	$(PY) -m local_elections_maharashtra.build.release
+	$(PY) -m local_elections_maharashtra.build.rosters
 	$(MAKE) checks readme manifest
 
 checks:
@@ -28,6 +29,7 @@ manifest:
 
 readme:
 	$(PY) -m local_elections_maharashtra.build.readme
+	$(PY) -m local_elections_maharashtra.build.readme_rosters
 
 lint:
 	$(RUFF) check .

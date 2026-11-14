@@ -3,6 +3,10 @@
   "sha256": "0790fc46bcfeab9f5eca645c4abfa7452b9ff0c91eb5e97edfa42f1677e1bc4a",
   "bytes": 21864
  },
+ "data/README_rti_rosters.md": {
+  "sha256": "1eab458e41b67a24be670100946da01d5006651702fea85513e60e96dce6791c",
+  "bytes": 10838
+ },
  "data/checks/alias_review.csv": {
   "sha256": "81af57c9c94639ab4a177d63bce31ca14857507a5205087e3e751f77c0329004",
   "bytes": 1290,
@@ -98,8 +102,8 @@
   "rows": 106
  },
  "data/checks/summary.json": {
-  "sha256": "f7175f95ab4984ad437aa420b40cea30ee991770d7a7f485b91da4af3f341cc1",
-  "bytes": 3790
+  "sha256": "e135ab1e47a67ac605da44c378d0af3d1ed11d2e93a540f558870effc9f8141c",
+  "bytes": 3834
  },
  "data/checks/withheld_by_programme.csv": {
   "sha256": "78389258464365f9e8ac250c68a17804d3dc3abe8ad3ee4cfd7becea0eceb68a",
@@ -372,9 +376,9 @@
   "rows": 14317
  },
  "data/manual/rti_rosters/documents.csv": {
-  "sha256": "b7f56eadfc32f6100da8546702030fcf043d653d237e2c82d39b6e8d3bbfeb36",
-  "bytes": 5345,
-  "rows": 39
+  "sha256": "a5ea1b472e939ec9698899ffd6dac7e0f213afb09fe1280f4f99479dae1afaff",
+  "bytes": 5490,
+  "rows": 40
  },
  "data/manual/rti_rosters/pairings.csv": {
   "sha256": "fff9bd0e542d80a36d529e87dd4090841543a47e9038b080c8a771a7836220c0",
@@ -764,8 +768,8 @@
   }
  },
  "data/release/sarpanch_rti_reservations.parquet": {
-  "sha256": "0213b7204ce97bf427834d71a925ff7f424c58224f935191d76a842a9410be2d",
-  "bytes": 258453,
+  "sha256": "97db6a57cd56eeee3b0985fe898a16c9198eb6461ce5a6b921ee06c192c89060",
+  "bytes": 258444,
   "rows": 13370,
   "schema": {
    "state": "large_string",
