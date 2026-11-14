@@ -43,7 +43,7 @@ T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,valu
 T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,3,typed value differs from the RTI document [Satara 2022 19-29.pdf p3]
 T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,6,typed value differs from the RTI document [Satara 2022 19-29.pdf p4]
 T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [Satara 2022 19-29.pdf p6]
-T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,7,"typed value differs from the RTI document [Tala tehsil, Raigad 2010-25.pdf p2-16]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,4,"typed value differs from the RTI document [Tala tehsil, Raigad 2010-25.pdf p2-16]"
 T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,2,"typed value differs from the RTI document [Tala tehsil, Raigad 2010-25.pdf p24-28]"
 T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [karad.pdf p1]
 T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [karad.pdf p4; New Doc Satara 11-17-2022.pdf p12]
@@ -54,20 +54,20 @@ T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,valu
 T3,sarpanch_rti_reservations,district,edge or repeated whitespace,trimmed; typed value in district_raw,23,whitespace only
 T3,sarpanch_rti_reservations,block,edge or repeated whitespace,trimmed; typed value in block_raw,22,whitespace only
 T3,sarpanch_rti_reservations,gram_panchayat,edge or repeated whitespace,trimmed; typed value in gram_panchayat_raw,410,whitespace only
-T4,sarpanch_rti_reservations,"reserved_caste, reserved_woman",typed spellings,pooled values,13357,read through data/checks/roster_vocabulary.csv; central canon.py scheme sc_st_obc
+T4,sarpanch_rti_reservations,"reserved_caste, reserved_woman",typed spellings,pooled values,13352,read through data/checks/roster_vocabulary.csv; central canon.py scheme sc_st_obc
 T4,sarpanch_rti_reservations,"reserved_caste, reserved_woman",not a category (e.g. '-'),null,13,"unknown, never unreserved"
 T5,sarpanch_rti_reservations,all,no workbook value,value from two settled readings of the RTI document,3059,round not in the workbook
 T5,sarpanch_rti_reservations,all,no workbook value,value from two settled readings of the RTI document,120,GP not in the workbook
-T5,sarpanch_rti_reservations,all,no workbook value,value from two settled readings of the RTI document,56,workbook cell blank
+T5,sarpanch_rti_reservations,all,no workbook value,value from two settled readings of the RTI document,54,workbook cell blank
 T6,sarpanch_rti_reservations,all,workbook row duplicating another,withheld,9,data/manual/rti_rosters/withheld_workbook_rows.csv
-T7,sarpanch_rti_reservations,"reserved_caste, reserved_woman",typed value; readings not settled,null,2,the readings disagree with the typed value or with each other; data/checks/roster_unsettled.csv
+T7,sarpanch_rti_reservations,"reserved_caste, reserved_woman",typed value; readings not settled,null,5,the readings disagree with the typed value or with each other; data/checks/roster_unsettled.csv
 T8,sarpanch_rti_reservations,reserved_woman,"caste stated, women's reservation not stated",null,119,"a list giving the caste category only, or a table printing no women's marks"
-T9,sarpanch_rti_reservations,document_check,,two_readings,10946,how the released value was checked against the RTI document
+T9,sarpanch_rti_reservations,document_check,,two_readings,10944,how the released value was checked against the RTI document
 T9,sarpanch_rti_reservations,document_check,,reading_agrees_workbook,1612,how the released value was checked against the RTI document
 T9,sarpanch_rti_reservations,document_check,,not_read,415,how the released value was checked against the RTI document
-T9,sarpanch_rti_reservations,document_check,,corrected,282,how the released value was checked against the RTI document
+T9,sarpanch_rti_reservations,document_check,,corrected,279,how the released value was checked against the RTI document
 T9,sarpanch_rti_reservations,document_check,,reading_and_sec,72,how the released value was checked against the RTI document
 T9,sarpanch_rti_reservations,document_check,,page_viewed,22,how the released value was checked against the RTI document
 T9,sarpanch_rti_reservations,document_check,,document_prints_no_category,13,how the released value was checked against the RTI document
 T9,sarpanch_rti_reservations,document_check,,one_reading_degraded_page,8,how the released value was checked against the RTI document
-T9,sarpanch_rti_reservations,document_check,,unsettled,2,how the released value was checked against the RTI document
+T9,sarpanch_rti_reservations,document_check,,unsettled,5,how the released value was checked against the RTI document

@@ -48,7 +48,7 @@
   "rows": 16
  },
  "data/checks/roster_changes.csv": {
-  "sha256": "e4ff027a53cb569638449a80073430955754136aba3e53124b9dbda6bb95351d",
+  "sha256": "5b3263d3a35cc77b3ff7b4920a868a1f5598fcf16b0d1324cc6f665379ec14f2",
   "bytes": 12443,
   "rows": 72
  },
@@ -72,20 +72,25 @@
   "bytes": 16383,
   "rows": 172
  },
+ "data/checks/roster_spot_check.csv": {
+  "sha256": "c89057f6661a8ff05a4d7c367c5f3ff58d0154e044852be22044d2105c3c21b5",
+  "bytes": 53766,
+  "rows": 150
+ },
  "data/checks/roster_superseded_draws.csv": {
-  "sha256": "ee34028365a77b571feb881155acf36ba0e0b04d8ed59d62dc995d254670aed5",
-  "bytes": 1549,
+  "sha256": "351be46d2bd56555e15a9ef7b3f755bd39e15f6ec4fbe4131c49a8ee0b55264f",
+  "bytes": 1702,
   "rows": 8
  },
  "data/checks/roster_unsettled.csv": {
-  "sha256": "44e82ed83232bf4fea82d9a3aed799888577ba661a16ae94554b916afa2f74ad",
-  "bytes": 46807,
-  "rows": 191
+  "sha256": "5309a720fc353237e1760240dd652019ac581010a4009e15a6765ca0a3f1dc4b",
+  "bytes": 49053,
+  "rows": 196
  },
  "data/checks/roster_vocabulary.csv": {
-  "sha256": "32387b7b052bb1c5ff8ac54ef8f1a8c6074b5763c57f5d3cc281e4807861838d",
-  "bytes": 1376,
-  "rows": 80
+  "sha256": "4b53e9464efd66d367ef6b8dfbc28795f963491e320145fdf1cdcb711266a724",
+  "bytes": 1383,
+  "rows": 81
  },
  "data/checks/row_accounting.csv": {
   "sha256": "1d69bf31fb39b96e3173f4f6c12548f6c2cd456a5fb6e1e58e57b4986e99dd57",
@@ -342,9 +347,9 @@
   "rows": 8
  },
  "data/manual/corrections.csv": {
-  "sha256": "20b989d1b239f39e3033e5f584d7a3608434e02625dc8a24296c012ad833b9c4",
-  "bytes": 114606,
-  "rows": 282
+  "sha256": "4c1036b1cff88fccc3693933c1b70e9d71d12a7f1a2c8c1da21a026c8b91e66c",
+  "bytes": 113636,
+  "rows": 279
  },
  "data/manual/not_used.csv": {
   "sha256": "0d6ce2b1026c530fc82738072e22dd14f08cce44317a964f7aa5f8c1905e69e3",
@@ -377,13 +382,13 @@
   "rows": 374
  },
  "data/manual/rti_rosters/settled_cells.csv": {
-  "sha256": "eacae55b6707fb2b59dc660d0982c8279b6a196a55c91e7872bf9933cc274d9c",
-  "bytes": 2470745,
+  "sha256": "5cc98d4d0d19ba4908b0774a297e8c5a3a8908ac98cd5915cf7bf6d267f120c9",
+  "bytes": 2471214,
   "rows": 13228
  },
  "data/manual/rti_rosters/superseded_draws.csv": {
-  "sha256": "ee34028365a77b571feb881155acf36ba0e0b04d8ed59d62dc995d254670aed5",
-  "bytes": 1549,
+  "sha256": "351be46d2bd56555e15a9ef7b3f755bd39e15f6ec4fbe4131c49a8ee0b55264f",
+  "bytes": 1702,
   "rows": 8
  },
  "data/manual/rti_rosters/withheld_workbook_rows.csv": {
@@ -759,9 +764,9 @@
   }
  },
  "data/release/sarpanch_rti_reservations.parquet": {
-  "sha256": "1cfd7fcb23a1beff54350fe995ee31316a2153174522a47ba70af9823c2f1202",
-  "bytes": 258394,
-  "rows": 13372,
+  "sha256": "0213b7204ce97bf427834d71a925ff7f424c58224f935191d76a842a9410be2d",
+  "bytes": 258453,
+  "rows": 13370,
   "schema": {
    "state": "large_string",
    "district": "large_string",
