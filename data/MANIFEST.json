@@ -1,11 +1,7 @@
 {
  "data/README.md": {
-  "sha256": "0790fc46bcfeab9f5eca645c4abfa7452b9ff0c91eb5e97edfa42f1677e1bc4a",
-  "bytes": 21864
- },
- "data/README_rti_rosters.md": {
-  "sha256": "1eab458e41b67a24be670100946da01d5006651702fea85513e60e96dce6791c",
-  "bytes": 10838
+  "sha256": "23e61782ee8b258864c9c3ec9232655378a1d5e523d82e7bf9da8c8e54892c4d",
+  "bytes": 32982
  },
  "data/checks/alias_review.csv": {
   "sha256": "81af57c9c94639ab4a177d63bce31ca14857507a5205087e3e751f77c0329004",

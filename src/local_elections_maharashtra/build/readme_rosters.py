@@ -1,9 +1,12 @@
-"""Write data/README_rti_rosters.md and the roster block of README.md from the roster release and
-its ledgers, so that no number in either file is typed by hand."""
+"""Write the roster section of data/README.md and the roster block of README.md from the roster
+release and its ledgers, so that no number in either file is typed by hand. Each sits between the
+markers below; build/readme.py writes the rest of data/README.md and keeps this section."""
 
 import pandas as pd
 
 from local_elections_maharashtra.paths import CHECKS, DATA, MANUAL, RELEASE, ROOT
+
+START, END = "<!-- rosters:start -->", "<!-- rosters:end -->"
 
 CHECK_TEXT = {
     "two_readings": "two independent readings of the scan agree",
@@ -49,6 +52,13 @@ def table(rows, head):
     return "\n".join(out)
 
 
+def splice(path, block):
+    """Replace the marked block of `path` with `block`, which carries the markers."""
+    text = path.read_text()
+    start, end = text.index(START), text.index(END) + len(END)
+    path.write_text(text[:start] + block + text[end:])
+
+
 def render():
     r = pd.read_parquet(RELEASE / "sarpanch_rti_reservations.parquet")
     changes = pd.read_csv(CHECKS / "roster_changes.csv")
@@ -82,7 +92,7 @@ def render():
     sec_agree, sec_n = int((mm["code"] == mm["sec_value"]).sum()), len(mm)
     n_unsettled = len(unsettled)
 
-    status = f"""<!-- rosters:start -->
+    status = f"""{START}
 
 | | |
 |---|---:|
@@ -94,13 +104,13 @@ def render():
 | Values from the scan readings only (1995 and 2000 rounds, blank cells, GPs not typed) | {n(from_readings)} |
 | Blind check of {n_spot} random cells | {n_spot - disagree} agree, {disagree} disagree |
 
-<!-- rosters:end -->"""
-    readme = (ROOT / "README.md").read_text()
-    start, end = readme.index("<!-- rosters:start -->"), readme.index("<!-- rosters:end -->") + len("<!-- rosters:end -->")
-    (ROOT / "README.md").write_text(readme[:start] + status + readme[end:])
+{END}"""
+    splice(ROOT / "README.md", status)
 
     t2 = changes[changes["rule_id"] == "T2"]
-    doc = f"""# RTI sarpanch reservation rosters
+    doc = f"""{START}
+
+## RTI sarpanch reservation rosters
 
 `release/sarpanch_rti_reservations.parquet`: one row per gram panchayat (GP) per reservation round,
 giving the category the sarpanch seat was reserved for. {n(len(r))} rows, {n(gps)} GPs in
@@ -112,7 +122,7 @@ reservations for the 2017-2023 elections are in `sarpanch_results` and are not r
 
 {table([[y, n(x.rows), n(x.valued)] for y, x in by_round.iterrows()], ['Round', 'GP-rounds', 'With a category'])}
 
-## Sources
+### Sources
 
 The RTI replies are scanned PDFs and photos: printed rosters (one row per GP, one column per
 round), category lists, draw orders and draw minutes, and handwritten registers. They are
@@ -120,7 +130,7 @@ listed in [`manual/rti_rosters/documents.csv`](manual/rti_rosters/documents.csv)
 sha256. The scans are not in this repository: several name private people (RTI applicants,
 attendees at the draws, the children who drew the chits, phone numbers).
 
-## How the data were made
+### How the data were made
 
 1. **Typed workbook.** Research assistants read the RTI replies and typed the reservations into a
    workbook whose rows come from the SEC's list of GPs and term-expiry dates
@@ -148,11 +158,11 @@ attendees at the draws, the children who drew the chits, phone numbers).
    after a court order, or the 2011 re-draws that raised women's seats to 50%), only the final draw
    is released. The draw events are in [`manual/rti_rosters/superseded_draws.csv`](manual/rti_rosters/superseded_draws.csv).
 
-## How each value was checked
+### How each value was checked
 
 {table([[f'`{k}`', CHECK_TEXT.get(k, k), n(v)] for k, v in checks.items()], ['`document_check`', 'Meaning', 'Rows'])}
 
-## Blind check
+### Blind check
 
 A random sample of {n_spot} released cells (seed 20261114), stratified by how each value was
 checked ({', '.join(f'{STRATA.get(k, k)} {v}' for k, v in strata.items())}), was read again from the scans by fresh AI
@@ -165,13 +175,13 @@ readers, not by a person.
 Where the SEC's published reservation for the 2017-2023 elections can be matched to a GP and
 round, the released value agrees with it in {n(sec_agree)} of {n(sec_n)} cells.
 
-## Columns
+### Columns
 
 {len(r.columns)} columns.
 
 {table([[', '.join(f'`{x.strip()}`' for x in k.split(',')), v] for k, v in COLUMNS.items()], ['Column', 'Meaning'])}
 
-## What was changed from the sources
+### What was changed from the sources
 
 Every rule is counted in [`checks/roster_changes.csv`](checks/roster_changes.csv); typed spellings and how each is read
 are in [`checks/roster_vocabulary.csv`](checks/roster_vocabulary.csv).
@@ -186,7 +196,7 @@ are in [`checks/roster_vocabulary.csv`](checks/roster_vocabulary.csv).
   disagree with them, and {n(n_unsettled - checks.get('unsettled', 0))} further GP-rounds from the readings are not released
   ([`checks/roster_unsettled.csv`](checks/roster_unsettled.csv)).
 
-## Known issues
+### Known issues
 
 - Readings and the blind check were made by AI models. The corrections record this in their
   `reviewer` field.
@@ -203,7 +213,7 @@ are in [`checks/roster_vocabulary.csv`](checks/roster_vocabulary.csv).
 - Mokhada's "previous term" columns print no years; they are not released.
 - GPs that are not in the workbook carry the name the document prints, in Devanagari.
 
-## Files
+### Files
 
 | File | What it holds |
 |---|---|
@@ -217,9 +227,10 @@ are in [`checks/roster_vocabulary.csv`](checks/roster_vocabulary.csv).
 | `manual/rti_rosters/superseded_draws.csv` | draws replaced by a later draw |
 | `manual/rti_rosters/documents.csv` | the RTI replies: file name, kind, size, sha256 |
 | `checks/roster_*.csv` | ledgers: changes, vocabulary, unsettled cells, the blind check |
-"""
-    (DATA / "README_rti_rosters.md").write_text(doc)
-    print("wrote data/README_rti_rosters.md and the README.md roster block")
+
+{END}"""
+    splice(DATA / "README.md", doc)
+    print("wrote the data/README.md roster section and the README.md roster block")
 
 
 if __name__ == "__main__":

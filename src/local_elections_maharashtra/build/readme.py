@@ -1,10 +1,14 @@
 """Write data/README.md and the status part of README.md from data/checks/summary.json,
-data/checks/checks.json and the ledgers, so that no number in either file is typed by hand."""
+data/checks/checks.json and the ledgers, so that no number in either file is typed by hand.
+The roster section at the end of data/README.md is written by build/readme_rosters.py and kept
+as it is here."""
 
 import json
 
 import pandas as pd
 
+from local_elections_maharashtra.build.readme_rosters import END as ROSTERS_END
+from local_elections_maharashtra.build.readme_rosters import START as ROSTERS_START
 from local_elections_maharashtra.paths import CHECKS, DATA, ROOT, SEARCH_LOG
 
 RESULT_COLUMNS = {
@@ -119,10 +123,12 @@ def render():
 
 ## Sources
 
-All rows come from reports of the Maharashtra State Election Commission (SEC) election portal,
-downloaded by hand between 2023 and 2024. File names carry a date stamped by the portal; the URL
-and the time of each download were not recorded, so `url` and `fetched_at_utc` are blank in
-[`raw/fetch_log.csv`](raw/fetch_log.csv).
+The rows of `sarpanch_results` and `sarpanch_candidates` come from reports of the Maharashtra
+State Election Commission (SEC) election portal, downloaded by hand between 2023 and 2024. File
+names carry a date stamped by the portal; the URL and the time of each download were not
+recorded, so `url` and `fetched_at_utc` are blank in [`raw/fetch_log.csv`](raw/fetch_log.csv).
+The RTI reservation rosters (`sarpanch_rti_reservations`) have their own sources, described in
+[the roster section](#rti-sarpanch-reservation-rosters) at the end of this file.
 
 | Report | What a row is | Columns used |
 |---|---|---|
@@ -221,8 +227,14 @@ the source file; its `verdict` column is filled in by hand.
 
 {table(checks_rows, ['Check', 'Appeals to', 'Status', 'Result'])}
 """
-    (DATA / "README.md").write_text(doc)
-    print("wrote data/README.md and the README.md status block")
+    path = DATA / "README.md"
+    old = path.read_text() if path.exists() else ""
+    if ROSTERS_START in old and ROSTERS_END in old:
+        rosters = old[old.index(ROSTERS_START):old.index(ROSTERS_END) + len(ROSTERS_END)]
+    else:
+        rosters = f"{ROSTERS_START}\n{ROSTERS_END}"
+    path.write_text(doc + "\n" + rosters + "\n")
+    print("wrote data/README.md (roster section kept) and the README.md status block")
 
 
 if __name__ == "__main__":

@@ -55,7 +55,8 @@ A second table gives the category each GP's sarpanch seat was reserved for in ea
 assistants typed the replies into a workbook; every page was then read again from the scans by
 AI models, the typed values were checked and corrected against those readings, and the rounds the
 workbook lacks (1995, 2000) were added from them. How it was made, how each value was checked
-and what is not settled are in [data/README_rti_rosters.md](data/README_rti_rosters.md).
+and what is not settled are in the roster section of
+[data/README.md](data/README.md#rti-sarpanch-reservation-rosters).
 
 <!-- rosters:start -->
 
