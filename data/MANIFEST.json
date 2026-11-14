@@ -3,6 +3,10 @@
   "sha256": "0790fc46bcfeab9f5eca645c4abfa7452b9ff0c91eb5e97edfa42f1677e1bc4a",
   "bytes": 21864
  },
+ "data/README_rti_rosters.md": {
+  "sha256": "1eab458e41b67a24be670100946da01d5006651702fea85513e60e96dce6791c",
+  "bytes": 10838
+ },
  "data/checks/alias_review.csv": {
   "sha256": "81af57c9c94639ab4a177d63bce31ca14857507a5205087e3e751f77c0329004",
   "bytes": 1290,
@@ -47,14 +51,59 @@
   "bytes": 628,
   "rows": 16
  },
+ "data/checks/roster_changes.csv": {
+  "sha256": "5b3263d3a35cc77b3ff7b4920a868a1f5598fcf16b0d1324cc6f665379ec14f2",
+  "bytes": 12443,
+  "rows": 72
+ },
+ "data/checks/roster_entry_check.csv": {
+  "sha256": "16616302b01a7da51e7da71f66707ea8d19af293dfeb31bffa72ca29e3d4b478",
+  "bytes": 32048,
+  "rows": 226
+ },
+ "data/checks/roster_review_patan_2015.csv": {
+  "sha256": "7b3b425bb2e0c05c6cd067dcd1c11ad5d2dd9ad2b4af3ee98ba1c257b20b1886",
+  "bytes": 12999,
+  "rows": 156
+ },
+ "data/checks/roster_review_patan_2021.csv": {
+  "sha256": "40e26179aa2cc29f575f524b947f8ea81fe5aaa85ad2791d0d554996d796735c",
+  "bytes": 21425,
+  "rows": 234
+ },
+ "data/checks/roster_review_shrivardhan.csv": {
+  "sha256": "7ee03ab0d12a66ce95f692b6cfc96aebe232c5c3b1cb41c7deff137fd0e2baf4",
+  "bytes": 16383,
+  "rows": 172
+ },
+ "data/checks/roster_spot_check.csv": {
+  "sha256": "c89057f6661a8ff05a4d7c367c5f3ff58d0154e044852be22044d2105c3c21b5",
+  "bytes": 53766,
+  "rows": 150
+ },
+ "data/checks/roster_superseded_draws.csv": {
+  "sha256": "351be46d2bd56555e15a9ef7b3f755bd39e15f6ec4fbe4131c49a8ee0b55264f",
+  "bytes": 1702,
+  "rows": 8
+ },
+ "data/checks/roster_unsettled.csv": {
+  "sha256": "5309a720fc353237e1760240dd652019ac581010a4009e15a6765ca0a3f1dc4b",
+  "bytes": 49053,
+  "rows": 196
+ },
+ "data/checks/roster_vocabulary.csv": {
+  "sha256": "4b53e9464efd66d367ef6b8dfbc28795f963491e320145fdf1cdcb711266a724",
+  "bytes": 1383,
+  "rows": 81
+ },
  "data/checks/row_accounting.csv": {
   "sha256": "1d69bf31fb39b96e3173f4f6c12548f6c2cd456a5fb6e1e58e57b4986e99dd57",
   "bytes": 9650,
   "rows": 106
  },
  "data/checks/summary.json": {
-  "sha256": "f7175f95ab4984ad437aa420b40cea30ee991770d7a7f485b91da4af3f341cc1",
-  "bytes": 3790
+  "sha256": "e135ab1e47a67ac605da44c378d0af3d1ed11d2e93a540f558870effc9f8141c",
+  "bytes": 3834
  },
  "data/checks/withheld_by_programme.csv": {
   "sha256": "78389258464365f9e8ac250c68a17804d3dc3abe8ad3ee4cfd7becea0eceb68a",
@@ -302,14 +351,59 @@
   "rows": 8
  },
  "data/manual/corrections.csv": {
-  "sha256": "4c25c421be42b7dd28bc3b8534b893e5298c6261ec357f66d676b5569a9db1f4",
-  "bytes": 108,
-  "rows": 0
+  "sha256": "4c1036b1cff88fccc3693933c1b70e9d71d12a7f1a2c8c1da21a026c8b91e66c",
+  "bytes": 113636,
+  "rows": 279
  },
  "data/manual/not_used.csv": {
   "sha256": "0d6ce2b1026c530fc82738072e22dd14f08cce44317a964f7aa5f8c1905e69e3",
   "bytes": 294,
   "rows": 1
+ },
+ "data/manual/rti_documents.csv": {
+  "sha256": "e82a0849577801180a796439bb8d4944da530399b2d8482d08a72a8b9d6954e2",
+  "bytes": 3297,
+  "rows": 39
+ },
+ "data/manual/rti_rosters/adjudications.csv": {
+  "sha256": "8e867d546e8497188d299b83d7bd4a7bf81eb733ecb3aabb5fd6477af0be3f50",
+  "bytes": 24036,
+  "rows": 124
+ },
+ "data/manual/rti_rosters/document_readings.csv": {
+  "sha256": "ecac2f8aa0a11d1eb21811811b81e83aeb18d4e60c725d655aa306f8a2ba7d0d",
+  "bytes": 2450566,
+  "rows": 14317
+ },
+ "data/manual/rti_rosters/documents.csv": {
+  "sha256": "a5ea1b472e939ec9698899ffd6dac7e0f213afb09fe1280f4f99479dae1afaff",
+  "bytes": 5490,
+  "rows": 40
+ },
+ "data/manual/rti_rosters/pairings.csv": {
+  "sha256": "fff9bd0e542d80a36d529e87dd4090841543a47e9038b080c8a771a7836220c0",
+  "bytes": 38043,
+  "rows": 374
+ },
+ "data/manual/rti_rosters/settled_cells.csv": {
+  "sha256": "5cc98d4d0d19ba4908b0774a297e8c5a3a8908ac98cd5915cf7bf6d267f120c9",
+  "bytes": 2471214,
+  "rows": 13228
+ },
+ "data/manual/rti_rosters/superseded_draws.csv": {
+  "sha256": "351be46d2bd56555e15a9ef7b3f755bd39e15f6ec4fbe4131c49a8ee0b55264f",
+  "bytes": 1702,
+  "rows": 8
+ },
+ "data/manual/rti_rosters/withheld_workbook_rows.csv": {
+  "sha256": "a2459cc64c63fca4e8dc33ac6a669d9861c5505ce5448b8fb6fbd94dee5a45a7",
+  "bytes": 734,
+  "rows": 3
+ },
+ "data/manual/rti_rosters/workbook_rows.csv": {
+  "sha256": "e1d45d0b710d335af45c59435df8abf60a5c98b1bc6da80e4720a1eba867baba",
+  "bytes": 234251,
+  "rows": 3014
  },
  "data/raw/fetch_log.csv": {
   "sha256": "8c596d1ae4419332d69f8ab0f377392ea2ee4a8f18f84b0df8d95fabea9a5c91",
@@ -673,10 +767,58 @@
    "result_source_row_number": "int64"
   }
  },
+ "data/release/sarpanch_rti_reservations.parquet": {
+  "sha256": "97db6a57cd56eeee3b0985fe898a16c9198eb6461ce5a6b921ee06c192c89060",
+  "bytes": 258444,
+  "rows": 13370,
+  "schema": {
+   "state": "large_string",
+   "district": "large_string",
+   "district_raw": "large_string",
+   "block": "large_string",
+   "block_raw": "large_string",
+   "gram_panchayat": "large_string",
+   "gram_panchayat_raw": "large_string",
+   "gram_panchayat_devanagari": "large_string",
+   "tier": "large_string",
+   "tier_local": "large_string",
+   "roster_year": "int64",
+   "workbook_column": "large_string",
+   "roster_year_basis": "large_string",
+   "round_scope": "large_string",
+   "reserved_raw": "large_string",
+   "reserved_caste_local": "large_string",
+   "reserved_caste": "large_string",
+   "reserved_woman": "int8",
+   "reserved_label": "large_string",
+   "reserved_caste_scheme": "large_string",
+   "workbook_value_raw": "large_string",
+   "transcription_corrected": "bool",
+   "correction_reason": "string",
+   "correction_source": "large_string",
+   "document_check": "large_string",
+   "document_check_detail": "large_string",
+   "workbook_remarks": "string",
+   "transcription": "large_string",
+   "script": "large_string",
+   "source_path": "large_string",
+   "source_row_number": "int64",
+   "source_sha256": "large_string",
+   "original_row_number": "int64",
+   "rti_documents": "large_string",
+   "rti_document_kind": "large_string",
+   "provenance_level": "large_string"
+  }
+ },
  "data/search_log/files_examined.csv": {
   "sha256": "7d26e783afc3ec7e07a9a0b6c73ca922635a8f61ef32d6e140efe3c6eb5d063e",
   "bytes": 48313,
   "rows": 262
+ },
+ "data/search_log/roster_rows_not_admitted.csv": {
+  "sha256": "a48bd082b99cf5819a1068c1a9528531b792858b90c6868ae55dc7b6341f901b",
+  "bytes": 2475,
+  "rows": 57
  },
  "data/search_log/sources_not_used.csv": {
   "sha256": "d6943df2540a31e246d56a8efdb172d52f7db7967ac8c4d9a5e81be379cbf40d",

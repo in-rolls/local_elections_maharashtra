@@ -48,12 +48,36 @@ Column names follow that repository's pooled schema.
 Sources, every column, what was changed from the sources, known issues and the checks are in
 [data/README.md](data/README.md).
 
+## Sarpanch reservation rosters, 1995-2020
+
+A second table gives the category each GP's sarpanch seat was reserved for in each round from
+1995 to 2020, from the depositor's RTI requests to tahsil and district offices. Research
+assistants typed the replies into a workbook; every page was then read again from the scans by
+AI models, the typed values were checked and corrected against those readings, and the rounds the
+workbook lacks (1995, 2000) were added from them. How it was made, how each value was checked
+and what is not settled are in [data/README_rti_rosters.md](data/README_rti_rosters.md).
+
+<!-- rosters:start -->
+
+| | |
+|---|---:|
+| GP-rounds (`sarpanch_rti_reservations`) | 13,370 |
+| GPs / talukas / districts | 3,094 / 35 / 9 |
+| Rounds | 1995, 2000, 2005, 2010, 2015, 2020 |
+| Values checked against the scans | 12,942 |
+| Typed values corrected from the documents | 279 |
+| Values from the scan readings only (1995 and 2000 rounds, blank cells, GPs not typed) | 3,233 |
+| Blind check of 150 random cells | 150 agree, 0 disagree |
+
+<!-- rosters:end -->
+
 ## Data
 
 | File | Each row is |
 |---|---|
 | [data/release/sarpanch_results.parquet](data/release/sarpanch_results.parquet) | a sarpanch seat in one SEC election programme: its reservation, electors and, where counted, winner and votes |
 | [data/release/sarpanch_candidates.parquet](data/release/sarpanch_candidates.parquet) | a row of the SEC counting report: a candidate, or the NOTA count, with votes and rank |
+| [data/release/sarpanch_rti_reservations.parquet](data/release/sarpanch_rti_reservations.parquet) | a GP in one reservation round (1995-2020): the category its sarpanch seat was reserved for, from RTI replies |
 
 ```python
 import pandas as pd

@@ -1,0 +1,173 @@
+scan_page,document_gp,workbook_gp,workbook_row,period,document_value,workbook_value,sec_2022_23,entry
+31,दिघी,दिघी / DIGHI,20592,2005-10,ST,ST,,match
+31,दिघी,दिघी / DIGHI,20592,2010-15,GEN(W),GEN (W),,match
+31,दिघी,दिघी / DIGHI,20592,2015-20,GEN(W),GEN (W),,match
+44,दिघी,दिघी / DIGHI,20592,2020-25 (page 44) vs workbook 2021-25,BCC,GEN (W),,DIFFERENT
+31,कोलमांडले,कोलमांडले / Kolmandale,20606,2005-10,BCC(W),BCC (W),,match
+31,कोलमांडले,कोलमांडले / Kolmandale,20606,2010-15,SC,SC,,match
+31,कोलमांडले,कोलमांडले / Kolmandale,20606,2015-20,GEN(W),GEN (W),,match
+44,कोलमांडले,कोलमांडले / Kolmandale,20606,2020-25 (page 44) vs workbook 2021-25,GEN,GEN (W),,DIFFERENT
+31,कारिवणे,कारीवणे / Karivane,20602,2005-10,GEN,GEN,,match
+31,कारिवणे,कारीवणे / Karivane,20602,2010-15,BCC(W),BCC (W),,match
+31,कारिवणे,कारीवणे / Karivane,20602,2015-20,BCC(W),BCC (W),,match
+44,कारिवणे,कारीवणे / Karivane,20602,2020-25 (page 44) vs workbook 2021-25,GEN(W),BCC (W),,DIFFERENT
+31,गालसुरे,गालसुरे / Galsure,20594,2005-10,GEN,GEN,,match
+31,गालसुरे,गालसुरे / Galsure,20594,2010-15,GEN,GEN,,match
+31,गालसुरे,गालसुरे / Galsure,20594,2015-20,ST,ST,,match
+44,गालसुरे,गालसुरे / Galsure,20594,2020-25 (page 44) vs workbook 2021-25,BCC(W),ST,,DIFFERENT
+31,आदगांव,आदगाव / Adgaon,20584,2005-10,GEN(W),GEN (W),,match
+31,आदगांव,आदगाव / Adgaon,20584,2010-15,BCC(W),BCC (W),,match
+31,आदगांव,आदगाव / Adgaon,20584,2015-20,BCC(W),BCC (W),,match
+44,आदगांव,आदगाव / Adgaon,20584,2020-25 (page 44) vs workbook 2021-25,ST,BCC (W),ST,DIFFERENT
+31,दिवेआगर,दिवेआगर / Diveagar,20593,2005-10,GEN,GEN,,match
+31,दिवेआगर,दिवेआगर / Diveagar,20593,2010-15,GEN(W),GEN (W),,match
+31,दिवेआगर,दिवेआगर / Diveagar,20593,2015-20,GEN,GEN,,match
+44,दिवेआगर,दिवेआगर / Diveagar,20593,2020-25 (page 44) vs workbook 2021-25,BCC,GEN,BCC,DIFFERENT
+31,कुडकी,कुडकी / Kudki,20608,2005-10,GEN,GEN,,match
+31,कुडकी,कुडकी / Kudki,20608,2010-15,GEN,GEN,,match
+31,कुडकी,कुडकी / Kudki,20608,2015-20,ST,ST,,match
+44,कुडकी,कुडकी / Kudki,20608,2020-25 (page 44) vs workbook 2021-25,BCC(W),ST,BCC(W),DIFFERENT
+31,गुळधे,गुळधे / Guladhe,20597,2005-10,GEN,GEN,,match
+31,गुळधे,गुळधे / Guladhe,20597,2010-15,GEN(W),GEN (W),,match
+31,गुळधे,गुळधे / Guladhe,20597,2015-20,BCC,BCC,,match
+44,गुळधे,गुळधे / Guladhe,20597,2020-25 (page 44) vs workbook 2021-25,GEN(W),BCC,GEN(W),DIFFERENT
+31,रानवली,रानवली / Ranvali,20613,2005-10,GEN,GEN,,match
+31,रानवली,रानवली / Ranvali,20613,2010-15,GEN(W),GEN (W),,match
+31,रानवली,रानवली / Ranvali,20613,2015-20,BCC(W),BCC (W),,match
+44,रानवली,रानवली / Ranvali,20613,2020-25 (page 44) vs workbook 2021-25,GEN,BCC (W),GEN,DIFFERENT
+31,चिखलप,चिखलप / Chikhalap,20589,2005-10,GEN,GEN,,match
+31,चिखलप,चिखलप / Chikhalap,20589,2010-15,GEN(W),GEN (W),,match
+31,चिखलप,चिखलप / Chikhalap,20589,2015-20,ST,ST,,match
+44,चिखलप,चिखलप / Chikhalap,20589,2020-25 (page 44) vs workbook 2021-25,BCC(W),ST,BCC(W),DIFFERENT
+31,मेघरे,मेघरे / Meghare,20610,2005-10,GEN,GEN,,match
+31,मेघरे,मेघरे / Meghare,20610,2010-15,GEN(W),GEN (W),,match
+31,मेघरे,मेघरे / Meghare,20610,2015-20,GEN(W),GEN (W),,match
+44,मेघरे,मेघरे / Meghare,20610,2020-25 (page 44) vs workbook 2021-25,BCC,GEN (W),BCC,DIFFERENT
+31,जसवली,जसवली / Jasvali,20600,2005-10,GEN,GEN,,match
+31,जसवली,जसवली / Jasvali,20600,2010-15,GEN(W),GEN (W),,match
+31,जसवली,जसवली / Jasvali,20600,2015-20,GEN(W),GEN (W),,match
+44,जसवली,जसवली / Jasvali,20600,2020-25 (page 44) vs workbook 2021-25,ST,GEN (W),ST,DIFFERENT
+31,वाळवटी,वाळवटी / Valvati,20622,2005-10,GEN,GEN,,match
+31,वाळवटी,वाळवटी / Valvati,20622,2010-15,BCC(W),BCC (W),,match
+31,वाळवटी,वाळवटी / Valvati,20622,2015-20,GEN(W),GEN (W),,match
+44,वाळवटी,वाळवटी / Valvati,20622,2020-25 (page 44) vs workbook 2021-25,GEN(W),GEN (W),GEN(W),match
+31,कुडगांव,कुडगाव / Kudgaon,20607,2005-10,ST(W),ST (W),,match
+31,कुडगांव,कुडगाव / Kudgaon,20607,2010-15,BCC,BCC,,match
+31,कुडगांव,कुडगाव / Kudgaon,20607,2015-20,GEN(W),GEN (W),,match
+44,कुडगांव,कुडगाव / Kudgaon,20607,2020-25 (page 44) vs workbook 2021-25,GEN,GEN (W),,DIFFERENT
+31,शेखाडी,शेखाडी / Shekhadi,20617,2005-10,BCC,BCC,,match
+31,शेखाडी,शेखाडी / Shekhadi,20617,2010-15,GEN,GEN,,match
+31,शेखाडी,शेखाडी / Shekhadi,20617,2015-20,ST(W),ST (W),,match
+44,शेखाडी,शेखाडी / Shekhadi,20617,2020-25 (page 44) vs workbook 2021-25,GEN,ST (W),GEN,DIFFERENT
+31,सर्वे,सर्वे / Sarve,20615,2005-10,BCC,BCC,,match
+31,सर्वे,सर्वे / Sarve,20615,2010-15,GEN(W),GEN (W),,match
+31,सर्वे,सर्वे / Sarve,20615,2015-20,GEN,GEN,,match
+44,सर्वे,सर्वे / Sarve,20615,2020-25 (page 44) vs workbook 2021-25,GEN(W),GEN,GEN(W),DIFFERENT
+31,सायगांव,सायगांव / Saygaon,20616,2005-10,GEN(W),GEN (W),,match
+31,सायगांव,सायगांव / Saygaon,20616,2010-15,ST,ST,,match
+31,सायगांव,सायगांव / Saygaon,20616,2015-20,BCC,BCC,,match
+44,सायगांव,सायगांव / Saygaon,20616,2020-25 (page 44) vs workbook 2021-25,GEN(W),BCC,GEN(W),DIFFERENT
+31,वांजळे,वाजंळे / Vanjale,20623,2005-10,GEN,GEN,,match
+31,वांजळे,वाजंळे / Vanjale,20623,2010-15,GEN,GEN,,match
+31,वांजळे,वाजंळे / Vanjale,20623,2015-20,SC(W),SC (W),,match
+44,वांजळे,वाजंळे / Vanjale,20623,2020-25 (page 44) vs workbook 2021-25,BCC,SC (W),BCC,DIFFERENT
+31,साखरोणे,साखरोणे / Sakhrone,20614,2005-10,GEN,GEN,,match
+31,साखरोणे,साखरोणे / Sakhrone,20614,2010-15,BCC,BCC,,match
+31,साखरोणे,साखरोणे / Sakhrone,20614,2015-20,GEN,GEN,,match
+44,साखरोणे,साखरोणे / Sakhrone,20614,2020-25 (page 44) vs workbook 2021-25,GEN(W),GEN,GEN(W),DIFFERENT
+31,भरडखोल,भरडखोल / Bharadkhol,20586,2005-10,ST,ST,,match
+31,भरडखोल,भरडखोल / Bharadkhol,20586,2010-15,GEN(W),GEN (W),,match
+31,भरडखोल,भरडखोल / Bharadkhol,20586,2015-20,GEN,GEN,,match
+44,भरडखोल,भरडखोल / Bharadkhol,20586,2020-25 (page 44) vs workbook 2021-25,BCC(W),GEN,BCC(W),DIFFERENT
+31,हरवित,हरवीत / Harvit,20599,2005-10,BCC,BCC,,match
+31,हरवित,हरवीत / Harvit,20599,2010-15,ST,ST,,match
+31,हरवित,हरवीत / Harvit,20599,2015-20,GEN(W),GEN (W),,match
+44,हरवित,हरवीत / Harvit,20599,2020-25 (page 44) vs workbook 2021-25,GEN,GEN (W),GEN,DIFFERENT
+31,दांडगुरी,दांडगुरी / Dandguri,20591,2005-10,GEN,GEN,,match
+31,दांडगुरी,दांडगुरी / Dandguri,20591,2010-15,BCC,BCC,,match
+31,दांडगुरी,दांडगुरी / Dandguri,20591,2015-20,GEN,GEN,,match
+44,दांडगुरी,दांडगुरी / Dandguri,20591,2020-25 (page 44) vs workbook 2021-25,GEN(W),GEN,GEN(W),DIFFERENT
+31,वाकळघर,वाकळघर / Vakalghar,20621,2005-10,GEN,GEN,,match
+31,वाकळघर,वाकळघर / Vakalghar,20621,2010-15,BCC,BCC,,match
+31,वाकळघर,वाकळघर / Vakalghar,20621,2015-20,GEN,GEN,,match
+44,वाकळघर,वाकळघर / Vakalghar,20621,2020-25 (page 44) vs workbook 2021-25,ST(W),GEN,ST(W),DIFFERENT
+31,खारगांव,खारगांव / Khargaon,20604,2005-10,GEN,GEN,,match
+31,खारगांव,खारगांव / Khargaon,20604,2010-15,GEN(W),GEN (W),,match
+31,खारगांव,खारगांव / Khargaon,20604,2015-20,GEN(W),GEN (W),,match
+44,खारगांव,खारगांव / Khargaon,20604,2020-25 (page 44) vs workbook 2021-25,BCC,GEN (W),BCC,DIFFERENT
+31,वावे तर्फ श्रीवर्धन,वावे तर्फे श्रीवर्धन / Vave Tarf. Shrivardhan,20624,2005-10,GEN(W),GEN (W),,match
+31,वावे तर्फ श्रीवर्धन,वावे तर्फे श्रीवर्धन / Vave Tarf. Shrivardhan,20624,2010-15,ST(W),ST (W),,match
+31,वावे तर्फ श्रीवर्धन,वावे तर्फे श्रीवर्धन / Vave Tarf. Shrivardhan,20624,2015-20,BCC(W),BCC (W),,match
+44,वावे तर्फ श्रीवर्धन,वावे तर्फे श्रीवर्धन / Vave Tarf. Shrivardhan,20624,2020-25 (page 44) vs workbook 2021-25,GEN,BCC (W),GEN,DIFFERENT
+31,बागमांडला,बागमांडला / Bagmandala,20585,2005-10,BCC,BCC,,match
+31,बागमांडला,बागमांडला / Bagmandala,20585,2010-15,GEN,GEN,,match
+31,बागमांडला,बागमांडला / Bagmandala,20585,2015-20,BCC,BCC,,match
+44,बागमांडला,बागमांडला / Bagmandala,20585,2020-25 (page 44) vs workbook 2021-25,ST(W),BCC,ST(W),DIFFERENT
+31,गाणी,गाणी / Gani,20595,2005-10,BCC,BCC,,match
+31,गाणी,गाणी / Gani,20595,2010-15,GEN,GEN,,match
+31,गाणी,गाणी / Gani,20595,2015-20,GEN(W),GEN (W),,match
+44,गाणी,गाणी / Gani,20595,2020-25 (page 44) vs workbook 2021-25,GEN,GEN (W),GEN,DIFFERENT
+31,खुजारे,खुजारे / Khujare,20605,2005-10,GEN,GEN,,match
+31,खुजारे,खुजारे / Khujare,20605,2010-15,BCC(W),BCC (W),,match
+31,खुजारे,खुजारे / Khujare,20605,2015-20,GEN(W),GEN (W),,match
+44,खुजारे,खुजारे / Khujare,20605,2020-25 (page 44) vs workbook 2021-25,GEN,GEN (W),,DIFFERENT
+31,वडघर,वडघर / Vadghar,20620,2005-10,BCC,BCC,,match
+31,वडघर,वडघर / Vadghar,20620,2010-15,GEN(W),GEN (W),,match
+31,वडघर,वडघर / Vadghar,20620,2015-20,GEN,GEN,,match
+44,वडघर,वडघर / Vadghar,20620,2020-25 (page 44) vs workbook 2021-25,GEN(W),GEN,,DIFFERENT
+31,कार्ले,कार्ले / Karle,20603,2005-10,SC,SC,,match
+31,कार्ले,कार्ले / Karle,20603,2010-15,BCC(W),BCC (W),,match
+31,कार्ले,कार्ले / Karle,20603,2015-20,ST(W),ST (W),,match
+44,कार्ले,कार्ले / Karle,20603,2020-25 (page 44) vs workbook 2021-25,GEN,SC (W),,DIFFERENT
+31,निगडी,निगडी / Nigadi,20612,2005-10,BCC(W),BCC (W),,match
+31,निगडी,निगडी / Nigadi,20612,2010-15,GEN,GEN,,match
+31,निगडी,निगडी / Nigadi,20612,2015-20,GEN,GEN,,match
+44,निगडी,निगडी / Nigadi,20612,2020-25 (page 44) vs workbook 2021-25,GEN(W),GEN,,DIFFERENT
+31,आराठी,आराठी / Aarathi,20583,2005-10,ST,ST,,match
+31,आराठी,आराठी / Aarathi,20583,2010-15,BCC,BCC,,match
+31,आराठी,आराठी / Aarathi,20583,2015-20,GEN(W),GEN (W),,match
+44,आराठी,आराठी / Aarathi,20583,2020-25 (page 44) vs workbook 2021-25,SC(W),GEN (W),,DIFFERENT
+31,नागलोली,नागलोली / Nagloli,20611,2005-10,BCC(W),BCC (W),,match
+31,नागलोली,नागलोली / Nagloli,20611,2010-15,GEN,GEN,,match
+31,नागलोली,नागलोली / Nagloli,20611,2015-20,GEN,GEN,,match
+44,नागलोली,नागलोली / Nagloli,20611,2020-25 (page 44) vs workbook 2021-25,BCC,GEN,,DIFFERENT
+31,दांडा,दांडा / Danda,20590,2005-10,GEN(W),GEN (W),,match
+31,दांडा,दांडा / Danda,20590,2010-15,GEN,GEN,,match
+31,दांडा,दांडा / Danda,20590,2015-20,GEN,GEN,,match
+44,दांडा,दांडा / Danda,20590,2020-25 (page 44) vs workbook 2021-25,BCC(W),GEN,,DIFFERENT
+31,मारळ,मारळ / Maral,20609,2005-10,GEN(W),GEN (W),,match
+31,मारळ,मारळ / Maral,20609,2010-15,BCC(W),BCC (W),,match
+31,मारळ,मारळ / Maral,20609,2015-20,BCC,BCC,,match
+44,मारळ,मारळ / Maral,20609,2020-25 (page 44) vs workbook 2021-25,ST,BCC,,DIFFERENT
+31,बोर्लीपंचतन,बोर्लीपंचतन / Borlipanchatan,20588,2005-10,BCC,BCC,,match
+31,बोर्लीपंचतन,बोर्लीपंचतन / Borlipanchatan,20588,2010-15,GEN,GEN,,match
+31,बोर्लीपंचतन,बोर्लीपंचतन / Borlipanchatan,20588,2015-20,GEN(W),GEN (W),,match
+44,बोर्लीपंचतन,बोर्लीपंचतन / Borlipanchatan,20588,2020-25 (page 44) vs workbook 2021-25,GEN,GEN (W),,DIFFERENT
+31,हरेश्वर,हरेश्वर / Hareshwar,20598,2005-10,BCC(W),BCC (W),,match
+31,हरेश्वर,हरेश्वर / Hareshwar,20598,2010-15,GEN(W),GEN (W),,match
+31,हरेश्वर,हरेश्वर / Hareshwar,20598,2015-20,GEN,GEN,,match
+44,हरेश्वर,हरेश्वर / Hareshwar,20598,2020-25 (page 44) vs workbook 2021-25,GEN(W),GEN,,DIFFERENT
+31,वडवली,वडवली / Vadavali,20619,2005-10,GEN,GEN,,match
+31,वडवली,वडवली / Vadavali,20619,2010-15,GEN(W),GEN (W),,match
+31,वडवली,वडवली / Vadavali,20619,2015-20,BCC(W),BCC (W),,match
+44,वडवली,वडवली / Vadavali,20619,2020-25 (page 44) vs workbook 2021-25,GEN(W),BCC (W),,DIFFERENT
+31,गौळवाडी,गौळवाडी / Gaulwadi,20596,2005-10,GEN(W),GEN (W),,match
+31,गौळवाडी,गौळवाडी / Gaulwadi,20596,2010-15,BCC,BCC,,match
+31,गौळवाडी,गौळवाडी / Gaulwadi,20596,2015-20,BCC(W),BCC (W),,match
+44,गौळवाडी,गौळवाडी / Gaulwadi,20596,2020-25 (page 44) vs workbook 2021-25,GEN,BCC (W),,DIFFERENT
+31,वेळास,वेळास / VELAS,20625,2005-10,GEN(W),GEN (W),,match
+31,वेळास,वेळास / VELAS,20625,2010-15,GEN,GEN,,match
+31,वेळास,वेळास / VELAS,20625,2015-20,BCC,BCC,,match
+44,वेळास,वेळास / VELAS,20625,2020-25 (page 44) vs workbook 2021-25,ST(W),BCC,,DIFFERENT
+31,शिस्ते,शिस्ते / Shiste,20618,2005-10,GEN(W),GEN (W),,match
+31,शिस्ते,शिस्ते / Shiste,20618,2010-15,GEN,GEN,,match
+31,शिस्ते,शिस्ते / Shiste,20618,2015-20,BCC,BCC,,match
+44,शिस्ते,शिस्ते / Shiste,20618,2020-25 (page 44) vs workbook 2021-25,GEN(W),BCC,,DIFFERENT
+31,काळींजे,काळींजे / KALINJE,20601,2005-10,GEN(W),GEN (W),,match
+31,काळींजे,काळींजे / KALINJE,20601,2010-15,ST(W),ST (W),,match
+31,काळींजे,काळींजे / KALINJE,20601,2015-20,GEN,GEN,,match
+44,काळींजे,काळींजे / KALINJE,20601,2020-25 (page 44) vs workbook 2021-25,BCC(W),GEN,,DIFFERENT
+31,भोस्ते,भोस्ते / Bhoste,20587,2005-10,BCC,BCC,,match
+31,भोस्ते,भोस्ते / Bhoste,20587,2010-15,GEN(W),GEN (W),,match
+31,भोस्ते,भोस्ते / Bhoste,20587,2015-20,ST(W),ST (W),,match
+44,भोस्ते,भोस्ते / Bhoste,20587,2020-25 (page 44) vs workbook 2021-25,GEN,ST (W),,DIFFERENT

@@ -1,0 +1,227 @@
+district,taluka,document,page,reading_confidence,scan_gp,workbook_gp,term,scan_value,workbook_value,result,workbook_row
+Satara,Man,MAN.pdf,2,clear,शिरवली,शिरवली / Shiravali,2005-10,NONE,GEN,match,23085
+Satara,Man,MAN.pdf,2,clear,शिरवली,शिरवली / Shiravali,2010-15,NONE,GEN,match,23085
+Satara,Man,MAN.pdf,2,clear,शिरवली,शिरवली / Shiravali,2015-20,SC W,SC (W),match,23085
+Satara,Man,MAN.pdf,2,clear,शिरवली,शिरवली / Shiravali,2021-25,BC,BCC,match,23085
+Satara,Man,MAN.pdf,2,clear,मोगराळे,मोगराळे / Mograle,2005-10,NONE W,GEN (W),match,23059
+Satara,Man,MAN.pdf,2,clear,मोगराळे,मोगराळे / Mograle,2010-15,SC W,SC (W),match,23059
+Satara,Man,MAN.pdf,2,clear,मोगराळे,मोगराळे / Mograle,2015-20,NONE W,GEN (W),match,23059
+Satara,Man,MAN.pdf,2,clear,मोगराळे,मोगराळे / Mograle,2021-25,BC,BCC,match,23059
+Satara,Man,MAN.pdf,2,clear,वळई,वळई / Valai,2005-10,NONE W,GEN (W),match,23097
+Satara,Man,MAN.pdf,2,clear,वळई,वळई / Valai,2010-15,SC,SC,match,23097
+Satara,Man,MAN.pdf,2,clear,वळई,वळई / Valai,2015-20,NONE W,GEN (W),match,23097
+Satara,Man,MAN.pdf,2,clear,वळई,वळई / Valai,2021-25,BC,BCC,match,23097
+Satara,Man,MAN.pdf,2,clear,भालवडी,भालवडी / Bhalwadi,2005-10,NONE,GEN,match,23013
+Satara,Man,MAN.pdf,2,clear,भालवडी,भालवडी / Bhalwadi,2010-15,NONE,GEN,match,23013
+Satara,Man,MAN.pdf,2,clear,भालवडी,भालवडी / Bhalwadi,2015-20,NONE W,GEN (W),match,23013
+Satara,Man,MAN.pdf,2,clear,भालवडी,भालवडी / Bhalwadi,2021-25,BC W,BCC (W),match,23013
+Satara,Man,MAN.pdf,2,clear,गोंदवले खुर्द,गोंदवले खु. / Gondvale Kh.,2005-10,NONE,GEN,match,23034
+Satara,Man,MAN.pdf,2,clear,गोंदवले खुर्द,गोंदवले खु. / Gondvale Kh.,2010-15,NONE W,GEN (W),match,23034
+Satara,Man,MAN.pdf,2,clear,गोंदवले खुर्द,गोंदवले खु. / Gondvale Kh.,2015-20,NONE,GEN,match,23034
+Satara,Man,MAN.pdf,2,clear,गोंदवले खुर्द,गोंदवले खु. / Gondvale Kh.,2021-25,BC W,BCC (W),match,23034
+Satara,Man,MAN.pdf,2,clear,पिंगळी बु,पिंगळी बु. / Pingali Bk.,2005-10,NONE,GEN,match,23071
+Satara,Man,MAN.pdf,2,clear,पिंगळी बु,पिंगळी बु. / Pingali Bk.,2010-15,NONE,GEN,match,23071
+Satara,Man,MAN.pdf,2,clear,पिंगळी बु,पिंगळी बु. / Pingali Bk.,2015-20,BC,BCC,match,23071
+Satara,Man,MAN.pdf,2,clear,पिंगळी बु,पिंगळी बु. / Pingali Bk.,2021-25,SC W,SC (W),match,23071
+Satara,Man,MAN.pdf,2,clear,महीमानगड,महिमानगड / Mahimangad,2005-10,NONE W,GEN (W),match,23055
+Satara,Man,MAN.pdf,2,clear,महीमानगड,महिमानगड / Mahimangad,2010-15,NONE,GEN,match,23055
+Satara,Man,MAN.pdf,2,clear,महीमानगड,महिमानगड / Mahimangad,2015-20,NONE W,GEN (W),match,23055
+Satara,Man,MAN.pdf,2,clear,महीमानगड,महिमानगड / Mahimangad,2021-25,SC,SC,match,23055
+Satara,Man,MAN.pdf,2,clear,धामणी,धामणी / Dhamani,2005-10,NONE,GEN,match,23025
+Satara,Man,MAN.pdf,2,clear,धामणी,धामणी / Dhamani,2010-15,NONE W,GEN (W),match,23025
+Satara,Man,MAN.pdf,2,clear,धामणी,धामणी / Dhamani,2015-20,NONE W,GEN (W),match,23025
+Satara,Man,MAN.pdf,2,clear,धामणी,धामणी / Dhamani,2021-25,SC,SC,match,23025
+Satara,Man,MAN.pdf,2,clear,हस्तनपुर घेरेवाडी,हस्तनपूर (घेरेवाडी) / Hastanapur (Gherewadi),2005-10,NONE,GEN,match,23035
+Satara,Man,MAN.pdf,2,clear,हस्तनपुर घेरेवाडी,हस्तनपूर (घेरेवाडी) / Hastanapur (Gherewadi),2010-15,NONE,GEN,match,23035
+Satara,Man,MAN.pdf,2,clear,हस्तनपुर घेरेवाडी,हस्तनपूर (घेरेवाडी) / Hastanapur (Gherewadi),2015-20,NONE W,GEN (W),match,23035
+Satara,Man,MAN.pdf,2,clear,हस्तनपुर घेरेवाडी,हस्तनपूर (घेरेवाडी) / Hastanapur (Gherewadi),2021-25,SC,SC,match,23035
+Satara,Man,MAN.pdf,2,clear,पांढरवाडी,पांढरवाडी (महिमानगड ) / Pandharwadi (Mahimangad),2005-10,NONE,GEN,match,23065
+Satara,Man,MAN.pdf,2,clear,पांढरवाडी,पांढरवाडी (महिमानगड ) / Pandharwadi (Mahimangad),2010-15,NONE W,GEN (W),match,23065
+Satara,Man,MAN.pdf,2,clear,पांढरवाडी,पांढरवाडी (महिमानगड ) / Pandharwadi (Mahimangad),2015-20,BC,BCC,match,23065
+Satara,Man,MAN.pdf,2,clear,पांढरवाडी,पांढरवाडी (महिमानगड ) / Pandharwadi (Mahimangad),2021-25,SC,SC,match,23065
+Satara,Man,MAN.pdf,2,clear,बोथे,बोथे / Bothe,2005-10,NONE,GEN,match,23019
+Satara,Man,MAN.pdf,2,clear,बोथे,बोथे / Bothe,2010-15,BC,BCC,match,23019
+Satara,Man,MAN.pdf,2,clear,बोथे,बोथे / Bothe,2015-20,NONE,GEN,match,23019
+Satara,Man,MAN.pdf,2,clear,बोथे,बोथे / Bothe,2021-25,SC W,SC (W),match,23019
+Satara,Man,MAN.pdf,2,clear,भाटकी,भाटकी / Bhataki,2005-10,BC,BCC,match,23015
+Satara,Man,MAN.pdf,2,clear,भाटकी,भाटकी / Bhataki,2010-15,NONE W,GEN (W),match,23015
+Satara,Man,MAN.pdf,2,clear,भाटकी,भाटकी / Bhataki,2015-20,BC,BCC,match,23015
+Satara,Man,MAN.pdf,2,clear,भाटकी,भाटकी / Bhataki,2021-25,SC W,SC (W),match,23015
+Satara,Man,MAN.pdf,2,clear,खडकी,खडकी / Khadaki,2005-10,NONE,GEN,match,23046
+Satara,Man,MAN.pdf,2,clear,खडकी,खडकी / Khadaki,2010-15,NONE W,GEN (W),match,23046
+Satara,Man,MAN.pdf,2,clear,खडकी,खडकी / Khadaki,2015-20,NONE,GEN,match,23046
+Satara,Man,MAN.pdf,2,clear,खडकी,खडकी / Khadaki,2021-25,SC W,SC (W),match,23046
+Satara,Man,MAN.pdf,2,clear,बोडके,बोडके / Bodake,2005-10,BC,BCC,match,23018
+Satara,Man,MAN.pdf,2,clear,बोडके,बोडके / Bodake,2010-15,NONE,GEN,match,23018
+Satara,Man,MAN.pdf,2,clear,बोडके,बोडके / Bodake,2015-20,BC W,BCC (W),match,23018
+Satara,Man,MAN.pdf,2,clear,बोडके,बोडके / Bodake,2021-25,SC,SC,match,23018
+Satara,Man,MAN.pdf,2,clear,वारुगड,वारुगड / Varugad,2005-10,BC,BCC,match,23100
+Satara,Man,MAN.pdf,2,clear,वारुगड,वारुगड / Varugad,2010-15,NONE,GEN,match,23100
+Satara,Man,MAN.pdf,2,clear,वारुगड,वारुगड / Varugad,2015-20,NONE W,GEN (W),match,23100
+Satara,Man,MAN.pdf,2,clear,वारुगड,वारुगड / Varugad,2021-25,SC,SC,match,23100
+Satara,Man,MAN.pdf,2,clear,परकंदी,परकंदी / Parkandi,2005-10,NONE,GEN,match,23068
+Satara,Man,MAN.pdf,2,clear,परकंदी,परकंदी / Parkandi,2010-15,NONE W,GEN (W),match,23068
+Satara,Man,MAN.pdf,2,clear,परकंदी,परकंदी / Parkandi,2015-20,NONE,GEN,match,23068
+Satara,Man,MAN.pdf,2,clear,परकंदी,परकंदी / Parkandi,2021-25,SC W,SC (W),match,23068
+Satara,Man,MAN.pdf,2,clear,कुरणेवाडी,कुरुणेवाडी / Kurunewadi,2005-10,NONE,GEN,match,23052
+Satara,Man,MAN.pdf,2,clear,कुरणेवाडी,कुरुणेवाडी / Kurunewadi,2010-15,NONE W,GEN (W),match,23052
+Satara,Man,MAN.pdf,2,clear,कुरणेवाडी,कुरुणेवाडी / Kurunewadi,2015-20,NONE,GEN,match,23052
+Satara,Man,MAN.pdf,2,clear,कुरणेवाडी,कुरुणेवाडी / Kurunewadi,2021-25,SC W,SC (W),match,23052
+Satara,Man,MAN.pdf,2,clear,कारखेल,कारखेल / Karkhel,2005-10,BC,BCC,match,23044
+Satara,Man,MAN.pdf,2,clear,कारखेल,कारखेल / Karkhel,2010-15,NONE,GEN,match,23044
+Satara,Man,MAN.pdf,2,clear,कारखेल,कारखेल / Karkhel,2015-20,BC W,BCC (W),match,23044
+Satara,Man,MAN.pdf,2,clear,कारखेल,कारखेल / Karkhel,2021-25,NONE,GEN,match,23044
+Satara,Man,MAN.pdf,2,clear,वाकी,वाकी / Vaki,2005-10,NONE W,GEN (W),match,23096
+Satara,Man,MAN.pdf,2,clear,वाकी,वाकी / Vaki,2010-15,NONE,GEN,match,23096
+Satara,Man,MAN.pdf,2,clear,वाकी,वाकी / Vaki,2015-20,BC W,BCC (W),match,23096
+Satara,Man,MAN.pdf,2,clear,वाकी,वाकी / Vaki,2021-25,NONE,GEN,match,23096
+Satara,Man,MAN.pdf,2,clear,देवापुर,देवापूर / Devapur,2005-10,BC,BCC,match,23023
+Satara,Man,MAN.pdf,2,clear,देवापुर,देवापूर / Devapur,2010-15,NONE W,GEN (W),match,23023
+Satara,Man,MAN.pdf,2,clear,देवापुर,देवापूर / Devapur,2015-20,BC W,BCC (W),match,23023
+Satara,Man,MAN.pdf,2,clear,देवापुर,देवापूर / Devapur,2021-25,NONE,GEN,match,23023
+Satara,Man,MAN.pdf,2,clear,येळेवाडी,येळेवाडी / Yelewadi,2005-10,NONE W,GEN (W),match,23104
+Satara,Man,MAN.pdf,2,clear,येळेवाडी,येळेवाडी / Yelewadi,2010-15,BC W,BCC (W),match,23104
+Satara,Man,MAN.pdf,2,clear,येळेवाडी,येळेवाडी / Yelewadi,2015-20,SC W,SC (W),match,23104
+Satara,Man,MAN.pdf,2,clear,येळेवाडी,येळेवाडी / Yelewadi,2021-25,NONE,GEN,match,23104
+Satara,Man,MAN.pdf,2,clear,संभुखेड,संभुखेड / Sambhukhed,2005-10,NONE W,GEN (W),match,23078
+Satara,Man,MAN.pdf,2,clear,संभुखेड,संभुखेड / Sambhukhed,2010-15,NONE,GEN,match,23078
+Satara,Man,MAN.pdf,2,clear,संभुखेड,संभुखेड / Sambhukhed,2015-20,BC W,BCC (W),match,23078
+Satara,Man,MAN.pdf,2,clear,संभुखेड,संभुखेड / Sambhukhed,2021-25,NONE,GEN,match,23078
+Satara,Man,MAN.pdf,2,clear,वडगाव,वडगाव / Vadgaon,2005-10,NONE,GEN,match,23094
+Satara,Man,MAN.pdf,2,clear,वडगाव,वडगाव / Vadgaon,2010-15,BC W,BCC (W),match,23094
+Satara,Man,MAN.pdf,2,clear,वडगाव,वडगाव / Vadgaon,2015-20,SC W,SC (W),match,23094
+Satara,Man,MAN.pdf,2,clear,वडगाव,वडगाव / Vadgaon,2021-25,NONE,GEN,match,23094
+Satara,Man,MAN.pdf,2,clear,उकिर्डे,उकिर्डे / Ukirde,2005-10,BC W,BCC (W),match,23093
+Satara,Man,MAN.pdf,2,clear,उकिर्डे,उकिर्डे / Ukirde,2010-15,NONE,GEN,match,23093
+Satara,Man,MAN.pdf,2,clear,उकिर्डे,उकिर्डे / Ukirde,2015-20,NONE W,GEN (W),match,23093
+Satara,Man,MAN.pdf,2,clear,उकिर्डे,उकिर्डे / Ukirde,2021-25,NONE,GEN,match,23093
+Satara,Man,MAN.pdf,2,clear,तोंडले,तोंडले / Tondale,2005-10,NONE,GEN,match,23092
+Satara,Man,MAN.pdf,2,clear,तोंडले,तोंडले / Tondale,2010-15,BC,BCC,match,23092
+Satara,Man,MAN.pdf,2,clear,तोंडले,तोंडले / Tondale,2015-20,SC W,SC (W),match,23092
+Satara,Man,MAN.pdf,2,clear,तोंडले,तोंडले / Tondale,2021-25,NONE,GEN,match,23092
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,उडतारे,उडतारे / Udatare,2005-10,SC,SC,match,23757
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,उडतारे,उडतारे / Udatare,2010-15,BC,BCC,match,23757
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,उडतारे,उडतारे / Udatare,2015-20,NONE,GEN,match,23757
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वेरुळी,वेरुळी / Veruli,2005-10,BC W,BCC (W),match,23767
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वेरुळी,वेरुळी / Veruli,2010-15,NONE,GEN,match,23767
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वेरुळी,वेरुळी / Veruli,2015-20,NONE,GEN,match,23767
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वडोली,वडोली / Vadoli,2005-10,NONE,GEN,match,23759
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वडोली,वडोली / Vadoli,2010-15,BC W,BCC (W),match,23759
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वडोली,वडोली / Vadoli,2015-20,NONE W,GEN (W),match,23759
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,व्याहळी पुनर्वसन,व्याहली पुन. / Vyahali Pun.,2005-10,NONE,GEN,match,23770
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,व्याहळी पुनर्वसन,व्याहली पुन. / Vyahali Pun.,2010-15,BC,BCC,match,23770
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,व्याहळी पुनर्वसन,व्याहली पुन. / Vyahali Pun.,2015-20,NONE W,GEN (W),match,23770
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वहागांव,वहागांव / Vahagaon,2005-10,NONE,GEN,match,23760
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वहागांव,वहागांव / Vahagaon,2010-15,BC,BCC,match,23760
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वहागांव,वहागांव / Vahagaon,2015-20,NONE,GEN,match,23760
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वरखडवाडी,वरखडवाडी / Varkhadwadi,2005-10,NONE,GEN,match,23762
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वरखडवाडी,वरखडवाडी / Varkhadwadi,2010-15,SC,SC,match,23762
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वरखडवाडी,वरखडवाडी / Varkhadwadi,2015-20,ST,ST,match,23762
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वेलंग,वेलंग / Velang,2005-10,BC,BCC,match,23765
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वेलंग,वेलंग / Velang,2010-15,NONE W,GEN (W),match,23765
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वेलंग,वेलंग / Velang,2015-20,NONE,GEN,match,23765
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,व्याजवाडी,व्याजवाडी / Vyajwadi,2005-10,BC W,BCC (W),match,23771
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,व्याजवाडी,व्याजवाडी / Vyajwadi,2010-15,NONE,GEN,match,23771
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,व्याजवाडी,व्याजवाडी / Vyajwadi,2015-20,NONE,GEN,match,23771
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वयगांव,वयगाव / Vaigaon,2005-10,NONE,GEN,match,23761
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वयगांव,वयगाव / Vaigaon,2010-15,NONE,GEN,match,23761
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वयगांव,वयगाव / Vaigaon,2015-20,NONE W,GEN (W),match,23761
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वाशिवली,वाशिवली / Vashivali,2005-10,NONE,GEN,match,23763
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वाशिवली,वाशिवली / Vashivali,2010-15,NONE,GEN,match,23763
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वाशिवली,वाशिवली / Vashivali,2015-20,NONE W,GEN (W),match,23763
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वेळे,वेळे / Vele,2005-10,NONE W,GEN (W),match,23766
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वेळे,वेळे / Vele,2010-15,NONE,GEN,match,23766
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वेळे,वेळे / Vele,2015-20,BC,BCC,match,23766
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,विरमाडे,विरमाडे / Virmade,2005-10,NONE,GEN,match,23768
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,विरमाडे,विरमाडे / Virmade,2010-15,NONE W,GEN (W),match,23768
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,विरमाडे,विरमाडे / Virmade,2015-20,NONE,GEN,match,23768
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वासोळे,वासोळे / Vasole,2005-10,ST,ST,match,23764
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वासोळे,वासोळे / Vasole,2010-15,BC,BCC,match,23764
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वासोळे,वासोळे / Vasole,2015-20,NONE W,GEN (W),match,23764
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वाघजाईवाडी,वाघजाईवाडी / Waghjaiwadi,2005-10,NONE,GEN,match,23772
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वाघजाईवाडी,वाघजाईवाडी / Waghjaiwadi,2010-15,NONE,GEN,match,23772
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,वाघजाईवाडी,वाघजाईवाडी / Waghjaiwadi,2015-20,NONE,GEN,match,23772
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,विठ्ठलवाडी,विठ्ठलवाडी / Vithalwadi,2005-10,NONE,GEN,match,23769
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,विठ्ठलवाडी,विठ्ठलवाडी / Vithalwadi,2010-15,BC W,BCC (W),match,23769
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,विठ्ठलवाडी,विठ्ठलवाडी / Vithalwadi,2015-20,NONE W,GEN (W),match,23769
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,यशवंतनगर,यशवंतनगर / Yashwantnagar,2005-10,NONE W,GEN (W),match,23773
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,यशवंतनगर,यशवंतनगर / Yashwantnagar,2010-15,BC,BCC,match,23773
+Satara,Wai,"Wai Feb 9, 2023 11-15.pdf",4,clear,यशवंतनगर,यशवंतनगर / Yashwantnagar,2015-20,SC,SC,match,23773
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,आमडापुर,अमडापूर / Amdapur,2021-25,BC W,BCC (W),match,17846
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,ब्रम्हपुरी तर्फे पेडगाव,ब्रम्‍हपुरी तर्फे पेडगाव / Brahmapuri T. Pedgaon,2021-25,BC W,BCC (W),match,18013
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,दुर्डी,दुर्डी / Durdi,2021-25,BC W,BCC (W),match,18320
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,समसापुर,समसापूर / Samsapur,2021-25,BC W,BCC (W),match,27770
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,उमरी,उमरी / Umari,2021-25,BC,BCC,match,27839
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,वांगी,वांगी / Wangi,2021-25,BC,BCC,match,27847
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,झाडगाव,झाडगाव / Zadgaon,2021-25,BC,BCC,match,27849
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,भारस्वाडा,भारस्‍वाडा / Bharaswada,2021-25,BC W,BCC (W),match,17894
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,बाभळी,बाभळी / Babhali,2021-25,BC W,BCC (W),match,17867
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,मिरखेल,मिरखेल / Mirkhel,2021-25,BC W,BCC (W),match,26993
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,इस्माईलपुर,ईस्माइलपूर / Ismaipur,2021-25,BC,BCC,match,18376
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,धार,धार / Dhar,2021-25,BC,BCC,match,18153
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,पान्हेरा,पान्‍हेरा / Panhera,2021-25,BC,BCC,match,27016
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,काष्टगाव,काष्‍टगाव / Kashtagaon,2021-25,BC,BCC,match,18449
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,दैठणा,दैठणा / Daithana,2021-25,BC,BCC,match,18028
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,डफवाडी,डफवाडी / Daphavadi,2021-25,BC,BCC,match,18061
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,वाडीदमई,वाडी दमई / Wadi Damai,2021-25,BC,BCC,match,27846
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,संबर,संबर / Sambar,2021-25,BC,BCC,match,27765
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,उजळांबा,उजळांबा / Ujalamba,2021-25,BC,BCC,match,27832
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,पांढरी,पांढरी / Pandhari,2021-25,BC,BCC,match,27011
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,सनपुरी,सनपुरी/सुल्‍तानपूर / Sanpuri/Sultanpur,2021-25,BC,BCC,match,27771
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,पाथरा,पाथरा / Pathara,2021-25,BC,BCC,match,27018
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,करडगाव,करडगाव / Karadgaon,2021-25,NONE W,GEN (W),match,18444
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,अंगलगाव,आंगलगाव / Aangalgao,2021-25,NONE,GEN,match,17825
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,जांब,जांब / Jamb,2021-25,NONE,GEN,match,18403
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,वरपुड,वरपूड / Warpud,2021-25,NONE W,GEN (W),match,27848
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,झरी,झरी / Zari,2021-25,NONE,GEN,match,27851
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,आंबेटाकळी,आंबेटाकळी / Aambetakali,2021-25,NONE W,GEN (W),match,17810
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,आनंदवाडी,आनंदवाडी / Aanandwadi,2021-25,NONE W,GEN (W),match,17818
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,बोरवंड खुर्द,बोरवंड खु. / Borvand Kh.,2021-25,NONE W,GEN (W),match,17927
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,ब्राम्हणगाव,ब्राम्‍हणगाव / Brahmangaon,2021-25,NONE,GEN,match,17931
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,दामपुरी,दामपुरी / Dampuri,2021-25,NONE,GEN,match,18032
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,धारणगाव,धारणगाव / Dharangaon,2021-25,NONE W,GEN (W),match,18197
+Parbhani,Parbhani,"2Parbhani taluka, Parbhani district 2021-25.pdf",2,clear,एकरुखा तर्फे पेडगाव,एकरुखा / Ekrukha,2021-25,NONE,GEN,match,18325
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",शिनोळी खुर्द,शिनोळी खुर्द / Shinoli Khurd,2005-10,NONE,General,match,11087
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",शिनोळी खुर्द,शिनोळी खुर्द / Shinoli Khurd,2010-15,BC W,BCC WOMEN,match,11087
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",शिनोळी खुर्द,शिनोळी खुर्द / Shinoli Khurd,2015-20,NONE W,General women,match,11087
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",बाचोत्रे,वाघोत्रे / Waghotre,2005-10,BC,BCC,match,11102
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",बाचोत्रे,वाघोत्रे / Waghotre,2010-15,NONE W,General women,match,11102
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",बाचोत्रे,वाघोत्रे / Waghotre,2015-20,NONE,General,match,11102
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",इसापुर,इसापूर / Isapur,2005-10,BC W,BCC women,match,11027
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",इसापुर,इसापूर / Isapur,2010-15,BC,BCC,match,11027
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",इसापुर,इसापूर / Isapur,2015-20,NONE W,general women,match,11027
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",आसगोळी,आसगोळी / Asagoli,2005-10,NONE,General,match,10999
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",आसगोळी,आसगोळी / Asagoli,2010-15,BC,BCC,match,10999
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",आसगोळी,आसगोळी / Asagoli,2015-20,NONE W,General women,match,10999
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",मजरे कार्वे,मजरे कार्वे / Majare Karve,2005-10,NONE,General,match,11062
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",मजरे कार्वे,मजरे कार्वे / Majare Karve,2010-15,NONE W,General women,match,11062
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",मजरे कार्वे,मजरे कार्वे / Majare Karve,2015-20,NONE,general,match,11062
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",देवरवाडी,देवरवाडी / Devarwadi,2005-10,BC,BCC,match,11008
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",देवरवाडी,देवरवाडी / Devarwadi,2010-15,NONE W,General women,match,11008
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",देवरवाडी,देवरवाडी / Devarwadi,2015-20,NONE,General,match,11008
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",म्हाळेवाडी,म्हाळेवाडी / Mhalewadi,2005-10,SC,SC,match,11066
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",म्हाळेवाडी,म्हाळेवाडी / Mhalewadi,2010-15,BC W,BCC WOMEN,match,11066
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",म्हाळेवाडी,म्हाळेवाडी / Mhalewadi,2015-20,NONE W,general women,match,11066
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",धुमडेवाडी,धुमडेवाडी / Dhumadewadi,2005-10,NONE,General,match,11011
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",धुमडेवाडी,धुमडेवाडी / Dhumadewadi,2010-15,BC W,BCC WOMEN,match,11011
+Kolhapur,Chandgad,"Chandagad tehsil, Kolhapur district 2005-25.pdf",6,"rotated page, names partly legible",धुमडेवाडी,धुमडेवाडी / Dhumadewadi,2015-20,NONE W,general women,match,11011
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",शेलगाव बु,शेलगांव बु. / Shelgaon Bu.,2021-25,NONE,GEN,match,14629
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",आमराबाद,अमराबाद / Amrabad,2021-25,NONE,GEN,match,13405
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",आमराबाद तांडा,अमराबाद तांडा / Amrabad Tanda,2021-25,NONE,GEN,match,13407
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",चाभरा,चाभरा / Chabhara,2021-25,NONE,GEN,match,13442
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",देळूब बु,देळूब बु. / Delub Bk.,2021-25,NONE,GEN,match,14527
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",पांगरी,पांगरी /कारवाडी / Pangari/Karwadi,2021-25,NONE,GEN,match,14597
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",बेलसर,बेलसर / Belsar,2021-25,NONE,GEN,match,13434
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",मालेगाव,मालेगांव / Malegaon,2021-25,NONE,GEN,match,14575
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",लहान,लहान / Lahan,2021-25,NONE,GEN,match,14558
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",सोनाळा,सोनाळा / Sonala,2021-25,NONE,GEN,match,14635
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",लोणी बु,लोणी बु. / Loni Bu.,2021-25,NONE W,GEN (W),match,14562
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",कामठा बु,कामठा बु. / Kamtha Bu.,2021-25,NONE W,GEN (W),match,14539
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",डौर,डौर / Daur,2021-25,NONE W,GEN (W),match,14509
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",देळूब खु,देळुब खु. / Delub khu.,2021-25,NONE W,GEN (W),match,14528
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",निमगाव,निमगाव / Nimgaon,2021-25,NONE W,GEN (W),match,14594
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",मेंढला खु,मेंढला (खु ) / Mendhala (khu ),2021-25,NONE W,GEN(W),match,14585
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",रोडगी,रोडगी / Rodagi,2021-25,NONE W,GEN (W),match,14611
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",लोणी खु,लोणी खु. / Loni Khu.,2021-25,NONE W,GEN (W),match,14574
+Nanded,Ardhapur,"Ardhapur taluka, Nanded 2005-25.pdf",10,"faint scan, low confidence",शेणी,शेणी / Sheni,2021-25,NONE W,GEN (W),match,14631
+Raigad,Shrivardhan,"Shrivardhan Taluka, Raigad District .pdf",8,clear,,,,,,page holds no sarpanch roster rows (ward-member seat notification for one GP),

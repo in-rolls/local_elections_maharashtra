@@ -1,0 +1,73 @@
+rule_id,table,column,raw_value,released_value,rows_affected,reason
+T1,sarpanch_rti_reservations,roster_year,workbook column 2005-10,2005,1879,the round as a year; the workbook's label is kept in workbook_column
+T1,sarpanch_rti_reservations,roster_year,workbook column 2010-15,2010,2562,the round as a year; the workbook's label is kept in workbook_column
+T1,sarpanch_rti_reservations,roster_year,workbook column 2015-20,2015,2813,the round as a year; the workbook's label is kept in workbook_column
+T1,sarpanch_rti_reservations,roster_year,workbook column 2021-25,2020,2883,the round as a year; the workbook's label is kept in workbook_column
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,87,scan pages 29 and 30 of the order are out of sequence [Tahsil Office Patan order no. ग्राप/आरक्षण/कावि-137/21 dated]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,single cell typed wrongly [Tahsil Office Man RTI reply]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,2,"typed value differs from the RTI document [2Parbhani Taluka, Parbhani district 2010-20.pdf p1-13]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,6,"typed value differs from the RTI document [Ardhapur taluka, Nanded 2005-25.pdf p2-12]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,"typed value differs from the RTI document [Chandagad tehsil, Kolhapur district 2005-25.pdf p1]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,"typed value differs from the RTI document [Chandagad tehsil, Kolhapur district 2005-25.pdf p2]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,10,"typed value differs from the RTI document [Dharmabad taluka, Nanded district 2010-25.pdf p14-22]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,14,"typed value differs from the RTI document [Dharmabad taluka, Nanded district 2010-25.pdf p14-22;24-48]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,4,"typed value differs from the RTI document [Dharmabad taluka, Nanded district 2010-25.pdf p2-12]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,8,"typed value differs from the RTI document [Dharmabad taluka, Nanded district 2010-25.pdf p2-12;24-48]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,26,"typed value differs from the RTI document [Dharmabad taluka, Nanded district 2010-25.pdf p24-48]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,"typed value differs from the RTI document [Dhule taluka, Dhule District 1995-2025.pdf p3]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,2,typed value differs from the RTI document [Faltan.pdf p2]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [Faltan.pdf p3]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,3,"typed value differs from the RTI document [Gaganbawada taluka, Kolhapur district 1995-2015.pdf p1-12]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,"typed value differs from the RTI document [Goregaon, Gondia 2010-25.pdf p2]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,"typed value differs from the RTI document [Goregaon, Gondia 2010-25.pdf p3]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [Jawali tauka.pdf p1]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [Jawali tauka.pdf p2; New Doc Satara 11-17-2022.pdf p4]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [Jawali tauka.pdf p4]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [Jawali tauka.pdf p4; New Doc Satara 11-17-2022.pdf p3]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [Jawali tauka.pdf p4; New Doc Satara 11-17-2022.pdf p5]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,2,typed value differs from the RTI document [Khandala.pdf p2]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [Khandala.pdf p2; New Doc Satara 11-17-2022.pdf p10]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [Khandala.pdf p2; New Doc Satara 11-17-2022.pdf p9]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [Khatav p1]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [Khatav p2; New Doc Satara 11-17-2022.pdf p7]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,"typed value differs from the RTI document [Koregaon Jan 30, 2023 10-06.pdf p8]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,"typed value differs from the RTI document [Koregaon Jan 30, 2023 10-06.pdf p8; New Doc Satara 11-17-202]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [MAN.pdf p1; New Doc Satara 11-17-2022.pdf p24]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,3,typed value differs from the RTI document [Mahabalwshwar.pdf p1]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [Mahabalwshwar.pdf p2]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,4,typed value differs from the RTI document [Mahabalwshwar.pdf p4]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [New Doc Satara 11-17-2022.pdf p33]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,10,typed value differs from the RTI document [New Doc Satara 11-17-2022.pdf p40]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [New Doc Satara 11-17-2022.pdf p41]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [Patan.pdf p3]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,3,typed value differs from the RTI document [Satara 2022 19-29.pdf p3]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,6,typed value differs from the RTI document [Satara 2022 19-29.pdf p4]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [Satara 2022 19-29.pdf p6]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,4,"typed value differs from the RTI document [Tala tehsil, Raigad 2010-25.pdf p2-16]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,2,"typed value differs from the RTI document [Tala tehsil, Raigad 2010-25.pdf p24-28]"
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [karad.pdf p1]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,1,typed value differs from the RTI document [karad.pdf p4; New Doc Satara 11-17-2022.pdf p12]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,2,typed value differs from the RTI document [reservation details .pdf p29-42]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,6,typed value differs from the RTI document [reservation details .pdf p43-62]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,7,workbook cell blank [Tahsil Office Patan order no. ग्राप/आरक्षण/कावि-137/21 dated]
+T2,sarpanch_rti_reservations,reserved_raw,typed value in workbook_value_raw,value from the RTI document,42,workbook column 2021-25 repeats the 2015-20 value [Tahsildar Shrivardhan RTI reply]
+T3,sarpanch_rti_reservations,district,edge or repeated whitespace,trimmed; typed value in district_raw,23,whitespace only
+T3,sarpanch_rti_reservations,block,edge or repeated whitespace,trimmed; typed value in block_raw,22,whitespace only
+T3,sarpanch_rti_reservations,gram_panchayat,edge or repeated whitespace,trimmed; typed value in gram_panchayat_raw,410,whitespace only
+T4,sarpanch_rti_reservations,"reserved_caste, reserved_woman",typed spellings,pooled values,13352,read through data/checks/roster_vocabulary.csv; central canon.py scheme sc_st_obc
+T4,sarpanch_rti_reservations,"reserved_caste, reserved_woman",not a category (e.g. '-'),null,13,"unknown, never unreserved"
+T5,sarpanch_rti_reservations,all,no workbook value,value from two settled readings of the RTI document,3059,round not in the workbook
+T5,sarpanch_rti_reservations,all,no workbook value,value from two settled readings of the RTI document,120,GP not in the workbook
+T5,sarpanch_rti_reservations,all,no workbook value,value from two settled readings of the RTI document,54,workbook cell blank
+T6,sarpanch_rti_reservations,all,workbook row duplicating another,withheld,9,data/manual/rti_rosters/withheld_workbook_rows.csv
+T7,sarpanch_rti_reservations,"reserved_caste, reserved_woman",typed value; readings not settled,null,5,the readings disagree with the typed value or with each other; data/checks/roster_unsettled.csv
+T8,sarpanch_rti_reservations,reserved_woman,"caste stated, women's reservation not stated",null,119,"a list giving the caste category only, or a table printing no women's marks"
+T9,sarpanch_rti_reservations,document_check,,two_readings,10944,how the released value was checked against the RTI document
+T9,sarpanch_rti_reservations,document_check,,reading_agrees_workbook,1612,how the released value was checked against the RTI document
+T9,sarpanch_rti_reservations,document_check,,not_read,415,how the released value was checked against the RTI document
+T9,sarpanch_rti_reservations,document_check,,corrected,279,how the released value was checked against the RTI document
+T9,sarpanch_rti_reservations,document_check,,reading_and_sec,72,how the released value was checked against the RTI document
+T9,sarpanch_rti_reservations,document_check,,page_viewed,22,how the released value was checked against the RTI document
+T9,sarpanch_rti_reservations,document_check,,document_prints_no_category,13,how the released value was checked against the RTI document
+T9,sarpanch_rti_reservations,document_check,,one_reading_degraded_page,8,how the released value was checked against the RTI document
+T9,sarpanch_rti_reservations,document_check,,unsettled,5,how the released value was checked against the RTI document

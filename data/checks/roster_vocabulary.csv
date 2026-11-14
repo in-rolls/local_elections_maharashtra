@@ -1,0 +1,82 @@
+reserved_raw,reserved_caste,reserved_woman,rows
+GEN,NONE,0,2542
+GEN ,NONE,0,1452
+GEN (W),NONE,1,1193
+BCC,BC,0,1186
+GEN (W) ,NONE,1,863
+GEN(W),NONE,1,739
+BCC (W),BC,1,583
+BCC ,BC,0,580
+ST,ST,0,473
+SC,SC,0,436
+ST WOMEN,ST,1,296
+ST ,ST,0,293
+SC (W),SC,1,270
+BCC (W) ,BC,1,266
+BCC(W),BC,1,265
+ST (W) ,ST,1,222
+General ,NONE,0,174
+SC ,SC,0,159
+General women ,NONE,1,148
+ST (W),ST,1,139
+SC(W),SC,1,95
+BCC women ,BC,1,81
+SC (W) ,SC,1,79
+GENERAL,NONE,0,64
+ST WOMEN ,ST,1,60
+GEN WOMEN,NONE,1,58
+ST  ,ST,0,51
+General,NONE,0,49
+GEN,NONE,,47
+general,NONE,0,47
+ST women ,ST,1,46
+general women,NONE,1,39
+BCC,BC,,33
+General Women,NONE,1,33
+BCC WOMEN,BC,1,27
+ST(W),ST,1,26
+BCC women,BC,1,24
+general ,NONE,0,24
+ST,ST,,22
+SC women ,SC,1,18
+general women ,NONE,1,18
+BCC Women,BC,1,14
+GEN (W ),NONE,1,13
+-,,,13
+SC,SC,,12
+ST women,ST,1,10
+GENERAL WOMEN,NONE,1,10
+SC WOMEN,SC,1,10
+SC women,SC,1,7
+ST   ,ST,0,6
+BCC ,BC,,5
+SC WOMEN ,SC,1,5
+BCC WOMEN ,BC,1,4
+GENERAL   ,NONE,0,4
+ST Women ,ST,1,3
+BCC,,,3
+GEN  (W),NONE,1,3
+BCC Women ,BC,1,2
+OBC,BC,0,2
+General women,NONE,1,2
+BCC (W ),BC,1,2
+BCC  (W),BC,1,1
+ general,NONE,0,1
+ST Women,ST,1,1
+general Women ,NONE,1,1
+BCC  ,BC,0,1
+BCC   ,BC,0,1
+ GEN (W),NONE,1,1
+ GEN ,NONE,0,1
+BCC (w) ,BC,1,1
+ST,,,1
+Bcc,BC,0,1
+GEN,,,1
+SC Women ,SC,1,1
+GEN         ,NONE,0,1
+SC (W ),SC,1,1
+SC  (W),SC,1,1
+GENERAL  ,NONE,0,1
+OBC women ,BC,1,1
+General Women ,NONE,1,1
+ BCC,BC,0,1
