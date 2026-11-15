@@ -169,7 +169,9 @@ Election Program Name,LocalBody Name,District,Taluka,Ward No,Ward Name,Reservati
  May 2018  Gram panchayat sARPANCH  General Election    ,GP	Shekte bu.	,Ahmednagar,Shevgaon,999,999,GEN(W),349,307,0,168
  May 2018  Gram panchayat sARPANCH  General Election    ,Nagapur,Ahmednagar,Nevasa,999,ward no. 999,GEN,304,276,0,169
  May 2018  Gram panchayat sARPANCH  General Election    ,GP	Shivanage	,Kolhapur,Chandgad,999,SARPANCHA,GEN,484,495,0,170
+ May 2018  Gram panchayat sARPANCH  General Election    ,Yadavwadi,Ahmednagar,Parner,1,Ward No.999 Sarpanch,GEN(W),565,514,0,171
  May 2018  Gram panchayat sARPANCH  General Election    ,GP	Jatewadi	,Kolhapur,Chandgad,999,SARPANCHA,GEN,400,372,0,172
+ May 2018  Gram panchayat sARPANCH  General Election    ,Mawalewadi,Ahmednagar,Parner,1,Ward No.999 Sarpanch,B.C.C.,353,324,0,173
  May 2018  Gram panchayat sARPANCH  General Election    ,Murkutewadi,Kolhapur,Chandgad,999,SARPANCHA,GEN,588,518,0,174
  May 2018  Gram panchayat sARPANCH  General Election    ,Chitali,Ahmednagar,Rahata,999,sarpanch,B.C.C.(W),1620,1668,0,175
  May 2018  Gram panchayat sARPANCH  General Election    ,GP	Tambulwadi	,Kolhapur,Chandgad,999,SARPANCHA,GEN,446,436,0,176
@@ -181,7 +183,9 @@ Election Program Name,LocalBody Name,District,Taluka,Ward No,Ward Name,Reservati
  May 2018  Gram panchayat sARPANCH  General Election    ,Umgaon,Kolhapur,Chandgad,999,SARPANCHA,B.C.C.,750,653,0,182
  May 2018  Gram panchayat sARPANCH  General Election    ,Karwadi,Ahmednagar,Kopargaon,999,SARPANCH ,S.T.(W),1065,873,0,183
  May 2018  Gram panchayat sARPANCH  General Election    ,GP	Utsali	,Kolhapur,Chandgad,999,SARPANCHA,GEN(W),300,280,0,184
+ May 2018  Gram panchayat sARPANCH  General Election    ,Kakanewadi,Ahmednagar,Parner,1,Ward No.999 Sarpanch,B.C.C.(W),530,518,0,185
  May 2018  Gram panchayat sARPANCH  General Election    ,GP	Kurni	,Kolhapur,Chandgad,999,SARPANCHA,GEN(W),688,586,0,186
+ May 2018  Gram panchayat sARPANCH  General Election    ,Wadegavhan,Ahmednagar,Parner,1,Ward No.999 Sarpanch,S.C.,1194,1059,0,187
  May 2018  Gram panchayat sARPANCH  General Election    ,GP	Kodali	,Kolhapur,Chandgad,999,SARPANCHA,B.C.C.(W),685,629,0,188
  May 2018  Gram panchayat sARPANCH  General Election    ,Adi Mahad Khadi,Raigad,Mhasala,999,Sarpanch prbhag,GEN,252,305,0,189
  May 2018  Gram panchayat sARPANCH  General Election    ,Dighi,Ahmednagar,Shrirampur,999,Ward No 1,GEN,415,397,0,190
@@ -203,6 +207,7 @@ Election Program Name,LocalBody Name,District,Taluka,Ward No,Ward Name,Reservati
  May 2018  Gram panchayat sARPANCH  General Election    ,Naur,Ahmednagar,Shrirampur,999,ward No 1,B.C.C.,924,867,0,206
  May 2018  Gram panchayat sARPANCH  General Election    ,M.M.Dongar,Raigad,Pen,999,SARPANCH PRABHAG,S.T.,1144,1236,0,207
  May 2018  Gram panchayat sARPANCH  General Election    ,Tarankhop,Raigad,Pen,999,SARPANCH PRABHAG,B.C.C.,1225,1307,0,208
+ May 2018  Gram panchayat sARPANCH  General Election    ,Kanhurpathar,Ahmednagar,Parner,1,Ward No.999 Sarpanch,GEN,2462,2495,0,209
  May 2018  Gram panchayat sARPANCH  General Election    ,Vashi,Raigad,Pen,999,SARPANCH PRABHAG,GEN,2006,2272,0,210
  May 2018  Gram panchayat sARPANCH  General Election    ,Rampur,Ahmednagar,Shrirampur,999,Ward No 1,GEN(W),364,324,0,211
  May 2018  Gram panchayat sARPANCH  General Election    ,Gangapur,Ahmednagar,Rahuri,999,SARPANCH,B.C.C.,455,398,0,212
@@ -286,6 +291,7 @@ Election Program Name,LocalBody Name,District,Taluka,Ward No,Ward Name,Reservati
  May 2018  Gram panchayat sARPANCH  General Election    ,Limbala,Parbhani,Jintur,999,999,GEN,628,614,0,301
  May 2018  Gram panchayat sARPANCH  General Election    ,Ambarle,Raigad,Mangaon,999,999,GEN(W),650,607,0,302
  May 2018  Gram panchayat sARPANCH  General Election    ,Salve,Dhule,Shindkheda,999,SARPANCH,S.T.,1117,1032,0,303
+ May 2018  Gram panchayat sARPANCH  General Election    ,GP	Saiv Bk.	,Pune,Velha,3,sarpanch prabhag,GEN,224,195,0,304
  May 2018  Gram panchayat sARPANCH  General Election    ,Kelzar,Nashik,Baglan,999,Kelzar,S.T.(W),839,830,0,305
  May 2018  Gram panchayat sARPANCH  General Election    ,Kharavali,Raigad,Mangaon,999,999,GEN(W),957,917,0,306
  May 2018  Gram panchayat sARPANCH  General Election    ,GP	Vaghode	,Dhule,Shindkheda,999,SARPANCH,B.C.C.,597,481,0,307
@@ -413,6 +419,7 @@ Election Program Name,LocalBody Name,District,Taluka,Ward No,Ward Name,Reservati
  May 2018  Gram panchayat sARPANCH  General Election    ,Kusalewadi 	,Sangli,Shirala,999,Sarpanch Prabhag,GEN,266,263,0,435
  May 2018  Gram panchayat sARPANCH  General Election    ,Marathewadi 	,Sangli,Shirala,999,Sarpanch Prabhag,GEN,258,253,0,436
  May 2018  Gram panchayat sARPANCH  General Election    ,Meni,Sangli,Shirala,999,Sarpanch Prabhag,B.C.C.,539,468,0,437
+ May 2018  Gram panchayat sARPANCH  General Election    ,Ekhatpur-Munjavadi,Pune,Purandar,1,Sarpanch Prabhag,B.C.C.,463,469,0,438
  May 2018  Gram panchayat sARPANCH  General Election    ,Morewadi 	,Sangli,Shirala,999,Sarpanch Prabhag,GEN,258,235,0,439
  May 2018  Gram panchayat sARPANCH  General Election    ,GP	Hatwanjari	,Yavatmal,Maregaon,999,Hatwanjari,S.T.(W),325,275,0,440
  May 2018  Gram panchayat sARPANCH  General Election    ,Rajuri,Pune,Purandar,999,Sarpanch Prabhag,B.C.C.,1119,1001,0,441
@@ -440,7 +447,9 @@ Election Program Name,LocalBody Name,District,Taluka,Ward No,Ward Name,Reservati
  May 2018  Gram panchayat sARPANCH  General Election    ,Waradh,Yavatmal,Ralegaon,999,ward no 999 varadh,S.T.(W),697,666,0,463
  May 2018  Gram panchayat sARPANCH  General Election    ,Pimpari Kh.,Sangli,Atpadi,999,999,GEN(W),779,696,0,464
  May 2018  Gram panchayat sARPANCH  General Election    ,GP	Arli	,Yavatmal,Kelapur,999,ward no 999,S.T.(W),662,653,0,465
+ May 2018  Gram panchayat sARPANCH  General Election    ,Udachiwadi,Pune,Purandar,1,Sarpanch Prabhag,GEN,360,338,0,466
  May 2018  Gram panchayat sARPANCH  General Election    ,Bahattar,Yavatmal,Kelapur,999,ward no 999,S.T.(W),653,583,0,468
+ May 2018  Gram panchayat sARPANCH  General Election    ,Vir,Pune,Purandar,1,Sarpanch Prabhag,GEN,2589,2269,0,469
  May 2018  Gram panchayat sARPANCH  General Election    ,Nilji-Bamni	,Sangli,Miraj,999,Ward No. 999,GEN(W),544,537,0,472
  May 2018  Gram panchayat sARPANCH  General Election    ,Kondhi,Yavatmal,Kelapur,999,ward no 999,S.T.(W),602,562,0,473
  May 2018  Gram panchayat sARPANCH  General Election    ,Vajegaon	,Sangli,Miraj,999,Ward No. 999,B.C.C.(W),167,178,0,474
@@ -504,6 +513,7 @@ Election Program Name,LocalBody Name,District,Taluka,Ward No,Ward Name,Reservati
  May 2018  Gram panchayat sARPANCH  General Election    ,Morgiri,Raigad,Poladpur,999,SARPANCHA PRABHAG,GEN,167,163,330,533
  May 2018  Gram panchayat sARPANCH  General Election    ,Supedhar,Pune,Ambegaon,999,Sarpanch,S.T.(W),292,267,0,534
  May 2018  Gram panchayat sARPANCH  General Election    ,Mahalunge,Raigad,Poladpur,999,SARPANCHA PRABHAG,B.C.C.(W),233,240,0,535
+ May 2018  Gram panchayat sARPANCH  General Election    ,Gavhanwadi,Satara,Patan,1,Sarpanch Ward,GEN,272,290,0,536
  May 2018  Gram panchayat sARPANCH  General Election    ,Navsarwadi,Satara,Patan,999,Sarpanch Ward,B.C.C.(W),468,488,0,537
  May 2018  Gram panchayat sARPANCH  General Election    ,Kombadwadi	,Satara,Koregaon,999,SARPANCH PRABHAG,GEN,180,162,0,538
  May 2018  Gram panchayat sARPANCH  General Election    ,Awasari Bk.,Pune,Ambegaon,999,Sarpanch,S.T.,1971,1831,0,539
