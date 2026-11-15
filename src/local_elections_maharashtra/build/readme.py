@@ -119,6 +119,16 @@ def render():
     withheld_rows = [[p, n(g["rows"].sum()), ", ".join(sorted(g["ward_no_printed"].astype(str).unique(), key=lambda x: (len(x), x)))]
                      for p, g in withheld.groupby("programme", sort=False)]
     nu = not_used.iloc[0]
+    examined = pd.read_csv(SEARCH_LOG / "files_examined.csv", dtype=str, keep_default_na=False)
+    examined = examined[examined["kind"].isin(["counting", "ward_seat", "winner_report"])]
+    stem = examined["original_filename"].str.replace(r"(\s*\(\d+\)|\s+-\s+[\dT.-]+|_\d{1,2})?\.xlsx?$", "", regex=True)
+    stem = stem.where(stem.str.match(r"(Counting_Report|Ward_seat_details_report)_\d\d_\d\d_\d{4}$"), "other names")
+    report = examined["kind"].map({"counting": "Counting", "ward_seat": "Ward-Seat", "winner_report": "Winning Counting"})
+    download_rows = [[rep, f"`{st}`" if st != "other names" else st, n(len(g)), n((g["deposit"] == "raw_unchanged").sum()),
+                      n((g["deposit"] == "sarpanch_extract").sum()),
+                      n(((g["deposit"] == "none") & (g["sarpanch_rows"] == "0")).sum()),
+                      n((~g["deposit"].isin(["raw_unchanged", "sarpanch_extract"]) & ~((g["deposit"] == "none") & (g["sarpanch_rows"] == "0"))).sum())]
+                     for (rep, st), g in examined.groupby([report, stem], sort=True)]
     doc = f"""# Data
 
 ## Sources
@@ -150,7 +160,18 @@ Only sarpanch rows are deposited: rows with ward number 999 in a programme whose
   in the repository.
 - **Examined, not used** ([`search_log/sources_not_used.csv`](search_log/sources_not_used.csv)): `{nu['original_filename']}`
   ({n(nu['sarpanch_rows'])} sarpanch rows): {nu['reason']}.
-- Every file examined is listed, without local paths, in [`search_log/files_examined.csv`](search_log/files_examined.csv).
+- Every file examined is listed, without local paths, in [`search_log/files_examined.csv`](search_log/files_examined.csv):
+  the election programme it prints, its rows and sarpanch rows, and where it is held or why it
+  is not deposited.
+
+**File numbers are not a series.** The portal names every export of one day alike
+(`Counting_Report_03_06_2023.xls`), and the browser adds `(1)`, `(2)`, ... to each further
+download. The number is the order of download; it does not identify a programme, and the
+numbers in `raw/sec/` do not run without breaks because the other downloads are held as extracts
+or hold no sarpanch rows. Almost every file prints one election programme, which
+`search_log/files_examined.csv` names.
+
+{table(download_rows, ['Report', 'File name stem', 'Downloads', 'Held unchanged', 'Held as sarpanch extract', 'No sarpanch rows, not deposited', 'Other'])}
 
 ## Tables
 

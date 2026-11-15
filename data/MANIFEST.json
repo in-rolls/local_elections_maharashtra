@@ -1,7 +1,7 @@
 {
  "data/README.md": {
-  "sha256": "23e61782ee8b258864c9c3ec9232655378a1d5e523d82e7bf9da8c8e54892c4d",
-  "bytes": 32982
+  "sha256": "8ee0a2deb428b796d091b91b49de67cf52dac53bdbf55b13066ee29f43595535",
+  "bytes": 34185
  },
  "data/checks/alias_review.csv": {
   "sha256": "81af57c9c94639ab4a177d63bce31ca14857507a5205087e3e751f77c0329004",
@@ -807,8 +807,8 @@
   }
  },
  "data/search_log/files_examined.csv": {
-  "sha256": "7d26e783afc3ec7e07a9a0b6c73ca922635a8f61ef32d6e140efe3c6eb5d063e",
-  "bytes": 48313,
+  "sha256": "e95196bbd6786d1c7678b365949feb05247cd8e8535fccfd774cd26adcf98f2c",
+  "bytes": 81684,
   "rows": 262
  },
  "data/search_log/roster_rows_not_admitted.csv": {
