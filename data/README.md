@@ -29,7 +29,26 @@ Only sarpanch rows are deposited: rows with ward number 999 in a programme whose
   in the repository.
 - **Examined, not used** ([`search_log/sources_not_used.csv`](search_log/sources_not_used.csv)): `CountingDataGP-Part1(2018-2020).xlsx`
   (5,360 sarpanch rows): consolidated workbook, not an SEC portal export; where a portal download prints the same contest, this workbook prints fewer rows; it has a Candidate Sub Category column that prints jati.
-- Every file examined is listed, without local paths, in [`search_log/files_examined.csv`](search_log/files_examined.csv).
+- Every file examined is listed, without local paths, in [`search_log/files_examined.csv`](search_log/files_examined.csv):
+  the election programme it prints, its rows and sarpanch rows, and where it is held or why it
+  is not deposited.
+
+**File numbers are not a series.** The portal names every export of one day alike
+(`Counting_Report_03_06_2023.xls`), and the browser adds `(1)`, `(2)`, ... to each further
+download. The number is the order of download; it does not identify a programme, and the
+numbers in `raw/sec/` do not run without breaks because the other downloads are held as extracts
+or hold no sarpanch rows. Almost every file prints one election programme, which
+`search_log/files_examined.csv` names.
+
+| Report | File name stem | Downloads | Held unchanged | Held as sarpanch extract | No sarpanch rows, not deposited | Other |
+|---|---|---|---|---|---|---|
+| Counting | `Counting_Report_02_06_2023` | 4 | 0 | 1 | 3 | 0 |
+| Counting | `Counting_Report_03_06_2023` | 93 | 27 | 12 | 54 | 0 |
+| Counting | `Counting_Report_15_11_2023` | 2 | 1 | 0 | 1 | 0 |
+| Counting | other names | 9 | 1 | 4 | 3 | 1 |
+| Ward-Seat | `Ward_seat_details_report_03_02_2024` | 135 | 31 | 27 | 77 | 0 |
+| Ward-Seat | `Ward_seat_details_report_15_11_2023` | 1 | 0 | 0 | 1 | 0 |
+| Winning Counting | other names | 3 | 0 | 2 | 1 | 0 |
 
 ## Tables
 

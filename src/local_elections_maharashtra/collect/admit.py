@@ -56,7 +56,7 @@ def main(sources: list[tuple[str, int, Path]]) -> None:
             rec = {"original_filename": path.name, "collection": label, "sha256": sha, "bytes": len(data)}
             if sha in seen:
                 first = seen[sha]
-                rec.update(deposit="duplicate_bytes", duplicate_of=first["original_filename"])
+                rec.update(deposit="duplicate_bytes", duplicate_of=first["original_filename"], where="not stored: same bytes as another download")
                 examined.append(rec)
                 if first.get("repo_path", "").startswith("data/raw/"):
                     fetch.append(dict(path=f"{Path(first['repo_path']).parent.as_posix()}/{path.name}", url="",
@@ -67,19 +67,22 @@ def main(sources: list[tuple[str, int, Path]]) -> None:
             try:
                 table, fmt, n_tables = read_table(data)
             except Exception as error:  # noqa: BLE001 - recorded, not hidden
-                rec.update(deposit="unreadable", note=str(error)[:80])
+                rec.update(deposit="unreadable", note=str(error)[:80], where="not deposited: unreadable")
                 examined.append(rec)
                 continue
             kind = kind_of(table.columns)
             rec.update(format=fmt, n_tables=n_tables, rows=len(table), kind=kind or "not_a_seat_table")
+            if "Election Program Name" in table.columns:
+                programmes = sorted({tidy(x) for x in table["Election Program Name"] if tidy(x)})
+                rec.update(programmes=len(programmes), election_programme=" | ".join(programmes))
             if kind is None:
-                rec["deposit"] = "none"
+                rec.update(deposit="none", where="not deposited: not a seat or counting table")
                 examined.append(rec)
                 continue
             keep, is_999, sarpanch_programme = sarpanch_mask(table)
             rec["sarpanch_rows"] = int(keep.sum())
             if path.name in not_used.index:
-                rec["deposit"] = "examined_not_used"
+                rec.update(deposit="examined_not_used", where="not deposited: see search_log/sources_not_used.csv")
                 skipped.append(dict(original_filename=path.name, original_sha256=sha, original_bytes=len(data),
                                     kind=kind, rows=len(table), sarpanch_rows=int(keep.sum()),
                                     reason=not_used.at[path.name, "reason"],
@@ -94,7 +97,7 @@ def main(sources: list[tuple[str, int, Path]]) -> None:
                 for (programme, ward_no), n in grouped.items():
                     withheld.append(dict(file=path.name, programme=tidy(programme), ward_no_printed=ward_no, rows=int(n)))
             if not keep.any():
-                rec["deposit"] = "none"
+                rec.update(deposit="none", where="not deposited: no sarpanch rows (ward-member rows only)")
                 examined.append(rec)
                 continue
             if keep.all():
@@ -117,12 +120,15 @@ def main(sources: list[tuple[str, int, Path]]) -> None:
                                      rows_withheld=int((~keep).sum()), withheld_in_sarpanch_programme=int(odd.sum()),
                                      collection=label, priority=priority, filter_rule=FILTER_RULE))
                 rec["deposit"] = "sarpanch_extract"
-            rec["repo_path"] = repo_path
+            rec["repo_path"] = rec["where"] = repo_path
             examined.append(rec)
     pd.DataFrame(fetch).to_csv(FETCH_LOG, index=False)
     pd.DataFrame(extracts).to_csv(EXTRACTS, index=False)
     pd.DataFrame(skipped).to_csv(SEARCH_LOG / "sources_not_used.csv", index=False)
-    pd.DataFrame(examined).drop(columns=["repo_path"], errors="ignore").to_csv(SEARCH_LOG / "files_examined.csv", index=False)
+    index = pd.DataFrame(examined).drop(columns=["repo_path"], errors="ignore")
+    for column in ("n_tables", "rows", "programmes", "sarpanch_rows"):
+        index[column] = index[column].astype("Int64")
+    index.to_csv(SEARCH_LOG / "files_examined.csv", index=False)
     pd.DataFrame(withheld).to_csv(CHECKS / "withheld_by_programme.csv", index=False)
     print(pd.DataFrame(examined)["deposit"].value_counts().to_string())
 
