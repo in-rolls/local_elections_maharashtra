@@ -16,21 +16,21 @@ Column names follow that repository's pooled schema.
 
 | | |
 |---|---:|
-| Sarpanch seat events (`sarpanch_results`) | 20,622 |
-| from the SEC Ward-Seat Details reports | 20,608 |
+| Sarpanch seat events (`sarpanch_results`) | 20,751 |
+| from the SEC Ward-Seat Details reports | 20,737 |
 | found only in SEC counting reports | 14 |
-| with counting rows attached | 16,906 |
-| winner named | 12,956 |
-| Counting rows (`sarpanch_candidates`) | 65,950 in 16,907 contests |
-| Election programmes | 54 (396 seats in by-elections) |
+| with counting rows attached | 17,012 |
+| winner named | 12,975 |
+| Counting rows (`sarpanch_candidates`) | 66,332 in 17,013 contests |
+| Election programmes | 54 (405 seats in by-elections) |
 
 | Year | Seats | With counting rows | No counting rows | Shared place name | Winner named |
 |---|---|---|---|---|---|
-| 2017 | 5,235 | 3,898 | 1,335 | 2 | 0 |
-| 2018 | 2,145 | 1,163 | 982 | 0 | 1,154 |
-| 2019 | 1,342 | 628 | 710 | 4 | 622 |
+| 2017 | 5,328 | 3,985 | 1,341 | 2 | 0 |
+| 2018 | 2,165 | 1,175 | 990 | 0 | 1,166 |
+| 2019 | 1,357 | 634 | 719 | 4 | 628 |
 | 2020 | 48 | 32 | 16 | 0 | 32 |
-| 2022 | 9,491 | 9,171 | 320 | 0 | 9,141 |
+| 2022 | 9,492 | 9,172 | 320 | 0 | 9,142 |
 | 2023 | 2,352 | 2,014 | 338 | 0 | 2,007 |
 | no year in the programme name | 9 | 0 | 9 | 0 | 0 |
 

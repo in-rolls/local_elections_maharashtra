@@ -9,7 +9,7 @@ import pandas as pd
 
 from local_elections_maharashtra.build.readme_rosters import END as ROSTERS_END
 from local_elections_maharashtra.build.readme_rosters import START as ROSTERS_START
-from local_elections_maharashtra.paths import CHECKS, DATA, ROOT, SEARCH_LOG
+from local_elections_maharashtra.paths import CHECKS, DATA, RELEASE, ROOT, SEARCH_LOG
 
 RESULT_COLUMNS = {
     "state": "Maharashtra",
@@ -21,7 +21,7 @@ RESULT_COLUMNS = {
     "election_duration": "The date as printed in the programme name, the event discriminator in the master's seat key",
     "district, block, gram_panchayat": "District, taluka and local body (GP), whitespace tidied; printed values in the `*_raw` columns",
     "tier, tier_local": "`gp_head`, `sarpanch`",
-    "ward_no_raw": "`999`, the SEC's ward number for the sarpanch seat",
+    "ward_no_raw": "The ward number printed for the seat: `999`, the SEC's number for the sarpanch seat, or another number where the SEC printed the sarpanch seat under a ward number (see Sources)",
     "seat_event_id": "Row identifier: sha1 of `source_path#source_row_number`, first 12 hex digits",
     "contest_id": "Links the seat to its rows in `sarpanch_candidates`; null where no counting rows are attached",
     "reserved_raw": "The seat's reservation as printed in the Ward-Seat report, e.g. `B.C.C.(W)`",
@@ -119,6 +119,19 @@ def render():
     withheld_rows = [[p, n(g["rows"].sum()), ", ".join(sorted(g["ward_no_printed"].astype(str).unique(), key=lambda x: (len(x), x)))]
                      for p, g in withheld.groupby("programme", sort=False)]
     nu = not_used.iloc[0]
+    seats = pd.read_parquet(RELEASE / "sarpanch_results.parquet", columns=["ward_no_raw", "result_in_source", "election_programme"])
+    cand = pd.read_parquet(RELEASE / "sarpanch_candidates.parquet", columns=["ward_no_raw", "contest_id"])
+    other = seats[seats["ward_no_raw"].str.strip() != "999"]
+    other_contests = cand.loc[cand["ward_no_raw"].str.strip() != "999", "contest_id"].nunique()
+    other_rows = int((cand["ward_no_raw"].str.strip() != "999").sum())
+    other_top = other["election_programme"].value_counts()
+    wc = pd.read_csv(CHECKS / "withheld_contests.csv")
+    bench = json.loads((CHECKS / "withheld_contests_benchmark.json").read_text())
+    member_cols = [c for c in wc.columns if c.startswith("ward-member contest")]
+    unknown_cols = [c for c in wc.columns if c.startswith("cannot tell")]
+    possible_cols = [c for c in wc.columns if c.startswith(("sarpanch contest", "possible sarpanch", "fits both"))]
+    wc_member, wc_unknown, wc_possible = (int(wc[cols].to_numpy().sum()) for cols in (member_cols, unknown_cols, possible_cols))
+    wc_fp = wc[wc["programme"].str.contains("First Phase", case=False)]
     examined = pd.read_csv(SEARCH_LOG / "files_examined.csv", dtype=str, keep_default_na=False)
     examined = examined[examined["kind"].isin(["counting", "ward_seat", "winner_report"])]
     stem = examined["original_filename"].str.replace(r"(\s*\(\d+\)|\s+-\s+[\dT.-]+|_\d{1,2})?\.xlsx?$", "", regex=True)
@@ -146,8 +159,14 @@ The RTI reservation rosters (`sarpanch_rti_reservations`) have their own sources
 | Ward-Seat Details report | a seat in one programme, with its reservation and electors | Election Program Name, LocalBody Name, District, Taluka, Ward No, Ward Name, Reservation, Male / Female / Other Voters |
 | Winning Counting report (608 and 1165 programmes) | the winner of one contest | used to decide ties and no-vote contests, and as a check |
 
-Only sarpanch rows are deposited: rows with ward number 999 in a programme whose name contains
-"sarpan". How each committed file is held:
+Only sarpanch rows are deposited. A sarpanch row is a row of a programme whose name contains
+"sarpan" that prints ward number 999, the SEC's number for the sarpanch seat, or that prints
+another ward number for a seat the Ward-Seat report itself names for the sarpanch (its Ward Name
+reads "SARPANCH PRABHAG", "SARPANCH WARD" and the like). A counting row of the second kind must
+also print the seat's reservation. Neither kind is taken where the programme prints a ward-999
+seat or contest for the same GP, or names more than one ward of the GP for the sarpanch. {n(len(other))} seats ({n(other_top.iloc[0])} in the
+"{other_top.index[0]}" programme) and {n(other_contests)} contests ({n(other_rows)} counting rows) come
+in this way; `ward_no_raw` keeps the printed number. How each committed file is held:
 
 - **Unchanged** (`raw/sec/`): {raw['counting']['files']} counting reports ({raw['counting']['mb']} MB) and
   {raw['ward_seat']['files']} Ward-Seat reports ({raw['ward_seat']['mb']} MB) that hold only sarpanch rows. Each is listed in
@@ -222,8 +241,16 @@ may be wrong where those are.
 - **Seats without counting rows.** {n(R['result_in_source'].get('False', 0))} seats in the Ward-Seat reports
   have no counting rows in these files (by year in the README).
 - **Rows withheld.** {n(s['withheld_in_sarpanch_programmes']['rows'])} rows inside sarpanch-named programmes print
-  a ward number other than 999 ({n(s['withheld_in_sarpanch_programmes']['first_phase_2017_rows'])} of them in the
-  7 Oct 2017 "First Phase" programme). They are not deposited:
+  a ward number other than 999 and are not sarpanch rows by the rule above ({n(s['withheld_in_sarpanch_programmes']['first_phase_2017_rows'])} of them in the
+  7 Oct 2017 "First Phase" programme). They are not deposited. Compared with the Ward-Seat
+  reports, contest by contest ([`checks/withheld_contests.csv`](checks/withheld_contests.csv)), {n(wc['contests'].sum())} withheld counting
+  contests are {n(wc_member)} ward-member contests (the GP has several wards printed, or the votes and
+  reservation fit the ward's seat and not the sarpanch seat) and {n(wc_unknown)} that cannot be placed,
+  {n(int(wc_fp[unknown_cols].to_numpy().sum()))} of them in the First Phase, which prints no reservation;
+  {"none fits" if wc_possible == 0 else n(wc_possible) + " fit"} a sarpanch seat. Votes in a sarpanch contest come to a median
+  {bench['votes_over_gp_electors_median']:.0%} of the GP's electors
+  ([`checks/withheld_contests_benchmark.json`](checks/withheld_contests_benchmark.json)); the withheld First Phase contests come to
+  {wc_fp['median_votes_over_gp_electors'].iloc[0]:.0%} of the GP's electors and {wc_fp['median_votes_over_ward_electors'].iloc[0]:.0%} of their ward's.
 
 {table(withheld_rows, ['Programme', 'Rows withheld', 'Ward numbers printed'])}
 

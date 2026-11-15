@@ -1,48 +1,48 @@
 source_path,read,released,evidence_only,dropped,balanced
-data/extracted/sec_sarpanch_rows/counting/2022-09-18_sarpanch_counting.xlsx.csv,2520,0,0,2520,True
+data/extracted/sec_sarpanch_rows/counting/2022-09-18_sarpanch_counting.xlsx.csv,2521,0,0,2521,True
 data/extracted/sec_sarpanch_rows/counting/2022-10-13_sarpanch_counting.xlsx.csv,4854,0,0,4854,True
 data/extracted/sec_sarpanch_rows/counting/Counting Data-1165 Sarpanch.xls.csv,4854,0,0,4854,True
-data/extracted/sec_sarpanch_rows/counting/Counting Data-608 GP(Sarpanch).xls.csv,2520,0,0,2520,True
+data/extracted/sec_sarpanch_rows/counting/Counting Data-608 GP(Sarpanch).xls.csv,2521,0,0,2521,True
 data/extracted/sec_sarpanch_rows/counting/Counting_Report_02_06_2023.xls.csv,42,42,0,0,True
-data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (1).xls.csv,13297,13297,0,0,True
-data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (13).xls.csv,1949,1949,0,0,True
+data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (1).xls.csv,13595,13595,0,0,True
+data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (13).xls.csv,1961,1961,0,0,True
 data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (17).xls.csv,474,474,0,0,True
-data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (22).xls.csv,1287,1287,0,0,True
-data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (33).xls.csv,2750,2750,0,0,True
-data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (43).xls.csv,411,411,0,0,True
-data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (52).xls.csv,1629,1629,0,0,True
-data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (55).xls.csv,15,15,0,0,True
-data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (64).xls.csv,33,33,0,0,True
+data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (22).xls.csv,1330,1330,0,0,True
+data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (33).xls.csv,2755,2755,0,0,True
+data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (43).xls.csv,421,421,0,0,True
+data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (52).xls.csv,1635,1635,0,0,True
+data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (55).xls.csv,18,18,0,0,True
+data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (64).xls.csv,37,37,0,0,True
 data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (66).xls.csv,189,189,0,0,True
-data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (88).xls.csv,2520,2520,0,0,True
+data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (88).xls.csv,2521,2521,0,0,True
 data/extracted/sec_sarpanch_rows/counting/Counting_Report_03_06_2023 (90).xls.csv,4854,4854,0,0,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (16).xls.csv,716,716,0,0,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (2).xls.csv,3947,3947,0,0,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (20).xls.csv,303,303,0,0,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (16).xls.csv,718,718,0,0,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (2).xls.csv,4035,4035,0,0,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (20).xls.csv,305,305,0,0,True
 data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (22).xls.csv,55,54,0,1,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (24).xls.csv,26,26,0,0,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (26).xls.csv,616,615,0,1,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (34).xls.csv,49,49,0,0,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (36).xls.csv,1,1,0,0,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (39).xls.csv,16,15,0,1,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (44).xls.csv,1016,1015,0,1,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (45).xls.csv,32,32,0,0,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (60).xls.csv,253,252,0,1,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (24).xls.csv,28,28,0,0,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (26).xls.csv,626,625,0,1,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (34).xls.csv,50,50,0,0,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (36).xls.csv,2,2,0,0,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (39).xls.csv,18,16,0,2,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (44).xls.csv,1018,1017,0,1,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (45).xls.csv,33,33,0,0,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (60).xls.csv,256,255,0,1,True
 data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (66).xls.csv,2,2,0,0,True
 data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (68).xls.csv,70,70,0,0,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (70).xls.csv,549,549,0,0,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (75).xls.csv,43,43,0,0,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (70).xls.csv,554,554,0,0,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (75).xls.csv,45,45,0,0,True
 data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (77).xls.csv,144,144,0,0,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (87).xls.csv,59,59,0,0,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (91).xls.csv,106,106,0,0,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (94).xls.csv,104,104,0,0,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (87).xls.csv,60,60,0,0,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (91).xls.csv,107,107,0,0,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (94).xls.csv,107,107,0,0,True
 data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 (97).xls.csv,34,34,0,0,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 - 2024-02-02T213811.504.xls.csv,49,0,0,49,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 - 2024-02-02T213834.320.xls.csv,1,0,0,1,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 - 2024-02-02T214116.996.xls.csv,594,594,0,0,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 - 2024-02-02T213811.504.xls.csv,50,0,0,50,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 - 2024-02-02T213834.320.xls.csv,2,0,0,2,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 - 2024-02-02T214116.996.xls.csv,595,595,0,0,True
 data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024 - 2024-02-02T214145.549.xls.csv,1155,1155,0,0,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024_1.xls.csv,439,439,0,0,True
-data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024_4.xls.csv,14,14,0,0,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024_1.xls.csv,441,441,0,0,True
+data/extracted/sec_sarpanch_rows/ward_seat/Ward_seat_details_report_03_02_2024_4.xls.csv,15,15,0,0,True
 data/extracted/sec_sarpanch_rows/winner_reports/Winning Counting Data-1165 Sarpanch.xls.csv,1114,0,1114,0,True
 data/extracted/sec_sarpanch_rows/winner_reports/Winning Counting-608 Sarpanch.xls.csv,585,0,585,0,True
 data/raw/sec/counting/2022-12-18_sarpanch_counting.xls,28028,0,0,28028,True

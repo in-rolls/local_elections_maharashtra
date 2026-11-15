@@ -137,7 +137,7 @@ def build():
     (counting, frame, reports), extracts = load_sources()
     district_alias, taluka_alias = aliases()
     for kind in ("counting", "ward_seat"):
-        ledger.log("R4", f"source rows ({kind})", "row selection", "rows other than Ward No 999 in a sarpanch programme",
+        ledger.log("R4", f"source rows ({kind})", "row selection", "rows of a sarpanch programme that are not sarpanch rows (ward 999, or a ward the Ward-Seat report names for the sarpanch)",
                    "withheld (not deposited)", extracts.loc[extracts["kind"] == kind, "rows_withheld"].astype(int).sum(),
                    "sarpanch-only deposit; counts by file in sarpanch_extracts.csv, by programme in withheld_by_programme.csv",
                    decided_by="depositor, 2026-11-09")

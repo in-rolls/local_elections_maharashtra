@@ -15,8 +15,14 @@ The RTI reservation rosters (`sarpanch_rti_reservations`) have their own sources
 | Ward-Seat Details report | a seat in one programme, with its reservation and electors | Election Program Name, LocalBody Name, District, Taluka, Ward No, Ward Name, Reservation, Male / Female / Other Voters |
 | Winning Counting report (608 and 1165 programmes) | the winner of one contest | used to decide ties and no-vote contests, and as a check |
 
-Only sarpanch rows are deposited: rows with ward number 999 in a programme whose name contains
-"sarpan". How each committed file is held:
+Only sarpanch rows are deposited. A sarpanch row is a row of a programme whose name contains
+"sarpan" that prints ward number 999, the SEC's number for the sarpanch seat, or that prints
+another ward number for a seat the Ward-Seat report itself names for the sarpanch (its Ward Name
+reads "SARPANCH PRABHAG", "SARPANCH WARD" and the like). A counting row of the second kind must
+also print the seat's reservation. Neither kind is taken where the programme prints a ward-999
+seat or contest for the same GP, or names more than one ward of the GP for the sarpanch. 129 seats (88 in the
+"Second Phase G P Sarpanch General Election 16-10-2017" programme) and 106 contests (382 counting rows) come
+in this way; `ward_no_raw` keeps the printed number. How each committed file is held:
 
 - **Unchanged** (`raw/sec/`): 29 counting reports (38.9 MB) and
   31 Ward-Seat reports (8.7 MB) that hold only sarpanch rows. Each is listed in
@@ -69,7 +75,7 @@ counting reports. 58 columns.
 | `election_duration` | The date as printed in the programme name, the event discriminator in the master's seat key |
 | `district`, `block`, `gram_panchayat` | District, taluka and local body (GP), whitespace tidied; printed values in the `*_raw` columns |
 | `tier`, `tier_local` | `gp_head`, `sarpanch` |
-| `ward_no_raw` | `999`, the SEC's ward number for the sarpanch seat |
+| `ward_no_raw` | The ward number printed for the seat: `999`, the SEC's number for the sarpanch seat, or another number where the SEC printed the sarpanch seat under a ward number (see Sources) |
 | `seat_event_id` | Row identifier: sha1 of `source_path#source_row_number`, first 12 hex digits |
 | `contest_id` | Links the seat to its rows in `sarpanch_candidates`; null where no counting rows are attached |
 | `reserved_raw` | The seat's reservation as printed in the Ward-Seat report, e.g. `B.C.C.(W)` |
@@ -127,11 +133,11 @@ reconciles row for row with its sources. 45 columns.
 
 | Rule | Contests | When | Winner |
 |---|---:|---|---|
-| W1 | 11,872 | votes recorded; the rank-1 row is a candidate | that candidate (`published`) |
+| W1 | 11,890 | votes recorded; the rank-1 row is a candidate | that candidate (`published`) |
 | W2 | 1 | votes recorded; the NOTA row has the most votes | null |
-| W3 | 1,080 | no votes on any row; one distinct candidate | that candidate (`sole_candidate`) |
+| W3 | 1,081 | no votes on any row; one distinct candidate | that candidate (`sole_candidate`) |
 | W4 | 36 | no votes on any row; two or more distinct candidates | the SEC winner report's winner where one covers the contest, else null |
-| W5 | 3,899 | 2017 (names not printed) | null |
+| W5 | 3,986 | 2017 (names not printed) | null |
 | W6 | 19 | two or more candidates printed at rank 1 | the SEC winner report's winner where one covers the contest, else null |
 
 ## What was changed from the sources
@@ -144,114 +150,120 @@ aliases used to join reports are in [`manual/aliases.csv`](manual/aliases.csv) (
 
 | Rule | Table | Column | Printed | Released | Rows |
 |---|---|---|---|---|---|
-| R4 | source rows (counting) | row selection | rows other than Ward No 999 in a sarpanch programme | withheld (not deposited) | 6,320 |
-| R4 | source rows (ward_seat) | row selection | rows other than Ward No 999 in a sarpanch programme | withheld (not deposited) | 489 |
+| R4 | source rows (counting) | row selection | rows of a sarpanch programme that are not sarpanch rows (ward 999, or a ward the Ward-Seat report names for the sarpanch) | withheld (not deposited) | 5,936 |
+| R4 | source rows (ward_seat) | row selection | rows of a sarpanch programme that are not sarpanch rows (ward 999, or a ward the Ward-Seat report names for the sarpanch) | withheld (not deposited) | 357 |
 | R5 | source rows | row selection | no district, taluka or GP name in the source row | dropped; listed in dropped_rows.csv | 4 |
-| R5 | source rows | row selection | same contest in another download (identical rows) | dropped; listed in dropped_rows.csv | 42,904 |
+| R5 | source rows | row selection | same contest in another download (identical rows) | dropped; listed in dropped_rows.csv | 42,909 |
 | R6 | sarpanch_candidates | election_programme | programme printed with a different spelling or spacing in another file | the Ward-Seat report's spelling; this row's own in election_programme_raw | 11 |
-| R9 | sarpanch_candidates | programme_date, year, election_type, election_duration | programme name | read from the programme name | 65,950 |
-| R9 | sarpanch_candidates | programme_date | programme name without a dd-mm-yyyy date | nan | 1,355 |
+| R9 | sarpanch_candidates | programme_date, year, election_type, election_duration | programme name | read from the programme name | 66,332 |
+| R9 | sarpanch_candidates | programme_date | programme name without a dd-mm-yyyy date | nan | 1,401 |
 | R9 | sarpanch_candidates | year | programme name without a year | nan | 0 |
 | R6 | sarpanch_candidates | division | edge, repeated or embedded whitespace (tabs, newlines) | single spaces, trimmed; printed value in division_raw | 0 |
 | R6 | sarpanch_candidates | district | edge, repeated or embedded whitespace (tabs, newlines) | single spaces, trimmed; printed value in district_raw | 0 |
 | R6 | sarpanch_candidates | block | edge, repeated or embedded whitespace (tabs, newlines) | single spaces, trimmed; printed value in block_raw | 0 |
 | R6 | sarpanch_candidates | gram_panchayat | edge, repeated or embedded whitespace (tabs, newlines) | single spaces, trimmed; printed value in gram_panchayat_raw | 0 |
-| R8 | sarpanch_candidates | reserved_caste, reserved_woman | GEN | NONE, 0 | 16,332 |
-| R8 | sarpanch_candidates | reserved_caste, reserved_woman | GEN(W) | NONE, 1 | 14,309 |
-| R8 | sarpanch_candidates | reserved_caste, reserved_woman | B.C.C. | BC, 0 | 7,299 |
-| R8 | sarpanch_candidates | reserved_caste, reserved_woman | S.T. | ST, 0 | 7,174 |
-| R8 | sarpanch_candidates | reserved_caste, reserved_woman | B.C.C.(W) | BC, 1 | 6,615 |
-| R8 | sarpanch_candidates | reserved_caste, reserved_woman | S.T.(W) | ST, 1 | 6,368 |
-| R8 | sarpanch_candidates | reserved_caste, reserved_woman | S.C. | SC, 0 | 4,004 |
-| R8 | sarpanch_candidates | reserved_caste, reserved_woman | S.C.(W) | SC, 1 | 3,849 |
-| R8 | sarpanch_candidates | reserved_caste_local | reserved_raw | reserved_raw without the (W) suffix | 65,950 |
+| R8 | sarpanch_candidates | reserved_caste, reserved_woman | GEN | NONE, 0 | 16,461 |
+| R8 | sarpanch_candidates | reserved_caste, reserved_woman | GEN(W) | NONE, 1 | 14,406 |
+| R8 | sarpanch_candidates | reserved_caste, reserved_woman | B.C.C. | BC, 0 | 7,364 |
+| R8 | sarpanch_candidates | reserved_caste, reserved_woman | S.T. | ST, 0 | 7,177 |
+| R8 | sarpanch_candidates | reserved_caste, reserved_woman | B.C.C.(W) | BC, 1 | 6,648 |
+| R8 | sarpanch_candidates | reserved_caste, reserved_woman | S.T.(W) | ST, 1 | 6,369 |
+| R8 | sarpanch_candidates | reserved_caste, reserved_woman | S.C. | SC, 0 | 4,044 |
+| R8 | sarpanch_candidates | reserved_caste, reserved_woman | S.C.(W) | SC, 1 | 3,863 |
+| R8 | sarpanch_candidates | reserved_caste_local | reserved_raw | reserved_raw without the (W) suffix | 66,332 |
 | R6 | sarpanch_candidates | candidate_name | edge or repeated whitespace | trimmed; printed value in candidate_name_raw | 1 |
-| R1 | sarpanch_candidates | candidate_name | NOTA (every 2017 row) | null; candidate_name_placeholder = true | 15,530 |
-| R1 | sarpanch_candidates | nota_tally | (2017) | nan | 15,530 |
-| R2 | sarpanch_candidates | candidate_name, nota_tally | NOTA (2018 on) | candidate_name null; nota_tally = true | 12,028 |
-| R8 | sarpanch_candidates | candidate_woman | Female | 1 | 19,975 |
-| R8 | sarpanch_candidates | candidate_woman | Male | 0 | 18,398 |
+| R1 | sarpanch_candidates | candidate_name | NOTA (every 2017 row) | null; candidate_name_placeholder = true | 15,840 |
+| R1 | sarpanch_candidates | nota_tally | (2017) | nan | 15,840 |
+| R2 | sarpanch_candidates | candidate_name, nota_tally | NOTA (2018 on) | candidate_name null; nota_tally = true | 12,046 |
+| R8 | sarpanch_candidates | candidate_woman | Female | 1 | 19,992 |
+| R8 | sarpanch_candidates | candidate_woman | Male | 0 | 18,435 |
 | R8 | sarpanch_candidates | candidate_woman | Other | nan | 19 |
-| R11 | sarpanch_candidates | candidate_woman, candidate_caste | (blank) on 2017 rows | nan | 15,530 |
-| R11 | sarpanch_candidates | candidate_woman, candidate_caste | (blank) on NOTA rows | nan | 12,028 |
-| R8 | sarpanch_candidates | candidate_caste | GEN | NONE | 14,295 |
-| R8 | sarpanch_candidates | candidate_caste | B.C.C | BC | 9,681 |
-| R8 | sarpanch_candidates | candidate_caste | ST | ST | 9,517 |
-| R8 | sarpanch_candidates | candidate_caste | SC | SC | 4,899 |
-| R7 | sarpanch_candidates | votes, candidate_rank | text | integer | 65,950 |
-| R7 | all tables | every cell of .xls/.xlsx sources | spreadsheet number | whole numbers written without .0 | 67,649 |
+| R11 | sarpanch_candidates | candidate_woman, candidate_caste | (blank) on 2017 rows | nan | 15,840 |
+| R11 | sarpanch_candidates | candidate_woman, candidate_caste | (blank) on NOTA rows | nan | 12,046 |
+| R8 | sarpanch_candidates | candidate_caste | GEN | NONE | 14,320 |
+| R8 | sarpanch_candidates | candidate_caste | B.C.C | BC | 9,695 |
+| R8 | sarpanch_candidates | candidate_caste | ST | ST | 9,520 |
+| R8 | sarpanch_candidates | candidate_caste | SC | SC | 4,911 |
+| R7 | sarpanch_candidates | votes, candidate_rank | text | integer | 66,332 |
+| R7 | all tables | every cell of .xls/.xlsx sources | spreadsheet number | whole numbers written without .0 | 68,031 |
 | R3 | sarpanch_candidates | candidate_row_repeated | same name, votes and rank printed twice in one contest | flag true on each copy | 59 |
-| R3-W1 | sarpanch_results | winner | (contest) | votes recorded; the rank-1 row is a candidate: winner as published | 11,872 |
+| R3-W1 | sarpanch_results | winner | (contest) | votes recorded; the rank-1 row is a candidate: winner as published | 11,890 |
 | R3-W2 | sarpanch_results | winner | (contest) | votes recorded; NOTA has the most votes: winner null | 1 |
-| R3-W3 | sarpanch_results | winner | (contest) | no votes on any row; one distinct candidate: that candidate (sole_candidate) | 1,080 |
+| R3-W3 | sarpanch_results | winner | (contest) | no votes on any row; one distinct candidate: that candidate (sole_candidate) | 1,081 |
 | R3-W4 | sarpanch_results | winner | (contest) | no votes on any row; two or more distinct candidates: null unless an SEC winner report names one | 36 |
-| R3-W5 | sarpanch_results | winner | (contest) | 2017: names not in the source: winner null | 3,899 |
+| R3-W5 | sarpanch_results | winner | (contest) | 2017: names not in the source: winner null | 3,986 |
 | R3-W6 | sarpanch_results | winner | (contest) | two or more candidates printed at rank 1: null unless an SEC winner report names one | 19 |
 | R3 | sarpanch_results | winner, winner_basis, result_source_path | (contest) | taken from the SEC winner report (608 and 1165 programmes) | 4 |
-| R6 | sarpanch_results | election_programme | programme printed with a different spelling or spacing in another file | the Ward-Seat report's spelling; this row's own in election_programme_raw | 17 |
-| R9 | sarpanch_results | programme_date, year, election_type, election_duration | programme name | read from the programme name | 20,608 |
-| R9 | sarpanch_results | programme_date | programme name without a dd-mm-yyyy date | nan | 822 |
+| R6 | sarpanch_results | election_programme | programme printed with a different spelling or spacing in another file | the Ward-Seat report's spelling; this row's own in election_programme_raw | 18 |
+| R9 | sarpanch_results | programme_date, year, election_type, election_duration | programme name | read from the programme name | 20,737 |
+| R9 | sarpanch_results | programme_date | programme name without a dd-mm-yyyy date | nan | 839 |
 | R9 | sarpanch_results | year | programme name without a year | nan | 9 |
 | R6 | sarpanch_results | district | edge, repeated or embedded whitespace (tabs, newlines) | single spaces, trimmed; printed value in district_raw | 0 |
 | R6 | sarpanch_results | block | edge, repeated or embedded whitespace (tabs, newlines) | single spaces, trimmed; printed value in block_raw | 0 |
-| R6 | sarpanch_results | gram_panchayat | edge, repeated or embedded whitespace (tabs, newlines) | single spaces, trimmed; printed value in gram_panchayat_raw | 1,652 |
-| R8 | sarpanch_results | reserved_caste, reserved_woman | GEN | NONE, 0 | 4,754 |
-| R8 | sarpanch_results | reserved_caste, reserved_woman | GEN(W) | NONE, 1 | 4,662 |
-| R8 | sarpanch_results | reserved_caste, reserved_woman | B.C.C.(W) | BC, 1 | 2,413 |
-| R8 | sarpanch_results | reserved_caste, reserved_woman | B.C.C. | BC, 0 | 2,391 |
-| R8 | sarpanch_results | reserved_caste, reserved_woman | S.T.(W) | ST, 1 | 2,144 |
-| R8 | sarpanch_results | reserved_caste, reserved_woman | S.T. | ST, 0 | 2,000 |
-| R8 | sarpanch_results | reserved_caste, reserved_woman | S.C.(W) | SC, 1 | 1,139 |
-| R8 | sarpanch_results | reserved_caste, reserved_woman | S.C. | SC, 0 | 1,105 |
-| R8 | sarpanch_results | reserved_caste_local | reserved_raw | reserved_raw without the (W) suffix | 20,608 |
-| R10 | sarpanch_results | (join) | district, taluka or GP printed differently in the Ward-Seat and counting files | joined through data/manual/aliases.csv; printed names unchanged | 537 |
-| R3 | sarpanch_results | winner_woman_from_candidates | the winner's Candidate Gender cell in the counting file | copied to the seat row | 12,956 |
+| R6 | sarpanch_results | gram_panchayat | edge, repeated or embedded whitespace (tabs, newlines) | single spaces, trimmed; printed value in gram_panchayat_raw | 1,667 |
+| R8 | sarpanch_results | reserved_caste, reserved_woman | GEN | NONE, 0 | 4,793 |
+| R8 | sarpanch_results | reserved_caste, reserved_woman | GEN(W) | NONE, 1 | 4,695 |
+| R8 | sarpanch_results | reserved_caste, reserved_woman | B.C.C.(W) | BC, 1 | 2,425 |
+| R8 | sarpanch_results | reserved_caste, reserved_woman | B.C.C. | BC, 0 | 2,410 |
+| R8 | sarpanch_results | reserved_caste, reserved_woman | S.T.(W) | ST, 1 | 2,148 |
+| R8 | sarpanch_results | reserved_caste, reserved_woman | S.T. | ST, 0 | 2,006 |
+| R8 | sarpanch_results | reserved_caste, reserved_woman | S.C.(W) | SC, 1 | 1,144 |
+| R8 | sarpanch_results | reserved_caste, reserved_woman | S.C. | SC, 0 | 1,116 |
+| R8 | sarpanch_results | reserved_caste_local | reserved_raw | reserved_raw without the (W) suffix | 20,737 |
+| R10 | sarpanch_results | (join) | district, taluka or GP printed differently in the Ward-Seat and counting files | joined through data/manual/aliases.csv; printed names unchanged | 560 |
+| R3 | sarpanch_results | winner_woman_from_candidates | the winner's Candidate Gender cell in the counting file | copied to the seat row | 12,975 |
 | R3 | sarpanch_results | runner_up | two or more candidates tie for second place | null; runner_up_tie = true; runner_up_votes kept | 20 |
-| R3 | sarpanch_results | unopposed_from_candidates | one distinct candidate and no votes on any row | true | 1,080 |
+| R3 | sarpanch_results | unopposed_from_candidates | one distinct candidate and no votes on any row | true | 1,081 |
 
 ## Known issues
 
 These are properties of the files as received. The values come from the SEC's servers and
 may be wrong where those are.
 
-- **2017: no candidate names.** All 15,530 counting rows of 2017 print `NOTA` in the
+- **2017: no candidate names.** All 15,840 counting rows of 2017 print `NOTA` in the
   candidate-name column and leave gender and caste blank. Names are released as missing; the
   file does not mark which row, if any, is the NOTA count, so no 2017 winner is named.
-- **Seats without counting rows.** 3,710 seats in the Ward-Seat reports
+- **Seats without counting rows.** 3,733 seats in the Ward-Seat reports
   have no counting rows in these files (by year in the README).
-- **Rows withheld.** 6,825 rows inside sarpanch-named programmes print
-  a ward number other than 999 (5,719 of them in the
-  7 Oct 2017 "First Phase" programme). They are not deposited:
+- **Rows withheld.** 6,309 rows inside sarpanch-named programmes print
+  a ward number other than 999 and are not sarpanch rows by the rule above (5,717 of them in the
+  7 Oct 2017 "First Phase" programme). They are not deposited. Compared with the Ward-Seat
+  reports, contest by contest ([`checks/withheld_contests.csv`](checks/withheld_contests.csv)), 1,039 withheld counting
+  contests are 955 ward-member contests (the GP has several wards printed, or the votes and
+  reservation fit the ward's seat and not the sarpanch seat) and 84 that cannot be placed,
+  81 of them in the First Phase, which prints no reservation;
+  none fits a sarpanch seat. Votes in a sarpanch contest come to a median
+  84% of the GP's electors
+  ([`checks/withheld_contests_benchmark.json`](checks/withheld_contests_benchmark.json)); the withheld First Phase contests come to
+  24% of the GP's electors and 81% of their ward's.
 
 | Programme | Rows withheld | Ward numbers printed |
 |---|---|---|
-| First Phase G P Sarpanch General Election 07-10-2017 | 5,719 | 1, 2, 3, 4, 5, 6 |
-| Second Phase G P Sarpanch General Election 16-10-2017 | 573 | 1, 2, 3, 4, 6 |
-| 735 Gram Panchayat Sarpanch General Election Date 26-12-2017_Copy | 54 | 1, 2, 3, 4 |
-| 317 Gram Panchayat Sarpanch General Election Date 25-02-2018 | 11 | 1, 123 |
-| May 2018 Gram panchayat sARPANCH General Election | 75 | 1, 2, 3, 4, 5 |
-| GP Sarpanch Election Date-26-09-2018 | 56 | 1, 2, 3, 4, 5, 6 |
-| Sarpanch General Election Gramapanchayt Date 24-02-2019 | 28 | 1, 2, 3 |
+| First Phase G P Sarpanch General Election 07-10-2017 | 5,717 | 1, 2, 3, 4, 5, 6 |
+| Second Phase G P Sarpanch General Election 16-10-2017 | 187 | 1, 2, 3, 4, 6 |
+| 735 Gram Panchayat Sarpanch General Election Date 26-12-2017_Copy | 40 | 1, 2, 3, 4 |
+| 317 Gram Panchayat Sarpanch General Election Date 25-02-2018 | 9 | 1, 123 |
+| GP Sarpanch Election Date-26-09-2018 | 49 | 1, 2, 3, 4, 5, 6 |
+| Sarpanch General Election Gramapanchayt Date 24-02-2019 | 15 | 1, 2, 3 |
 | Pune and Solapur 3 GP Gen Election Grampanchayat for Sarpanch Date 24-02-2019 | 5 | 1, 2, 3 |
-| 557 Grampanchayat Sarpanch General Election Date 24-03-2019 | 21 | 1, 2, 3 |
-| Sarpanch Bye Election in June 2019 | 24 | 1, 2, 3 |
-| 67 Grampanchayt General Sarpancha Election Date 31-08-2019 | 17 | 1, 2, 3 |
-| 112 Grampanchayt General Election for Sarpanch Date 08-12-2019 | 11 | 1, 2, 3 |
-| 608 Grampanchayat Sarpanch General Election Poll Date 18-09-2022 | 38 | 1 |
+| 557 Grampanchayat Sarpanch General Election Date 24-03-2019 | 10 | 1, 2, 3 |
+| Sarpanch Bye Election in June 2019 | 19 | 1, 2, 3 |
+| 112 Grampanchayt General Election for Sarpanch Date 08-12-2019 | 10 | 1, 2, 3 |
+| 608 Grampanchayat Sarpanch General Election Poll Date 18-09-2022 | 34 | 1 |
 | 1165 Grampanchayat Sarpanch General Election Poll Date 13-10-2022 | 83 | 1, 3, 4, 5 |
 | sarpanch Bye Election 2018 | 4 | 1, 2, 3 |
-| 2nd Programme For Gram Panchayat Sarpanch Bye Election 2018 | 2 | 1 |
-| May 2018 - Gram panchayat SARPANCH Bye Election | 44 | 1, 2, 3 |
-| 2 nd Program May 2018 Gram panchayat Sarpanch General Election | 6 | 1 |
-| 2 nd Program May - 2018 Gram panchayat Sarpanch General Election | 2 | 1 |
-| GP Bye Sarpanch Election Date- 26-09-2018 | 7 | 1, 2, 3 |
+| May 2018 Gram panchayat sARPANCH General Election | 22 | 1, 2, 3, 4, 5 |
+| May 2018 - Gram panchayat SARPANCH Bye Election | 42 | 1, 2, 3 |
+| 2 nd Program May 2018 Gram panchayat Sarpanch General Election | 4 | 1 |
+| GP Bye Sarpanch Election Date- 26-09-2018 | 6 | 1, 2, 3 |
 | Sarpanch Bye Election Date- 24-03-2019 | 13 | 1, 2, 3 |
 | 146 Grampanchayt Sarpancha General Election Date 23-06-2019 | 6 | 1, 2, 3 |
-| Sarpanch Bye Election Date 08-12-2019 | 19 | 1, 2, 3 |
+| 67 Grampanchayt General Sarpancha Election Date 31-08-2019 | 12 | 1, 2, 3 |
+| Sarpanch Bye Election Date 08-12-2019 | 16 | 1, 2, 3 |
 | 34 Grampanchayat Sarpanch General Election Date 09-01-2020 | 5 | 1, 2, 3, 4 |
-| Gram Panchayat Sarpanch General Election 07-10-2017 Fist Phase | 2 | 1, 2 |
+| Gram Panchayat Sarpanch General Election 07-10-2017 Fist Phase | 1 | 1 |
 
-- **Programmes without a date.** 823 seats are in programmes whose name prints no full
+- **Programmes without a date.** 840 seats are in programmes whose name prints no full
   date (9 with no year); 34 of them share district, taluka, GP and
   year with another such seat.
 - **Shared place names.** 6 seat rows have place names that normalise to one
@@ -260,7 +272,7 @@ may be wrong where those are.
   only in counting reports whose name is close to a Ward-Seat seat of the same programme
   and district. They are not merged.
 - **Ties and no-vote contests.** 19 contests print two candidates at rank 1;
-  1,277 contests show 0 votes on every row; 20 seats have a tie for
+  1,285 contests show 0 votes on every row; 20 seats have a tie for
   second place.
 
 ## Checks
@@ -273,13 +285,13 @@ the source file; its `verdict` column is filled in by hand.
 | Check | Appeals to | Status | Result |
 |---|---|---|---|
 | `row_accounting` | internal | pass | 106 of 106 committed source files balance: sarpanch rows recounted from each file = released + evidence-only (winner reports) + dropped. |
-| `provenance` | internal | pass | 86,558 rows and 12,956 winner rows reopened at source_path and row: 0 hash, 0 value, 0 original-row and 0 winner mismatches. |
+| `provenance` | internal | pass | 87,069 rows and 12,975 winner rows reopened at source_path and row: 0 hash, 0 value, 0 original-row and 0 winner mismatches. |
 | `keys` | internal | pass | candidate rows unique on source_path + source_row_number; seat_event_id unique; every seat has a source_path; every contest_id on a seat exists among the candidates. |
 | `column_names` | internal | pass | central docs/naming.md rules: 0 violations in both tables. |
 | `allowed_values` | internal | pass | values outside the master's enums: none. |
-| `reservation_ward_seat_vs_counting` | internal | info | Seats where both the Ward-Seat report and the counting file print a reservation code: 16,892; they differ on 0. |
+| `reservation_ward_seat_vs_counting` | internal | info | Seats where both the Ward-Seat report and the counting file print a reservation code: 16,998; they differ on 0. |
 | `winner_vs_sec_winner_report` | external | info | SEC winner reports (608 and 1165 programmes) name the same winner as rules W1 and W3 for 1,692 of 1,692 seats they cover. |
-| `women_share_by_category` | external | info | Share of seats reserved for women within each category: BC 50.2%, NONE 49.5%, SC 50.7%, ST 51.7%. |
+| `women_share_by_category` | external | info | Share of seats reserved for women within each category: BC 50.1%, NONE 49.5%, SC 50.6%, ST 51.7%. |
 
 <!-- rosters:start -->
 
