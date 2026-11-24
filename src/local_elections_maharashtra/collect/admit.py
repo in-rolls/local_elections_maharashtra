@@ -18,6 +18,10 @@ prints another ward number for a seat the Ward-Seat report itself names for the 
 
 Local folder paths are not written anywhere; each folder is named by its ``--source`` label.
 
+A source folder may hold a hidden ``.fetched.csv`` (``original_filename, url, fetched_at_utc``) for
+downloads whose time and report page were recorded; those values go to the fetch log. Without it
+both stay blank, as for the downloads of 2023 and 2024.
+
 usage: python -m local_elections_maharashtra.collect.admit \
            --source LABEL=PRIORITY=FOLDER [--source ...]
 PRIORITY breaks ties when two downloads print a contest with the same number of rows
@@ -124,6 +128,14 @@ def sarpanch_rows(table: pd.DataFrame, kind: str, named: NamedSarpanchWards) -> 
     return keep, keep, sarpanch_programme
 
 
+def fetch_notes(folder: Path) -> dict[str, dict]:
+    """Download time and report page per file, where the folder records them (see the module docstring)."""
+    note = folder / ".fetched.csv"
+    if not note.exists():
+        return {}
+    return pd.read_csv(note, dtype=str, keep_default_na=False).set_index("original_filename").to_dict("index")
+
+
 def read_all(sources: list[tuple[str, int, Path]]) -> list[pd.DataFrame]:
     """Every readable table once, for the cross-file rule; files in not_used.csv are left out."""
     not_used = set(pd.read_csv(MANUAL / "not_used.csv", dtype=str)["original_filename"])
@@ -150,9 +162,11 @@ def main(sources: list[tuple[str, int, Path]]) -> None:
     seen: dict[str, dict] = {}
     examined, fetch, extracts, skipped, withheld = [], [], [], [], []
     for label, priority, folder in sources:
+        notes = fetch_notes(folder)
         for path in sorted(p for p in folder.iterdir() if p.is_file() and not p.name.startswith(".")):
             data = path.read_bytes()
             sha = hashlib.sha256(data).hexdigest()
+            noted = notes.get(path.name, {})
             rec = {"original_filename": path.name, "collection": label, "sha256": sha, "bytes": len(data)}
             if sha in seen:
                 first = seen[sha]
@@ -206,7 +220,8 @@ def main(sources: list[tuple[str, int, Path]]) -> None:
                 repo_path = f"data/raw/sec/{FOLDER[kind]}/{path.name}"
                 (ROOT / repo_path).parent.mkdir(parents=True, exist_ok=True)
                 shutil.copyfile(path, ROOT / repo_path)
-                fetch.append(dict(path=repo_path, url="", sha256=sha, bytes=len(data), fetched_at_utc="",
+                fetch.append(dict(path=repo_path, url=noted.get("url", ""), sha256=sha, bytes=len(data),
+                                  fetched_at_utc=noted.get("fetched_at_utc", ""),
                                   method="manual", duplicate_of="", collection=label, priority=priority))
                 rec["deposit"] = "raw_unchanged"
             else:

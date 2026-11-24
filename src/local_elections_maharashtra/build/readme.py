@@ -150,6 +150,10 @@ The rows of `sarpanch_results` and `sarpanch_candidates` come from reports of th
 State Election Commission (SEC) election portal, downloaded by hand between 2023 and 2024. File
 names carry a date stamped by the portal; the URL and the time of each download were not
 recorded, so `url` and `fetched_at_utc` are blank in [`raw/fetch_log.csv`](raw/fetch_log.csv).
+The two reports of the one-GP programme of 11-09-2024 (Khuneshwar, Solapur) were downloaded from
+the same portal on 24 November 2026 (collection `sec_portal_2026_11`); for them the log gives the
+report page and the time, and the file names end in the portal's number for the programme
+(`_prog375`), added when the files were collected.
 The RTI reservation rosters (`sarpanch_rti_reservations`) have their own sources, described in
 [the roster section](#rti-sarpanch-reservation-rosters) at the end of this file.
 
