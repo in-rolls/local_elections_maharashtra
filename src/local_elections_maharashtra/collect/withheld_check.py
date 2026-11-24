@@ -8,16 +8,20 @@ Ward-Seat reports:
 
 - a GP elects one sarpanch, so a GP with withheld contests in several wards, or with its
   sarpanch contest (ward 999) printed separately in the same programme, has ward-member contests;
-- otherwise the contest is compared with the seat rows of the same programme: the ward's seat
-  (its reservation and electors) and the GP's sarpanch seat (ward 999). Votes in a sarpanch
-  contest come from the whole GP; ``benchmark`` gives the range seen in the ward-999 contests.
+- otherwise the contest's votes are compared with the ward's electors in the SEC Ward-Seat report
+  of the ward-member programme of the same date (``--member-results``; not deposited): a ward-member
+  contest cannot receive more votes than its ward has electors. The electors printed on the
+  sarpanch programme's own row are not used for this, since a sarpanch seat printed under a ward
+  number carries the whole GP's electors there. Votes in a sarpanch contest come from the whole GP;
+  ``benchmark`` gives the range seen in the ward-999 contests. Without a member report of the same
+  date the contest is marked "cannot tell".
 
 Only counts per programme are written to the repository (``data/checks/withheld_contests.csv``
 and ``withheld_contests_benchmark.json``). The contest-level table holds ward-member results and
 is written only to the private folder given by ``--detail``.
 
 usage: python -m local_elections_maharashtra.collect.withheld_check \
-           --source LABEL=PRIORITY=FOLDER [--source ...] --detail PRIVATE_FOLDER
+           --source LABEL=PRIORITY=FOLDER [--source ...] --member-results PATH --detail PRIVATE_FOLDER
 """
 
 import argparse
@@ -38,12 +42,10 @@ VERDICTS = [
     "cannot tell: the seat report names several wards of the GP for the sarpanch",
     "ward-member contest: several wards of the GP are printed",
     "ward-member contest: the GP's sarpanch contest is printed separately",
-    "ward-member contest: fits the ward's seat, not the sarpanch seat",
-    "ward-member contest: the programme lists this ward's seat and no sarpanch seat for the GP",
-    "possible sarpanch contest printed with a ward number",
-    "fits both the ward's seat and the sarpanch seat",
-    "cannot tell: no seat rows for this GP in the programme",
-    "cannot tell: fits neither seat",
+    "ward-member contest: votes fit the ward's electors in the member report of the same date",
+    "possible sarpanch contest: votes exceed the ward's electors in the member report of the same date",
+    "fits both the ward's electors and the GP's",
+    "cannot tell: no member report of the same date for the ward",
 ]
 
 
@@ -67,8 +69,28 @@ def norm_res(value) -> str:
     return re.sub(r"[^A-Z()]", "", str(value).upper())
 
 
-def main(sources, detail: Path) -> None:
+def member_wards(member_results: Path, da: dict, ta: dict) -> tuple[pd.Series, pd.Series, pd.Series, pd.Series]:
+    """From the member report: electors of each ward, (date, place, ward) -> electors, where its rows agree; of each
+    GP, (date, place); and the seats of each ward, by (date, place, ward) and by (date, place, ward, reservation)."""
+    m = pd.read_parquet(member_results)
+    m = m[m["in_ward_seat_report"].fillna(False).astype(bool)].copy()
+    m["date"] = pd.to_datetime(m["programme_date"], errors="coerce").dt.strftime("%Y-%m-%d")
+    m["g"] = [f"{da.get(nk(d), nk(d))}|{ta.get(nk(b), nk(b))}|{gp_key(g)}" for d, b, g in zip(m["district"], m["block"], m["gram_panchayat"], strict=True)]
+    m["electors"] = m[["electors_man", "electors_woman", "electors_other"]].fillna(0).sum(axis=1)
+    m["ward"] = m["ward_no"].astype(str).str.strip()
+    per = m.dropna(subset=["date"]).groupby(["date", "g", "ward"])["electors"].agg(["min", "max"])
+    ward = per.loc[per["min"] == per["max"], "max"]
+    ok = per.groupby(level=[0, 1]).apply(lambda x: bool((x["min"] == x["max"]).all()))
+    gp = ward.groupby(level=[0, 1]).sum()
+    m["res"] = m["reserved_raw"].map(norm_res)
+    seats = m.dropna(subset=["date"])
+    return (ward, gp[gp.index.isin(ok[ok].index)], seats.groupby(["date", "g", "ward"]).size(),
+            seats.groupby(["date", "g", "ward", "res"]).size())
+
+
+def main(sources, member_results: Path, detail: Path) -> None:
     da, ta = aliases()
+    m_ward, m_gp, m_seats, m_seats_res = member_wards(member_results, da, ta)
     not_used = set(pd.read_csv(MANUAL / "not_used.csv", dtype=str)["original_filename"])
 
     joined = seat_aliases()
@@ -147,11 +169,15 @@ def main(sources, detail: Path) -> None:
         votes = float(grp["votes"].sum())
         member = seat.loc[(lk, g, ward)] if (lk, g, ward) in seat.index else None
         sarpanch = seat.loc[(lk, g, "999")] if (lk, g, "999") in seat.index else None
-        member_res = member is not None and (res == "" or res in member["res"])
-        sarpanch_res = sarpanch is not None and (res == "" or res in sarpanch["res"])
         seats_in_contest = (returned.loc[(lk, g, ward)].sum() if res == "" else returned.get((lk, g, ward, res), 1)) if member is not None else 1
-        fits_member = bool(member_res and member["electors"] > 0 and 0 < votes <= 1.05 * member["electors"] * seats_in_contest)
-        fits_sarpanch = bool(sarpanch_res and sarpanch["electors"] > 0 and low <= votes / sarpanch["electors"] <= high)
+        ward_el = m_ward.get((lk, g, ward)) if re.fullmatch(r"\d{4}-\d{2}-\d{2}", lk) else None
+        # seats the contest fills, from the member report: each voter casts one vote per seat
+        if ward_el:
+            seats_in_contest = int(m_seats.get((lk, g, ward), 1) if res == "" else m_seats_res.get((lk, g, ward, res), 1))
+        gp_el = m_gp.get((lk, g)) if re.fullmatch(r"\d{4}-\d{2}-\d{2}", lk) else None
+        if gp_el is None and sarpanch is not None and sarpanch["electors"] > 0:
+            gp_el = sarpanch["electors"]
+        fits_sarpanch = bool(gp_el and low <= votes / gp_el <= high)
         named_seat = named.loc[(lk, g, ward)] if (lk, g, ward) in named.index else None
         if (lk, g) in several:
             verdict = VERDICTS[1]
@@ -161,18 +187,14 @@ def main(sources, detail: Path) -> None:
             verdict = VERDICTS[2]
         elif (lk, g) in has_999:
             verdict = VERDICTS[3]
-        elif fits_member and not fits_sarpanch:
-            verdict = VERDICTS[4]
-        elif member_res and sarpanch is None:
-            verdict = VERDICTS[5]
-        elif fits_sarpanch and not fits_member:
-            verdict = VERDICTS[6]
-        elif fits_member and fits_sarpanch:
+        elif not ward_el:
             verdict = VERDICTS[7]
-        elif member is None and sarpanch is None:
-            verdict = VERDICTS[8]
+        elif votes > 1.05 * ward_el * seats_in_contest:
+            verdict = VERDICTS[5]
+        elif fits_sarpanch:
+            verdict = VERDICTS[6]
         else:
-            verdict = VERDICTS[9]
+            verdict = VERDICTS[4]
         rows.append(dict(programme=programme, file=grp["file"].iloc[0], place=g, ward_no_printed=ward, reservation_printed=res,
                          rows=len(grp), votes=votes,
                          ward_seat_reservations=";".join(member["res"]) if member is not None else "",
@@ -180,10 +202,11 @@ def main(sources, detail: Path) -> None:
                          named_seat_reservation=";".join(named_seat["res"]) if named_seat is not None else "",
                          named_seat_electors=named_seat["electors"] if named_seat is not None else None,
                          gp_has_999_seat=sarpanch is not None,
-                         ward_electors=member["electors"] if member is not None else None,
+                         ward_electors_member_report=ward_el,
+                         gp_electors_member_report=m_gp.get((lk, g)),
                          sarpanch_seat_reservation=";".join(sarpanch["res"]) if sarpanch is not None else "",
                          gp_electors=sarpanch["electors"] if sarpanch is not None else None,
-                         votes_over_ward_electors=votes / member["electors"] if member is not None and member["electors"] else None,
+                         votes_over_ward_electors=votes / ward_el if ward_el else None,
                          votes_over_gp_electors=votes / sarpanch["electors"] if sarpanch is not None and sarpanch["electors"] else None,
                          verdict=verdict))
     out = pd.DataFrame(rows)
@@ -207,6 +230,7 @@ def main(sources, detail: Path) -> None:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--source", action="append", required=True, type=parse_source)
+    parser.add_argument("--member-results", required=True, type=Path)
     parser.add_argument("--detail", required=True, type=Path)
     args = parser.parse_args()
-    main(args.source, args.detail)
+    main(args.source, args.member_results, args.detail)

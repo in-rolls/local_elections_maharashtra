@@ -138,10 +138,18 @@ def build():
     (counting, frame, reports), extracts = load_sources()
     district_alias, taluka_alias = aliases()
     for kind in ("counting", "ward_seat"):
-        ledger.log("R4", f"source rows ({kind})", "row selection", "rows of a sarpanch programme that are not sarpanch rows (ward 999, or a ward the Ward-Seat report names for the sarpanch)",
+        ledger.log("R4", f"source rows ({kind})", "row selection", "rows of a sarpanch programme that are not sarpanch rows (ward 999; a ward the Ward-Seat report names for the sarpanch; or the one ward of a GP whose seat row carries the GP's electors)",
                    "withheld (not deposited)", extracts.loc[extracts["kind"] == kind, "rows_withheld"].astype(int).sum(),
                    "sarpanch-only deposit; counts by file in sarpanch_extracts.csv, by programme in withheld_by_programme.csv",
                    decided_by="depositor, 2026-11-09")
+    ward_number_seats = pd.read_csv(CHECKS / "ward_number_seats.csv", dtype=str, keep_default_na=False)
+    ledger.log("R12", "sarpanch_results", "row selection",
+               "a GP printed under one ward number other than 999, no ward-999 or named row, its row's electors within 2% "
+               "of the GP's electors in the ward-member Ward-Seat report of the same date (extracted/member_gp_electors.csv)",
+               "taken as the sarpanch seat; ward_no_raw keeps the printed number",
+               int(ward_number_seats["verdict"].str.startswith("admitted").sum()),
+               "a ward seat cannot hold the whole GP's electors; every GP considered, with its verdict, in checks/ward_number_seats.csv",
+               decided_by="depositor, 2026-11-24")
 
     def seat_key(t):
         programme = t["Election Program Name"].map(nk).str.replace("copy", "", regex=False)
@@ -310,9 +318,12 @@ def build():
     for col in provenance:
         cand[col] = c_src[col]
     cand["_seat"], cand["_rawseat"] = c_src["_seat"], c_src["_rawseat"]
-    first = cand.sort_values(["source_path", "source_row_number"]).drop_duplicates("_seat").set_index("_seat")
+    # ids are built from the SEC download as received (its sha256) and the row's place in it, so they do not change
+    # when the rows kept from a download change, and they cannot repeat an id of the earlier scheme
+    # (sha1 of source_path#source_row_number)
+    first = cand.sort_values(["source_path", "original_row_number"]).drop_duplicates("_seat").set_index("_seat")
     cand["contest_id"] = cand["_seat"].map(
-        lambda s: hashlib.sha1(f"{first.at[s, 'source_path']}#{first.at[s, 'source_row_number']}".encode()).hexdigest()[:12])
+        lambda s: hashlib.sha1(f"{first.at[s, 'original_sha256']}#{int(first.at[s, 'original_row_number'])}".encode()).hexdigest()[:12])
     name_key = cand["candidate_name"].map(lambda v: nk(v) if isinstance(v, str) else None)
     cand["candidate_row_repeated"] = ~y2017 & ~is_nota & cand.assign(_p=name_key).duplicated(
         ["_seat", "_p", "votes", "candidate_rank"], keep=False)
@@ -404,8 +415,8 @@ def build():
     extra["in_ward_seat_report"], extra["shared_place_name"] = False, False
     res = pd.concat([res, extra], ignore_index=True)
     res["reserved_caste_scheme"] = "sc_st_obc"
-    res["seat_event_id"] = [hashlib.sha1(f"{p}#{n}".encode()).hexdigest()[:12]
-                            for p, n in zip(res["source_path"], res["source_row_number"], strict=True)]
+    res["seat_event_id"] = [hashlib.sha1(f"{s}#{int(n)}".encode()).hexdigest()[:12]
+                            for s, n in zip(res["original_sha256"], res["original_row_number"], strict=True)]
     has = res["_seat"].isin(contests.index) & ~res["shared_place_name"]
     res["result_in_source"] = has.astype("boolean")
     res.loc[res["shared_place_name"], "result_in_source"] = pd.NA

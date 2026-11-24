@@ -21,7 +21,7 @@ from collections import Counter
 
 import pandas as pd
 
-from local_elections_maharashtra.paths import CHECKS, EXTRACTS, FETCH_LOG, RELEASE, ROOT, SEARCH_LOG
+from local_elections_maharashtra.paths import CHECKS, EXTRACTS, FETCH_LOG, MEMBER_ELECTORS, RELEASE, ROOT, SEARCH_LOG
 from local_elections_maharashtra.readers import aliases, gp_key, nk, read_table, sarpanch_mask, seat_aliases, tidy
 
 FORBIDDEN_WORDS = {"gender", "sex", "female", "women", "category", "quota"}
@@ -148,6 +148,35 @@ def main() -> int:
            "(manual/aliases.csv, level seat): the released rows under the counting spelling equal, cell for cell, the "
            "rows another committed download prints under the Ward-Seat spelling; rows released from evidence-only "
            f"downloads: {evidence_released}." + "".join(f" FAIL {p} -> {j}: {why}." for p, j, why in failures))
+
+    # ---- seats taken on their electorate: reopen the evidence for each
+    wns = pd.read_csv(CHECKS / "ward_number_seats.csv", dtype=str, keep_default_na=False)
+    taken = wns[wns["verdict"].str.startswith("admitted")]
+    member = (pd.read_csv(MEMBER_ELECTORS, dtype=str, keep_default_na=False) if MEMBER_ELECTORS.exists()
+              else pd.DataFrame(columns=["programme_date", "district", "block", "gram_panchayat", "electors", "status"]))
+    district_alias, taluka_alias = aliases()
+
+    def place(t):
+        return (t["district"].map(nk).replace(district_alias) + "|" + t["block"].map(nk).replace(taluka_alias) + "|"
+                + t["gram_panchayat"].map(gp_key))
+
+    member_total = dict(zip(zip(member["programme_date"], place(member), strict=True),
+                            member["electors"].where(member["status"] == "ok"), strict=True))
+    seat_electors = res[["electors_man", "electors_woman", "electors_other"]].fillna(0).sum(axis=1)
+    released_seat = dict(zip(zip(res["election_programme"], res["district"], res["block"], res["gram_panchayat"],
+                                 res["ward_no_raw"].str.strip(), strict=True), seat_electors, strict=True))
+    unbacked = []
+    for r, p in zip(taken.itertuples(), place(taken), strict=True):
+        total = member_total.get((r.programme_date, p))
+        seat = released_seat.get((r.election_programme, r.district, r.block, r.gram_panchayat, r.ward_numbers))
+        if not (total and seat is not None and int(seat) == int(float(r.electors))
+                and int(float(total)) == int(float(r.member_electors)) and abs(int(seat) - int(float(total))) <= 0.02 * int(float(total))):
+            unbacked.append(r.gram_panchayat)
+    record("ward_number_seats", "internal", not unbacked,
+           f"{len(taken) - len(unbacked)} of {len(taken)} seats taken on their electorate (checks/ward_number_seats.csv) are "
+           "released with the electors their Ward-Seat row prints, within 2% of the GP's member-report electors of the same "
+           f"date in extracted/member_gp_electors.csv; {len(wns) - len(taken)} GPs considered and withheld."
+           + (f" NOT BACKED: {', '.join(unbacked)}." if unbacked else ""))
 
     # ---- provenance: reopen every row
     bad_sha = bad_val = bad_orig = 0

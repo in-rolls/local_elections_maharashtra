@@ -129,15 +129,60 @@ def test_a_seat_alias_stands_only_on_the_same_rows_under_the_other_spelling():
     assert alias_evidence({key("tekadi"): key("tekadivan")}, {"old.csv": old, "new.csv": changed}, seats, released)
 
 
-def test_admit_never_replaces_a_file_with_other_bytes(tmp_path, monkeypatch):
+def test_admit_never_writes_one_download_over_another(tmp_path, monkeypatch):
     import pytest
 
     from local_elections_maharashtra.collect import admit
 
     monkeypatch.setattr(admit, "ROOT", tmp_path)
     target = tmp_path / "data" / "raw" / "sec" / "counting" / "Counting_Report_03_06_2023 (10).xls"
-    admit.write_once(target, b"first download", "first")
-    admit.write_once(target, b"first download", "a rerun")  # the same bytes again: allowed
+    owners = {"data/raw/sec/counting/Counting_Report_03_06_2023 (10).xls": "a" * 64}  # as the committed log records
+    admit.write_once(target, b"first download", "a" * 64, owners, "a rerun")
+    admit.write_once(target, b"its extract under a changed row rule", "a" * 64, owners, "a rerun")  # same download: allowed
     with pytest.raises(SystemExit):
-        admit.write_once(target, b"another download, same name", "second")
-    assert target.read_bytes() == b"first download"
+        admit.write_once(target, b"another download, same name", "b" * 64, owners, "second")
+    assert target.read_bytes() == b"its extract under a changed row rule"
+    fresh: dict[str, str] = {}  # a path first written in this run belongs to that download
+    other = tmp_path / "data" / "raw" / "sec" / "counting" / "new.xls"
+    admit.write_once(other, b"x", "c" * 64, fresh, "first")
+    with pytest.raises(SystemExit):
+        admit.write_once(other, b"y", "d" * 64, fresh, "second")
+
+
+def _electorate_seats(rows):
+    columns = ["Election Program Name", "District", "Taluka", "LocalBody Name", "Ward No", "Ward Name", "Reservation",
+               "Male Voters", "Female Voters", "Other Voters"]
+    return pd.DataFrame([["Sarpanch Election Date 13-10-2022", "Ratnagiri", "Rajapur", *r] for r in rows], columns=columns)
+
+
+def _electorate_counting(rows):
+    columns = ["Election Program Name", "District", "Taluka", "LocalBody Name", "Name of Contesting Candidate",
+               "Ward No.", "Ward Reservation", "Total Votes Secured", "Rank"]
+    return pd.DataFrame([["Sarpanch Election Date 13-10-2022", "Ratnagiri", "Rajapur", *r] for r in rows], columns=columns)
+
+
+def test_a_seat_under_a_ward_number_is_taken_only_on_the_whole_gp_electorate():
+    from local_elections_maharashtra.collect.admit import NamedSarpanchWards
+
+    seats = _electorate_seats([["Sagave", "5", "5", "GEN(W)", "2500", "2714", "0"],      # whole GP: 5,214
+                    ["Angale", "3", "3", "GEN", "300", "320", "0"],           # one ward's electors only
+                    ["Moor", "1", "1", "GEN", "800", "886", "0"],             # two ward numbers: never
+                    ["Moor", "2", "2", "GEN", "800", "886", "0"],
+                    ["Rajwadi", "999", "999", "GEN", "300", "413", "0"]])     # ward 999: the ordinary rule
+    member = pd.DataFrame([["2022-10-13", "Ratnagiri", "Rajapur", "Sagave", "5", "5214", "ok"],
+                           ["2022-10-13", "Ratnagiri", "Rajapur", "Angale", "3", "723", "ok"],
+                           ["2022-10-13", "Ratnagiri", "Rajapur", "Moor", "3", "1686", "ok"]],
+                          columns=["programme_date", "district", "block", "gram_panchayat", "wards", "electors", "status"])
+    counting = _electorate_counting([["Sagave", "A", "5", "GEN(W)", "1743", "1"], ["Sagave", "B", "5", "GEN(W)", "900", "2"],
+                       ["Sagave", "C", "5", "GEN", "10", "3"]])                # another reservation: not this seat
+    rule = NamedSarpanchWards([seats, counting], member_electors=member)
+    verdicts = dict(zip(rule.ward_number_seats["gram_panchayat"], rule.ward_number_seats["verdict"], strict=True))
+    assert verdicts["Sagave"].startswith("admitted")
+    assert verdicts["Angale"] == "withheld: the seat row's electors differ from the GP's"
+    assert verdicts["Moor"] == "withheld: the programme prints the GP under several ward numbers"
+    assert "Rajwadi" not in verdicts
+    assert rule.ward_seat_rows(seats).tolist() == [True, False, False, False, False]
+    assert rule.counting_rows(counting).tolist() == [True, True, False]
+    # without the member report nothing is taken
+    bare = NamedSarpanchWards([seats, counting], member_electors=pd.DataFrame())
+    assert not bare.ward_seat_rows(seats).any() and not bare.counting_rows(counting).any()

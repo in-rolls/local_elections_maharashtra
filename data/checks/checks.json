@@ -12,10 +12,16 @@
   "result": "7 of 7 GPs joined across two spellings (manual/aliases.csv, level seat): the released rows under the counting spelling equal, cell for cell, the rows another committed download prints under the Ward-Seat spelling; rows released from evidence-only downloads: 0."
  },
  {
+  "check": "ward_number_seats",
+  "appeals_to": "internal",
+  "status": "pass",
+  "result": "40 of 40 seats taken on their electorate (checks/ward_number_seats.csv) are released with the electors their Ward-Seat row prints, within 2% of the GP's member-report electors of the same date in extracted/member_gp_electors.csv; 80 GPs considered and withheld."
+ },
+ {
   "check": "provenance",
   "appeals_to": "internal",
   "status": "pass",
-  "result": "87,075 rows and 12,976 winner rows reopened at source_path and row: 0 hash, 0 value, 0 original-row and 0 winner mismatches."
+  "result": "87,186 rows and 12,991 winner rows reopened at source_path and row: 0 hash, 0 value, 0 original-row and 0 winner mismatches."
  },
  {
   "check": "keys",
@@ -39,7 +45,7 @@
   "check": "reservation_ward_seat_vs_counting",
   "appeals_to": "internal",
   "status": "info",
-  "result": "Seats where both the Ward-Seat report and the counting file print a reservation code: 17,006; they differ on 0."
+  "result": "Seats where both the Ward-Seat report and the counting file print a reservation code: 17,028; they differ on 0."
  },
  {
   "check": "winner_vs_sec_winner_report",
