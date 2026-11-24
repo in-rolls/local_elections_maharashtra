@@ -25,8 +25,8 @@ RESULT_COLUMNS = {
     "district, block, gram_panchayat": "District, taluka and local body (GP), whitespace tidied; printed values in the `*_raw` columns",
     "tier, tier_local": "`gp_head`, `sarpanch`",
     "ward_no_raw": "The ward number printed for the seat: `999`, the SEC's number for the sarpanch seat, or another number where the SEC printed the sarpanch seat under a ward number (see Sources)",
-    "seat_event_id": "Row identifier: sha1 of `source_path#source_row_number`, first 12 hex digits",
-    "contest_id": "Links the seat to its rows in `sarpanch_candidates`; null where no counting rows are attached",
+    "seat_event_id": "Row identifier: sha1 of `original_sha256#original_row_number` (the SEC download as received and the row's place in it), first 12 hex digits. It does not change when the rows kept from a download change. All ids changed once, on 24 November 2026, from sha1 of `source_path#source_row_number`; no new id repeats an old one, and `checks/id_changes_2026-11-24.csv` maps old to new",
+    "contest_id": "Links the seat to its rows in `sarpanch_candidates`: sha1 of `original_sha256#original_row_number` of the contest's first counting row, first 12 hex digits (changed with `seat_event_id`); null where no counting rows are attached",
     "reserved_raw": "The seat's reservation as printed in the Ward-Seat report, e.g. `B.C.C.(W)`",
     "reserved_caste_local": "The caste part of `reserved_raw` (`GEN`, `S.C.`, `S.T.`, `B.C.C.`)",
     "reserved_caste": "The seat's category: `NONE`, `SC`, `ST`, `BC` (B.C.C.). A property of the seat, never of the winner",
@@ -128,6 +128,8 @@ def render():
     other_contests = cand.loc[cand["ward_no_raw"].str.strip() != "999", "contest_id"].nunique()
     other_rows = int((cand["ward_no_raw"].str.strip() != "999").sum())
     other_top = other["election_programme"].value_counts()
+    wns = pd.read_csv(CHECKS / "ward_number_seats.csv", dtype=str, keep_default_na=False)
+    wns_text = "; ".join(f"{v.split(': ', 1)[1] if ': ' in v else v}: {n(c)}" for v, c in wns["verdict"].value_counts().items())
     wc = pd.read_csv(CHECKS / "withheld_contests.csv")
     bench = json.loads((CHECKS / "withheld_contests_benchmark.json").read_text())
     member_cols = [c for c in wc.columns if c.startswith("ward-member contest")]
@@ -135,6 +137,7 @@ def render():
     possible_cols = [c for c in wc.columns if c.startswith(("sarpanch contest", "possible sarpanch", "fits both"))]
     wc_member, wc_unknown, wc_possible = (int(wc[cols].to_numpy().sum()) for cols in (member_cols, unknown_cols, possible_cols))
     wc_fp = wc[wc["programme"].str.contains("First Phase", case=False)]
+    unknown_text = "; ".join(f"{c.split(': ', 1)[1]}: {n(int(wc[c].sum()))}" for c in unknown_cols if int(wc[c].sum()))
     examined = pd.read_csv(SEARCH_LOG / "files_examined.csv", dtype=str, keep_default_na=False)
     examined = examined[examined["kind"].isin(["counting", "ward_seat", "winner_report"])]
     stem = examined["original_filename"].str.replace(r"(\s*\(\d+\)|\s+-\s+[\dT.-]+|_\d{1,2})?\.xlsx?$", "", regex=True)
@@ -210,11 +213,18 @@ The RTI reservation rosters (`sarpanch_rti_reservations`) have their own sources
 Only sarpanch rows are deposited. A sarpanch row is a row of a programme whose name contains
 "sarpan" that prints ward number 999, the SEC's number for the sarpanch seat, or that prints
 another ward number for a seat the Ward-Seat report itself names for the sarpanch (its Ward Name
-reads "SARPANCH PRABHAG", "SARPANCH WARD" and the like). A counting row of the second kind must
-also print the seat's reservation. Neither kind is taken where the programme prints a ward-999
-seat or contest for the same GP, or names more than one ward of the GP for the sarpanch. {n(len(other))} seats ({n(other_top.iloc[0])} in the
+reads "SARPANCH PRABHAG", "SARPANCH WARD" and the like), or that prints the only ward number the
+programme gives a GP whose seat row carries the whole GP's electors. The last kind is measured
+against the ward-member Ward-Seat report of the same date, which is not deposited: only the sum of
+the GP's member-ward electors is, with that download's name, sha256 and row numbers, in
+[`extracted/member_gp_electors.csv`](extracted/member_gp_electors.csv). A seat row is taken when its electors are
+within 2% of that sum, since a ward seat cannot hold the whole GP's electors; every GP considered,
+admitted or not, is in [`checks/ward_number_seats.csv`](checks/ward_number_seats.csv) with its verdict ({wns_text}).
+A counting row of the second and third kinds must also print the seat's reservation. None is taken
+where the programme prints a ward-999 seat or contest for the same GP, or names more than one ward
+of the GP for the sarpanch. {n(len(other))} seats ({n(other_top.iloc[0])} in the
 "{other_top.index[0]}" programme) and {n(other_contests)} contests ({n(other_rows)} counting rows) come
-in this way; `ward_no_raw` keeps the printed number. How each committed file is held:
+in these ways; `ward_no_raw` keeps the printed number. How each committed file is held:
 
 - **Unchanged** (`raw/sec/`): {raw['counting']['files']} counting reports ({raw['counting']['mb']} MB) and
   {raw['ward_seat']['files']} Ward-Seat reports ({raw['ward_seat']['mb']} MB) that hold only sarpanch rows. Each is listed in
@@ -298,10 +308,16 @@ may be wrong where those are.
   a ward number other than 999 and are not sarpanch rows by the rule above ({n(s['withheld_in_sarpanch_programmes']['first_phase_2017_rows'])} of them in the
   7 Oct 2017 "First Phase" programme). They are not deposited. Compared with the Ward-Seat
   reports, contest by contest ([`checks/withheld_contests.csv`](checks/withheld_contests.csv)), {n(wc['contests'].sum())} withheld counting
-  contests are {n(wc_member)} ward-member contests (the GP has several wards printed, or the votes and
-  reservation fit the ward's seat and not the sarpanch seat) and {n(wc_unknown)} that cannot be placed,
-  {n(int(wc_fp[unknown_cols].to_numpy().sum()))} of them in the First Phase, which prints no reservation;
-  {"none fits" if wc_possible == 0 else n(wc_possible) + " fit"} a sarpanch seat. Votes in a sarpanch contest come to a median
+  contests are {n(wc_member)} ward-member contests (the GP has several wards printed, its sarpanch contest is
+  printed separately, or the votes fit the ward's electors in the ward-member Ward-Seat report of the same
+  date), {n(wc_unknown)} that cannot be placed ({unknown_text}; {n(int(wc_fp[unknown_cols].to_numpy().sum()))} of them in the
+  First Phase), and
+  {n(wc_possible)} that may be sarpanch contests (their votes exceed what the ward's electors can cast for its
+  seats, or fit both the ward's and the GP's). These {n(wc_possible)} are not released: none has a seat row that
+  carries the GP's electors in the member report of the same date, which the rule above requires. Most are in
+  GPs listed in [`checks/ward_number_seats.csv`](checks/ward_number_seats.csv) as "the seat row's electors differ from the GP's",
+  where the Ward-Seat report prints one ward's electors for a contest whose votes point to the whole GP; the
+  SEC files do not settle which is right. Votes in a sarpanch contest come to a median
   {bench['votes_over_gp_electors_median']:.0%} of the GP's electors
   ([`checks/withheld_contests_benchmark.json`](checks/withheld_contests_benchmark.json)); the withheld First Phase contests come to
   {wc_fp['median_votes_over_gp_electors'].iloc[0]:.0%} of the GP's electors and {wc_fp['median_votes_over_ward_electors'].iloc[0]:.0%} of their ward's.

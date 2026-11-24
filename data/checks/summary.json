@@ -19,13 +19,13 @@
  "extracts": {
   "counting": {
    "files": 19,
-   "rows_kept": 48667,
-   "rows_withheld": 5945
+   "rows_kept": 48804,
+   "rows_withheld": 5808
   },
   "ward_seat": {
    "files": 27,
-   "rows_kept": 10525,
-   "rows_withheld": 357
+   "rows_kept": 10565,
+   "rows_withheld": 317
   },
   "winner_report": {
    "files": 2,
@@ -51,7 +51,7 @@
    "original_bytes": 507928,
    "kind": "counting",
    "rows": 477,
-   "sarpanch_rows": 474,
+   "sarpanch_rows": 477,
    "reason": "2025 re-download of the counting report; every sarpanch contest it prints repeats the release row for row (candidate name, votes, rank), checked 2026-11-24. Not needed",
    "decided_by": "depositor",
    "decided_on": "2026-11-24"
@@ -84,7 +84,7 @@
    "original_bytes": 5145746,
    "kind": "counting",
    "rows": 4875,
-   "sarpanch_rows": 4854,
+   "sarpanch_rows": 4875,
    "reason": "2025 re-download of the counting report; every sarpanch contest it prints repeats the release row for row (candidate name, votes, rank), checked 2026-11-24. Not needed",
    "decided_by": "depositor",
    "decided_on": "2026-11-24"
@@ -183,7 +183,7 @@
    "original_bytes": 507928,
    "kind": "counting",
    "rows": 477,
-   "sarpanch_rows": 474,
+   "sarpanch_rows": 477,
    "reason": "2025 re-download of the counting report; every sarpanch contest it prints repeats the release row for row (candidate name, votes, rank), checked 2026-11-24. Not needed",
    "decided_by": "depositor",
    "decided_on": "2026-11-24"
@@ -227,48 +227,48 @@
    "original_bytes": 5145746,
    "kind": "counting",
    "rows": 4875,
-   "sarpanch_rows": 4854,
+   "sarpanch_rows": 4875,
    "reason": "2025 re-download of the counting report; every sarpanch contest it prints repeats the release row for row (candidate name, votes, rank), checked 2026-11-24. Not needed",
    "decided_by": "depositor",
    "decided_on": "2026-11-24"
   }
  ],
  "withheld_in_sarpanch_programmes": {
-  "rows": 6318,
+  "rows": 6141,
   "programmes": 23,
   "first_phase_2017_rows": 5717
  },
  "candidates": {
-  "rows": 66337,
-  "contests": 17014,
-  "rows_2017": 15840,
-  "nota_rows": 12047,
-  "people_2018_on": 38450,
+  "rows": 66408,
+  "contests": 17036,
+  "rows_2017": 15872,
+  "nota_rows": 12056,
+  "people_2018_on": 38480,
   "people_2018_on_blank_gender": 0,
   "gender_raw": {
-   "nan": 27887,
-   "Female": 19996,
-   "Male": 18435,
+   "nan": 27928,
+   "Female": 20011,
+   "Male": 18450,
    "Other": 19
   }
  },
  "results": {
-  "rows": 20745,
-  "in_ward_seat": 20738,
+  "rows": 20785,
+  "in_ward_seat": 20778,
   "counting_only": 7,
   "result_in_source": {
-   "True": 17013,
-   "False": 3726,
+   "True": 17035,
+   "False": 3744,
    "<NA>": 6
   },
-  "winner_named": 12976,
+  "winner_named": 12991,
   "winner_basis": {
-   "published": 11895,
-   "nan": 7769,
-   "sole_candidate": 1081
+   "published": 11904,
+   "nan": 7794,
+   "sole_candidate": 1087
   },
   "programmes": 55,
-  "by_election_seats": 405,
+  "by_election_seats": 407,
   "districts": 34,
   "no_date": 839,
   "no_year": 9,
@@ -276,31 +276,31 @@
   "flags": {
    "shared_place_name": 6,
    "runner_up_tie": 20,
-   "unopposed_from_candidates": 1081,
-   "no_votes_recorded": 1285,
+   "unopposed_from_candidates": 1087,
+   "no_votes_recorded": 1291,
    "nota_ranked_first": 1,
    "winner_tie": 19,
    "candidate_row_repeated": 29
   },
   "by_year": {
    "2017": {
-    "seats": 5328,
-    "with_counting": 3985,
-    "no_counting": 1341,
+    "seats": 5337,
+    "with_counting": 3992,
+    "no_counting": 1343,
     "unattachable": 2,
     "winner_named": 0
    },
    "2018": {
-    "seats": 2158,
-    "with_counting": 1175,
-    "no_counting": 983,
+    "seats": 2174,
+    "with_counting": 1177,
+    "no_counting": 997,
     "unattachable": 0,
-    "winner_named": 1166
+    "winner_named": 1168
    },
    "2019": {
-    "seats": 1357,
+    "seats": 1359,
     "with_counting": 634,
-    "no_counting": 719,
+    "no_counting": 721,
     "unattachable": 4,
     "winner_named": 628
    },
@@ -312,11 +312,11 @@
     "winner_named": 32
    },
    "2022": {
-    "seats": 9492,
-    "with_counting": 9172,
+    "seats": 9505,
+    "with_counting": 9185,
     "no_counting": 320,
     "unattachable": 0,
-    "winner_named": 9142
+    "winner_named": 9155
    },
    "2023": {
     "seats": 2352,
@@ -342,19 +342,19 @@
   }
  },
  "winner_rules": {
-  "W1": 11891,
+  "W1": 11900,
   "W2": 1,
-  "W3": 1081,
+  "W3": 1087,
   "W4": 36,
-  "W5": 3986,
+  "W5": 3993,
   "W6": 19
  },
  "dropped_by_reason": {
-  "same contest in another download (identical rows)": 46994,
+  "same contest in another download (identical rows)": 47060,
   "no district, taluka or GP name in the source row": 4
  },
  "alias_review_pairs": 6,
- "changes_rules": 64,
+ "changes_rules": 65,
  "accounting": {
   "files": 110,
   "balanced": 110
@@ -362,6 +362,7 @@
  "checks": {
   "row_accounting": "pass",
   "seat_aliases": "pass",
+  "ward_number_seats": "pass",
   "provenance": "pass",
   "keys": "pass",
   "column_names": "pass",

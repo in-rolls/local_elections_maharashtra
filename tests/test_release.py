@@ -47,3 +47,15 @@ def test_reservation_is_a_seat_property(tables):
     coded = res["reserved_caste"].notna()
     assert set(res.loc[coded, "reserved_caste"]) <= {"SC", "ST", "BC", "NONE"}
     assert res.loc[coded, "reserved_woman"].isin([0, 1]).all()
+
+
+def test_ids_come_from_the_row_in_the_download_as_received(tables):
+    import hashlib
+
+    cand, res = tables
+    expected = [hashlib.sha1(f"{s}#{int(n)}".encode()).hexdigest()[:12]
+                for s, n in zip(res["original_sha256"], res["original_row_number"], strict=True)]
+    assert res["seat_event_id"].tolist() == expected
+    first = cand.sort_values(["source_path", "original_row_number"]).drop_duplicates("contest_id")
+    assert all(hashlib.sha1(f"{s}#{int(n)}".encode()).hexdigest()[:12] == c
+               for s, n, c in zip(first["original_sha256"], first["original_row_number"], first["contest_id"], strict=True))
