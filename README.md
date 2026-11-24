@@ -3,7 +3,7 @@
 [![Code license: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 
 Maharashtra's gram panchayat head (sarpanch) elections from the State Election Commission's (SEC)
-reports, October 2017 to December 2023: one row per sarpanch seat event with its reservation
+reports, October 2017 to September 2024: one row per sarpanch seat event with its reservation
 and, where the SEC's counting report has it, its candidates, votes and winner. Every row points
 to the committed file and row it was read from.
 
@@ -16,13 +16,13 @@ Column names follow that repository's pooled schema.
 
 | | |
 |---|---:|
-| Sarpanch seat events (`sarpanch_results`) | 20,751 |
-| from the SEC Ward-Seat Details reports | 20,737 |
+| Sarpanch seat events (`sarpanch_results`) | 20,752 |
+| from the SEC Ward-Seat Details reports | 20,738 |
 | found only in SEC counting reports | 14 |
-| with counting rows attached | 17,012 |
-| winner named | 12,975 |
-| Counting rows (`sarpanch_candidates`) | 66,332 in 17,013 contests |
-| Election programmes | 54 (405 seats in by-elections) |
+| with counting rows attached | 17,013 |
+| winner named | 12,976 |
+| Counting rows (`sarpanch_candidates`) | 66,337 in 17,014 contests |
+| Election programmes | 55 (405 seats in by-elections) |
 
 | Year | Seats | With counting rows | No counting rows | Shared place name | Winner named |
 |---|---|---|---|---|---|
@@ -32,6 +32,7 @@ Column names follow that repository's pooled schema.
 | 2020 | 48 | 32 | 16 | 0 | 32 |
 | 2022 | 9,492 | 9,172 | 320 | 0 | 9,142 |
 | 2023 | 2,352 | 2,014 | 338 | 0 | 2,007 |
+| 2024 | 1 | 1 | 0 | 0 | 1 |
 | no year in the programme name | 9 | 0 | 9 | 0 | 0 |
 
 <!-- status:end -->

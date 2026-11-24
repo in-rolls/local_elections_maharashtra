@@ -1,18 +1,18 @@
 {
  "files_examined": {
   "none": 146,
-  "raw_unchanged": 60,
+  "raw_unchanged": 62,
   "sarpanch_extract": 46,
   "duplicate_bytes": 9,
   "examined_not_used": 1
  },
  "raw_unchanged": {
   "counting": {
-   "files": 29,
+   "files": 30,
    "mb": 38.9
   },
   "ward_seat": {
-   "files": 31,
+   "files": 32,
    "mb": 8.7
   }
  },
@@ -52,35 +52,35 @@
   "first_phase_2017_rows": 5717
  },
  "candidates": {
-  "rows": 66332,
-  "contests": 17013,
+  "rows": 66337,
+  "contests": 17014,
   "rows_2017": 15840,
-  "nota_rows": 12046,
-  "people_2018_on": 38446,
+  "nota_rows": 12047,
+  "people_2018_on": 38450,
   "people_2018_on_blank_gender": 0,
   "gender_raw": {
-   "nan": 27886,
-   "Female": 19992,
+   "nan": 27887,
+   "Female": 19996,
    "Male": 18435,
    "Other": 19
   }
  },
  "results": {
-  "rows": 20751,
-  "in_ward_seat": 20737,
+  "rows": 20752,
+  "in_ward_seat": 20738,
   "counting_only": 14,
   "result_in_source": {
-   "True": 17012,
+   "True": 17013,
    "False": 3733,
    "<NA>": 6
   },
-  "winner_named": 12975,
+  "winner_named": 12976,
   "winner_basis": {
-   "published": 11894,
+   "published": 11895,
    "nan": 7776,
    "sole_candidate": 1081
   },
-  "programmes": 54,
+  "programmes": 55,
   "by_election_seats": 405,
   "districts": 34,
   "no_date": 840,
@@ -138,6 +138,13 @@
     "unattachable": 0,
     "winner_named": 2007
    },
+   "2024": {
+    "seats": 1,
+    "with_counting": 1,
+    "no_counting": 0,
+    "unattachable": 0,
+    "winner_named": 1
+   },
    "none": {
     "seats": 9,
     "with_counting": 0,
@@ -148,7 +155,7 @@
   }
  },
  "winner_rules": {
-  "W1": 11890,
+  "W1": 11891,
   "W2": 1,
   "W3": 1081,
   "W4": 36,
@@ -162,8 +169,8 @@
  "alias_review_pairs": 9,
  "changes_rules": 64,
  "accounting": {
-  "files": 106,
-  "balanced": 106
+  "files": 108,
+  "balanced": 108
  },
  "checks": {
   "row_accounting": "pass",

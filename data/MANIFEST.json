@@ -1,7 +1,7 @@
 {
  "data/README.md": {
-  "sha256": "399684e815541fa4a756726a494eab3901a570f81e160e634f19a66088de2b1d",
-  "bytes": 35661
+  "sha256": "79313f3c8e87f2d71eaed10b5d67fc71fd50b9a328a76c313fb62fff7c81e4eb",
+  "bytes": 36046
  },
  "data/checks/alias_review.csv": {
   "sha256": "81af57c9c94639ab4a177d63bce31ca14857507a5205087e3e751f77c0329004",
@@ -9,22 +9,22 @@
   "rows": 9
  },
  "data/checks/candidate_caste_vocabulary.csv": {
-  "sha256": "b9323379f95380d93a931b4fbb769010f46f8c20bb67c72b4fb9aafec7a19ff3",
+  "sha256": "1a740bc09dc2d705946d8449a072a40398f29b81aff623ab7e48b7fe000aa3b1",
   "bytes": 100,
   "rows": 5
  },
  "data/checks/candidate_woman_vocabulary.csv": {
-  "sha256": "81010cce8f3ce0776d30dd90f477b6b30d35e7920335d7ff34a8b8e3625076a8",
+  "sha256": "8f63fa0c964eae8663e78e20726b39b2d3c4665ed7867ab0afa5d4f41bb9f264",
   "bytes": 91,
   "rows": 4
  },
  "data/checks/changes.csv": {
-  "sha256": "221d8d595ff8ed6cde835d95b24a9581b832bd350cb0a1d6d5030b5a03879ba1",
+  "sha256": "2288a128bbb153fb01e333cbbae5aed70975d7f675892e2e1c6ba006da9aa177",
   "bytes": 16482,
   "rows": 64
  },
  "data/checks/checks.json": {
-  "sha256": "c031ec4a82c4d91e9bb0b7c3caf9b257910f2265d9493f7968c27179c8848d8a",
+  "sha256": "41dccd95aa384a74e619b9af41ce665bf649d5dc1370b1e3439f9326777acca8",
   "bytes": 1671
  },
  "data/checks/download_conflicts.csv": {
@@ -43,7 +43,7 @@
   "rows": 30
  },
  "data/checks/reserved_vocabulary.csv": {
-  "sha256": "a36e76a44ebbfafec9fb2dc3edba438abbb249a18a21488a1e6733cbed6b8333",
+  "sha256": "f5e40b546147adf71c70058aab514627b1090457e92dafb42e179fe02c00cf0a",
   "bytes": 628,
   "rows": 16
  },
@@ -93,13 +93,13 @@
   "rows": 81
  },
  "data/checks/row_accounting.csv": {
-  "sha256": "82eab38a2f05362b34679cce19284d13646e971f9b8b32585b1da1eb8780bd37",
-  "bytes": 9650,
-  "rows": 106
+  "sha256": "f0f3ef4e9ff6d55a281a3ffa581d2c1a6db1ea77a5cfce617ea84be7edc92c8d",
+  "bytes": 9808,
+  "rows": 108
  },
  "data/checks/summary.json": {
-  "sha256": "6d5d4611f99031cb3902cbc1f4f50e1561de41749338ee6419091e8f0a2a541b",
-  "bytes": 3834
+  "sha256": "474be7883070ccbf53d7c6a7ccadf63fdc6d42e309b42d69a0ac1ff24e322534",
+  "bytes": 3960
  },
  "data/checks/withheld_by_programme.csv": {
   "sha256": "73e796647e54be9774baa83ecd8da29fbcec66ef32df61cfb0661336b1f1d8a8",
@@ -411,9 +411,9 @@
   "rows": 3014
  },
  "data/raw/fetch_log.csv": {
-  "sha256": "8c596d1ae4419332d69f8ab0f377392ea2ee4a8f18f84b0df8d95fabea9a5c91",
-  "bytes": 10847,
-  "rows": 62
+  "sha256": "5892dd987509aa82a667d1aa0c407e8cb7a24e89d884917e3891cabe827608c8",
+  "bytes": 11351,
+  "rows": 64
  },
  "data/raw/sec/counting/2022-12-18_sarpanch_counting.xls": {
   "sha256": "8789168a9fe7f78bf57329b6bf323ad2e6fd674c5b4def69ce163d50d8c700bd",
@@ -530,6 +530,10 @@
  "data/raw/sec/counting/Counting_Report_15_11_2023 (1).xls": {
   "sha256": "cb1cdfba39c06924831f4797732569ae322f0627f8b222cabb786bf096e01acf",
   "bytes": 1743872
+ },
+ "data/raw/sec/counting/Counting_Report_24_11_2026_prog375.xls": {
+  "sha256": "6da910adfb2bb6fa82c2c4581d10c7d197f1b4c6019f8bfd4dae7ba291348080",
+  "bytes": 7030
  },
  "data/raw/sec/ward_seat/Ward_seat_details_report_03_02_2024 (10).xls": {
   "sha256": "e29b482944a9fee84e9fa26732612ca9b407216d425658674309f591b884d624",
@@ -655,10 +659,14 @@
   "sha256": "5f040be4326af7cb4c36ad07915cf632d4050c6177ed3f2a034d4ad9338b18dd",
   "bytes": 1994
  },
+ "data/raw/sec/ward_seat/Ward_seat_details_report_24_11_2026_prog375.xls": {
+  "sha256": "94ee512827f6cd11991ea4b6457b658adc42ad11de8cea29758e3073111754ca",
+  "bytes": 2076
+ },
  "data/release/sarpanch_candidates.parquet": {
-  "sha256": "7c0bec86d223c4e66e6cd3c514e73238a582f398c5777765557fca770bcf1fd2",
-  "bytes": 2981725,
-  "rows": 66332,
+  "sha256": "020d66155ca0baa147390066c61b957d60b5e5dd561c04f0f20909ae6190b7c8",
+  "bytes": 2982423,
+  "rows": 66337,
   "schema": {
    "state": "large_string",
    "year": "int64",
@@ -708,9 +716,9 @@
   }
  },
  "data/release/sarpanch_results.parquet": {
-  "sha256": "eb4f2b2ad5c8d6b3d0a18caa29691a7056c768d09dcd401c579b7680ce639084",
-  "bytes": 1834350,
-  "rows": 20751,
+  "sha256": "687d2938c0ef0baa55d9b764ce50a8dcfc0b6bb98fa2b44673024f54232fcbfd",
+  "bytes": 1834791,
+  "rows": 20752,
   "schema": {
    "state": "large_string",
    "year": "int64",
@@ -816,9 +824,9 @@
   }
  },
  "data/search_log/files_examined.csv": {
-  "sha256": "b36ea393d9f9c097a8f8f9a59d12caebbd83f53dbfe0c5903f5c891290c143a6",
-  "bytes": 82228,
-  "rows": 262
+  "sha256": "bf7892f9ba1184b7d27c5f5b1d4a595ea2c56cb119d96ef7d2da45d3088249f1",
+  "bytes": 82890,
+  "rows": 264
  },
  "data/search_log/roster_rows_not_admitted.csv": {
   "sha256": "a48bd082b99cf5819a1068c1a9528531b792858b90c6868ae55dc7b6341f901b",
