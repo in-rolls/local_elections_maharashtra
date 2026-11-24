@@ -17,11 +17,12 @@ import hashlib
 import io
 import json
 import sys
+from collections import Counter
 
 import pandas as pd
 
 from local_elections_maharashtra.paths import CHECKS, EXTRACTS, FETCH_LOG, RELEASE, ROOT, SEARCH_LOG
-from local_elections_maharashtra.readers import read_table, sarpanch_mask, tidy
+from local_elections_maharashtra.readers import aliases, gp_key, nk, read_table, sarpanch_mask, seat_aliases, tidy
 
 FORBIDDEN_WORDS = {"gender", "sex", "female", "women", "category", "quota"}
 RETIRED = {"caste_reservation", "caste_reservation_local", "caste_scheme", "woman_reserved", "women_reserved",
@@ -42,6 +43,56 @@ def naming_violations(columns, booleans=()):
         if name.endswith(("_latin", "_probability")) and name not in booleans and f"{name}_method" not in names:
             out.append(f"{name}: no _method column")
     return out
+
+
+# collections committed only as evidence for a decision; they must release no row
+EVIDENCE_ONLY = {"sec_counting_redownloads_2025"}
+COUNTING_CELLS = ["Name of Contesting Candidate", "Candidate Gender", "Candidate Cast", "Ward No.", "Ward Reservation",
+                  "Total Votes Secured", "SymbolName", "Rank"]
+
+
+def plain_key(t: pd.DataFrame) -> pd.Series:
+    """The release's join key without the seat-level aliases: programme|district|taluka|GP as printed."""
+    district_alias, taluka_alias = aliases()
+    return (t["Election Program Name"].map(nk).str.replace("copy", "", regex=False) + "|"
+            + t["District"].map(nk).replace(district_alias) + "|" + t["Taluka"].map(nk).replace(taluka_alias) + "|"
+            + t["LocalBody Name"].map(gp_key))
+
+
+def alias_evidence(joined: dict, counting: dict, seat_keys: Counter, released_from: dict) -> list[tuple[str, str, str]]:
+    """Failures among the seat-level aliases ``printed -> joined_as``; an empty list when every pair is backed.
+
+    counting: committed counting tables by path; seat_keys: plain keys of the Ward-Seat seats, counted;
+    released_from: plain key -> paths the released candidate rows under that key come from.
+    A pair is backed when ``joined_as`` is one Ward-Seat seat and ``printed`` none; the released rows under
+    ``printed`` come from one download that prints nothing under ``joined_as``; and another committed download
+    prints, under ``joined_as`` and not under ``printed``, the same rows cell for cell.
+    """
+    keyed = {path: (table, plain_key(table)) for path, table in counting.items()}
+
+    def rows(path, key):
+        table, keys = keyed[path]
+        part = table.loc[keys == key].reindex(columns=COUNTING_CELLS)
+        return Counter("|".join(tidy(v) for v in r) for r in part.itertuples(index=False))
+
+    failures = []
+    for printed, joined_as in joined.items():
+        name = (printed.split("|")[-1], joined_as.split("|")[-1])
+        if seat_keys[joined_as] != 1 or seat_keys[printed] != 0:
+            failures.append((*name, f"Ward-Seat seats under joined_as {seat_keys[joined_as]}, under printed {seat_keys[printed]}"))
+            continue
+        paths = released_from.get(printed, set())
+        if len(paths) != 1:
+            failures.append((*name, f"released rows under printed come from {len(paths)} downloads"))
+            continue
+        kept = next(iter(paths))
+        if rows(kept, joined_as):
+            failures.append((*name, "the released download prints both spellings: two GPs"))
+            continue
+        target = rows(kept, printed)
+        if not any(rows(path, joined_as) == target and not rows(path, printed) for path in keyed):
+            failures.append((*name, "no committed download prints the same rows under joined_as"))
+    return failures
 
 
 def main() -> int:
@@ -78,6 +129,25 @@ def main() -> int:
     record("row_accounting", "internal", bool(acc["balanced"].all()),
            f"{int(acc['balanced'].sum())} of {len(acc)} committed source files balance: sarpanch rows recounted from "
            "each file = released + evidence-only (winner reports) + dropped.")
+
+    # ---- seat-level aliases: each pair is backed, cell for cell, by another committed download
+    kind_of_path = {r.path: r.path.split("/")[3] for r in fetch[fetch["duplicate_of"] == ""].itertuples()}
+    kind_of_path.update({r.path: r.kind for r in extracts.itertuples()})
+    counting = {path: table for path, (_, table) in tables.items() if kind_of_path[path] == "counting"}
+    seat_frame = pd.concat([table for path, (_, table) in tables.items() if kind_of_path[path] == "ward_seat"])
+    cand_printed = cand.rename(columns={"election_programme_raw": "Election Program Name", "district_raw": "District",
+                                        "block_raw": "Taluka", "gram_panchayat_raw": "LocalBody Name"})
+    released_from = cand.assign(_k=plain_key(cand_printed)).groupby("_k")["source_path"].agg(set).to_dict()
+    seats = seat_frame.assign(_k=plain_key(seat_frame), _r=seat_frame["Reservation"].map(nk)).drop_duplicates(["_k", "_r"])
+    failures = alias_evidence(seat_aliases(), counting, Counter(seats["_k"]), released_from)
+    collection = dict(zip(extracts["path"], extracts["collection"], strict=True))
+    collection.update(zip(fetch["path"], fetch["collection"], strict=True))
+    evidence_released = int(acc.loc[[p for p in acc.index if collection.get(p) in EVIDENCE_ONLY], "released"].sum())
+    record("seat_aliases", "internal", not failures and evidence_released == 0,
+           f"{len(seat_aliases()) - len(failures)} of {len(seat_aliases())} GPs joined across two spellings "
+           "(manual/aliases.csv, level seat): the released rows under the counting spelling equal, cell for cell, the "
+           "rows another committed download prints under the Ward-Seat spelling; rows released from evidence-only "
+           f"downloads: {evidence_released}." + "".join(f" FAIL {p} -> {j}: {why}." for p, j, why in failures))
 
     # ---- provenance: reopen every row
     bad_sha = bad_val = bad_orig = 0

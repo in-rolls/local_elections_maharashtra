@@ -32,6 +32,7 @@ from local_elections_maharashtra.readers import (
     nk,
     read_table,
     sarpanch_mask,
+    seat_aliases,
     tidy,
 )
 
@@ -144,8 +145,9 @@ def build():
 
     def seat_key(t):
         programme = t["Election Program Name"].map(nk).str.replace("copy", "", regex=False)
-        return (programme + "|" + t["District"].map(nk).replace(district_alias) + "|"
-                + t["Taluka"].map(nk).replace(taluka_alias) + "|" + t["LocalBody Name"].map(gp_key))
+        key = (programme + "|" + t["District"].map(nk).replace(district_alias) + "|"
+               + t["Taluka"].map(nk).replace(taluka_alias) + "|" + t["LocalBody Name"].map(gp_key))
+        return key.replace(seat_aliases())
 
     def raw_key(t):
         return (t["Election Program Name"].map(nk).str.replace("copy", "", regex=False) + "|" + t["District"].map(nk)
@@ -414,7 +416,8 @@ def build():
     ledger.log("R10", table, "(join)", "district, taluka or GP printed differently in the Ward-Seat and counting files",
                "joined through data/manual/aliases.csv; printed names unchanged",
                (has & ~res["_rawseat"].isin(set(cand["_rawseat"]))).sum(),
-               "district and taluka renames; GP prefixes and suffixes (GP, Gram Pan, Grampanchayat, Khurd/Kh)")
+               "district and taluka renames; GP prefixes and suffixes (GP, Gram Pan, Grampanchayat, Khurd/Kh); "
+               "GPs printed under two spellings in one programme (level seat)")
     winner_row = res["_seat"].map(contests["winner_row"]).where(has)
     ok = winner_row.notna()
     w = cand.loc[winner_row[ok].astype(int)]

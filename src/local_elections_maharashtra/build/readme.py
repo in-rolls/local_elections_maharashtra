@@ -4,12 +4,15 @@ The roster section at the end of data/README.md is written by build/readme_roste
 as it is here."""
 
 import json
+import re
 
 import pandas as pd
 
+from local_elections_maharashtra.build.checks import EVIDENCE_ONLY, plain_key
 from local_elections_maharashtra.build.readme_rosters import END as ROSTERS_END
 from local_elections_maharashtra.build.readme_rosters import START as ROSTERS_START
-from local_elections_maharashtra.paths import CHECKS, DATA, RELEASE, ROOT, SEARCH_LOG
+from local_elections_maharashtra.paths import CHECKS, DATA, EXTRACTS, RELEASE, ROOT, SEARCH_LOG
+from local_elections_maharashtra.readers import seat_aliases
 
 RESULT_COLUMNS = {
     "state": "Maharashtra",
@@ -142,18 +145,59 @@ def render():
                       n(((g["deposit"] == "none") & (g["sarpanch_rows"] == "0")).sum()),
                       n((~g["deposit"].isin(["raw_unchanged", "sarpanch_extract"]) & ~((g["deposit"] == "none") & (g["sarpanch_rows"] == "0"))).sum())]
                      for (rep, st), g in examined.groupby([report, stem], sort=True)]
+    # seat-level aliases and the evidence downloads behind them (nothing here is typed by hand)
+    joined = seat_aliases()
+    alias_years = sorted({re.findall(r"20\d\d", k.split("|")[0])[-1] for k in joined})
+    res_all = pd.read_parquet(RELEASE / "sarpanch_results.parquet")
+    cand_all = pd.read_parquet(RELEASE / "sarpanch_candidates.parquet")
+    printed_cols = {"election_programme_raw": "Election Program Name", "district_raw": "District", "block_raw": "Taluka",
+                    "gram_panchayat_raw": "LocalBody Name"}
+    res_keys = plain_key(res_all.rename(columns=printed_cols))
+    first_printed, first_joined = next(iter(joined.items())) if joined else ("", "")
+    seat_row = res_all[res_keys == first_joined]
+    example_ws = seat_row["gram_panchayat"].iloc[0] if len(seat_row) else ""
+    example_counting = (cand_all.loc[cand_all["contest_id"].isin(seat_row["contest_id"]), "gram_panchayat"].iloc[0]
+                        if len(seat_row) else "")
+    all_examined = pd.read_csv(SEARCH_LOG / "files_examined.csv", dtype=str, keep_default_na=False)
+    extracts_all = pd.read_csv(EXTRACTS, dtype=str, keep_default_na=False)
+    ev = all_examined[all_examined["collection"].isin(EVIDENCE_ONLY)]
+    ev_kept = extracts_all.loc[extracts_all["collection"].isin(EVIDENCE_ONLY), "original_filename"]
+    stamps = sorted({"-".join(m) for f in ev["original_filename"] for m in re.findall(r"_(\d\d)_(\d\d)_(\d{4})", f)},
+                    key=lambda d: d[6:] + d[3:5] + d[:2])
+    ev_text = (f"{n(len(ev))} counting reports downloaded again later (file names stamped "
+               f"{stamps[0]} to {stamps[-1]} by the portal; URL and time not recorded; collection "
+               f"`{', '.join(sorted(EVIDENCE_ONLY))}`) were read with the others: {n(len(ev_kept))} are committed as "
+               f"sarpanch-row extracts, as evidence for the {n(len(joined))} GPs joined across two spellings (see "
+               "[What was changed](#what-was-changed-from-the-sources)), and the check `seat_aliases` confirms they "
+               f"release no row; {n((ev['deposit'] == 'duplicate_bytes').sum())} repeat a committed file byte for byte; "
+               f"{n((ev['deposit'] == 'examined_not_used').sum())} print only sarpanch contests already in the release and "
+               "are listed, each with its reason, in `search_log/sources_not_used.csv`; "
+               f"{n((ev['deposit'] == 'none').sum())} hold no sarpanch rows.") if len(ev) else ""
+    not_used_other = not_used[~not_used["original_filename"].isin(ev["original_filename"])]
+    nu = not_used_other.iloc[0]
+    counting_only = res_all[~res_all["in_ward_seat_report"]]
+    co_years = sorted(counting_only["year"].dropna().astype(int).unique())
+    co_text = (f"{n(len(counting_only))} seats are still found only in counting reports"
+               + (f", all of {', '.join(map(str, co_years))}" if co_years else "") + ". "
+               + f"[`checks/alias_review.csv`](checks/alias_review.csv) lists {n(s['alias_review_pairs'])} of them whose "
+               "name is close to a Ward-Seat seat of the same programme and district; the list uses a name-similarity "
+               "threshold and can miss a pair. They are not joined, because no committed download prints them under the "
+               "Ward-Seat spelling" + (" and 2017 counting rows print no candidate names to compare" if co_years == [2017] else "")
+               + ". Such a GP may appear twice: as a seat found only in counting reports and as a Ward-Seat seat "
+               "without counting rows.")
     doc = f"""# Data
 
 ## Sources
 
 The rows of `sarpanch_results` and `sarpanch_candidates` come from reports of the Maharashtra
-State Election Commission (SEC) election portal, downloaded by hand between 2023 and 2024. File
+State Election Commission (SEC) election portal. The first downloads were made by hand in 2023 and 2024. File
 names carry a date stamped by the portal; the URL and the time of each download were not
 recorded, so `url` and `fetched_at_utc` are blank in [`raw/fetch_log.csv`](raw/fetch_log.csv).
 The two reports of the one-GP programme of 11-09-2024 (Khuneshwar, Solapur) were downloaded from
 the same portal on 24 November 2026 (collection `sec_portal_2026_11`); for them the log gives the
 report page and the time, and the file names end in the portal's number for the programme
 (`_prog375`), added when the files were collected.
+{ev_text}
 The RTI reservation rosters (`sarpanch_rti_reservations`) have their own sources, described in
 [the roster section](#rti-sarpanch-reservation-rosters) at the end of this file.
 
@@ -182,7 +226,8 @@ in this way; `ward_no_raw` keeps the printed number. How each committed file is 
   size and the rows kept and withheld. For these rows `original_*` describes a file that is not
   in the repository.
 - **Examined, not used** ([`search_log/sources_not_used.csv`](search_log/sources_not_used.csv)): `{nu['original_filename']}`
-  ({n(nu['sarpanch_rows'])} sarpanch rows): {nu['reason']}.
+  ({n(nu['sarpanch_rows'])} sarpanch rows): {nu['reason']}; and the {n(len(not_used) - len(not_used_other))} later
+  counting downloads described above.
 - Every file examined is listed, without local paths, in [`search_log/files_examined.csv`](search_log/files_examined.csv):
   the election programme it prints, its rows and sarpanch rows, and where it is held or why it
   is not deposited.
@@ -231,6 +276,11 @@ every rule is counted in [`checks/changes.csv`](checks/changes.csv) ({n(s['chang
 released are listed in [`checks/dropped_rows.csv`](checks/dropped_rows.csv) with the copy that was kept;
 reservation, gender and caste readings are in `checks/*_vocabulary.csv`; the place-name
 aliases used to join reports are in [`manual/aliases.csv`](manual/aliases.csv) (printed names are not changed).
+{n(len(joined))} GPs of {', '.join(alias_years)} are printed under one spelling in the counting download and another
+in the Ward-Seat report ({example_counting} and {example_ws}, for example). They are joined as one seat under the
+Ward-Seat spelling (level `seat` in the alias file, whose two columns hold programme, district, taluka and GP as
+the build normalizes them), because a later download of the same counting report prints the same rows under that
+spelling. The check `seat_aliases` compares the rows of each pair in the two downloads cell by cell.
 
 {table(ledger_rows, ['Rule', 'Table', 'Column', 'Printed', 'Released', 'Rows'])}
 
@@ -263,9 +313,8 @@ may be wrong where those are.
   year with another such seat.
 - **Shared place names.** {n(R['flags']['shared_place_name'])} seat rows have place names that normalise to one
   key within a programme; counting rows are not attached to them.
-- **Spelling twins.** [`checks/alias_review.csv`](checks/alias_review.csv) lists {n(s['alias_review_pairs'])} seats found
-  only in counting reports whose name is close to a Ward-Seat seat of the same programme
-  and district. They are not merged.
+- **Spelling twins.** {n(len(joined))} GPs printed under two spellings are joined (see
+  [What was changed](#what-was-changed-from-the-sources)). {co_text}
 - **Ties and no-vote contests.** {n(R['flags']['winner_tie'])} contests print two candidates at rank 1;
   {n(R['flags']['no_votes_recorded'])} contests show 0 votes on every row; {n(R['flags']['runner_up_tie'])} seats have a tie for
   second place.

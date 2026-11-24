@@ -18,6 +18,10 @@ prints another ward number for a seat the Ward-Seat report itself names for the 
 
 Local folder paths are not written anywhere; each folder is named by its ``--source`` label.
 
+Files keep the names they arrived with. Two downloads may carry the same name with different bytes
+(the portal names a file by its report and date); admit then stops before writing the second one and
+names both, so a file already in the repository is never replaced by other bytes (``write_once``).
+
 A source folder may hold a hidden ``.fetched.csv`` (``original_filename, url, fetched_at_utc``) for
 downloads whose time and report page were recorded; those values go to the fetch log. Without it
 both stay blank, as for the downloads of 2023 and 2024.
@@ -30,7 +34,6 @@ PRIORITY breaks ties when two downloads print a contest with the same number of 
 
 import argparse
 import hashlib
-import shutil
 from pathlib import Path
 
 import pandas as pd
@@ -45,18 +48,42 @@ from local_elections_maharashtra.paths import (
     ROOT,
     SEARCH_LOG,
 )
-from local_elections_maharashtra.readers import aliases, gp_key, kind_of, nk, read_table, sarpanch_mask, tidy
+from local_elections_maharashtra.readers import (
+    aliases,
+    gp_key,
+    kind_of,
+    nk,
+    read_table,
+    sarpanch_mask,
+    seat_aliases,
+    tidy,
+)
 
 FOLDER = {"counting": "counting", "ward_seat": "ward_seat", "winner_report": "winner_reports"}
 FILTER_RULE = ("programme name contains 'sarpan' and (Ward No == 999, or the Ward-Seat report names the ward "
                "for the sarpanch: see collect/admit.py)")
 
 
+def write_once(target: Path, data: bytes, origin: str) -> None:
+    """Write ``data`` to ``target`` unless the file there holds other bytes; then stop and say so.
+
+    A rerun of admit writes the same bytes again, which is allowed. Other bytes under the same name
+    mean two downloads share a name (or a source changed): nothing is replaced, and the depositor
+    decides which download to keep out of the sources.
+    """
+    if target.exists() and target.read_bytes() != data:
+        raise SystemExit(f"{target.relative_to(ROOT)} already holds other bytes; not replaced by {origin}. "
+                         "Two downloads share this name: keep one of them out of the --source folders.")
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_bytes(data)
+
+
 def seat_keys(table: pd.DataFrame, district_alias: dict, taluka_alias: dict) -> pd.Series:
     """Programme and place, as the release build joins counting rows to seats."""
     programme = table["Election Program Name"].map(nk).str.replace("copy", "", regex=False)
-    return (programme + "|" + table["District"].map(nk).replace(district_alias) + "|"
-            + table["Taluka"].map(nk).replace(taluka_alias) + "|" + table["LocalBody Name"].map(gp_key))
+    key = (programme + "|" + table["District"].map(nk).replace(district_alias) + "|"
+           + table["Taluka"].map(nk).replace(taluka_alias) + "|" + table["LocalBody Name"].map(gp_key))
+    return key.replace(seat_aliases())
 
 
 def reservation_key(cells: pd.Series) -> pd.Series:
@@ -218,18 +245,16 @@ def main(sources: list[tuple[str, int, Path]]) -> None:
             if keep_999.all():
                 assert n_tables == 1, f"{path.name}: a file committed unchanged must hold one table"
                 repo_path = f"data/raw/sec/{FOLDER[kind]}/{path.name}"
-                (ROOT / repo_path).parent.mkdir(parents=True, exist_ok=True)
-                shutil.copyfile(path, ROOT / repo_path)
+                write_once(ROOT / repo_path, data, f"{path.name} of collection {label}")
                 fetch.append(dict(path=repo_path, url=noted.get("url", ""), sha256=sha, bytes=len(data),
                                   fetched_at_utc=noted.get("fetched_at_utc", ""),
                                   method="manual", duplicate_of="", collection=label, priority=priority))
                 rec["deposit"] = "raw_unchanged"
             else:
                 repo_path = f"data/extracted/sec_sarpanch_rows/{FOLDER[kind]}/{path.name}.csv"
-                (ROOT / repo_path).parent.mkdir(parents=True, exist_ok=True)
                 rows = table[keep].copy()
                 rows["original_row_number"] = rows.index + 1
-                rows.to_csv(ROOT / repo_path, index=False)
+                write_once(ROOT / repo_path, rows.to_csv(index=False).encode(), f"{path.name} of collection {label}")
                 extracts.append(dict(path=repo_path, sha256=hashlib.sha256((ROOT / repo_path).read_bytes()).hexdigest(),
                                      original_filename=path.name, original_sha256=sha, original_bytes=len(data),
                                      original_format=fmt, kind=kind, rows_kept=int(keep.sum()),

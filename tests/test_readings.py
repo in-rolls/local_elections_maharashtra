@@ -92,3 +92,52 @@ def test_sarpanch_seat_printed_under_a_ward_number():
     keep_counts, counts_999, _ = sarpanch_rows(counts, "counting", named)
     assert keep_counts.tolist() == [True, False, False, False]
     assert not counts_999.any()
+
+
+def _counting(rows):
+    columns = ["Election Program Name", "District", "Taluka", "LocalBody Name", "Name of Contesting Candidate",
+               "Candidate Gender", "Candidate Cast", "Ward No.", "Ward Reservation", "Total Votes Secured", "SymbolName",
+               "Rank"]
+    return pd.DataFrame([["P 2018", "Nagpur", "Kuhi", *r] for r in rows], columns=columns)
+
+
+def test_a_seat_alias_stands_only_on_the_same_rows_under_the_other_spelling():
+    from collections import Counter
+
+    from local_elections_maharashtra.build.checks import alias_evidence
+
+    old = _counting([["Tekadi", "A", "Female", "GEN", "999", "GEN(W)", "200", "Bat", "1"],
+                     ["Tekadi", "B", "Female", "GEN", "999", "GEN(W)", "190", "Cup", "2"],
+                     ["Babul", "C", "Male", "SC", "999", "S.C.", "300", "Kite", "1"],
+                     ["Chikana", "D", "Male", "SC", "999", "S.C.", "250", "Fan", "1"]])
+    new = _counting([["Tekadi Van", "A", "Female", "GEN", "999", "GEN(W)", "200", "Bat", "1"],
+                     ["Tekadi Van", "B", "Female", "GEN", "999", "GEN(W)", "190", "Cup", "2"],
+                     ["Babul", "C", "Male", "SC", "999", "S.C.", "300", "Kite", "1"],
+                     ["Chikana", "D", "Male", "SC", "999", "S.C.", "250", "Fan", "1"]])
+    counting = {"old.csv": old, "new.csv": new}
+    key = "p2018|nagpur|kuhi|{}".format
+    seats = Counter([key("tekadivan"), key("babul"), key("chikana")])
+    released = {key("tekadi"): {"old.csv"}, key("babul"): {"old.csv"}, key("chikana"): {"old.csv"}}
+    assert alias_evidence({key("tekadi"): key("tekadivan")}, counting, seats, released) == []
+    # two different GPs that both downloads print: never backed
+    assert alias_evidence({key("babul"): key("chikana")}, counting, seats, released)
+    # an alias to a spelling that is not a Ward-Seat seat
+    assert alias_evidence({key("tekadi"): key("tekadix")}, counting, seats, released)
+    # the other download prints the spelling with other votes
+    changed = new.copy()
+    changed.loc[0, "Total Votes Secured"] = "201"
+    assert alias_evidence({key("tekadi"): key("tekadivan")}, {"old.csv": old, "new.csv": changed}, seats, released)
+
+
+def test_admit_never_replaces_a_file_with_other_bytes(tmp_path, monkeypatch):
+    import pytest
+
+    from local_elections_maharashtra.collect import admit
+
+    monkeypatch.setattr(admit, "ROOT", tmp_path)
+    target = tmp_path / "data" / "raw" / "sec" / "counting" / "Counting_Report_03_06_2023 (10).xls"
+    admit.write_once(target, b"first download", "first")
+    admit.write_once(target, b"first download", "a rerun")  # the same bytes again: allowed
+    with pytest.raises(SystemExit):
+        admit.write_once(target, b"another download, same name", "second")
+    assert target.read_bytes() == b"first download"
