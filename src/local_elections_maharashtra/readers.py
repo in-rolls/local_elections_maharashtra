@@ -1,5 +1,6 @@
 """How cells are read and normalised. Shared by admission, the release build and the checks."""
 
+import functools
 import io
 import re
 
@@ -63,6 +64,18 @@ def aliases() -> tuple[dict, dict]:
     district = dict(table.loc[table["level"] == "district", ["printed", "joined_as"]].values)
     taluka = dict(table.loc[table["level"] == "taluka", ["printed", "joined_as"]].values)
     return district, taluka
+
+
+@functools.cache
+def seat_aliases() -> dict:
+    """One GP printed under two spellings in one programme (data/manual/aliases.csv, level ``seat``).
+
+    Maps the whole join key (programme|district|taluka|GP) as printed to the key it is joined as. Each pair is
+    there because a committed download prints the contest, row for row, under the other spelling
+    (checked in build/checks.py).
+    """
+    table = pd.read_csv(MANUAL / "aliases.csv", dtype=str)
+    return dict(table.loc[table["level"] == "seat", ["printed", "joined_as"]].values)
 
 
 def read_table(data: bytes) -> tuple[pd.DataFrame, str, int]:

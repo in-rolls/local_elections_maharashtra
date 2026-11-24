@@ -3,13 +3,14 @@
 ## Sources
 
 The rows of `sarpanch_results` and `sarpanch_candidates` come from reports of the Maharashtra
-State Election Commission (SEC) election portal, downloaded by hand between 2023 and 2024. File
+State Election Commission (SEC) election portal. The first downloads were made by hand in 2023 and 2024. File
 names carry a date stamped by the portal; the URL and the time of each download were not
 recorded, so `url` and `fetched_at_utc` are blank in [`raw/fetch_log.csv`](raw/fetch_log.csv).
 The two reports of the one-GP programme of 11-09-2024 (Khuneshwar, Solapur) were downloaded from
 the same portal on 24 November 2026 (collection `sec_portal_2026_11`); for them the log gives the
 report page and the time, and the file names end in the portal's number for the programme
 (`_prog375`), added when the files were collected.
+63 counting reports downloaded again later (file names stamped 18-06-2025 to 18-07-2025 by the portal; URL and time not recorded; collection `sec_counting_redownloads_2025`) were read with the others: 2 are committed as sarpanch-row extracts, as evidence for the 7 GPs joined across two spellings (see [What was changed](#what-was-changed-from-the-sources)), and the check `seat_aliases` confirms they release no row; 2 repeat a committed file byte for byte; 17 print only sarpanch contests already in the release and are listed, each with its reason, in `search_log/sources_not_used.csv`; 42 hold no sarpanch rows.
 The RTI reservation rosters (`sarpanch_rti_reservations`) have their own sources, described in
 [the roster section](#rti-sarpanch-reservation-rosters) at the end of this file.
 
@@ -31,14 +32,15 @@ in this way; `ward_no_raw` keeps the printed number. How each committed file is 
 - **Unchanged** (`raw/sec/`): 30 counting reports (38.9 MB) and
   32 Ward-Seat reports (8.7 MB) that hold only sarpanch rows. Each is listed in
   `raw/fetch_log.csv` with its sha256; byte-identical repeats are listed with `duplicate_of`.
-- **Sarpanch-row extracts** (`extracted/sec_sarpanch_rows/`): 17 counting reports,
+- **Sarpanch-row extracts** (`extracted/sec_sarpanch_rows/`): 19 counting reports,
   27 Ward-Seat reports and 2 winner reports also hold other rows, so the files
   themselves are not committed. Only their sarpanch rows are, with cells unchanged and an added
   `original_row_number` column. [`extracted/sarpanch_extracts.csv`](extracted/sarpanch_extracts.csv) gives each original's name, sha256,
   size and the rows kept and withheld. For these rows `original_*` describes a file that is not
   in the repository.
 - **Examined, not used** ([`search_log/sources_not_used.csv`](search_log/sources_not_used.csv)): `CountingDataGP-Part1(2018-2020).xlsx`
-  (5,360 sarpanch rows): consolidated workbook, not an SEC portal export; where a portal download prints the same contest, this workbook prints fewer rows; it has a Candidate Sub Category column that prints jati.
+  (5,360 sarpanch rows): consolidated workbook, not an SEC portal export; where a portal download prints the same contest, this workbook prints fewer rows; it has a Candidate Sub Category column that prints jati; and the 17 later
+  counting downloads described above.
 - Every file examined is listed, without local paths, in [`search_log/files_examined.csv`](search_log/files_examined.csv):
   the election programme it prints, its rows and sarpanch rows, and where it is held or why it
   is not deposited.
@@ -55,6 +57,8 @@ or hold no sarpanch rows. Almost every file prints one election programme, which
 | Counting | `Counting_Report_02_06_2023` | 4 | 0 | 1 | 3 | 0 |
 | Counting | `Counting_Report_03_06_2023` | 93 | 27 | 12 | 54 | 0 |
 | Counting | `Counting_Report_15_11_2023` | 2 | 1 | 0 | 1 | 0 |
+| Counting | `Counting_Report_18_06_2025` | 54 | 0 | 1 | 42 | 11 |
+| Counting | `Counting_Report_18_07_2025` | 7 | 0 | 1 | 0 | 6 |
 | Counting | other names | 10 | 2 | 4 | 3 | 1 |
 | Ward-Seat | `Ward_seat_details_report_03_02_2024` | 135 | 31 | 27 | 77 | 0 |
 | Ward-Seat | `Ward_seat_details_report_15_11_2023` | 1 | 0 | 0 | 1 | 0 |
@@ -152,13 +156,18 @@ every rule is counted in [`checks/changes.csv`](checks/changes.csv) (64 rules). 
 released are listed in [`checks/dropped_rows.csv`](checks/dropped_rows.csv) with the copy that was kept;
 reservation, gender and caste readings are in `checks/*_vocabulary.csv`; the place-name
 aliases used to join reports are in [`manual/aliases.csv`](manual/aliases.csv) (printed names are not changed).
+7 GPs of 2018 are printed under one spelling in the counting download and another
+in the Ward-Seat report (Nanha and Nanha (Mangli), for example). They are joined as one seat under the
+Ward-Seat spelling (level `seat` in the alias file, whose two columns hold programme, district, taluka and GP as
+the build normalizes them), because a later download of the same counting report prints the same rows under that
+spelling. The check `seat_aliases` compares the rows of each pair in the two downloads cell by cell.
 
 | Rule | Table | Column | Printed | Released | Rows |
 |---|---|---|---|---|---|
-| R4 | source rows (counting) | row selection | rows of a sarpanch programme that are not sarpanch rows (ward 999, or a ward the Ward-Seat report names for the sarpanch) | withheld (not deposited) | 5,936 |
+| R4 | source rows (counting) | row selection | rows of a sarpanch programme that are not sarpanch rows (ward 999, or a ward the Ward-Seat report names for the sarpanch) | withheld (not deposited) | 5,945 |
 | R4 | source rows (ward_seat) | row selection | rows of a sarpanch programme that are not sarpanch rows (ward 999, or a ward the Ward-Seat report names for the sarpanch) | withheld (not deposited) | 357 |
 | R5 | source rows | row selection | no district, taluka or GP name in the source row | dropped; listed in dropped_rows.csv | 4 |
-| R5 | source rows | row selection | same contest in another download (identical rows) | dropped; listed in dropped_rows.csv | 42,909 |
+| R5 | source rows | row selection | same contest in another download (identical rows) | dropped; listed in dropped_rows.csv | 46,994 |
 | R6 | sarpanch_candidates | election_programme | programme printed with a different spelling or spacing in another file | the Ward-Seat report's spelling; this row's own in election_programme_raw | 11 |
 | R9 | sarpanch_candidates | programme_date, year, election_type, election_duration | programme name | read from the programme name | 66,337 |
 | R9 | sarpanch_candidates | programme_date | programme name without a dd-mm-yyyy date | nan | 1,401 |
@@ -215,7 +224,7 @@ aliases used to join reports are in [`manual/aliases.csv`](manual/aliases.csv) (
 | R8 | sarpanch_results | reserved_caste, reserved_woman | S.C.(W) | SC, 1 | 1,144 |
 | R8 | sarpanch_results | reserved_caste, reserved_woman | S.C. | SC, 0 | 1,116 |
 | R8 | sarpanch_results | reserved_caste_local | reserved_raw | reserved_raw without the (W) suffix | 20,738 |
-| R10 | sarpanch_results | (join) | district, taluka or GP printed differently in the Ward-Seat and counting files | joined through data/manual/aliases.csv; printed names unchanged | 560 |
+| R10 | sarpanch_results | (join) | district, taluka or GP printed differently in the Ward-Seat and counting files | joined through data/manual/aliases.csv; printed names unchanged | 567 |
 | R3 | sarpanch_results | winner_woman_from_candidates | the winner's Candidate Gender cell in the counting file | copied to the seat row | 12,976 |
 | R3 | sarpanch_results | runner_up | two or more candidates tie for second place | null; runner_up_tie = true; runner_up_votes kept | 20 |
 | R3 | sarpanch_results | unopposed_from_candidates | one distinct candidate and no votes on any row | true | 1,081 |
@@ -228,9 +237,9 @@ may be wrong where those are.
 - **2017: no candidate names.** All 15,840 counting rows of 2017 print `NOTA` in the
   candidate-name column and leave gender and caste blank. Names are released as missing; the
   file does not mark which row, if any, is the NOTA count, so no 2017 winner is named.
-- **Seats without counting rows.** 3,733 seats in the Ward-Seat reports
+- **Seats without counting rows.** 3,726 seats in the Ward-Seat reports
   have no counting rows in these files (by year in the README).
-- **Rows withheld.** 6,309 rows inside sarpanch-named programmes print
+- **Rows withheld.** 6,318 rows inside sarpanch-named programmes print
   a ward number other than 999 and are not sarpanch rows by the rule above (5,717 of them in the
   7 Oct 2017 "First Phase" programme). They are not deposited. Compared with the Ward-Seat
   reports, contest by contest ([`checks/withheld_contests.csv`](checks/withheld_contests.csv)), 1,039 withheld counting
@@ -248,7 +257,7 @@ may be wrong where those are.
 | Second Phase G P Sarpanch General Election 16-10-2017 | 187 | 1, 2, 3, 4, 6 |
 | 735 Gram Panchayat Sarpanch General Election Date 26-12-2017_Copy | 40 | 1, 2, 3, 4 |
 | 317 Gram Panchayat Sarpanch General Election Date 25-02-2018 | 9 | 1, 123 |
-| GP Sarpanch Election Date-26-09-2018 | 49 | 1, 2, 3, 4, 5, 6 |
+| GP Sarpanch Election Date-26-09-2018 | 58 | 1, 2, 3, 4, 5, 6 |
 | Sarpanch General Election Gramapanchayt Date 24-02-2019 | 15 | 1, 2, 3 |
 | Pune and Solapur 3 GP Gen Election Grampanchayat for Sarpanch Date 24-02-2019 | 5 | 1, 2, 3 |
 | 557 Grampanchayat Sarpanch General Election Date 24-03-2019 | 10 | 1, 2, 3 |
@@ -268,14 +277,13 @@ may be wrong where those are.
 | 34 Grampanchayat Sarpanch General Election Date 09-01-2020 | 5 | 1, 2, 3, 4 |
 | Gram Panchayat Sarpanch General Election 07-10-2017 Fist Phase | 1 | 1 |
 
-- **Programmes without a date.** 840 seats are in programmes whose name prints no full
+- **Programmes without a date.** 839 seats are in programmes whose name prints no full
   date (9 with no year); 34 of them share district, taluka, GP and
   year with another such seat.
 - **Shared place names.** 6 seat rows have place names that normalise to one
   key within a programme; counting rows are not attached to them.
-- **Spelling twins.** [`checks/alias_review.csv`](checks/alias_review.csv) lists 9 seats found
-  only in counting reports whose name is close to a Ward-Seat seat of the same programme
-  and district. They are not merged.
+- **Spelling twins.** 7 GPs printed under two spellings are joined (see
+  [What was changed](#what-was-changed-from-the-sources)). 7 seats are still found only in counting reports, all of 2017. [`checks/alias_review.csv`](checks/alias_review.csv) lists 6 of them whose name is close to a Ward-Seat seat of the same programme and district; the list uses a name-similarity threshold and can miss a pair. They are not joined, because no committed download prints them under the Ward-Seat spelling and 2017 counting rows print no candidate names to compare. Such a GP may appear twice: as a seat found only in counting reports and as a Ward-Seat seat without counting rows.
 - **Ties and no-vote contests.** 19 contests print two candidates at rank 1;
   1,285 contests show 0 votes on every row; 20 seats have a tie for
   second place.
@@ -289,14 +297,15 @@ the source file; its `verdict` column is filled in by hand.
 
 | Check | Appeals to | Status | Result |
 |---|---|---|---|
-| `row_accounting` | internal | pass | 108 of 108 committed source files balance: sarpanch rows recounted from each file = released + evidence-only (winner reports) + dropped. |
+| `row_accounting` | internal | pass | 110 of 110 committed source files balance: sarpanch rows recounted from each file = released + evidence-only (winner reports) + dropped. |
+| `seat_aliases` | internal | pass | 7 of 7 GPs joined across two spellings (manual/aliases.csv, level seat): the released rows under the counting spelling equal, cell for cell, the rows another committed download prints under the Ward-Seat spelling; rows released from evidence-only downloads: 0. |
 | `provenance` | internal | pass | 87,075 rows and 12,976 winner rows reopened at source_path and row: 0 hash, 0 value, 0 original-row and 0 winner mismatches. |
 | `keys` | internal | pass | candidate rows unique on source_path + source_row_number; seat_event_id unique; every seat has a source_path; every contest_id on a seat exists among the candidates. |
 | `column_names` | internal | pass | central docs/naming.md rules: 0 violations in both tables. |
 | `allowed_values` | internal | pass | values outside the master's enums: none. |
-| `reservation_ward_seat_vs_counting` | internal | info | Seats where both the Ward-Seat report and the counting file print a reservation code: 16,999; they differ on 0. |
+| `reservation_ward_seat_vs_counting` | internal | info | Seats where both the Ward-Seat report and the counting file print a reservation code: 17,006; they differ on 0. |
 | `winner_vs_sec_winner_report` | external | info | SEC winner reports (608 and 1165 programmes) name the same winner as rules W1 and W3 for 1,692 of 1,692 seats they cover. |
-| `women_share_by_category` | external | info | Share of seats reserved for women within each category: BC 50.1%, NONE 49.5%, SC 50.6%, ST 51.7%. |
+| `women_share_by_category` | external | info | Share of seats reserved for women within each category: BC 50.2%, NONE 49.5%, SC 50.6%, ST 51.7%. |
 
 <!-- rosters:start -->
 

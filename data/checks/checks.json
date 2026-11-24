@@ -3,7 +3,13 @@
   "check": "row_accounting",
   "appeals_to": "internal",
   "status": "pass",
-  "result": "108 of 108 committed source files balance: sarpanch rows recounted from each file = released + evidence-only (winner reports) + dropped."
+  "result": "110 of 110 committed source files balance: sarpanch rows recounted from each file = released + evidence-only (winner reports) + dropped."
+ },
+ {
+  "check": "seat_aliases",
+  "appeals_to": "internal",
+  "status": "pass",
+  "result": "7 of 7 GPs joined across two spellings (manual/aliases.csv, level seat): the released rows under the counting spelling equal, cell for cell, the rows another committed download prints under the Ward-Seat spelling; rows released from evidence-only downloads: 0."
  },
  {
   "check": "provenance",
@@ -33,7 +39,7 @@
   "check": "reservation_ward_seat_vs_counting",
   "appeals_to": "internal",
   "status": "info",
-  "result": "Seats where both the Ward-Seat report and the counting file print a reservation code: 16,999; they differ on 0."
+  "result": "Seats where both the Ward-Seat report and the counting file print a reservation code: 17,006; they differ on 0."
  },
  {
   "check": "winner_vs_sec_winner_report",
@@ -45,6 +51,6 @@
   "check": "women_share_by_category",
   "appeals_to": "external",
   "status": "info",
-  "result": "Share of seats reserved for women within each category: BC 50.1%, NONE 49.5%, SC 50.6%, ST 51.7%."
+  "result": "Share of seats reserved for women within each category: BC 50.2%, NONE 49.5%, SC 50.6%, ST 51.7%."
  }
 ]

@@ -30,7 +30,7 @@ import pandas as pd
 
 from local_elections_maharashtra.collect.admit import NamedSarpanchWards, parse_source, read_all
 from local_elections_maharashtra.paths import CHECKS, MANUAL
-from local_elections_maharashtra.readers import aliases, gp_key, kind_of, nk, read_table, sarpanch_mask, tidy
+from local_elections_maharashtra.readers import aliases, gp_key, kind_of, nk, read_table, sarpanch_mask, seat_aliases, tidy
 
 MONTHS = "january february march april may june july august september october november december".split()
 VERDICTS = [
@@ -71,8 +71,15 @@ def main(sources, detail: Path) -> None:
     da, ta = aliases()
     not_used = set(pd.read_csv(MANUAL / "not_used.csv", dtype=str)["original_filename"])
 
+    joined = seat_aliases()
+
     def place(t):
-        return [f"{da.get(nk(d), nk(d))}|{ta.get(nk(b), nk(b))}|{gp_key(g)}" for d, b, g in zip(t["District"], t["Taluka"], t["LocalBody Name"], strict=True)]
+        """District|taluka|GP, with the GPs of data/manual/aliases.csv (level seat) under their Ward-Seat spelling."""
+        out = []
+        for p, d, b, g in zip(t["Election Program Name"], t["District"], t["Taluka"], t["LocalBody Name"], strict=True):
+            key = f"{nk(p).replace('copy', '')}|{da.get(nk(d), nk(d))}|{ta.get(nk(b), nk(b))}|{gp_key(g)}"
+            out.append(joined.get(key, key).split("|", 1)[1])
+        return out
 
     named = NamedSarpanchWards(read_all(sources))
     seen, counting, seats = set(), [], []
