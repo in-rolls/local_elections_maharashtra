@@ -1,4 +1,4 @@
-# Maharashtra Sarpanch Elections, 2017-2023
+# Maharashtra Sarpanch Elections, 2017-2024
 
 [![Code license: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 
