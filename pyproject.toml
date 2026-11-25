@@ -1,7 +1,7 @@
 [project]
 name = "local-elections-maharashtra"
 version = "0.1.0"
-description = "Maharashtra gram panchayat sarpanch elections, 2017-2023: seat reservations, candidates and results from the State Election Commission"
+description = "Maharashtra gram panchayat sarpanch elections, 2017-2024: seat reservations, candidates and results from the State Election Commission"
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [{ name = "Priyadarshi Amar" }]

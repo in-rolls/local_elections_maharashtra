@@ -330,7 +330,7 @@ the source file; its `verdict` column is filled in by hand.
 giving the category the sarpanch seat was reserved for. 13,370 rows, 3,094 GPs in
 35 talukas of 9 districts, rounds 1995 to 2020. The source is
 the depositor's own Right to Information (RTI) requests to tahsil and district offices. The SEC's
-reservations for the 2017-2023 elections are in `sarpanch_results` and are not repeated here.
+reservations for the 2017-2024 elections are in `sarpanch_results` and are not repeated here.
 
 | District | Talukas | GPs | GP-rounds | Rounds |
 |---|---|---|---|---|
@@ -412,7 +412,7 @@ the caste category where the pages shown carry no women's draw; 0 disagree. With
 The sample and every answer are in [`checks/roster_spot_check.csv`](checks/roster_spot_check.csv). The check was made by AI
 readers, not by a person.
 
-Where the SEC's published reservation for the 2017-2023 elections can be matched to a GP and
+Where the SEC's published reservation for the 2017-2024 elections can be matched to a GP and
 round, the released value agrees with it in 1,866 of 1,877 cells.
 
 ### Columns
