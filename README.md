@@ -1,6 +1,7 @@
 # Maharashtra Sarpanch Elections, 2017-2024
 
 [![Code license: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![Data: CC0 1.0](https://img.shields.io/badge/data-CC0%201.0-lightgrey.svg)](#license)
 
 Maharashtra's gram panchayat head (sarpanch) elections from the State Election Commission's (SEC)
 reports, October 2017 to September 2024: one row per sarpanch seat event with its reservation
@@ -104,3 +105,14 @@ not in this repository; only the depositor can run it.
 ## Citation
 
 See [CITATION.cff](CITATION.cff). Please record the commit you used.
+
+## License
+
+Code is [MIT licensed](LICENSE).
+
+The tables in `data/` are compiled from reports of the Maharashtra State Election Commission (SEC)
+and from the depositor's RTI replies. The depositor claims no rights in those underlying public
+records. The depositor's own contributions in `data/` (the cleaning, joins, ledgers and checks, and
+the transcription and correction of the RTI rosters) are dedicated to the public domain under
+[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). This dedication does not license the
+SEC's or any other source publication. Please cite the repository as `CITATION.cff` describes.
