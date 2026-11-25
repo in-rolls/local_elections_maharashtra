@@ -1,6 +1,9 @@
 cff-version: 1.2.0
 message: "Please cite the repository and record the commit used."
 type: dataset
+license:
+  - MIT
+  - CC0-1.0
 title: "Maharashtra Gram Panchayat Sarpanch Elections, 2017-2024"
 authors:
   - family-names: Amar
